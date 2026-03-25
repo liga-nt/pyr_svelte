@@ -1,0 +1,89 @@
+// Typography Base
+h1, h2, h3, h4, h5, h6 {
+  font-family: orpheuspro, serif;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 1.2;
+}
+
+body {
+  font-family: ibm-plex-sans, sans-serif;
+  font-weight: 300;
+  color: #444;
+}
+
+p {
+  margin-bottom: var(--text-stack);
+  line-height: 1.5;
+}
+
+strong {
+  font-weight: 500;
+}
+
+// Fluid Typography System (Riethmuller)
+:root {
+  --modular1: 1.125;
+  --modular2: 1.25;
+  --base-min: 1;
+  --base-max: 1.25;
+
+  --startwidth: 30;
+  --endwidth: 105;
+
+  --h1-size: calc(var(--modular1) * var(--modular1) * var(--modular1) * var(--modular1) * var(--modular1) * 1em);
+  --h2-size: calc(var(--modular1) * var(--modular1) * var(--modular1) * var(--modular1) * 1em);
+  --h3-size: calc(var(--modular1) * var(--modular1) * var(--modular1) * 1em);
+  --h4-size: calc(var(--modular1) * var(--modular1) * 1em);
+  --h5-size: calc(var(--modular1) * 1em);
+  --h6-size: calc(var(--base-min) * 1em);
+  --p-size: calc(var(--base-min) * 1em);
+
+  // Responsive font sizes
+  --h1-responsive: calc(var(--h1-size) + ((var(--modular2) * var(--modular2) * var(--modular2) * var(--modular2) * var(--modular2)) - (var(--modular1) * var(--modular1) * var(--modular1) * var(--modular1) * var(--modular1))) * ((100vw - (var(--startwidth) * 1em)) / (var(--endwidth) - var(--startwidth))));
+  --h2-responsive: calc(var(--h2-size) + ((var(--modular2) * var(--modular2) * var(--modular2) * var(--modular2)) - (var(--modular1) * var(--modular1) * var(--modular1) * var(--modular1))) * ((100vw - (var(--startwidth) * 1em)) / (var(--endwidth) - var(--startwidth))));
+  --h3-responsive: calc(var(--h3-size) + ((var(--modular2) * var(--modular2) * var(--modular2)) - (var(--modular1) * var(--modular1) * var(--modular1))) * ((100vw - (var(--startwidth) * 1em)) / (var(--endwidth) - var(--startwidth))));
+  --h4-responsive: calc(var(--h4-size) + ((var(--modular2) * var(--modular2)) - (var(--modular1) * var(--modular1))) * ((100vw - (var(--startwidth) * 1em)) / (var(--endwidth) - var(--startwidth))));
+  --h5-responsive: calc(var(--h5-size) + ((var(--modular2)) - (var(--modular1))) * ((100vw - (var(--startwidth) * 1em)) / (var(--endwidth) - var(--startwidth))));
+  --p-responsive: calc(var(--p-size) + ((var(--base-max)) - (var(--base-min))) * ((100vw - (var(--startwidth) * 1em)) / (var(--endwidth) - var(--startwidth))));
+}
+
+h1 { font-size: var(--h1-size); }
+h2 { font-size: var(--h2-size); }
+h3 { font-size: var(--h3-size); }
+h4 { font-size: var(--h4-size); }
+h5 { font-size: var(--h5-size); }
+p { font-size: var(--p-size); }
+
+// Responsive typography (30em and above)
+@media only screen and (min-width: 30em) {
+  h1 { font-size: var(--h1-responsive); }
+  h2 { font-size: var(--h2-responsive); }
+  h3 { font-size: var(--h3-responsive); }
+  h4 { font-size: var(--h4-responsive); }
+  h5 { font-size: var(--h5-responsive); }
+  p { font-size: var(--p-responsive); }
+}
+
+// Lock font sizes at max screen width
+@media only screen and (min-width: 105em) {
+  :root {
+    --modular1: var(--modular2);
+    --base-min: var(--base-max);
+  }
+
+  h1 { font-size: var(--h1-size); }
+  h2 { font-size: var(--h2-size); }
+  h3 { font-size: var(--h3-size); }
+  h4 { font-size: var(--h4-size); }
+  h5 { font-size: var(--h5-size); }
+  p { font-size: var(--p-size); }
+}
+
+// Blockquotes
+blockquote {
+  border-left: 4px solid var(--c-green);
+  padding-left: 1rem;
+  margin-left: 0;
+  font-style: italic;
+}

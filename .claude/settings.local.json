@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir:*)",
+      "Read(//c/Users/npresnall/pyrweb/**)",
+      "Bash(where:*)",
+      "Bash(npm run dev:*)",
+      "WebFetch(domain:psychcentral.com)",
+      "Bash(cd /c/Users/npresnall/pyrweb/pyr-svelte && git init && git add . && git commit -m \"Initial commit\n\nCo-Authored-By: Claude Sonnet 4.6 <noreply@anthropic.com>\")"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

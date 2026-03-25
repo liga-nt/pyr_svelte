@@ -1,0 +1,158 @@
+{
+  "seo": {
+    "metaTitle": "Mental Health and Addiction Counseling | Plan Your Recovery",
+    "metaDesc": "Cognitive Behavioral Therapy and psychiatry in St. Louis for mental health and addiction. Family-focused care. CBT, MAT, and medication management.",
+    "metaKeywords": "CBT therapy St. Louis, cognitive behavioral therapy, St. Louis psychiatry, mental health counseling, addiction counseling, therapist near me, couples counseling, addiction treatment, MAT"
+  },
+  "hero": {
+    "headline": "Counseling and Psychiatry for Mental Health & Addiction",
+    "subheadline": "Personalized care for adults, teens, and families in St. Louis.",
+    "ctaPrimary": "Schedule a Consultation",
+    "ctaSecondary": "Learn About Our Approach"
+  },
+  "contact": {
+    "counselingPhone": "314-222-5896",
+    "psychiatryPhone": "314-222-5830",
+    "email": "info@planyourrecovery.com"
+  },
+  "trustBar": [
+    "Licensed Clinicians",
+    "Integrated Psychiatry",
+    "Family-Focused",
+    "Evidence-Based"
+  ],
+  "negativeStakes": {
+    "headline": "You Don't Have to Face This Alone",
+    "text": "Untreated mental health and addiction challenges don't stay the same—they worsen over time. The emotional toll deepens, relationships become strained, and the costs—both personal and financial—continue to mount. But there's hope: effective, evidence-based treatments exist, and recovery is possible."
+  },
+  "valueProp": {
+    "headline": "Why Choose Plan Your Recovery",
+    "items": [
+      {
+        "title": "Office-Based Care",
+        "description": "Flexible, individualized treatment that fits your schedule—not a rigid, requirement-heavy program.",
+        "icon": "📅"
+      },
+      {
+        "title": "Integrated Psychiatry",
+        "description": "In-house psychiatric care ensures well-coordinated, comprehensive treatment for both therapy and medication.",
+        "icon": "⚕️"
+      },
+      {
+        "title": "Family-Focused",
+        "description": "We work with the whole family system, especially with teens and young adults, to support lasting change.",
+        "icon": "👨‍👩‍👧‍👦"
+      },
+      {
+        "title": "Evidence-Based",
+        "description": "We use proven approaches like CBT, MAT, and family therapy—what the research shows actually works.",
+        "icon": "📊"
+      }
+    ]
+  },
+  "conditions": {
+    "headline": "Mental Health Conditions We Treat",
+    "items": [
+      {
+        "name": "Depression",
+        "icon": "koi",
+        "color": "#6B9BD1",
+        "linkUrl": "/depression"
+      },
+      {
+        "name": "Anxiety",
+        "icon": "vines",
+        "color": "#8FBC8F",
+        "linkUrl": "/anxiety"
+      },
+      {
+        "name": "Substance Use",
+        "icon": "succulent",
+        "color": "#B8A9C9",
+        "linkUrl": "/addiction"
+      },
+      {
+        "name": "PTSD & Trauma",
+        "icon": "snail",
+        "color": "#D4A5A5",
+        "linkUrl": "/ptsd"
+      },
+      {
+        "name": "ADHD",
+        "icon": "hummingbird",
+        "color": "#F4A261",
+        "linkUrl": "/adhd"
+      },
+      {
+        "name": "OCD",
+        "icon": "monstera",
+        "color": "#81B29A",
+        "linkUrl": "/ocd"
+      }
+    ]
+  },
+  "process": {
+    "headline": "Your Path Forward",
+    "steps": [
+      {
+        "number": "1",
+        "title": "Connect",
+        "description": "Call, email, or reach out to any of our clinicians directly to get started."
+      },
+      {
+        "number": "2",
+        "title": "Collaborative Assessment",
+        "description": "Your first visit is a conversation to understand your needs and goals."
+      },
+      {
+        "number": "3",
+        "title": "Personalized Treatment Plan",
+        "description": "Together, we develop a plan that fits your life—therapy, medication, or both."
+      },
+      {
+        "number": "4",
+        "title": "Ongoing Support",
+        "description": "Regular sessions and adjustments as needed to support your progress."
+      }
+    ]
+  },
+  "treatments": {
+    "headline": "Evidence-Based Practices That Work",
+    "items": [
+      {
+        "name": "Cognitive Behavioral Therapy (CBT)",
+        "description": "Proven therapy for anxiety, depression, and addiction that focuses on changing thought patterns and behaviors.",
+        "linkUrl": "/cbt"
+      },
+      {
+        "name": "Medication-Assisted Treatment (MAT)",
+        "description": "FDA-approved medications combined with counseling for opioid and alcohol use disorders.",
+        "linkUrl": "/addiction"
+      },
+      {
+        "name": "Family Therapy",
+        "description": "Addressing relationship dynamics and building family support systems for lasting recovery.",
+        "linkUrl": "/family-therapy"
+      },
+      {
+        "name": "Contingency Management",
+        "description": "Reward-based approach particularly effective for teens and young adults in early recovery.",
+        "linkUrl": "/our-approach"
+      },
+      {
+        "name": "Medication Management",
+        "description": "Psychiatric medication evaluation and ongoing monitoring for mental health conditions.",
+        "linkUrl": "/psychiatry"
+      }
+    ]
+  },
+  "seoContent": {
+    "headline": "Mental Health & Addiction Counseling, St. Louis",
+    "paragraphs": [
+      "Plan Your Recovery offers Cognitive Behavioral Therapy (CBT), supportive therapy, and psychiatry in St. Louis for mental health and addiction. We treat depression, anxiety, substance use disorders, and other behavioral health conditions with personalized, coordinated care.",
+      "Our licensed therapists and psychiatrists work together to provide comprehensive treatment—therapy, medication management, or both. Whether you're seeking individual therapy, couples counseling, or family-focused care for a teen or young adult, we tailor our approach to your needs and goals.",
+      "We understand that getting help shouldn't disrupt your life. Our office-based practice offers flexible scheduling and a collaborative approach, so you remain in control of your treatment while getting the expert support you need."
+    ]
+  },
+  "videoID": "543301358"
+}

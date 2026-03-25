@@ -1,0 +1,45 @@
+// Global Styles Entry Point
+@use './variables.scss';
+@use './typography.scss';
+@use './components.scss';
+
+// Global Resets
+html {
+  font-family: sans-serif;
+  font-size: 16px;
+  word-spacing: 1px;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  font-weight: 300;
+}
+
+body {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+*:focus {
+  outline: none;
+}
+
+// Link Styles
+a {
+  color: var(--c-dark);
+  text-decoration: none;
+  box-shadow: 0 1px 0 0 currentColor;
+  transition: box-shadow 0.2s, color 0.2s;
+}
+
+a:hover {
+  color: var(--c-green);
+  box-shadow: 0 2px 0 0 var(--c-green);
+}
