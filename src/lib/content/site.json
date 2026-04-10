@@ -1,0 +1,44 @@
+{
+  "org": {
+    "counseling": {
+      "name": "Plan Your Recovery",
+      "legalName": "Plan Your Recovery",
+      "npi": "",
+      "telephone": "314-222-5896",
+      "email": "info@planyourrecovery.com",
+      "url": "https://www.planyourrecovery.com",
+      "description": "Evidence-based counseling for mental health and addiction in St. Louis, MO. Cognitive Behavioral Therapy, family therapy, and integrated psychiatric care.",
+      "medicalSpecialty": "MentalHealth",
+      "acceptsInsurance": false
+    },
+    "psychiatry": {
+      "name": "Medication First DBA Plan Your Recovery",
+      "legalName": "Medication First LLC",
+      "npi": "",
+      "telephone": "314-222-5830",
+      "url": "https://www.planyourrecovery.com/psychiatry/",
+      "description": "Psychiatric medication management and buprenorphine treatment for opioid use disorder in St. Louis, MO.",
+      "medicalSpecialty": "Psychiatry",
+      "acceptedInsurance": ["UnitedHealthcare", "Blue Cross Blue Shield", "Cigna"]
+    }
+  },
+  "address": {
+    "streetAddress": "9904 Clayton Road, Suite 135",
+    "addressLocality": "Saint Louis",
+    "addressRegion": "MO",
+    "postalCode": "63124",
+    "addressCountry": "US",
+    "display": "9904 Clayton Road, Suite 135\nSaint Louis, MO 63124"
+  },
+  "contact": {
+    "counselingPhone": "314-222-5896",
+    "psychiatryPhone": "314-222-5830",
+    "email": "info@planyourrecovery.com"
+  },
+  "nav": [
+    { "title": "Therapy", "link": "/therapy/" },
+    { "title": "Psychiatry", "link": "/psychiatry/" },
+    { "title": "Conditions", "link": "/conditions/" },
+    { "title": "Continuing Ed", "link": "/ce/" }
+  ]
+}

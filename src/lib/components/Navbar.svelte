@@ -1,13 +1,8 @@
 <script>
 	import Logo from './Logo.svelte';
 
-	const navItems = [
-		{ title: 'Mental Health', link: '/mental-health/' },
-		{ title: 'Addiction', link: '/addiction/' },
-		{ title: 'C.B.T.', link: '/cbt/' },
-		{ title: 'Psychiatry', link: '/psychiatry/' },
-		{ title: 'Continuing Ed', link: '/ce/' }
-	];
+	import site from '$lib/content/site.json';
+	const navItems = site.nav;
 </script>
 
 <header class="topbar fluidtype">

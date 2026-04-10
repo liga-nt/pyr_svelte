@@ -1,0 +1,67 @@
+{
+  "seo": {
+    "title": "Family Therapy for Addiction & Mental Health | Plan Your Recovery",
+    "description": "Family-focused therapy for addiction, teen mental health, and co-occurring disorders in St. Louis. We treat the whole family system, not just the individual."
+  },
+  "hero": {
+    "headline": "Family Therapy",
+    "intro": "Addiction and mental health problems don't happen in isolation — they develop within families and affect entire family systems. Family therapy addresses those dynamics directly, rather than treating one person as the patient while everyone else waits on the outside."
+  },
+  "whyFamily": {
+    "heading": "Why Family Involvement Matters",
+    "paragraphs": [
+      "Research consistently shows that family involvement improves outcomes for addiction treatment — particularly for teens and young adults. When family members understand the condition, communicate more effectively, and set consistent expectations, recovery is more likely to take hold.",
+      "Family therapy is not about assigning blame. It is about understanding how family members have adapted to the problem — sometimes in ways that inadvertently maintain it — and changing those patterns together.",
+      "For teens especially, the family is the treatment context. A teenager's recovery depends heavily on what happens at home, not just in the therapist's office."
+    ]
+  },
+  "approaches": {
+    "heading": "How We Use Family Therapy",
+    "items": [
+      {
+        "label": "Contingency management with family support",
+        "description": "For teens and young adults, family members learn to set meaningful, consistent limits and identify incentives that motivate change — without becoming adversaries."
+      },
+      {
+        "label": "Communication and conflict reduction",
+        "description": "Many families in crisis have developed communication patterns — lectures, arguments, silence — that increase rather than decrease tension. We work on changing those patterns."
+      },
+      {
+        "label": "Psychoeducation",
+        "description": "Family members often don't understand addiction or mental illness as medical conditions. Understanding the disease model — and what it means for how you respond — changes everything."
+      },
+      {
+        "label": "College transition support",
+        "description": "For families navigating a child's transition to college, we facilitate conversations about independence, accountability, and how to stay connected without becoming intrusive."
+      }
+    ]
+  },
+  "whoItsFor": {
+    "heading": "Who Family Therapy Is For",
+    "items": [
+      "Families of teenagers dealing with addiction or mental health problems",
+      "Parents of college students navigating the transition to independence",
+      "Couples where one or both partners are dealing with addiction",
+      "Adults whose family relationships have been affected by their own or a loved one's substance use",
+      "Family members who want to understand how to help without enabling"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "What if my family member refuses to participate?",
+      "answer": "Family therapy can still be valuable with whoever is willing to come. Often a parent, partner, or sibling can make meaningful changes that shift family dynamics — even without the person with the problem in the room. We also offer consultations for family members on how to approach someone who is refusing help."
+    },
+    {
+      "question": "Will the therapist take sides?",
+      "answer": "No. A family therapist's client is the relationship and the family system, not any one person. The goal is to improve how the family functions together — not to validate any one person's perspective over another's."
+    },
+    {
+      "question": "Is family therapy the same as couples therapy?",
+      "answer": "They overlap but aren't identical. Couples therapy focuses on the relationship between two partners. Family therapy typically involves more family members and may address parent-child relationships, sibling dynamics, and extended family patterns."
+    },
+    {
+      "question": "How long does family therapy last?",
+      "answer": "It depends on the goals and the complexity of the situation. Some families do focused, short-term work — 8–12 sessions — to address a specific crisis. Others benefit from ongoing support as circumstances change."
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "seo": {
+    "title": "ADHD Treatment in St. Louis | Plan Your Recovery",
+    "description": "ADHD evaluation and treatment for adults in St. Louis. CBT for ADHD, medication management, and integrated care for ADHD and substance use."
+  },
+  "condition": {
+    "name": "Attention-Deficit/Hyperactivity Disorder",
+    "alternateName": ["ADHD", "ADD", "Adult ADHD", "Inattentive ADHD"],
+    "schemaDescription": "Attention-deficit/hyperactivity disorder is a neurodevelopmental condition characterized by persistent patterns of inattention, hyperactivity, and impulsivity that interfere with functioning and development. It is common in adults and frequently goes undiagnosed, particularly in women."
+  },
+  "hero": {
+    "headline": "ADHD",
+    "intro": "ADHD is real, it doesn't go away at 18, and it looks different than most people think. It's not just about being distractible or hyperactive. It's about time, emotion, and executive function — and it often goes undiagnosed for decades, especially in women and girls. If you've spent your life wondering why things that seem easy for others feel impossible for you, this might be worth exploring."
+  },
+  "criteria": {
+    "heading": "What Is ADHD?",
+    "description": "ADHD is diagnosed based on persistent patterns of inattention and/or hyperactivity-impulsivity that have been present since childhood, occur in multiple settings, and significantly impair functioning. There are three presentations:",
+    "items": [
+      {"label": "Inattentive type", "description": "Difficulty sustaining attention on tasks; frequently losing things; easily distracted by unrelated thoughts; making careless mistakes not because of low effort but because focus slips before the task is done; forgetting daily activities; not following through on instructions despite understanding them."},
+      {"label": "Hyperactive-impulsive type", "description": "Difficulty staying seated; talking excessively; interrupting or finishing others' sentences; acting before thinking; difficulty waiting your turn; feeling driven by an internal motor that won't shut off."},
+      {"label": "Combined type", "description": "Meeting criteria for both inattentive and hyperactive-impulsive presentations — the most common pattern in adults."},
+      {"label": "Emotional dysregulation", "description": "Though not part of the formal DSM-5 criteria, difficulty managing emotions — rapid frustration, rejection sensitivity, intense reactions that pass quickly — is one of the most functionally impairing features of ADHD and one of the most frequently overlooked."},
+      {"label": "Executive function deficits", "description": "Difficulty with planning, initiating tasks, organizing, prioritizing, and following through — not because of laziness, but because the brain's management systems work differently. Getting started on a task is often harder than doing the task itself."}
+    ],
+    "note": "Symptoms must be present in at least two settings (e.g., work and home), cause significant impairment, and have been present before age 12. Many adults are diagnosed for the first time in adulthood — often after a child's diagnosis prompts recognition of the same patterns in themselves."
+  },
+  "howItFeels": {
+    "heading": "What ADHD Actually Feels Like",
+    "paragraphs": [
+      "Time blindness is one of the most disabling features of ADHD that rarely makes it into the textbooks. It's not that you don't care about being on time — it's that the future doesn't feel real in the same way. There's now, and there's not-now. An hour from now and a week from now feel equally abstract until suddenly one of them is now and you're late again.",
+      "ADHD masking is real and exhausting. Many people — especially women, and those who were academically successful early — learn to compensate through sheer effort, developing elaborate systems to manage what comes automatically to others. From the outside, they look fine. On the inside, they're spending enormous energy just keeping up. When the demands of adult life outpace the compensation strategies, everything can feel like it's collapsing at once.",
+      "Rejection sensitive dysphoria is the informal term for the intense emotional pain that many people with ADHD experience in response to perceived criticism, failure, or rejection. It can be briefly but genuinely overwhelming — a 10-out-of-10 emotional reaction to feedback that someone without ADHD might rate a 3. This shapes careers, relationships, and self-worth in profound ways.",
+      "The shame that accumulates from years of ADHD symptoms — forgotten commitments, unfinished projects, chronic lateness, impulsive decisions — is often the heaviest part of the condition. Many adults with undiagnosed ADHD have internalized a narrative that they are lazy, careless, or incapable. They are not. Their brains work differently. That's a fact, not an excuse — and it changes what help looks like."
+    ]
+  },
+  "treatmentSection": {
+    "heading": "How We Treat ADHD",
+    "intro": "Effective ADHD treatment for adults typically involves a combination of medication, therapy, and practical skill-building. We assess your full picture — including any co-occurring conditions — and build a treatment plan that addresses all of it."
+  },
+  "treatments": [
+    {"name": "CBT Adapted for ADHD", "description": "Standard CBT is modified for ADHD to address the specific executive function, organizational, and emotional regulation challenges that define the condition. This includes behavioral activation, breaking tasks into manageable steps, building external structure, and — critically — addressing the shame and negative self-beliefs that years of ADHD symptoms can create."},
+    {"name": "Medication Management", "description": "Stimulant medications (amphetamines and methylphenidate) are the most effective pharmacological treatment for ADHD, with a strong safety record when properly managed. Non-stimulant options (atomoxetine, guanfacine, bupropion) are effective alternatives for those who can't tolerate stimulants or have a history of stimulant misuse. Medication works best alongside behavioral strategies."},
+    {"name": "Executive Function Coaching", "description": "Many ADHD symptoms come down to executive function — planning, initiating, organizing, following through. Therapy at PYR addresses these practically: building systems for time management, task initiation, and sustained attention that work with how your brain is actually wired."},
+    {"name": "Integrated Care for ADHD and Substance Use", "description": "ADHD and substance use disorders co-occur at high rates. Impulsivity increases risk, and many people with undiagnosed ADHD use substances to self-regulate — alcohol to reduce restlessness, cannabis to slow racing thoughts. Properly treating ADHD reduces substance use risk. We assess and treat both."}
+  ],
+  "faqs": [
+    {"question": "Can adults be diagnosed with ADHD for the first time?", "answer": "Yes — frequently. Many adults were never evaluated as children, especially those who were academically successful enough to compensate, or who were raised before ADHD was as well-understood as it is today. Women and girls are particularly underdiagnosed because their symptoms often present as inattentiveness and emotional reactivity rather than the hyperactivity associated with the classic picture. An adult diagnosis can be clarifying rather than alarming — it reframes a lifetime of 'what's wrong with me' as 'here's how my brain works, and here's what to do about it.'"},
+    {"question": "Do I have to take medication for ADHD?", "answer": "No, though medication is often highly effective and worth considering seriously. For many adults with ADHD, medication meaningfully reduces the effort required to function and frees up cognitive resources for the behavioral and emotional work. That said, therapy and skill-building produce real improvements on their own. The decision about medication is yours to make with full information — not pressure in either direction."},
+    {"question": "Is there a connection between ADHD and substance use?", "answer": "Yes, a substantial one. Adults with ADHD have significantly elevated rates of substance use disorders compared to the general population. Impulsivity is one factor. Self-medication is another — alcohol reduces hyperarousal, cannabis can slow racing thoughts, stimulants increase focus. There is also a concern about stimulant medication misuse, particularly in people with a substance use history. Our approach is to assess this carefully, use the most appropriate medication options for your situation, and treat both conditions together."},
+    {"question": "How does ADHD affect college students?", "answer": "College is when many people with ADHD encounter their first serious wall. The external structure of high school — fixed schedules, parental reminders, smaller assignments — disappears. Suddenly there are large projects with distant deadlines, lectures without accountability, and unlimited freedom and distraction. If you made it through high school on intelligence and managed chaos, college can feel like the wheels coming off. This is a very treatable situation, and getting support early makes a significant difference."},
+    {"question": "How is ADHD different in women?", "answer": "Girls and women with ADHD are more likely to present primarily with inattentive symptoms — daydreaming, disorganization, difficulty finishing things — rather than hyperactivity. They are also more likely to mask effectively, develop compensatory strategies, and internalize their struggles as personal failures rather than symptoms of a condition. Emotional dysregulation and rejection sensitivity are particularly prominent. The result is that women with ADHD are diagnosed later, more often misdiagnosed with anxiety or depression first, and often feel a complicated mix of relief and grief when they finally get the right answer."}
+  ]
+}

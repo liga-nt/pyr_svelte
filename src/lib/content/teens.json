@@ -1,0 +1,90 @@
+{
+  "seo": {
+    "title": "Teen Mental Health & Addiction Treatment | Plan Your Recovery",
+    "description": "Counseling for teenagers dealing with anxiety, depression, substance use, and the pressures of adolescent life in St. Louis. Evidence-based, family-involved care."
+  },
+  "hero": {
+    "headline": "Counseling for Teenagers",
+    "intro": "Adolescence concentrates risk. It's the peak period for the onset of anxiety, depression, and substance use — and the period when social pressure, academic demand, and the pull of screens and peers all compete with a still-developing capacity for judgment and self-regulation. If you're worried about your teenager, you probably have good reason. We help families figure out what's happening and what to do about it."
+  },
+  "approach": {
+    "headline": "How We Work with Teenagers",
+    "items": [
+      {
+        "title": "Cognitive Behavioral Therapy",
+        "description": "CBT is the most evidence-supported treatment for adolescent anxiety and depression. It's direct and skill-focused — teenagers learn to identify distorted thinking patterns, test them against reality, and gradually face situations they've been avoiding. For adolescents with substance use concerns, CBT addresses the high-risk thinking patterns and situations that drive use."
+      },
+      {
+        "title": "Family Involvement",
+        "description": "Teenagers exist in family systems, and treatment that ignores that rarely sticks. Parents are partners — not just observers. We work with families to understand what's driving their teenager's behavior, set consistent and strategic expectations, and avoid patterns that inadvertently reinforce the problem. Parent work sometimes precedes the teen being willing to engage at all."
+      },
+      {
+        "title": "Building Motivation",
+        "description": "Most teenagers don't arrive ready to change. We start by understanding what the teenager actually wants — more autonomy, better relationships, less conflict at home, eligibility to play a sport — and build a treatment rationale around those goals. Motivation is developed, not assumed."
+      },
+      {
+        "title": "Contingency Management",
+        "description": "For adolescents with substance use problems, contingency management — systematic positive reinforcement of abstinence and recovery behaviors — has among the strongest evidence of any intervention. It's one tool in a broader approach, not a stand-alone solution, and is most effective when embedded in family and individual work."
+      }
+    ]
+  },
+  "concerns": {
+    "mental": {
+      "headline": "Mental Health in Adolescence",
+      "body": "Anxiety and depression are the most common mental health concerns in teenagers, and they often look different than they do in adults. Adolescent depression frequently presents as irritability, risk-taking, or withdrawal from activities — not the tearful sadness adults expect. Anxiety can drive school avoidance, social withdrawal, and physical complaints that look like illness. ADHD, often present since childhood, creates mounting difficulty as academic and organizational demands increase.\n\nAdolescence is also when more serious conditions — bipolar disorder, psychosis, early personality patterns — first emerge. Early identification and intervention matter. What looks like a phase sometimes isn't."
+    },
+    "substances": {
+      "headline": "Substance Use",
+      "body": "The adolescent brain is more sensitive to the rewarding effects of substances than the adult brain, and less effective at regulating impulse and assessing risk. This isn't a moral failing — it's developmental neuroscience. Teenagers who use substances are not simply making bad choices; they are using substances in a brain that is particularly vulnerable to their effects.\n\nVaping and cannabis are the most common substances of concern we see, followed by alcohol and prescription stimulants. Cannabis use during adolescence is associated with meaningful increases in anxiety, depression, and — at higher levels of use — psychosis risk. The relationship is bidirectional: mental health problems increase the risk of substance use, and substance use worsens mental health. Treating one without addressing the other usually fails."
+    },
+    "screens": {
+      "headline": "Screens, Social Media, and Gaming",
+      "body": "Parents are right to be concerned about screens, and the research is increasingly clear — particularly for social media. Heavy social media use is associated with elevated rates of anxiety and depression in adolescents, with the strongest effects among girls. The mechanisms are not mysterious: dysphoric social comparison, disrupted sleep, cyberbullying, and the displacement of in-person relationships all contribute. The evidence linking social media use to declining adolescent mental health beginning around 2012 — when smartphone ownership became widespread — is robust.\n\nGaming presents a different risk profile. Problematic gaming is associated with social withdrawal, disrupted sleep, academic disengagement, and mood problems, though the causal direction is debated — adolescents with underlying mood and social difficulties may be drawn to gaming as much as gaming creates those problems. Either way, when gaming is displacing sleep, school, and relationships, it warrants clinical attention.\n\nWe address screen use as a legitimate clinical concern, not a parenting complaint. Understanding what need screens are meeting — social connection, escape from anxiety, stimulation — is essential to addressing them effectively."
+    }
+  },
+  "faqsParent": [
+    {
+      "question": "My teenager refuses to come to therapy. What should I do?",
+      "answer": "Start with a consultation for yourself. Understanding what's driving your teenager's resistance — and how to present therapy in terms that make sense to them, not just to you — can significantly change whether they engage. We work with parents directly, even before their teen walks in the door."
+    },
+    {
+      "question": "How involved will I be in my teen's treatment?",
+      "answer": "Very involved, especially at the start. We meet with parents separately to understand the history and family context, share our clinical thinking, and work on how you respond to the behaviors that concern you. As treatment progresses, the balance shifts — teenagers need to develop their own relationship with their therapist. But you remain part of the picture throughout."
+    },
+    {
+      "question": "How do we know whether this is a phase or something that needs treatment?",
+      "answer": "Good question, and it deserves an honest answer: duration, severity, and functional impairment are the key indicators. If symptoms have persisted for more than a few weeks, are affecting school, relationships, or sleep, or have led to behaviors that worry you, a clinical assessment is warranted. You don't need certainty to make a call."
+    },
+    {
+      "question": "My teen uses cannabis but says it helps with anxiety. Is that true?",
+      "answer": "It's a reasonable thing for a teenager to believe, and it can feel true in the short term. Cannabis does reduce acute anxiety in some people. The problem is that regular use consistently worsens anxiety and depression over time, and significantly increases risk of more serious mental health problems. We take this question seriously rather than dismissing it."
+    },
+    {
+      "question": "Should I take away my teenager's phone?",
+      "answer": "Maybe, but it depends. A complete removal often creates more conflict than it resolves and can eliminate legitimate social connection. A better question is usually: what is the phone displacing, and what need does it meet? We help families think through screen limits that are strategic rather than reactive."
+    }
+  ],
+  "faqsTeen": [
+    {
+      "question": "My parents made me come. Do I have to be here?",
+      "answer": "You don't have to do anything. But you're here, which means something brought you — even if it was just your parents. We're not going to lecture you or try to convince you of anything. We'll start by trying to understand your situation the way you see it."
+    },
+    {
+      "question": "Is what I say confidential?",
+      "answer": "Mostly, yes. What you say stays between us — with two exceptions: if you're at serious risk of hurting yourself or someone else, or if there's abuse happening. Otherwise, we don't report back to your parents. If we do need to share something, we'll tell you first."
+    },
+    {
+      "question": "I've been to therapy before and it didn't help. Why would this be different?",
+      "answer": "Fair point. Therapy is only as good as the fit and the approach. We'll be direct with you — not just reflect your feelings back at you. If the approach we're using isn't working, we'll say so and try something else. And if after a few sessions you genuinely don't think it's useful, we'll have that conversation honestly."
+    },
+    {
+      "question": "Can I do sessions online?",
+      "answer": "Yes. Telehealth is available throughout Missouri. Some teenagers prefer it for the privacy and convenience; others do better in person. We'll figure out what works for you."
+    }
+  ],
+  "cta": {
+    "headline": "Let's Talk",
+    "body": "Whether your teenager is ready or not, a conversation is a good place to start. We help families figure out what's happening and what to do about it.",
+    "bookingLink": "/booking/"
+  }
+}

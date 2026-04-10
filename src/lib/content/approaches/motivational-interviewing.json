@@ -1,0 +1,64 @@
+{
+  "seo": {
+    "title": "Motivational Interviewing | Plan Your Recovery",
+    "description": "Motivational Interviewing helps people resolve ambivalence about change. Used throughout Plan Your Recovery for addiction and mental health treatment in St. Louis."
+  },
+  "hero": {
+    "headline": "Motivational Interviewing",
+    "intro": "Motivational Interviewing is a client-centered approach for helping people resolve ambivalence about change. It is not persuasion — it is a way of having a conversation that helps people find their own reasons to do something different."
+  },
+  "whatItIs": {
+    "heading": "What Is Motivational Interviewing?",
+    "paragraphs": [
+      "Most people who are struggling don't arrive at treatment fully ready to change. They're ambivalent — part of them wants things to be different, part of them isn't sure, and part of them is resistant to being told what to do. Traditional approaches that push hard for change often produce reactance: the harder you push, the more the person digs in.",
+      "Motivational Interviewing works with that ambivalence rather than against it. The approach involves four core processes: engaging (building a working relationship), focusing (identifying what matters to work on), evoking (drawing out the person's own motivation and reasons for change), and planning (when the person is ready, helping them figure out concrete next steps).",
+      "The therapist's job is to listen carefully, reflect back what the person is already saying about why change might matter to them, and resist the urge to lecture or convince. Change talk — statements the person makes about wanting, being able to, or being committed to change — predicts actual behavior change. MI creates the conditions for that talk to emerge naturally."
+    ]
+  },
+  "howWeUseIt": {
+    "heading": "How We Use MI",
+    "paragraphs": [
+      "MI is used throughout our practice — as a primary approach for people who aren't yet sure they want to change, and as a foundation alongside CBT and other structured therapies. It is particularly useful early in treatment, with adolescents, and with anyone who has had the experience of being pushed into treatment that didn't feel like their own choice.",
+      "Many people who come to us are ambivalent about treatment itself. They may be there because of a family ultimatum, a legal situation, or a medical crisis — not because they woke up and decided they wanted help. MI meets people where they actually are, rather than insisting they be somewhere different before work can begin."
+    ]
+  },
+  "whatToExpect": {
+    "heading": "What to Expect",
+    "items": [
+      {
+        "label": "No pressure",
+        "description": "The therapist isn't trying to convince you of anything. Conversations explore what you want, what matters to you, and what might be getting in the way."
+      },
+      {
+        "label": "Your goals, not ours",
+        "description": "MI starts from what matters to you — not from what a clinician thinks you should want or be ready for."
+      },
+      {
+        "label": "Ambivalence is expected",
+        "description": "Not being sure whether you want to change is not a problem to overcome before treatment can begin — it is where treatment begins."
+      },
+      {
+        "label": "A foundation for further work",
+        "description": "MI frequently transitions into CBT or other structured approaches once motivation is established. It's a starting point, not the ceiling."
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Doesn't everyone need to want to change before therapy works?",
+      "answer": "This is one of the most common misconceptions in treatment. Research shows that motivation is not a fixed trait people either have or don't have — it's a dynamic state that can be influenced. MI is specifically designed to build motivation in people who don't yet have it."
+    },
+    {
+      "question": "How is MI different from just being a good listener?",
+      "answer": "MI is a specific, learnable skill set with defined techniques and measurable fidelity. It involves strategic reflection, the intentional elicitation of change talk, and careful attention to the therapist's own behavior — including avoiding unsolicited advice. Good listening is a prerequisite, not the thing itself."
+    },
+    {
+      "question": "Does MI work for mental health conditions, not just addiction?",
+      "answer": "Yes. MI has evidence for medication adherence, treatment engagement, health behavior change, and a range of mental health conditions. Its value isn't specific to addiction — it addresses human ambivalence, which shows up everywhere."
+    },
+    {
+      "question": "What if someone just isn't ready to change?",
+      "answer": "MI doesn't guarantee that everyone will change. What it does is ensure that the therapeutic conversation doesn't make change less likely. Sometimes the most important outcome is keeping someone engaged until they reach a moment of readiness — and MI is designed to do exactly that."
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "seo": {
+    "title": "Adult Mental Health & Addiction Treatment | Plan Your Recovery",
+    "description": "Evidence-based therapy and psychiatry for adults in St. Louis. CBT, medication management, and integrated care for mental health and addiction."
+  },
+  "hero": {
+    "headline": "Therapy and Psychiatry for Adults",
+    "intro": "Most adults who come to us have already tried something — a therapist who wasn't a good fit, a medication that didn't work, or a period of white-knuckling it on their own. We offer a different model: CBT, integrated psychiatry, and addiction treatment under one roof, coordinated rather than siloed. Not everyone needs every piece of that, but all of it should be available and considered."
+  },
+  "concerns": {
+    "headline": "What Brings Adults to Us",
+    "items": [
+      {
+        "title": "Anxiety and Depression",
+        "description": "Anxiety and depression are the most common reasons adults seek therapy — and among the most treatable. Both respond well to CBT, which gives you a concrete set of skills rather than an open-ended talking relationship. When therapy alone isn't enough, or when symptoms are severe enough to warrant it, psychiatric evaluation can determine whether medication would help. Having both under one roof means they work together, not at cross-purposes."
+      },
+      {
+        "title": "Substance Use and Addiction",
+        "description": "Alcohol, cannabis, opioids, stimulants, gambling — the specific substance matters less than whether use has become a problem. The clearest indicator is consequences: relationship damage, work difficulty, health problems, or simply not being able to stop when you decide to. Most people with substance use disorders don't need inpatient rehab — office-based outpatient treatment works well for the majority of people, and early intervention is far more effective than waiting until things reach a crisis."
+      },
+      {
+        "title": "Co-Occurring Mental Health and Addiction",
+        "description": "Mental health and addiction problems are more common together than separately. Depression drives drinking; anxiety drives cannabis use; ADHD increases addiction risk; trauma underlies more substance use than most people realize. Treating one without addressing the other almost always fails. We're built to treat both simultaneously — not to refer you out when the picture gets complicated."
+      },
+      {
+        "title": "ADHD",
+        "description": "ADHD in adults is frequently undiagnosed or undertreated, and its effects — on work performance, relationships, financial management, and self-esteem — are often attributed to character rather than neurology. Adults with ADHD also have elevated rates of anxiety, depression, and substance use. A thorough evaluation can clarify whether ADHD is driving the difficulty, and whether therapy, medication, or both would address it most effectively."
+      },
+      {
+        "title": "Relationships and Family",
+        "description": "Mental health and addiction problems don't stay contained to the person who has them — they affect partners, families, and the people closest to you. We offer couples and family therapy alongside individual treatment, which matters most when communication has broken down, trust has been damaged by addiction, or the family system has organized itself around the problem in ways that make it harder to solve."
+      }
+    ]
+  },
+  "approach": {
+    "headline": "How We Work",
+    "items": [
+      {
+        "title": "Cognitive Behavioral Therapy",
+        "description": "CBT is the most evidence-supported therapy for anxiety, depression, and addiction in adults. It's structured and skills-focused — you learn to identify the thoughts and situations that drive distress or problematic behavior, test them against reality, and practice responding differently. Sessions have a direction. You should be able to tell whether it's working."
+      },
+      {
+        "title": "Integrated Psychiatry",
+        "description": "When medication is part of the picture, it should be coordinated with therapy — not managed by a separate provider who doesn't know what's happening in your sessions. Our in-house psychiatrists work alongside your therapist, which means faster adjustment, fewer gaps, and a treatment approach that holds together."
+      },
+      {
+        "title": "Medication-Assisted Treatment",
+        "description": "For opioid and alcohol use disorders, FDA-approved medications — buprenorphine, naltrexone — significantly improve outcomes when combined with therapy. MAT isn't a substitute for doing the work; it's a tool that makes the work possible by reducing cravings and withdrawal so you can engage with treatment. We prescribe and manage these medications in-office."
+      },
+      {
+        "title": "Couples and Family Therapy",
+        "description": "Addiction and mental health problems affect everyone close to the person struggling. Couples therapy can address communication, trust repair, and the relationship patterns that predate the problem or maintain it. Family therapy is particularly useful when a family member's behavior — either the person with the problem or the people around them — has become part of what needs to change."
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "question": "How do I know if what I'm experiencing warrants treatment?",
+      "answer": "Duration, severity, and functional impact are the key indicators. If symptoms have persisted for more than a few weeks, are affecting your work, relationships, or sleep, or have led to behaviors you regret — that's a reasonable threshold for seeking an evaluation. You don't need to be in crisis to make a call, and early intervention is almost always more effective than waiting."
+    },
+    {
+      "question": "How do I know if I have a substance use problem?",
+      "answer": "The clearest sign is when use continues despite meaningful consequences — relationship damage, health problems, work difficulty, or failing to cut back when you've decided to. If you're wondering whether you have a problem, that uncertainty itself is worth exploring with a clinician. Most people who come in for an assessment already know something is wrong."
+    },
+    {
+      "question": "I've tried therapy before and it didn't help. Why would this be different?",
+      "answer": "Therapy is only as good as the fit and the approach. Open-ended supportive therapy doesn't work for everyone, and it's not what we primarily do. CBT is structured, directive, and measurable — you should be able to tell within a few sessions whether it's helping. If the approach isn't working, we'll say so and try something else."
+    },
+    {
+      "question": "Don't most people with addiction need inpatient rehab?",
+      "answer": "Most don't. Research consistently shows that office-based outpatient treatment works well for the majority of people with substance use disorders. Residential treatment is appropriate when someone has severe physical dependence, co-occurring medical issues, or a home environment that makes recovery impossible — but it's not the default, and it's not necessary for most people."
+    },
+    {
+      "question": "Can I be addicted to things that aren't substances?",
+      "answer": "Yes. Gambling disorder is recognized by the DSM-5 as an addictive disorder, and compulsive patterns involving food, sex, gaming, and technology share many of the same features. What matters clinically is whether the behavior is causing significant harm and you feel unable to stop despite wanting to."
+    },
+    {
+      "question": "I think my partner or family member has a problem. What should I do?",
+      "answer": "You generally can't force motivation, but you can influence it. Setting clear, compassionate limits on what you will and won't support — and following through — often does more than pleading or arguing. We're glad to consult with family members on how to approach a difficult conversation, even before the person with the problem is ready to come in."
+    },
+    {
+      "question": "What is dual diagnosis, and do you treat it?",
+      "answer": "Dual diagnosis means having both a substance use disorder and a co-occurring mental health condition — depression, anxiety, PTSD, ADHD, or others. These conditions are more common together than separately, and treating one without addressing the other rarely works. Our model is built to treat both simultaneously, with therapy and psychiatry integrated in one practice."
+    },
+    {
+      "question": "Do you accept insurance?",
+      "answer": "Our therapy services are private pay. Our psychiatry practice accepts UnitedHealthcare, Blue Cross Blue Shield, and Cigna for psychiatric appointments."
+    }
+  ],
+  "cta": {
+    "headline": "Let's Talk About What's Going On",
+    "body": "You don't need to have it figured out before you call. A brief conversation helps us understand the situation and determine whether we're the right fit.",
+    "bookingLink": "/booking/"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "seo": {
+    "title": "Make an Appointment | Plan Your Recovery",
+    "description": "Schedule an appointment with Plan Your Recovery for counseling, psychiatry, or buprenorphine treatment. Contact us by phone or email."
+  },
+  "hero": {
+    "headline": "Make an Appointment",
+    "intro": "Getting started begins with a conversation. Reach out directly to any of our clinicians, or contact us at the numbers below and we'll connect you with the right person."
+  },
+  "contacts": [
+    {
+      "label": "Counseling & Therapy",
+      "phone": "314-222-5896",
+      "email": "info@planyourrecovery.com",
+      "note": null
+    },
+    {
+      "label": "Psychiatry & Medication",
+      "phone": "314-222-5830",
+      "phoneAlt": "314-467-8393",
+      "phoneAltLabel": "Call or text",
+      "note": null
+    },
+    {
+      "label": "Buprenorphine / OUD Treatment",
+      "phone": null,
+      "note": "New patients for buprenorphine are typically seen within 1–3 days. Call the psychiatry line to schedule."
+    }
+  ],
+  "directNote": "You can also reach out directly to any clinician on our team page — many list personal phone numbers and emails.",
+  "whatToExpect": {
+    "heading": "What to Expect",
+    "steps": [
+      {
+        "title": "A brief phone call",
+        "body": "We'll take a few minutes to understand your situation and make sure we're a good fit before scheduling a full appointment."
+      },
+      {
+        "title": "An initial assessment",
+        "body": "Your first appointment is typically 60 minutes. We'll ask about your history, current challenges, and what you're hoping to change."
+      },
+      {
+        "title": "A collaborative plan",
+        "body": "Together we'll identify next steps — therapy, medication, or both — tailored to your goals, not a one-size-fits-all program."
+      }
+    ]
+  }
+}

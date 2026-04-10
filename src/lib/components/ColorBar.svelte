@@ -1,5 +1,5 @@
 <script>
-	let { color = 'green', position = 'left' } = $props();
+	let { color = 'green', position = 'center' } = $props();
 </script>
 
 <div class="color-bar {position}">

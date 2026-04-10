@@ -4,14 +4,19 @@ import adapter from '@sveltejs/adapter-static';
 const config = {
 	kit: {
 		adapter: adapter({
-			// Firebase hosting expects files in a 'public' directory by default
-			// but we'll configure it to use 'build' in firebase.json
 			pages: 'build',
 			assets: 'build',
 			fallback: 'index.html',
 			precompress: false,
 			strict: true
-		})
+		}),
+		prerender: {
+			handleHttpError: ({ path, referrer, message }) => {
+				// Ignore 404s for pages not yet built
+				if (message.includes('404')) return;
+				throw new Error(message);
+			}
+		}
 	}
 };
 

@@ -1,0 +1,66 @@
+{
+  "seo": {
+    "title": "Outpatient Alcohol Detoxification | Plan Your Recovery",
+    "description": "Medically supervised outpatient alcohol detox in St. Louis for appropriate candidates who don't require inpatient care. Safe, close monitoring throughout withdrawal."
+  },
+  "hero": {
+    "headline": "Outpatient Alcohol Detoxification",
+    "intro": "Outpatient alcohol detoxification uses medication to safely manage alcohol withdrawal without hospitalization. For appropriate candidates, it provides close medical oversight during the acute withdrawal period so that longer-term treatment can begin on stable footing."
+  },
+  "whatItIs": {
+    "heading": "What Is Outpatient Alcohol Detox?",
+    "paragraphs": [
+      "Alcohol withdrawal can be medically serious. Unlike opioid withdrawal — which is intensely uncomfortable but rarely life-threatening — alcohol withdrawal can cause seizures and other dangerous complications. Anyone with a history of heavy, prolonged drinking should not stop abruptly without medical guidance.",
+      "Outpatient detox uses medications to manage withdrawal symptoms safely while you remain at home. You'll be seen frequently during the acute withdrawal period — typically the first several days — with close symptom monitoring and medication adjustments as needed. The goal is to get through withdrawal safely so that longer-term treatment can begin.",
+      "Not everyone is a candidate for outpatient detox. During your first appointment we assess your drinking history, prior withdrawal experiences, medical status, and living situation to determine whether outpatient is safe and appropriate. If a higher level of care is needed, we'll say so clearly and help you get it."
+    ]
+  },
+  "whoItsFor": {
+    "heading": "Who It's For",
+    "items": [
+      "People with alcohol dependence who want to stop but need medical support to do so safely",
+      "Those without a history of severe withdrawal complications such as seizures or delirium tremens",
+      "People with a stable home environment and someone available to check in during the acute period",
+      "Those transitioning to outpatient treatment following a higher level of care"
+    ]
+  },
+  "whatToExpect": {
+    "heading": "What to Expect",
+    "items": [
+      {
+        "label": "Thorough initial assessment",
+        "description": "A detailed evaluation of your drinking history, prior withdrawal experiences, and medical status to determine whether outpatient detox is safe and appropriate."
+      },
+      {
+        "label": "Frequent early appointments",
+        "description": "You'll be seen multiple times during the acute withdrawal period — typically the first 3–7 days — with close symptom monitoring throughout."
+      },
+      {
+        "label": "Medication management",
+        "description": "Medications to reduce withdrawal severity and prevent complications, adjusted based on how you're responding."
+      },
+      {
+        "label": "Transition to ongoing treatment",
+        "description": "Detox is the beginning, not the goal. We connect you to ongoing outpatient treatment — medication and therapy — once acute withdrawal is resolved."
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Is outpatient detox safe?",
+      "answer": "For appropriate candidates, yes. The assessment process exists precisely to determine whether outpatient is safe for your specific situation. If there's reason to believe inpatient is needed — a history of severe withdrawal, medical complications, unstable living situation — we'll tell you and help you find the right level of care."
+    },
+    {
+      "question": "What medications are used?",
+      "answer": "Typically benzodiazepines (such as diazepam or chlordiazepoxide) in a tapering schedule, which reduce seizure risk and manage withdrawal symptoms. We may also use other medications to address specific symptoms. The exact protocol depends on your withdrawal severity and medical history."
+    },
+    {
+      "question": "How long does detox take?",
+      "answer": "Acute alcohol withdrawal typically resolves over 5–7 days, though some symptoms — sleep disruption, anxiety, mood changes — may linger longer. The medically intensive period is usually the first several days."
+    },
+    {
+      "question": "What comes after detox?",
+      "answer": "Detox removes the immediate medical danger but doesn't treat the underlying disorder. We strongly recommend ongoing treatment: naltrexone to reduce relapse risk, and therapy — CBT, motivational interviewing — to build longer-term recovery. We provide both."
+    }
+  ]
+}

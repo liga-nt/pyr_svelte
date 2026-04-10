@@ -1,0 +1,53 @@
+{
+  "seo": {
+    "title": "PTSD & Trauma Treatment in St. Louis | Plan Your Recovery",
+    "description": "Trauma-focused therapy for PTSD and complex trauma in St. Louis. CBT, evidence-based care, and integrated treatment for trauma and substance use."
+  },
+  "condition": {
+    "name": "Post-Traumatic Stress Disorder",
+    "alternateName": ["PTSD", "Trauma", "Complex PTSD", "C-PTSD"],
+    "schemaDescription": "Post-traumatic stress disorder is a mental health condition that develops in some people after experiencing or witnessing a traumatic event. It is characterized by intrusive memories, avoidance, negative changes in thinking and mood, and heightened reactivity."
+  },
+  "hero": {
+    "headline": "PTSD & Trauma",
+    "intro": "PTSD is not weakness. It is not a failure to move on. It is what happens when your nervous system gets stuck in a protective mode it couldn't turn off after a threat has passed. Trauma responses are normal responses to abnormal experiences — and they are treatable."
+  },
+  "criteria": {
+    "heading": "What Is PTSD?",
+    "description": "PTSD develops after direct or indirect exposure to actual or threatened death, serious injury, or sexual violence. A diagnosis requires symptoms from each of four clusters:",
+    "items": [
+      {"label": "Intrusion symptoms", "description": "Unwanted, distressing memories of the trauma; nightmares; flashbacks where you feel or act as if the trauma is happening again; intense psychological or physical distress when something reminds you of it."},
+      {"label": "Avoidance", "description": "Avoiding internal reminders — memories, thoughts, feelings — or external reminders like people, places, activities, or situations connected to the trauma."},
+      {"label": "Negative changes in thinking and mood", "description": "Persistent inability to remember key parts of the trauma; distorted beliefs about yourself or the world ('I am bad'; 'no one can be trusted'); persistent negative emotions; feeling detached from others; inability to feel positive emotions."},
+      {"label": "Changes in arousal and reactivity", "description": "Irritability or angry outbursts; reckless or self-destructive behavior; hypervigilance; exaggerated startle response; concentration problems; sleep disturbance."}
+    ],
+    "note": "Symptoms must persist for more than one month and cause significant impairment. Complex PTSD (C-PTSD) is a related condition that develops from prolonged, repeated trauma — such as childhood abuse, domestic violence, or captivity — and often involves additional difficulties with emotional regulation, identity, and relationships."
+  },
+  "howItFeels": {
+    "heading": "What Living with Trauma Actually Feels Like",
+    "paragraphs": [
+      "Hypervigilance is exhausting in a way that's hard to describe to people who haven't felt it. It's not just being 'on edge' — it's your body scanning for threats constantly, reading every room, tracking exits, interpreting neutral faces as hostile. It's a system that kept you alive doing its job long after the danger has passed.",
+      "Nightmares and flashbacks aren't memories you're choosing to revisit. They happen to you. A smell, a sound, the way light falls in a certain way — and suddenly you're not entirely in the present. The body doesn't fully know the difference between the memory and the event.",
+      "Emotional numbing is one of the most isolating features of PTSD. You might feel cut off from people you love, unable to feel joy or pleasure, going through the motions of a life that should feel meaningful. This isn't depression exactly — it's a protective shutdown that becomes its own kind of suffering.",
+      "Trauma responses can look, from the outside, like personality problems. Anger, emotional reactivity, pulling away from relationships, difficulty trusting people — these can be mistaken for character flaws. They aren't. They are adaptations that made sense in the original environment and haven't updated yet.",
+      "Substance use is one of the most common ways people manage trauma symptoms. Alcohol quiets hypervigilance. Opioids blunt emotional pain. This is not a moral failure — it's a logical response to unbearable symptoms. But it also keeps trauma in place and makes treatment harder. We treat both."
+    ]
+  },
+  "treatmentSection": {
+    "heading": "How We Treat Trauma",
+    "intro": "Effective trauma treatment doesn't require you to relive everything in detail. It works by helping your nervous system process what happened so that memories lose their grip — and your life in the present stops being organized around the past."
+  },
+  "treatments": [
+    {"name": "Trauma-Focused CBT (TF-CBT)", "description": "Cognitive processing therapy and other trauma-focused CBT approaches are among the most well-researched treatments for PTSD. They help you examine and restructure the beliefs that trauma created — about yourself, other people, and the world — and reduce the power of traumatic memories."},
+    {"name": "EMDR (Eye Movement Desensitization and Reprocessing)", "description": "EMDR is a validated, evidence-based treatment for PTSD with a strong research base. It uses bilateral stimulation to help the brain process traumatic memories. Our clinicians can discuss whether EMDR may be appropriate for you and provide referrals to EMDR-trained providers when indicated."},
+    {"name": "Somatic Awareness", "description": "Trauma is stored in the body as much as the mind. Somatic approaches help you recognize and work with physical trauma responses — tension, numbness, activation — as part of the healing process, alongside cognitive and behavioral work."},
+    {"name": "Integrated Care for Trauma and Substance Use", "description": "Trauma and substance use disorders are among the most common co-occurring conditions. Treating one without the other rarely works. We assess and treat both, understanding that substance use is often an attempt to manage symptoms that feel unmanageable — and that effective trauma treatment changes the need for it."}
+  ],
+  "faqs": [
+    {"question": "Does trauma have to be a big event to cause PTSD?", "answer": "No. While PTSD is often associated with combat, assault, or disasters, it can develop from any experience that overwhelms the nervous system's ability to cope. Clinicians sometimes distinguish between 'big-T' traumas (acute, life-threatening events) and 'small-t' traumas (chronic emotional neglect, ongoing humiliation, relational betrayal). Small-t traumas — especially when repeated over time — can be just as disruptive to functioning. What matters is the impact on your nervous system, not whether the event 'counts' by some external standard."},
+    {"question": "How are PTSD and substance use connected?", "answer": "PTSD and substance use disorders co-occur at very high rates — studies suggest that more than half of people with PTSD have a co-occurring substance use disorder. The connection is logical: alcohol and drugs reduce hypervigilance, blunt emotional pain, and improve sleep in the short term. Over time, they interfere with trauma processing, worsen mood and anxiety, and create their own problems. Treating both together — rather than demanding abstinence before addressing trauma — produces substantially better outcomes."},
+    {"question": "Does trauma therapy mean I have to talk through every detail of what happened?", "answer": "No. Evidence-based trauma treatments don't require you to narrate the full story of your trauma in detail, and a skilled clinician won't push you to do more than you're ready for. Trauma-focused CBT, for example, focuses more on the meaning you've made of what happened and the beliefs it created than on detailed recounting. Treatment moves at a pace that is challenging but tolerable — not retraumatizing."},
+    {"question": "How long does trauma treatment take?", "answer": "It depends on the type and duration of trauma, the presence of other conditions, and how long symptoms have been present. Many people with single-incident trauma see significant improvement in 12–20 sessions. Complex PTSD stemming from prolonged childhood trauma often takes longer — not because healing isn't happening, but because there is more to address. You don't have to have a complete picture on day one."},
+    {"question": "Can trauma from childhood be treated in adulthood?", "answer": "Yes — often very effectively. The brain retains the capacity for change throughout life. Many adults who experienced early trauma have built significant coping resources and resilience alongside their symptoms. Therapy in adulthood can address both the original experiences and the patterns they created, and people frequently report meaningful improvements in relationships, self-worth, and daily functioning, even when trauma occurred decades earlier."}
+  ]
+}

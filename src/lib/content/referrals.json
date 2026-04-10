@@ -1,0 +1,63 @@
+{
+  "seo": {
+    "title": "Refer a Patient | Plan Your Recovery",
+    "description": "Information for therapists, physicians, and treatment providers on referring patients to Plan Your Recovery and collaborating in their care."
+  },
+  "hero": {
+    "headline": "How to Refer a Patient and Collaborate in Their Care",
+    "intro": "We work closely with psychiatrists, family physicians, therapists, and residential treatment providers. We're most effective when we're one part of a coordinated care network — not a replacement for relationships your patient already has."
+  },
+  "keyPoints": {
+    "heading": "What Collaboration Looks Like",
+    "items": [
+      {
+        "title": "Your patient's existing relationships stay intact",
+        "body": "Your patient can continue working with their primary therapist. We coordinate actively with referring providers, with patient consent, and there's no expectation that you step back."
+      },
+      {
+        "title": "Flexible service options",
+        "body": "We offer individual therapy, family therapy, and group sessions. Clients can participate in groups without receiving individual therapy from us, as long as appropriate care is in place elsewhere."
+      },
+      {
+        "title": "Free monthly continuing education",
+        "body": "We offer free CE credits for substance use professionals, social workers, and LPCs. Contact us to be added to the invite list."
+      },
+      {
+        "title": "No mandatory program hours",
+        "body": "Unlike intensive outpatient programs, we don't require set weekly hours. Frequency is determined by clinical need and patient capacity."
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Will my patient still be able to work with me?",
+      "answer": "Yes. Patients often benefit from having both their primary therapist and specialized addiction services. We communicate actively with referring providers, with patient consent, and there's no expectation that you step back from the relationship."
+    },
+    {
+      "question": "Can my client attend your groups without receiving individual therapy from you?",
+      "answer": "Yes, as long as they're receiving appropriate care elsewhere. Group participation alone is possible for clients who have a primary therapist."
+    },
+    {
+      "question": "My client doesn't think they have a problem. Can you still help?",
+      "answer": "Ambivalence is the norm, not the exception. We offer informal consultations and are experienced with motivational approaches. Family members can also consult with us on how to reduce harm and increase motivation without enabling."
+    },
+    {
+      "question": "What if my patient isn't motivated to address their substance use?",
+      "answer": "We start where people are. Motivational interviewing is foundational to our work. If a patient comes in for depression and doesn't want to talk about their drinking, we don't ignore the drinking — but we don't lead with it either."
+    },
+    {
+      "question": "How much of a time commitment is this for my patient?",
+      "answer": "Unlike intensive outpatient programs, we don't mandate weekly hours. Frequency is determined by clinical need and patient capacity. Some people need weekly individual sessions; others do better with family-focused work."
+    },
+    {
+      "question": "Do you offer continuing education credits for referring providers?",
+      "answer": "Yes. We host free monthly continuing education events for substance use professionals, licensed social workers, and LPCs. Topics rotate and are chosen to be practically useful — not just credential-box-checking. Contact us to be added to the invite list, and let us know if there's a topic you'd like us to cover."
+    }
+  ],
+  "cta": {
+    "heading": "Make a Referral",
+    "body": "Call or text us to refer a patient or discuss a case. We're glad to consult before a formal referral if that's helpful.",
+    "phone": "314-467-8393",
+    "email": "info@planyourrecovery.com"
+  }
+}

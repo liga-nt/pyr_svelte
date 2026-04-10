@@ -1,0 +1,60 @@
+{
+  "seo": {
+    "title": "Opioid Use Disorder Treatment & Buprenorphine | Plan Your Recovery St. Louis",
+    "description": "FDA-approved buprenorphine (Suboxone) treatment for opioid use disorder in St. Louis. New patients typically seen within 1–3 days. Evidence-based, compassionate care."
+  },
+  "condition": {
+    "name": "Opioid Use Disorder",
+    "alternateName": ["OUD", "Opioid Addiction", "Heroin Addiction", "Prescription Opioid Dependence"],
+    "schemaDescription": "Opioid use disorder is a medical condition characterized by a problematic pattern of opioid use leading to significant impairment or distress, including tolerance, withdrawal, and continued use despite adverse consequences."
+  },
+  "hero": {
+    "headline": "Opioid Use Disorder",
+    "intro": "Opioid use disorder is a medical condition — not a moral failure, not a lack of willpower, and not something you should be able to overcome through determination alone. Effective treatment exists, it dramatically reduces the risk of overdose death, and you should not have to wait to access it. We see new patients within 1–3 days, because opioid use disorder is a medical emergency and timely access to care saves lives."
+  },
+  "criteria": {
+    "heading": "What Is Opioid Use Disorder?",
+    "description": "The DSM-5 defines opioid use disorder as a problematic pattern of opioid use leading to significant impairment or distress, with at least 2 of the following occurring within a 12-month period:",
+    "items": [
+      {"label": "Using more than intended", "description": "Taking opioids in larger amounts or over a longer period than you planned."},
+      {"label": "Failed attempts to cut back", "description": "Wanting to reduce or stop opioid use but being unable to do so."},
+      {"label": "Significant time spent", "description": "Spending a great deal of time obtaining opioids, using them, or recovering from their effects."},
+      {"label": "Cravings", "description": "A strong desire or urge to use opioids."},
+      {"label": "Failure to meet obligations", "description": "Opioid use interferes with responsibilities at work, school, or home."},
+      {"label": "Continued use despite problems", "description": "Continuing to use opioids even though they are causing social, interpersonal, or health problems."},
+      {"label": "Giving up activities", "description": "Withdrawing from or abandoning social, occupational, or recreational activities because of opioid use."},
+      {"label": "Use in dangerous situations", "description": "Using opioids in physically hazardous situations, such as while driving."},
+      {"label": "Tolerance", "description": "Needing significantly more opioids to achieve the same effect, or experiencing a noticeably reduced effect with the same amount."},
+      {"label": "Withdrawal", "description": "Experiencing withdrawal symptoms — muscle aches, sweating, nausea, anxiety, insomnia — when cutting back or stopping."}
+    ],
+    "note": "2–3 criteria indicate mild OUD; 4–5 moderate; 6+ severe. Physical dependence alone — which can develop in anyone taking opioids regularly, including for legitimate pain — does not constitute opioid use disorder. The diagnosis involves a broader pattern of impaired control and continued use despite consequences."
+  },
+  "howItFeels": {
+    "heading": "What Opioid Use Disorder Actually Looks Like",
+    "paragraphs": [
+      "It is important to distinguish physical dependence from addiction. Physical dependence — where the body adapts to opioids and experiences withdrawal when they're reduced or stopped — can develop in anyone who takes opioids regularly, including people prescribed them for chronic pain. Dependence is a physiological process, not a character flaw. Opioid use disorder involves additional features: loss of control over use, continued use despite real harm, and the organizing of daily life around obtaining and using opioids.",
+      "Withdrawal is often a central driver of continued use. Opioid withdrawal is not life-threatening in healthy adults, but it is profoundly miserable — intense muscle pain, restlessness, anxiety, nausea, sweating, and insomnia that can last for days. Fear of withdrawal keeps many people using even when they desperately want to stop. This is not weakness; it is the biology of physical dependence, and it is one of the reasons medication is so important in treatment.",
+      "Fentanyl has fundamentally changed the overdose landscape. It is now present throughout much of the illicit drug supply — in what is sold as heroin, in counterfeit pills, and increasingly in other substances. Fentanyl is 50 to 100 times more potent than morphine, and a dose that looks identical to the last one can be fatal. This means that the risk of a fatal overdose from a single use has never been higher, and it makes accessing treatment more urgent, not less.",
+      "Shame and social isolation are pervasive in opioid use disorder. Many people wait far too long to seek help because of what they fear others will think, or because they believe treatment means surrendering to a life defined by their diagnosis. Neither is true. Recovery is possible, and the people who achieve it are overwhelmingly ordinary people who found the right help at the right time."
+    ]
+  },
+  "treatmentSection": {
+    "heading": "How We Treat Opioid Use Disorder",
+    "intro": "The evidence for medication-assisted treatment of opioid use disorder is overwhelming. Buprenorphine is first-line treatment, and we prescribe it as soon as clinically appropriate — typically at your first or second appointment. Medication combined with counseling produces better outcomes than either alone."
+  },
+  "treatments": [
+    {"name": "Buprenorphine (Suboxone)", "description": "Buprenorphine is the most effective treatment available for opioid use disorder. It eliminates withdrawal, reduces cravings, and dramatically lowers the risk of overdose death. It is FDA-approved, widely studied, and saves lives. New patients at Plan Your Recovery are typically seen within 1–3 days. Buprenorphine treatment is $125 per month plus the cost of the medication."},
+    {"name": "Methadone", "description": "Methadone is another highly effective, FDA-approved medication for OUD with decades of evidence behind it. It is dispensed through licensed opioid treatment programs (OTPs) rather than standard prescribers. We do not offer methadone at Plan Your Recovery, but we can help connect you with an appropriate program if it is the right option for you."},
+    {"name": "Naltrexone (Vivitrol)", "description": "Naltrexone blocks opioid receptors and eliminates the rewarding effects of opioids. The extended-release injectable form (Vivitrol) is given monthly. It requires complete detoxification before starting — typically 7–10 days free of opioids — which makes it less accessible than buprenorphine for many people, but it is a good option for those who have already detoxed and want ongoing relapse prevention support."},
+    {"name": "CBT and Counseling", "description": "Cognitive behavioral therapy addresses the thought patterns, emotional triggers, and behavioral habits that sustain opioid use. Buprenorphine combined with counseling produces significantly better outcomes than medication alone, and counseling is integrated into our treatment model from the start."},
+    {"name": "Harm Reduction", "description": "We provide naloxone (Narcan) training and prescriptions to all patients and their household members. Naloxone reverses opioid overdose and saves lives. We also support access to fentanyl test strips and other harm reduction tools, because keeping people alive is the prerequisite for everything else."}
+  ],
+  "faqs": [
+    {"question": "Is buprenorphine just replacing one addiction with another?", "answer": "No. This is a persistent myth that has contributed to preventable deaths. Buprenorphine is a medication that treats a medical condition — the same way insulin treats diabetes or antidepressants treat depression. People stabilized on buprenorphine are less likely to die from overdose, more likely to be employed, more likely to be present for their families, and more likely to avoid infectious disease. The framing of medication as 'just trading one drug for another' reflects stigma, not science, and we will never use it."},
+    {"question": "How quickly can I be seen?", "answer": "Typically within 1–3 days. Opioid use disorder is a medical emergency — the risk of overdose is real and present, not theoretical. We do not believe anyone should be on a waiting list for life-saving treatment. If you call us, we will work to get you in as soon as possible."},
+    {"question": "How long do I have to take buprenorphine?", "answer": "As long as it is helping you. There is no clinical evidence that mandatory tapering after a fixed period improves outcomes — and substantial evidence that premature discontinuation significantly increases the risk of relapse and overdose death. How long you take buprenorphine is a treatment decision made collaboratively between you and your clinician based on your stability, your goals, and your life circumstances. It is not a moral decision, and there is no timeline you are expected to meet."},
+    {"question": "What if I'm also using other drugs or alcohol?", "answer": "You still qualify for buprenorphine treatment. Polysubstance use is common among people with opioid use disorder, and it does not disqualify you from care. We will work with the full picture of what you are using and build a treatment plan accordingly. The goal is to keep you safe and help you move toward stability, not to require perfection as a precondition."},
+    {"question": "What is fentanyl doing to overdose risk?", "answer": "Fentanyl has made illicit opioid use dramatically more dangerous than it was even a decade ago. It is now present in much of the drug supply — including in substances sold as heroin, in counterfeit pills, and increasingly in stimulants. Because fentanyl is so potent, dose-to-dose variation in street drugs can be fatal. A single use after a period of abstinence — when tolerance has dropped — carries a very high risk of fatal overdose. This does not mean recovery is impossible. It means accessing treatment is more urgent than ever."},
+    {"question": "Can I get buprenorphine if I'm pregnant?", "answer": "Yes — and you should. Untreated opioid use disorder during pregnancy poses serious risks to both mother and baby, including preterm birth, fetal distress, and increased risk of maternal overdose. Buprenorphine is considered the standard of care for OUD in pregnancy. Neonatal opioid withdrawal syndrome, which can occur in newborns exposed to buprenorphine, is manageable and far safer than the alternative. We can help connect you with appropriate prenatal care and coordinate with your obstetric provider."}
+  ]
+}

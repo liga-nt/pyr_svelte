@@ -1,8 +1,5 @@
 <script>
 	import ColorBar from '$lib/components/ColorBar.svelte';
-	import Video from '$lib/components/Video.svelte';
-	import ShapeHome from '$lib/components/ShapeHome.svelte';
-	import ConditionIcon from '$lib/components/ConditionIcon.svelte';
 	import homeData from '$lib/content/home.json';
 
 	let conditionsScroll;
@@ -30,25 +27,39 @@
 	<!-- Hero Section -->
 	<section class="hero">
 		<div class="container">
-			<div class="hero-content">
-				<div class="hero-text">
-					<h1>{homeData.hero.headline}</h1>
-					<p class="hero-subheadline">{homeData.hero.subheadline}</p>
-					<div class="hero-ctas">
-						<a href="#contact" class="button--link">
-							<button class="primary">{homeData.hero.ctaPrimary}</button>
-						</a>
+			<p class="hero-eyebrow">{homeData.hero.eyebrow}</p>
+			<h1>{homeData.hero.headline}</h1>
+			<p class="hero-subheadline">{homeData.hero.subheadline}</p>
+			<div class="hero-differentiators">
+				{#each homeData.hero.differentiators as d}
+					<div class="hero-diff-card">
+						<h3>{d.heading}</h3>
+						<p>{d.body}</p>
 					</div>
-				</div>
-				<div class="hero-image">
-					<ShapeHome />
-					<img
-						src="/img/illustration/women-talking.png"
-						alt="Illustration of two women talking"
-						width="400"
-						height="432"
-					/>
-				</div>
+				{/each}
+			</div>
+			<div class="hero-ctas">
+				<a href="/booking/" class="button--link">
+					<button class="primary">{homeData.hero.ctaPrimary}</button>
+				</a>
+				<a href="/team/" class="hero-secondary-cta">{homeData.hero.ctaSecondary} →</a>
+			</div>
+		</div>
+	</section>
+
+	<!-- Who We Treat -->
+	<section class="who-we-treat">
+		<div class="container">
+			<h2>{homeData.whoWetreat.headline}</h2>
+			<div class="who-icons">
+				{#each homeData.whoWetreat.groups as group}
+					<a href={group.link} class="who-card">
+						<div class="who-icon">
+							<img src={group.icon} alt={group.label} width="100" height="100" />
+						</div>
+						<h3>{group.label}</h3>
+					</a>
+				{/each}
 			</div>
 		</div>
 	</section>
@@ -67,7 +78,7 @@
 					{#each homeData.conditions.items as condition}
 						<a href={condition.linkUrl} class="condition-card">
 							<div class="condition-icon">
-								<ConditionIcon icon={condition.icon} color={condition.color} />
+								<img src={condition.icon} alt={condition.name} width="100" height="100" />
 							</div>
 							<h3>{condition.name}</h3>
 						</a>
@@ -80,7 +91,7 @@
 				</button>
 			</div>
 			<div class="view-all">
-				<a href="/what-we-treat">View all conditions →</a>
+				<a href="/conditions/">View all conditions →</a>
 			</div>
 		</div>
 	</section>
@@ -98,23 +109,6 @@
 					</div>
 				{/each}
 			</div>
-		</div>
-	</section>
-
-	<!-- SEO Content -->
-	<section class="seo-content">
-		<div class="container">
-			<h2>{homeData.seoContent.headline}</h2>
-			{#each homeData.seoContent.paragraphs as paragraph}
-				<p>{paragraph}</p>
-			{/each}
-		</div>
-	</section>
-
-	<!-- Video Section -->
-	<section class="video-section">
-		<div class="container">
-			<Video videoID={homeData.videoID} />
 		</div>
 	</section>
 
@@ -158,50 +152,144 @@
 
 	/* Hero Section */
 	.hero {
-		padding: var(--space-xlarge) 0;
+		padding: var(--space-xlarge) 0 var(--space-xlarge);
+		border-bottom: 1px solid var(--c-gray);
 
-		.hero-content {
-			display: grid;
-			gap: var(--space-large);
-			align-items: center;
+		.container {
+			max-width: 900px;
 		}
 
-		h1 {
+		.hero-eyebrow {
+			font-family: ibm-plex-sans-condensed, sans-serif;
+			font-size: 0.8rem;
+			font-weight: 800;
+			font-style: italic;
+			text-transform: uppercase;
+			letter-spacing: 0.1em;
+			color: var(--c-green);
 			margin-bottom: var(--space-small);
 		}
 
-		.hero-subheadline {
-			font-size: 1.25rem;
+		h1 {
+			font-size: clamp(2rem, 5vw, 3.25rem);
+			line-height: 1.15;
 			margin-bottom: var(--space-medium);
-			max-width: 600px;
+			max-width: 800px;
+		}
+
+		.hero-subheadline {
+			font-size: 1.15rem;
+			line-height: 1.75;
+			max-width: 720px;
+			margin-bottom: var(--space-large);
+			color: #444;
+		}
+
+		.hero-differentiators {
+			display: grid;
+			gap: var(--space-small);
+			margin-bottom: var(--space-large);
+
+			@media (min-width: 640px) {
+				grid-template-columns: repeat(3, 1fr);
+			}
+		}
+
+		.hero-diff-card {
+			border-left: 3px solid var(--c-green);
+			padding-left: var(--space-small);
+
+			h3 {
+				font-size: 0.95rem;
+				font-weight: 700;
+				margin-bottom: 0.4rem;
+				color: var(--c-dark);
+				font-style: normal;
+				text-transform: none;
+				letter-spacing: 0;
+			}
+
+			p {
+				font-size: 0.9rem;
+				line-height: 1.6;
+				color: #555;
+				margin: 0;
+			}
 		}
 
 		.hero-ctas {
 			display: flex;
-			gap: 1rem;
+			align-items: center;
+			gap: var(--space-medium);
 			flex-wrap: wrap;
 		}
 
-		.hero-image {
-			position: relative;
-			max-width: 400px;
-			margin: 0 auto;
-
-			img {
-				width: 100%;
-			}
-
-			:global(svg) {
-				position: absolute;
-				top: 50%;
-				transform: translateY(-23%) translateX(-16%);
-			}
+		.hero-secondary-cta {
+			font-size: 1rem;
+			font-weight: 500;
+			color: var(--c-dark);
 		}
 	}
 
-	@media screen and (min-width: 768px) {
-		.hero .hero-content {
-			grid-template-columns: 1fr 1fr;
+	/* Who We Treat */
+	.who-we-treat {
+		padding: var(--space-xlarge) 0;
+		background: #f8f8f8;
+
+		h2 {
+			text-align: center;
+			margin-bottom: var(--space-large);
+		}
+
+		.who-icons {
+			display: flex;
+			gap: 2rem;
+			justify-content: center;
+			flex-wrap: wrap;
+			padding: 1rem 0;
+		}
+
+		.who-card {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			text-decoration: none;
+			flex-shrink: 0;
+			width: 120px;
+			transition: transform 0.3s ease;
+
+			&:hover {
+				transform: translateY(-4px);
+			}
+
+			.who-icon {
+				width: 100px;
+				height: 100px;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				margin-bottom: var(--space-small);
+				transition: transform 0.3s ease;
+
+				img {
+					width: 100%;
+					height: 100%;
+					object-fit: contain;
+					mix-blend-mode: multiply;
+				}
+			}
+
+			&:hover .who-icon {
+				transform: scale(1.1);
+			}
+
+			h3 {
+				font-size: 0.95rem;
+				color: var(--c-dark);
+				text-align: center;
+				margin: 0;
+				line-height: 1.3;
+			}
 		}
 	}
 
@@ -255,6 +343,7 @@
 			scroll-behavior: smooth;
 			padding: 1rem 0;
 			flex: 1;
+			justify-content: center;
 
 			/* Hide scrollbar but keep functionality */
 			scrollbar-width: none;
@@ -285,6 +374,13 @@
 				justify-content: center;
 				margin-bottom: var(--space-small);
 				transition: transform 0.3s ease;
+
+				img {
+					width: 100%;
+					height: 100%;
+					object-fit: contain;
+					mix-blend-mode: multiply;
+				}
 			}
 
 			&:hover .condition-icon {
@@ -354,32 +450,6 @@
 				color: var(--c-green);
 				font-weight: 500;
 			}
-		}
-	}
-
-	/* SEO Content */
-	.seo-content {
-		text-align: center;
-
-		h2 {
-			margin-bottom: var(--space-medium);
-		}
-
-		p {
-			max-width: 800px;
-			margin: 0 auto var(--space-medium) auto;
-			font-size: 1.0625rem;
-			line-height: 1.7;
-		}
-	}
-
-	/* Video Section */
-	.video-section {
-		padding: var(--space-xlarge) 0;
-		background-color: #f8f8f8;
-
-		.container {
-			max-width: 800px;
 		}
 	}
 

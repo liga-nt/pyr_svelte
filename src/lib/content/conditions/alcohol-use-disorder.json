@@ -1,0 +1,58 @@
+{
+  "seo": {
+    "title": "Alcohol Use Disorder Treatment in St. Louis | Plan Your Recovery",
+    "description": "Evidence-based treatment for alcohol use disorder in St. Louis. CBT, motivational interviewing, medication-assisted treatment including naltrexone and outpatient detox."
+  },
+  "condition": {
+    "name": "Alcohol Use Disorder",
+    "alternateName": ["AUD", "Alcoholism", "Alcohol Addiction", "Problem Drinking"],
+    "schemaDescription": "Alcohol use disorder is a medical condition characterized by an impaired ability to stop or control alcohol use despite adverse social, occupational, or health consequences."
+  },
+  "hero": {
+    "headline": "Alcohol Use Disorder",
+    "intro": "Alcohol use disorder is the most common substance use disorder in the United States, and one of the most undertreated. Most people who struggle with alcohol never receive any treatment — often because of stigma, or because they don't believe they're 'bad enough' to need help. The reality is that effective treatment exists at every level of severity."
+  },
+  "criteria": {
+    "heading": "What Is Alcohol Use Disorder?",
+    "description": "The DSM-5 defines alcohol use disorder as a problematic pattern of alcohol use leading to significant impairment or distress, with at least 2 of the following occurring within a 12-month period:",
+    "items": [
+      {"label": "Drinking more than intended", "description": "Often drinking more or for longer than you planned to."},
+      {"label": "Failed attempts to cut back", "description": "Wanting to cut down or control drinking but being unable to."},
+      {"label": "Significant time spent", "description": "Spending a lot of time obtaining alcohol, drinking, or recovering from its effects."},
+      {"label": "Cravings", "description": "A strong desire or urge to drink."},
+      {"label": "Failure to meet obligations", "description": "Drinking interferes with work, school, or home responsibilities."},
+      {"label": "Continued use despite problems", "description": "Continuing to drink even though it's causing relationship, legal, or health problems."},
+      {"label": "Giving up activities", "description": "Cutting back on or giving up social, occupational, or recreational activities because of drinking."},
+      {"label": "Drinking in dangerous situations", "description": "Drinking while driving, operating machinery, or in other risky situations."},
+      {"label": "Tolerance", "description": "Needing more alcohol to get the same effect, or feeling less effect with the same amount."},
+      {"label": "Withdrawal", "description": "Experiencing withdrawal symptoms — sweating, shaking, anxiety, nausea — when cutting back or stopping."}
+    ],
+    "note": "2–3 criteria indicate mild AUD; 4–5 moderate; 6+ severe. Severity does not determine whether you deserve treatment — any level can cause significant harm and respond to treatment."
+  },
+  "howItFeels": {
+    "heading": "What Alcohol Use Disorder Actually Looks Like",
+    "paragraphs": [
+      "Most people with alcohol use disorder are not what the stereotype suggests. They are parents, professionals, caregivers, and students. They often function — sometimes very well — for years before things become undeniable. The disorder tends to progress, slowly enough that it's easy to normalize each new level.",
+      "Alcohol is uniquely dangerous among substances because withdrawal can be medically serious. Stopping abruptly after heavy, prolonged use can cause seizures or delirium tremens — a potentially fatal condition. This is not meant to frighten, but to explain why medical supervision of detoxification is important.",
+      "There is also enormous shame associated with alcohol problems, often worse than with other substances because alcohol is legal and social. People often wait years longer than they should because they're comparing themselves to a more severe version they believe they haven't reached yet. There is no threshold of severity required to deserve help."
+    ]
+  },
+  "treatmentSection": {
+    "heading": "How We Treat Alcohol Use Disorder",
+    "intro": "Effective, evidence-based treatment for AUD exists and works. We use a combination of approaches tailored to your goals — whether that means abstinence or moderation, and whether you need medical support for withdrawal or can transition directly to outpatient care."
+  },
+  "treatments": [
+    {"name": "Cognitive Behavioral Therapy", "description": "CBT for AUD addresses the thoughts, feelings, and situations that trigger drinking, and builds practical skills for managing cravings and high-risk situations."},
+    {"name": "Motivational Interviewing", "description": "MI helps people who are ambivalent about change resolve that ambivalence — not by arguing for sobriety, but by helping you clarify your own values and goals."},
+    {"name": "Medication-Assisted Treatment", "description": "Naltrexone reduces cravings and the rewarding effects of alcohol. It is FDA-approved, highly effective, and dramatically underused. Other medications (acamprosate, disulfiram) are also available depending on your situation."},
+    {"name": "Outpatient Detoxification", "description": "For people with significant physical dependence, we can supervise a medically managed outpatient detox, reducing the risk of withdrawal complications without requiring hospitalization."},
+    {"name": "Family Therapy", "description": "Alcohol problems affect entire family systems. We work with families to set consistent expectations, improve communication, and support sustained recovery."}
+  ],
+  "faqs": [
+    {"question": "Do I have to want to quit completely, or can I try to moderate?", "answer": "Both are legitimate goals, and we'll work with whatever you're willing to try. Research supports both abstinence-based and moderation-oriented treatment approaches. That said, people with more severe AUD typically have much better outcomes with abstinence. We'll have an honest conversation about what's likely to work for your situation."},
+    {"question": "Is it dangerous to stop drinking on my own?", "answer": "It can be. People who drink heavily every day, or who have a history of withdrawal seizures, should not stop abruptly without medical supervision. Alcohol withdrawal is one of the few withdrawal syndromes that can be life-threatening. If you're uncertain, call us — we'd rather help you be safe."},
+    {"question": "Does naltrexone really work?", "answer": "Yes. Naltrexone is one of the best-supported pharmacological treatments for AUD. It reduces the pleasurable effects of alcohol and decreases craving. It works best combined with therapy, and it doesn't require full abstinence to be effective — it's also used in the Sinclair Method, which some people find useful."},
+    {"question": "I've tried AA and it didn't work for me. What else is there?", "answer": "Quite a bit. AA works well for many people, but it's not the only evidence-supported path. CBT, motivational interviewing, SMART Recovery, medication, and combinations of these have solid research behind them. Not working for you in AA doesn't mean recovery isn't possible — it means you may need a different approach."},
+    {"question": "What if I'm also dealing with depression or anxiety?", "answer": "That's the norm, not the exception. Depression, anxiety, and alcohol use disorder co-occur at very high rates. We treat them together, because addressing only one usually means the other undermines your progress. Sometimes the mental health condition came first; sometimes alcohol use created or worsened it. Either way, integrated treatment works better than sequential treatment."}
+  ]
+}

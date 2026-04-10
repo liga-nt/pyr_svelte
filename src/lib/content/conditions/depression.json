@@ -1,0 +1,56 @@
+{
+  "seo": {
+    "title": "Depression Treatment in St. Louis | Plan Your Recovery",
+    "description": "Evidence-based treatment for major depressive disorder and persistent depression in St. Louis. CBT, medication management, and integrated care."
+  },
+  "condition": {
+    "name": "Major Depressive Disorder",
+    "alternateName": ["Depression", "Clinical Depression", "MDD"],
+    "schemaDescription": "Major depressive disorder is a common and serious medical illness characterized by persistent feelings of sadness, hopelessness, and loss of interest that significantly impair daily functioning."
+  },
+  "hero": {
+    "headline": "Depression",
+    "intro": "Depression is one of the most common and most treatable mental health conditions. It is not a character flaw, a bad attitude, or something you can will your way out of. It is a medical condition with well-understood biology and highly effective treatments."
+  },
+  "criteria": {
+    "heading": "What Is Depression?",
+    "description": "Major depressive disorder is diagnosed when five or more of the following symptoms are present during the same two-week period — and at least one is depressed mood or loss of interest:",
+    "items": [
+      {"label": "Depressed mood", "description": "Feeling sad, empty, hopeless, or tearful most of the day, nearly every day."},
+      {"label": "Loss of interest", "description": "Markedly diminished interest or pleasure in activities that used to matter."},
+      {"label": "Changes in weight or appetite", "description": "Significant weight loss or gain, or changes in appetite that aren't explained by dieting."},
+      {"label": "Sleep changes", "description": "Insomnia or sleeping too much almost every day."},
+      {"label": "Fatigue", "description": "Loss of energy or feeling exhausted even when you haven't done much."},
+      {"label": "Difficulty concentrating", "description": "Trouble thinking clearly, concentrating, or making decisions."},
+      {"label": "Feelings of worthlessness", "description": "Excessive guilt or a pervasive sense of being a failure or burden."},
+      {"label": "Psychomotor changes", "description": "Moving or speaking more slowly than usual, or feeling agitated and restless."},
+      {"label": "Thoughts of death", "description": "Recurrent thoughts of death or suicide — not just fear of dying."}
+    ],
+    "note": "A diagnosis requires that these symptoms cause significant distress or impairment in work, relationships, or daily functioning, and are not better explained by substances or another medical condition."
+  },
+  "howItFeels": {
+    "heading": "What Depression Actually Feels Like",
+    "paragraphs": [
+      "Depression rarely looks the way it's portrayed. Many people with depression function — they go to work, take care of their families, answer emails. What others don't see is what it costs them to do those things, or the flatness and emptiness that waits for them when they stop.",
+      "Some people experience depression as sadness. Others describe it as numbness, disconnection, or a persistent feeling that nothing matters. Irritability is common, especially in men and adolescents. Sleep problems — both insomnia and sleeping too much — are nearly universal.",
+      "One of the cruelest features of depression is that it distorts your thinking about itself. It tells you that treatment won't help, that you don't deserve help, or that feeling this way is simply who you are. That voice is a symptom — not the truth."
+    ]
+  },
+  "treatmentSection": {
+    "heading": "How We Treat Depression",
+    "intro": "At Plan Your Recovery, we use evidence-based approaches tailored to your specific situation. Most people with depression benefit from therapy, medication, or a combination of both."
+  },
+  "treatments": [
+    {"name": "Cognitive Behavioral Therapy (CBT)", "description": "CBT is the most extensively researched therapy for depression. It targets the patterns of thinking and behavior that maintain depressive symptoms and teaches practical skills for changing them."},
+    {"name": "Medication Management", "description": "Antidepressants are effective for moderate to severe depression, particularly when combined with therapy. Our psychiatric team can evaluate whether medication makes sense for your situation."},
+    {"name": "Interpersonal and Supportive Therapy", "description": "For depression connected to grief, relationship difficulties, or life transitions, interpersonal approaches address the relational context that often sustains depressive episodes."},
+    {"name": "Integrated Care", "description": "Depression and substance use often co-occur and reinforce each other. We treat both together rather than asking you to address one before the other."}
+  ],
+  "faqs": [
+    {"question": "What's the difference between depression and just feeling sad?", "answer": "Sadness is a normal human emotion that comes and goes in response to life events. Depression is a persistent state that doesn't lift with time or positive events, significantly impairs your ability to function, and comes with a cluster of physical and cognitive symptoms beyond low mood. If it's been more than two weeks and you're not getting better, it's worth talking to someone."},
+    {"question": "Can I get better without medication?", "answer": "Many people do. CBT has outcomes comparable to antidepressants for mild to moderate depression, and the skills you develop in therapy tend to protect against future episodes in ways medication alone does not. That said, medication is often the right choice — especially for severe depression — and isn't something to avoid out of stigma."},
+    {"question": "What if I've had depression my whole life?", "answer": "Persistent depressive disorder (dysthymia) is a lower-grade but chronic form of depression that can feel like 'just how I am.' It is treatable. Many people who have lived with it for years find that with the right combination of therapy and sometimes medication, they feel substantially better than they thought possible."},
+    {"question": "Does depression come back after treatment?", "answer": "Depression can recur, particularly if the underlying factors haven't been addressed. The good news is that people who respond to treatment once tend to respond again. Skills learned in therapy — especially CBT — reduce relapse risk and give you tools to recognize and respond earlier if symptoms return."},
+    {"question": "How do I know if my depression is related to substance use?", "answer": "They often co-occur and reinforce each other. Alcohol, in particular, is a depressant that worsens depressive symptoms even as it temporarily relieves anxiety or emotional pain. We assess both and treat them together — addressing only one usually means the other undermines your progress."}
+  ]
+}

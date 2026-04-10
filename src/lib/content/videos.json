@@ -1,0 +1,38 @@
+{
+  "seo": {
+    "title": "Videos | Plan Your Recovery",
+    "description": "Educational videos on addiction, medication-assisted treatment, and mental health from Plan Your Recovery."
+  },
+  "videos": [
+    {
+      "title": "Awareness Month",
+      "videoID": "IM0ujojwzmI",
+      "category": "In the Media",
+      "description": "Plan Your Recovery on alcohol awareness."
+    },
+    {
+      "title": "Beyond Rock Bottom: Medication Assisted Treatment",
+      "videoID": "MxO164ADK7Y",
+      "category": "Animations",
+      "description": "An animated explainer on medication-assisted treatment for addiction."
+    },
+    {
+      "title": "Gaming",
+      "videoID": "T0hMdl_nv9k",
+      "category": "In the Media",
+      "description": "Gaming addiction — Plan Your Recovery in the media."
+    },
+    {
+      "title": "MAT: New Trends and Treatments",
+      "videoID": "4MH2IEzHtmU",
+      "category": "In the Media",
+      "description": "Medication-assisted treatment: new trends and treatments."
+    },
+    {
+      "title": "Understanding Addiction: The Gas and Brakes of Human Motivation",
+      "videoID": "hg09_-89caY",
+      "category": "Animations",
+      "description": "A conceptual framework for understanding addiction and motivation."
+    }
+  ]
+}

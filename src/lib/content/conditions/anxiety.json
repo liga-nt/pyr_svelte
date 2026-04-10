@@ -1,0 +1,54 @@
+{
+  "seo": {
+    "title": "Anxiety Treatment in St. Louis | Plan Your Recovery",
+    "description": "Evidence-based treatment for generalized anxiety, social anxiety, and panic disorder in St. Louis. CBT, exposure therapy, and integrated care."
+  },
+  "condition": {
+    "name": "Anxiety Disorders",
+    "alternateName": ["Generalized Anxiety Disorder", "Social Anxiety", "Panic Disorder"],
+    "schemaDescription": "Anxiety disorders are a group of conditions characterized by persistent, excessive worry or fear that is difficult to control and significantly interferes with daily functioning. They include generalized anxiety disorder, social anxiety disorder, panic disorder, and specific phobias."
+  },
+  "hero": {
+    "headline": "Anxiety",
+    "intro": "Anxiety disorders are the most common mental health conditions in the United States — and among the most treatable. If your worry feels impossible to turn off, if fear is shaping your decisions, or if your body is running at a constant low-grade alarm, you are not weak and you are not stuck. Effective treatment exists, and it works."
+  },
+  "criteria": {
+    "heading": "What Is an Anxiety Disorder?",
+    "description": "Anxiety disorders include several related conditions. Generalized Anxiety Disorder (GAD) — the most common — is diagnosed when excessive worry about multiple areas of life is present more days than not for at least six months, is difficult to control, and is associated with three or more of the following:",
+    "items": [
+      {"label": "Restlessness", "description": "Feeling keyed up, on edge, or unable to settle — even when nothing specific is wrong."},
+      {"label": "Fatigue", "description": "Being easily tired, often as a direct result of the mental effort anxiety demands."},
+      {"label": "Difficulty concentrating", "description": "Trouble focusing because your mind keeps drifting back to worries, or going blank."},
+      {"label": "Irritability", "description": "Shorter fuse than usual, often because you're already operating at capacity."},
+      {"label": "Muscle tension", "description": "Chronic tightness in the neck, shoulders, jaw, or elsewhere — often so constant you've stopped noticing it."},
+      {"label": "Sleep disturbance", "description": "Trouble falling asleep, staying asleep, or waking early because your mind won't stop."}
+    ],
+    "note": "Social anxiety disorder centers on fear of social situations and judgment by others. Panic disorder involves recurrent, unexpected panic attacks and persistent fear of future attacks. Specific phobias involve intense fear of a particular object or situation. All are diagnosable, all are treatable."
+  },
+  "howItFeels": {
+    "heading": "What Anxiety Actually Feels Like",
+    "paragraphs": [
+      "Anxiety isn't just worry. It lives in the body. Heart racing before a meeting that hasn't started. Tightness in your chest when your phone rings. A stomach that won't settle on Sunday nights. Your nervous system has learned to treat ordinary situations as emergencies — and it's exhausting.",
+      "Social anxiety can look like shyness from the outside but feels like a constant internal performance review. You replay what you said, you rehearse what you're about to say, and sometimes you avoid saying anything at all. Over time, avoidance becomes its own kind of prison.",
+      "Panic attacks are one of the most frightening experiences a person can have — heart pounding, difficulty breathing, a sense that something terrible is about to happen or that you might die. They're not dangerous, but they feel like they are. And the fear of having another one often becomes as limiting as the attacks themselves.",
+      "One thing almost all anxiety disorders have in common: avoidance makes them worse. The relief you get from avoiding the feared thing teaches your brain that the threat was real. Effective treatment does the opposite — it gradually, safely, teaches your nervous system that you can handle more than it thinks."
+    ]
+  },
+  "treatmentSection": {
+    "heading": "How We Treat Anxiety",
+    "intro": "CBT is the gold-standard treatment for anxiety disorders, with decades of research behind it. We tailor the approach to the specific type of anxiety you're dealing with — and to what's actually getting in the way of your life."
+  },
+  "treatments": [
+    {"name": "Cognitive Behavioral Therapy (CBT)", "description": "CBT targets both the thought patterns that fuel anxiety and the avoidance behaviors that maintain it. You learn to recognize distorted thinking, tolerate uncertainty, and respond differently to feared situations — without having to white-knuckle your way through life."},
+    {"name": "Exposure Therapy", "description": "A component of CBT, exposure therapy involves gradually approaching feared situations rather than avoiding them. Done well, it's not about flooding or forcing yourself through terror — it's a structured, collaborative process that systematically reduces fear responses."},
+    {"name": "Medication Management", "description": "SSRIs and SNRIs are first-line medications for anxiety disorders and are effective, non-habit-forming, and often most helpful when combined with therapy. Benzodiazepines may provide short-term relief but are not recommended as a primary treatment due to dependency risk — especially for people with substance use history."},
+    {"name": "Integrated Care for Anxiety and Substance Use", "description": "Alcohol and other substances are commonly used to manage anxiety — and they work, briefly. But they worsen anxiety over time and create a cycle that's hard to break. We treat both together, understanding that they reinforce each other."}
+  ],
+  "faqs": [
+    {"question": "What's the difference between normal worry and an anxiety disorder?", "answer": "Everyone worries. Worry becomes a disorder when it's excessive relative to the actual situation, hard to control, present more days than not, and causing real impairment — affecting your sleep, your work, your relationships, or your ability to enjoy life. If anxiety is making decisions for you, that's worth addressing."},
+    {"question": "Why does avoiding things make anxiety worse?", "answer": "Avoidance feels like relief in the moment, but it sends a message to your brain: 'that situation was dangerous, and I was right to escape.' This reinforces the threat response, making anxiety stronger over time. Each avoided situation shrinks your world a little. CBT and exposure therapy reverse this by helping you approach feared situations gradually and learn, through experience, that they are manageable."},
+    {"question": "How does CBT actually help with anxiety?", "answer": "CBT works on two levels. Cognitively, it helps you identify and challenge the catastrophic or distorted thinking patterns that amplify anxiety — like overestimating danger or underestimating your ability to cope. Behaviorally, it helps you stop avoiding the things anxiety tells you to avoid. Most people see meaningful improvement within 12–20 sessions, and the skills continue to work after treatment ends."},
+    {"question": "Is alcohol helping my anxiety or making it worse?", "answer": "Both, in a sense — and that's the problem. Alcohol reduces anxiety in the short term by suppressing the central nervous system. But as it metabolizes, it causes a rebound effect that increases anxiety, often by the next morning. Over time, regular drinking raises your baseline anxiety level and makes the disorder harder to treat. If you're using alcohol to manage anxiety, that's important information, and we address it directly."},
+    {"question": "My teenager seems anxious all the time. Is that normal?", "answer": "Some anxiety in adolescence is developmentally normal. But anxiety disorders are the most common mental health conditions in young people, and they're often missed or attributed to personality. Signs that it's more than typical stress include avoidance of school or social situations, physical complaints without medical cause, significant decline in functioning, and distress that doesn't improve. Early treatment makes a substantial difference."}
+  ]
+}

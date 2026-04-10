@@ -1,0 +1,68 @@
+{
+  "seo": {
+    "title": "Psychiatric Evaluation & Medication Management | Plan Your Recovery",
+    "description": "Comprehensive psychiatric evaluation and ongoing medication management for depression, anxiety, ADHD, bipolar disorder, and addiction in St. Louis."
+  },
+  "hero": {
+    "headline": "Psychiatric Evaluation & Medication Management",
+    "intro": "Our psychiatric team provides comprehensive evaluation and ongoing medication management for depression, anxiety, ADHD, bipolar disorder, and co-occurring substance use disorders. We take time to understand your full history — not just your symptoms — before recommending treatment."
+  },
+  "whatItInvolves": {
+    "heading": "What an Evaluation Involves",
+    "paragraphs": [
+      "A psychiatric evaluation is a comprehensive conversation — typically 45 to 60 minutes — covering your mental health history, current symptoms, prior treatments, medications, family history, and goals. We are not checking boxes. We are trying to understand what is actually going on for you.",
+      "Where a primary care physician might have 10 minutes and a symptom checklist, a psychiatric evaluation gives us time to explore nuance: what the depression looks like, whether anxiety is driving it, whether there's a trauma history shaping the picture, whether what looks like ADHD might be something else. The diagnosis we arrive at — and the treatment we recommend — depends on that fuller understanding.",
+      "If medication is appropriate, we'll discuss options honestly: what the evidence shows, what to expect, how long before effects are noticeable, and what the alternatives are. We don't push medication. We explain the options and make decisions together."
+    ]
+  },
+  "ongoingManagement": {
+    "heading": "Ongoing Medication Management",
+    "paragraphs": [
+      "Starting medication is the beginning, not the end. Ongoing medication management means monitoring how you're responding — adjusting doses, switching medications when the first choice isn't working, watching for side effects, and checking in on how the rest of your life is going.",
+      "Medication management works best when coordinated with therapy. Our psychiatric team and therapists communicate and treat the same people, which means medication decisions are informed by the full clinical picture — not just what you report in a brief follow-up."
+    ]
+  },
+  "whatToExpect": {
+    "heading": "What to Expect",
+    "items": [
+      {
+        "label": "A thorough first appointment",
+        "description": "The initial evaluation is 45–60 minutes. We take time to understand your history before recommending anything."
+      },
+      {
+        "label": "Honest recommendations",
+        "description": "We'll tell you what we think will help, what the evidence shows, and what the tradeoffs are — so you can make an informed decision."
+      },
+      {
+        "label": "Coordinated with therapy",
+        "description": "Our psychiatric and therapy teams work together. If you're seeing both, they communicate — you don't have to relay everything twice."
+      },
+      {
+        "label": "Telehealth available",
+        "description": "Most appointments are available via telehealth throughout Missouri. In-person is available if you prefer."
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Do I need a referral to see a psychiatrist?",
+      "answer": "No referral is required. You can call directly to schedule. If you're already working with a therapist at our practice, they may help coordinate your care — but you can also come to psychiatry first."
+    },
+    {
+      "question": "How is a psychiatric evaluation different from a therapy appointment?",
+      "answer": "Psychiatric evaluation focuses on diagnosis and medication. Therapy focuses on talk-based treatment — cognitive, behavioral, and relational approaches to changing how you think, feel, and act. Many people benefit from both, and our practice provides them in a coordinated way."
+    },
+    {
+      "question": "What conditions do you treat?",
+      "answer": "Depression, anxiety disorders, ADHD, bipolar disorder, PTSD, OCD, and co-occurring substance use disorders. We also prescribe buprenorphine for opioid use disorder."
+    },
+    {
+      "question": "What if I don't want medication?",
+      "answer": "That's a valid choice and we'll discuss it. For some conditions — severe depression, OCD, opioid use disorder — medication significantly improves outcomes, and we'll say so clearly. But we don't push medication. We explain the evidence and respect your decision."
+    },
+    {
+      "question": "How often will I need to come in?",
+      "answer": "It depends on where you are in treatment. The initial evaluation is longer and more detailed. Follow-up appointments are typically shorter — often 20–30 minutes — and become less frequent as your situation stabilizes. Telehealth makes routine follow-ups more convenient."
+    }
+  ]
+}

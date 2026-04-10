@@ -1,0 +1,97 @@
+{
+  "seo": {
+    "title": "Treatment Approaches | Plan Your Recovery",
+    "description": "Evidence-based treatment approaches used at Plan Your Recovery: CBT, family therapy, medication-assisted treatment, contingency management, and motivational interviewing."
+  },
+  "hero": {
+    "headline": "How We Treat",
+    "intro": "Every approach we use has a substantial evidence base — meaning research shows it works, not just that it makes intuitive sense. Most of our clinicians draw on multiple approaches depending on the person and the problem. What follows is an honest account of what each approach is, what it's good for, and what to expect from it."
+  },
+  "approaches": [
+    {
+      "slug": "cbt",
+      "title": "Cognitive Behavioral Therapy (CBT)",
+      "link": "/cbt/",
+      "intro": "CBT is the most thoroughly researched form of psychotherapy, with strong evidence for depression, anxiety, addiction, PTSD, OCD, and many other conditions. It is central to how most of our clinicians work.",
+      "body": [
+        "CBT is based on a straightforward but powerful insight: how we think shapes how we feel, and how we feel shapes what we do. Patterns of distorted or unhelpful thinking — catastrophizing, all-or-nothing thinking, shame-based beliefs — maintain emotional distress and drive unwanted behavior. CBT is not about thinking positively. It is about thinking accurately.",
+        "A CBT therapist helps you identify the thoughts and beliefs causing problems, test whether they hold up to scrutiny, and develop more useful ways of interpreting your experience. The behavioral component is equally important: behavioral activation for depression, gradual exposure for anxiety, behavioral experiments to test old assumptions. Changing behavior changes how you feel — sometimes before the thinking changes.",
+        "For addiction specifically, CBT targets the beliefs that maintain use (that you can't manage emotions without using, that you're too far gone to change) and the triggers — internal and external — that set off cravings. Sessions focus on building concrete skills for high-risk situations, not just insight."
+      ],
+      "whatToExpect": [
+        { "label": "Structured sessions", "description": "Sessions have an agenda. You work on specific problems, practice skills, and often complete exercises between sessions." },
+        { "label": "Time-limited", "description": "CBT is typically shorter-term than open-ended therapy — often 12–20 sessions — though many people continue longer." },
+        { "label": "Skills-focused", "description": "You leave sessions with tools you can use. The goal is to become your own therapist over time." },
+        { "label": "Collaborative", "description": "You and your therapist work as a team. Your goals and priorities drive the work." }
+      ]
+    },
+    {
+      "slug": "family-therapy",
+      "title": "Family Therapy",
+      "link": "/family-therapy/",
+      "intro": "Addiction and mental health problems don't happen in isolation — they develop within families and affect entire family systems. Family therapy addresses those dynamics directly rather than treating one person while everyone else waits on the outside.",
+      "body": [
+        "Research consistently shows that family involvement improves outcomes for addiction treatment — particularly for teens and young adults. When family members understand what's happening, communicate more effectively, and set consistent expectations, recovery is more likely to take hold and stick.",
+        "Family therapy is not about assigning blame. It is about understanding how family members have adapted to the problem — sometimes in ways that inadvertently maintain it — and changing those patterns together. For teenagers especially, the family is the treatment context. What happens at home matters as much as what happens in the therapist's office.",
+        "We use family therapy for parents of teens dealing with addiction or mental health problems, couples where one or both partners are struggling, and adults whose family relationships have been damaged by substance use. We also offer consultations for family members who want to understand how to help without enabling — even when the person with the problem isn't ready to come in."
+      ],
+      "whatToExpect": [
+        { "label": "Whole-system focus", "description": "The therapist's client is the relationship and the family system, not any one person." },
+        { "label": "Parent and family coaching", "description": "Family members learn how to set consistent, strategic expectations and respond to behaviors in ways that help rather than maintain the problem." },
+        { "label": "Communication work", "description": "Many families in crisis have developed patterns — lectures, arguments, silence — that increase tension. Sessions focus on changing those patterns." },
+        { "label": "Flexible format", "description": "Some sessions include the full family; others involve individuals. Structure follows what's clinically useful, not a fixed format." }
+      ]
+    },
+    {
+      "slug": "mat",
+      "title": "Medication-Assisted Treatment (MAT)",
+      "link": "/mat/",
+      "intro": "Medication-assisted treatment uses FDA-approved medications alongside counseling to treat opioid and alcohol use disorders. It is not replacing one addiction with another — it is using medicine the way medicine is supposed to be used.",
+      "body": [
+        "Buprenorphine (Suboxone) is the most evidence-supported treatment available for opioid use disorder. It works by partially activating opioid receptors, which eliminates withdrawal and reduces cravings without producing the high of full opioids. People on buprenorphine have dramatically lower rates of overdose, relapse, and death. The evidence is unambiguous, and the moral resistance to it — still common in some treatment settings — has cost lives.",
+        "For alcohol use disorder, naltrexone reduces the rewarding effects of drinking and helps people cut back or stop. When combined with counseling, outcomes are significantly better than counseling alone. Outpatient detoxification — medically supervised withdrawal management using medications — is an option for people who need help stopping safely but don't require inpatient hospitalization.",
+        "MAT is not a shortcut or a lesser form of treatment. The research consistently shows that combining medication with therapy produces better outcomes than either alone. Medication stabilizes the neurological chaos of active addiction; therapy builds the skills and insight that make lasting change possible."
+      ],
+      "whatToExpect": [
+        { "label": "Rapid access for OUD", "description": "New buprenorphine patients are typically seen within 1–3 days. Opioid use disorder is a medical emergency." },
+        { "label": "Medication and therapy together", "description": "MAT works best when combined with counseling. Our practice provides both, coordinated." },
+        { "label": "Ongoing monitoring", "description": "Regular appointments to adjust dosing, monitor progress, and address anything else that comes up." },
+        { "label": "No fixed endpoint", "description": "How long you stay on medication depends on your situation, not a program length. Some people taper over months; others benefit from longer-term treatment." }
+      ]
+    },
+    {
+      "slug": "contingency-management",
+      "title": "Contingency Management",
+      "link": "/contingency-management/",
+      "intro": "Contingency management uses systematic positive reinforcement — rewards for abstinence and recovery behaviors — to change behavior. It has some of the strongest evidence of any intervention for stimulant use disorder and is highly effective with adolescents.",
+      "body": [
+        "The logic is simple: behavior that is reinforced is more likely to recur. Contingency management operationalizes that principle by providing tangible rewards — increasingly valuable ones — for verified abstinence (typically confirmed by urine drug screens) and participation in treatment. It works because it directly engages the reward pathways that addiction has hijacked, competing with the rewarding properties of the substance itself.",
+        "Contingency management is especially effective for stimulant use disorders (cocaine, methamphetamine, prescription stimulants), for which there is no medication treatment with comparable efficacy. For these conditions, it may be the most powerful tool we have. It also has strong evidence for adolescents with substance use problems, where external motivation and behavioral incentives are particularly important given the still-developing capacity for self-regulation.",
+        "It is most effective when embedded in a broader treatment approach — individual therapy, family involvement, and case management — rather than used as a stand-alone intervention. The goal is to build intrinsic motivation and skills while the contingencies provide the initial fuel for behavioral change."
+      ],
+      "whatToExpect": [
+        { "label": "Regular drug screens", "description": "Abstinence is verified through urine screens. Results directly determine reward eligibility." },
+        { "label": "Graduated rewards", "description": "Rewards increase in value with consecutive clean screens, creating momentum and incentive to continue." },
+        { "label": "Embedded in broader treatment", "description": "CM works alongside individual therapy and family work — it's one component of a coordinated plan, not a stand-alone program." },
+        { "label": "Transparent expectations", "description": "The rules are clear and consistent. There is no ambiguity about what earns a reward and what doesn't." }
+      ]
+    },
+    {
+      "slug": "motivational-interviewing",
+      "title": "Motivational Interviewing",
+      "link": "/motivational-interviewing/",
+      "intro": "Motivational Interviewing is a client-centered approach to helping people resolve ambivalence about change. It is not persuasion. It is a way of having a conversation that helps people find their own reasons to do something different.",
+      "body": [
+        "Most people who are struggling don't arrive ready to change. They're ambivalent — part of them wants things to be different, part of them isn't sure, and part of them is resistant to the idea of being told what to do. Traditional approaches that push hard for change often produce reactance: the harder you push, the more the person digs in. Motivational Interviewing works with that ambivalence rather than against it.",
+        "The approach involves four core skills: engaging (building a working relationship), focusing (identifying what matters to work on), evoking (drawing out the person's own motivation and reasons for change), and planning (when the person is ready, helping them figure out next steps). The therapist's job is to listen carefully, reflect back what the person is saying about why change might matter to them, and resist the urge to lecture or convince.",
+        "MI is used throughout our practice — as a primary approach for people who aren't yet sure they want to change, and as a complement to CBT and other structured therapies. It is particularly useful early in treatment, with adolescents, and with anyone who has had the experience of being pressured into treatment that didn't feel like their own choice."
+      ],
+      "whatToExpect": [
+        { "label": "No pressure", "description": "The therapist isn't trying to convince you of anything. Conversations explore what you want and what's getting in the way." },
+        { "label": "Your goals, not ours", "description": "MI starts from what matters to you — not from what a clinician thinks you should want." },
+        { "label": "Ambivalence is expected", "description": "Not being sure whether you want to change is a normal part of the process, not a problem to overcome before treatment can begin." },
+        { "label": "Often combined with other approaches", "description": "MI frequently transitions into CBT or other structured work once motivation is established — it's a foundation, not a ceiling." }
+      ]
+    }
+  ]
+}

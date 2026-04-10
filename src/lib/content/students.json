@@ -1,0 +1,87 @@
+{
+  "seo": {
+    "title": "College Student Mental Health & Addiction Support | Plan Your Recovery",
+    "description": "Mental health and addiction counseling for college students in St. Louis and via telehealth. CBT, psychiatry, and family-involved care that follows you through the transition."
+  },
+  "hero": {
+    "headline": "Counseling for College Students",
+    "intro": "The transition to college removes most of the structure that kept things manageable in high school — consistent schedules, parental oversight, familiar routines. For students already managing anxiety, depression, ADHD, or substance use, that loss of structure is often when things fall apart. Campus counseling centers help a lot of students, but they're not built for complex or ongoing care. We are."
+  },
+  "concerns": {
+    "headline": "What Brings Students to Us",
+    "items": [
+      {
+        "title": "Anxiety and Depression",
+        "description": "Anxiety and depression are the most common mental health concerns we see in college students — and college is often when they become impossible to outrun. The combination of academic pressure, social uncertainty, and the absence of familiar support systems can push manageable symptoms into clinical territory. Students who developed effective coping strategies in high school sometimes find those strategies stop working when the environment changes this dramatically. Early treatment matters: patterns that get established in college tend to persist."
+      },
+      {
+        "title": "ADHD",
+        "description": "ADHD is frequently underdiagnosed or undertreated going into college, and college is when it tends to become academically disabling. In high school, external structure — class schedules, parental reminders, teacher oversight — compensates for deficits in self-regulation. In college, that structure disappears. Students who managed in high school suddenly can't keep up with deadlines, studying, or basic organization. Therapy can help with time management, executive function, and the anxiety that almost always accompanies ADHD. Psychiatric evaluation can determine whether medication would help."
+      },
+      {
+        "title": "Substance Use",
+        "description": "College is a high-risk period for substance use, and alcohol, cannabis, and stimulant misuse are all common on campus. What's harder to see — especially from inside it — is when use has crossed from social or experimental into something that's affecting grades, relationships, health, or functioning. Academic consequences are one of the clearest early signals. The good news is that early intervention works well. The longer problematic patterns go unaddressed, the harder they are to change."
+      },
+      {
+        "title": "The Transition Itself",
+        "description": "Not every student who struggles is dealing with a diagnosable condition. Sometimes the issue is simply that this transition is harder than expected — leaving home, building a new social world from scratch, navigating independence for the first time. That difficulty is real and worth taking seriously. Therapy doesn't require a crisis or a diagnosis. Sometimes it's just a place to think clearly about what you want and how to get there."
+      }
+    ]
+  },
+  "approach": {
+    "headline": "How We Work with College Students",
+    "items": [
+      {
+        "title": "Cognitive Behavioral Therapy",
+        "description": "CBT is direct and skill-focused — it's well-suited to students who want to understand what's happening and do something about it, not just talk in circles. For anxiety, it involves gradually facing situations you've been avoiding. For depression, it targets the behavioral patterns and thinking styles that maintain low mood. For substance use, it addresses the high-risk situations and cognitive patterns that drive use. It's also time-limited, which matters when semesters have a fixed endpoint."
+      },
+      {
+        "title": "Telehealth for Continuity",
+        "description": "One of the biggest problems with campus counseling is that it restarts every year. We offer telehealth throughout Missouri, which means the same therapist, the same relationship, and the same treatment plan — whether you're at school, home for break, or somewhere in between. Continuity of care is not a luxury; it's often what makes treatment work."
+      },
+      {
+        "title": "Family Involvement That Respects Autonomy",
+        "description": "Parents are often scared, and scared parents can make things harder. We involve families in a way that reduces their anxiety and increases your independence — not one that turns sessions into surveillance. The goal at this stage isn't parental control; it's helping families navigate the transition in a way that supports the student rather than adding to the pressure."
+      },
+      {
+        "title": "Psychiatric Evaluation When Indicated",
+        "description": "When therapy alone isn't enough — or when the question is whether medication might help — we have psychiatrists in-house. That means no referral lag, no starting over with someone new, and a treatment approach where therapy and medication are coordinated rather than managed across separate providers who never talk to each other."
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Why would I choose you over my campus counseling center?",
+      "answer": "Campus counseling centers do good work, but they're typically built for short-term, limited engagement — and they don't follow you home over breaks or into your next year. If you're dealing with something ongoing, or something complex enough to involve medication or family, we're better equipped for that. We also offer telehealth throughout Missouri, so you can see the same therapist wherever you are."
+    },
+    {
+      "question": "My goals and my parents' goals don't always align. Whose side are you on?",
+      "answer": "Yours. The therapist's job is to help you figure out what you want and how to get it — not to enforce your parents' agenda. Family therapy at this stage is about facilitating honest conversations, not reporting back to your parents. If what you want and what your parents want are genuinely in conflict, that's something we can work through — but we start from your perspective."
+    },
+    {
+      "question": "Won't involving my family just mean more parental control?",
+      "answer": "Usually the opposite. When parents understand what's actually going on, their anxiety tends to decrease — and with it the need for control. Parents who are shut out tend to imagine the worst and respond accordingly. Parents who are appropriately informed often become less intrusive, not more. The goal of family involvement at this stage is increasing your independence, not limiting it."
+    },
+    {
+      "question": "I've tried therapy before and it didn't help. Why would this be different?",
+      "answer": "Fair question. Therapy is only as good as the fit and the approach. We'll be direct with you — not just reflect your feelings back at you or offer generic support. If the approach isn't working, we'll say so and try something else. CBT in particular is structured and measurable: you should be able to tell whether it's helping within a few sessions."
+    },
+    {
+      "question": "My grades are slipping and I think it's ADHD. What should I do?",
+      "answer": "A psychiatric evaluation is a good starting point. ADHD is common in college students and often goes undiagnosed until the demands of college exceed what compensatory strategies can handle. An evaluation can clarify whether ADHD is driving the difficulty — and whether medication, therapy, or both would help. Academic consequences are worth taking seriously early."
+    },
+    {
+      "question": "I'm drinking more than I used to. How do I know if it's a problem?",
+      "answer": "The clearest indicators are consequences: grades, relationships, health, or things you regret. If drinking is affecting any of those, it's worth a conversation. You don't need to be dependent on alcohol for it to be worth addressing — patterns are much easier to change early than later. A single assessment appointment can help clarify what's going on."
+    },
+    {
+      "question": "Are sessions available via telehealth?",
+      "answer": "Yes. We offer telehealth throughout Missouri, so you can continue therapy during the semester and over breaks without starting over with someone new. Some students prefer telehealth for the privacy and convenience; others do better in person. We'll figure out what works for you."
+    }
+  ],
+  "cta": {
+    "headline": "Let's Figure Out What You Need",
+    "body": "Whether you're heading to school for the first time or navigating a difficult semester, a conversation is a good place to start. You don't need to have it figured out before you call.",
+    "bookingLink": "/booking/"
+  }
+}

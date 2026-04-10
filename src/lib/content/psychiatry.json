@@ -1,0 +1,78 @@
+{
+  "seo": {
+    "title": "Psychiatry & Medication Management | Plan Your Recovery",
+    "description": "Board-certified psychiatric care and buprenorphine treatment for opioid use disorder in St. Louis. Medication management for mental health and addiction."
+  },
+  "hero": {
+    "headline": "Psychiatry and Medication Management",
+    "intro": "Our psychiatry practice, Medication First, provides comprehensive psychiatric evaluation and medication management for mental health and substance use disorders. We offer buprenorphine (Suboxone) treatment for opioid use disorder, outpatient detoxification for alcohol use disorder, and general psychiatric care for depression, anxiety, ADHD, and other conditions."
+  },
+  "conditions": [
+    { "name": "Depression", "slug": "depression" },
+    { "name": "Anxiety", "slug": "anxiety" },
+    { "name": "ADHD", "slug": "adhd" },
+    { "name": "Bipolar Disorder", "slug": "conditions" },
+    { "name": "Opioid Use Disorder", "slug": "opioid-use-disorder" },
+    { "name": "Alcohol Use Disorder", "slug": "alcohol-use-disorder" },
+    { "name": "Stimulant Use Disorder", "slug": "stimulant-use-disorder" }
+  ],
+  "approaches": [
+    {
+      "title": "Buprenorphine (Suboxone) for Opioid Use Disorder",
+      "description": "New patients are typically seen within 1–3 days. We believe no one should wait weeks for treatment that can be lifesaving.",
+      "detail": "$125/month plus medication cost",
+      "link": "/mat/"
+    },
+    {
+      "title": "Psychiatric Evaluation & Medication Management",
+      "description": "Comprehensive evaluation and ongoing medication management for depression, anxiety, ADHD, bipolar disorder, and other psychiatric conditions.",
+      "link": "/psychiatric-evaluation/"
+    },
+    {
+      "title": "Outpatient Alcohol Detoxification",
+      "description": "Medically supervised outpatient detox for alcohol use disorder, for appropriate candidates who do not require inpatient level of care.",
+      "link": "/outpatient-detox/"
+    },
+    {
+      "title": "Telehealth Throughout Missouri",
+      "description": "Most appointments with Angela Jones are conducted virtually. In-person is available if you prefer."
+    }
+  ],
+  "insurance": {
+    "heading": "Insurance",
+    "body": "Angela Jones accepts UnitedHealthcare, Blue Cross Blue Shield, and Cigna. John Gransbach is out of network. We are happy to discuss fees and payment options when you call."
+  },
+  "faqs": [
+    {
+      "question": "What does a psychiatric evaluation involve?",
+      "answer": "Your first appointment is a comprehensive conversation about your mental health history, current symptoms, medications, and goals. We'll discuss whether medication is appropriate and what options make sense for your situation. Most appointments are 45–60 minutes."
+    },
+    {
+      "question": "How quickly can I be seen for buprenorphine treatment?",
+      "answer": "Typically within 1–3 days. Opioid use disorder is a medical emergency, and we don't believe anyone should wait weeks to access treatment that can be lifesaving."
+    },
+    {
+      "question": "What is buprenorphine (Suboxone)?",
+      "answer": "Buprenorphine is an FDA-approved medication that reduces opioid cravings and withdrawal symptoms. It is one of the most evidence-supported treatments for opioid use disorder, dramatically reducing overdose risk and improving long-term outcomes. It is not \"replacing one addiction with another\" — that's a myth that has cost lives."
+    },
+    {
+      "question": "Do you prescribe medication for mental health conditions other than addiction?",
+      "answer": "Yes. We evaluate and prescribe for depression, anxiety, ADHD, bipolar disorder, and other psychiatric conditions, either independently or coordinated with therapy from our counseling team."
+    },
+    {
+      "question": "Is telehealth available?",
+      "answer": "Yes, throughout Missouri. Most appointments with Angela Jones are virtual unless you prefer in-person."
+    },
+    {
+      "question": "What does outpatient alcohol detox involve?",
+      "answer": "Outpatient alcohol detoxification uses medication to safely manage withdrawal symptoms without hospitalization. You'll be seen regularly during the acute withdrawal period — typically the first several days — and monitored closely. Not everyone is a candidate; we'll assess whether this is safe and appropriate for your situation during your first appointment. If a higher level of care is needed, we'll help coordinate that."
+    }
+  ],
+  "cta": {
+    "heading": "Ready to Get Started?",
+    "body": "Call or text us to schedule. New buprenorphine patients are typically seen within 1–3 days.",
+    "phone": "314-222-5830",
+    "phoneAlt": "314-467-8393",
+    "phoneAltLabel": "Call or text"
+  }
+}

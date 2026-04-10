@@ -1,0 +1,59 @@
+{
+  "seo": {
+    "title": "Stimulant Use Disorder Treatment in St. Louis | Plan Your Recovery",
+    "description": "Evidence-based treatment for cocaine, methamphetamine, and amphetamine use disorder in St. Louis. Contingency management, CBT, and integrated mental health care."
+  },
+  "condition": {
+    "name": "Stimulant Use Disorder",
+    "alternateName": ["Cocaine Addiction", "Meth Addiction", "Amphetamine Use Disorder", "Cocaine Use Disorder"],
+    "schemaDescription": "Stimulant use disorder is a medical condition characterized by a problematic pattern of stimulant use — including cocaine, methamphetamine, or prescription stimulants — leading to significant impairment or distress."
+  },
+  "hero": {
+    "headline": "Stimulant Use Disorder",
+    "intro": "Stimulant use disorder encompasses problematic use of cocaine, methamphetamine, and prescription stimulants such as Adderall or Ritalin when used outside of a prescription. Unlike opioid use disorder, there are currently no FDA-approved medications specifically for stimulant use disorder — but this does not mean treatment is ineffective. Highly evidence-based behavioral treatments exist and produce real outcomes. If you are struggling with cocaine or meth, you are not out of options."
+  },
+  "criteria": {
+    "heading": "What Is Stimulant Use Disorder?",
+    "description": "The DSM-5 defines stimulant use disorder as a problematic pattern of stimulant use leading to significant impairment or distress, with at least 2 of the following occurring within a 12-month period:",
+    "items": [
+      {"label": "Using more than intended", "description": "Using stimulants in larger amounts or over a longer period than you planned."},
+      {"label": "Failed attempts to cut back", "description": "Wanting to stop or reduce stimulant use but finding yourself unable to."},
+      {"label": "Significant time spent", "description": "Spending a great deal of time obtaining stimulants, using them, or recovering from their effects."},
+      {"label": "Cravings", "description": "A strong desire or urge to use stimulants."},
+      {"label": "Failure to meet obligations", "description": "Stimulant use interferes with your responsibilities at work, school, or home."},
+      {"label": "Continued use despite problems", "description": "Continuing to use stimulants even though they are causing relationship, health, or legal problems."},
+      {"label": "Giving up activities", "description": "Withdrawing from social, occupational, or recreational activities you used to value because of stimulant use."},
+      {"label": "Use in dangerous situations", "description": "Using stimulants in physically hazardous situations."},
+      {"label": "Tolerance", "description": "Needing significantly more stimulant to achieve the same effect, or noticing a reduced effect with the same amount."},
+      {"label": "Withdrawal", "description": "Experiencing withdrawal symptoms — fatigue, depression, increased sleep, irritability — when cutting back or stopping."}
+    ],
+    "note": "2–3 criteria indicate mild stimulant use disorder; 4–5 moderate; 6+ severe. Stimulant withdrawal is not medically dangerous the way alcohol withdrawal can be, but it can be psychologically intense — particularly the depression and anhedonia that follow heavy use."
+  },
+  "howItFeels": {
+    "heading": "What Stimulant Use Disorder Actually Looks Like",
+    "paragraphs": [
+      "Stimulants produce intense euphoria, energy, and confidence — and an equally intense crash. The high from cocaine typically lasts 15–30 minutes; the high from methamphetamine can last hours. In both cases, the crash that follows — fatigue, depression, irritability, inability to feel pleasure — drives people back to use far sooner than they intended. This cycle can become consuming very quickly.",
+      "The psychological withdrawal from stimulants is often underestimated. Unlike opioid withdrawal, stimulant withdrawal is not physically dangerous — but it can be profoundly difficult. Heavy users coming down from cocaine or meth frequently experience days of deep fatigue, inability to feel pleasure (anhedonia), disturbed sleep, and depression severe enough to include suicidal thoughts. This is a neurological consequence of dopamine system dysregulation, not a sign of weakness.",
+      "Methamphetamine and cocaine differ in important ways beyond duration of effect. Methamphetamine is more neurotoxic with prolonged heavy use, more likely to produce psychosis — paranoia, hallucinations, delusional thinking — and has a longer recovery arc in terms of cognitive function and emotional regulation. Cocaine is more likely to be associated with high-functioning use that erodes over time. Both can become severe and both respond to treatment.",
+      "The relationship between stimulant use and mental health is significant. Stimulant use produces anxiety, paranoia, and mood instability acutely. Heavy or prolonged use can precipitate or worsen underlying anxiety disorders, bipolar disorder, and psychotic disorders. These effects can persist into early recovery, which is why treating co-occurring mental health conditions is an important part of comprehensive stimulant use disorder treatment."
+    ]
+  },
+  "treatmentSection": {
+    "heading": "How We Treat Stimulant Use Disorder",
+    "intro": "There is no FDA-approved medication for stimulant use disorder, but the behavioral treatments that exist are among the most rigorously studied in addiction medicine. We lead with contingency management and CBT, and we treat co-occurring mental health conditions as part of the same plan — not as a separate issue to be addressed later."
+  },
+  "treatments": [
+    {"name": "Contingency Management", "description": "Contingency management (CM) is the most evidence-supported treatment specifically for stimulant use disorder. It uses structured incentives — rewards for verified abstinence or treatment engagement — to reinforce behavior change. It sounds simple, and the mechanism is straightforward, but the clinical evidence is substantial. CM produces significantly better outcomes for cocaine and methamphetamine use disorder than most other interventions."},
+    {"name": "Cognitive Behavioral Therapy", "description": "CBT for stimulant use disorder addresses the high-risk situations, thought patterns, and emotional states that drive use. It builds concrete coping skills — how to handle cravings, how to navigate social situations where use is expected, how to respond to stress without returning to stimulants. These skills generalize well and support long-term recovery."},
+    {"name": "Treating Co-Occurring Mental Health Conditions", "description": "Depression and anxiety are extremely common in stimulant use disorder — both as causes and consequences of use. We assess for and treat co-occurring conditions as part of your overall care. Stabilizing your mental health is not separate from addressing stimulant use; the two are deeply intertwined, and treating them together produces better outcomes than treating them sequentially."},
+    {"name": "Motivational Interviewing", "description": "Ambivalence about change is normal and expected. Motivational interviewing helps you clarify your own values and goals, and work through the mixed feelings that almost everyone has about stopping something that has also served a function in their life. We don't lecture or argue — we listen and help you find your own reasons to change."},
+    {"name": "Family Therapy", "description": "Stimulant use disorder strains relationships in specific ways — the unpredictability, the secrecy, the financial consequences, the personality changes during use. Family therapy helps repair those relationships, establishes healthy boundaries, and builds a support system that can sustain recovery."}
+  ],
+  "faqs": [
+    {"question": "Why isn't there a medication like buprenorphine for cocaine or meth?", "answer": "It's one of the most active areas in addiction medicine research, and the honest answer is that the neuroscience is more complex. Opioid use disorder involves a specific receptor system that buprenorphine targets precisely. Stimulants primarily affect the dopamine system in ways that are harder to pharmacologically modulate without significant side effects or abuse potential. Multiple medications have shown promise in trials — including naltrexone, bupropion, and modafinil in specific populations — but none has demonstrated consistent enough efficacy to earn FDA approval for stimulant use disorder. Research is ongoing, and this may change."},
+    {"question": "What is contingency management and does it really work?", "answer": "Contingency management is a behavioral treatment that provides tangible rewards — typically small monetary vouchers or prizes — for verified abstinence or other treatment goals like attending appointments. It is grounded in the basic behavioral science of reinforcement. And yes, it works: CM has more evidence behind it for stimulant use disorder than almost any other intervention, with multiple well-designed randomized trials showing significant reductions in stimulant use. It is underused primarily because it requires resources to implement, not because it doesn't work."},
+    {"question": "How is meth different from cocaine in terms of treatment?", "answer": "Both are stimulants and share core treatment approaches, but there are meaningful differences. Methamphetamine has a much longer half-life — the high lasts hours rather than minutes — and is more neurotoxic with heavy use. Cognitive effects (memory, processing speed, executive function) can persist for months after stopping meth, and mood dysregulation during early recovery is often more pronounced. Meth-associated psychosis can also persist beyond acute intoxication. This doesn't mean recovery is harder — it means it may look different in the early months, and that addressing sleep, cognitive recovery, and mental health is especially important."},
+    {"question": "Can ADHD medication lead to stimulant use disorder?", "answer": "Prescription stimulants taken as directed for diagnosed ADHD carry very low risk of developing stimulant use disorder — in fact, treating ADHD appropriately is associated with reduced substance use risk overall. The picture changes when stimulants are used recreationally, at higher doses than prescribed, by people without ADHD, or in ways that produce a faster onset (snorted, injected). If you are concerned about your relationship with prescription stimulants, that is worth talking about honestly — we won't judge you for it, and we can help sort out what's happening."},
+    {"question": "What does recovery from stimulant use disorder look like without medication?", "answer": "For most people, recovery from stimulant use disorder is built on behavioral changes, social support, and time. The first weeks to months are often the hardest — the brain's dopamine system needs time to recalibrate, and that means a period where ordinary life can feel flat or joyless. That resolves for most people. What helps most in that window is structure, engagement with treatment, connection with people who support your recovery, and — if co-occurring depression or anxiety is present — appropriate treatment for those conditions. Long-term recovery without medication is common and well-documented."}
+  ]
+}

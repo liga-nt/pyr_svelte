@@ -5,10 +5,25 @@
     "metaKeywords": "CBT therapy St. Louis, cognitive behavioral therapy, St. Louis psychiatry, mental health counseling, addiction counseling, therapist near me, couples counseling, addiction treatment, MAT"
   },
   "hero": {
-    "headline": "Counseling and Psychiatry for Mental Health & Addiction",
-    "subheadline": "Personalized care for adults, teens, and families in St. Louis.",
-    "ctaPrimary": "Schedule a Consultation",
-    "ctaSecondary": "Learn About Our Approach"
+    "eyebrow": "Mental Health & Addiction Counseling — St. Louis",
+    "headline": "Therapy is all talk. Done well, it leads to real change.",
+    "subheadline": "A lot of people have tried therapy and felt like it didn't work — or tried several medications without feeling any benefit. We combine CBT, psychiatry, and family-focused care in one practice, treating mental health and addiction together. Not everyone needs every piece, but all options should be on the table.",
+    "differentiators": [
+      {
+        "heading": "Therapy and psychiatry together",
+        "body": "In-house psychiatric care means your therapy and medication are coordinated — not siloed across two providers who never speak."
+      },
+      {
+        "heading": "Mental health and addiction, treated as one",
+        "body": "Co-occurring problems are the norm. We're built to treat both rather than referring you out when things get complicated."
+      },
+      {
+        "heading": "Children, teens, and adults",
+        "body": "We treat people across the lifespan — and across a family when that's what the situation calls for."
+      }
+    ],
+    "ctaPrimary": "Make an Appointment",
+    "ctaSecondary": "Meet our clinicians"
   },
   "contact": {
     "counselingPhone": "314-222-5896",
@@ -51,43 +66,27 @@
     ]
   },
   "conditions": {
-    "headline": "Mental Health Conditions We Treat",
+    "headline": "What We Treat",
     "items": [
       {
         "name": "Depression",
-        "icon": "koi",
-        "color": "#6B9BD1",
-        "linkUrl": "/depression"
+        "icon": "/icons/Depression.png",
+        "linkUrl": "/depression/"
       },
       {
         "name": "Anxiety",
-        "icon": "vines",
-        "color": "#8FBC8F",
-        "linkUrl": "/anxiety"
+        "icon": "/icons/Anxiety.png",
+        "linkUrl": "/anxiety/"
       },
       {
-        "name": "Substance Use",
-        "icon": "succulent",
-        "color": "#B8A9C9",
-        "linkUrl": "/addiction"
+        "name": "Addiction",
+        "icon": "/icons/Addiction.png",
+        "linkUrl": "/conditions/"
       },
       {
-        "name": "PTSD & Trauma",
-        "icon": "snail",
-        "color": "#D4A5A5",
-        "linkUrl": "/ptsd"
-      },
-      {
-        "name": "ADHD",
-        "icon": "hummingbird",
-        "color": "#F4A261",
-        "linkUrl": "/adhd"
-      },
-      {
-        "name": "OCD",
-        "icon": "monstera",
-        "color": "#81B29A",
-        "linkUrl": "/ocd"
+        "name": "Relationships",
+        "icon": "/icons/couples_conflict.png",
+        "linkUrl": "/family-therapy/"
       }
     ]
   },
@@ -154,5 +153,30 @@
       "We understand that getting help shouldn't disrupt your life. Our office-based practice offers flexible scheduling and a collaborative approach, so you remain in control of your treatment while getting the expert support you need."
     ]
   },
-  "videoID": "543301358"
+  "videoID": "543301358",
+  "whoWetreat": {
+    "headline": "Who We Treat",
+    "groups": [
+      {
+        "label": "Children",
+        "link": "/children/",
+        "icon": "/icons/Children.png"
+      },
+      {
+        "label": "Teens",
+        "link": "/teens/",
+        "icon": "/icons/Teens.png"
+      },
+      {
+        "label": "College Students",
+        "link": "/students/",
+        "icon": "/icons/college_students.png"
+      },
+      {
+        "label": "Adults",
+        "link": "/adults/",
+        "icon": "/icons/Adults.png"
+      }
+    ]
+  }
 }

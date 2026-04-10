@@ -1,0 +1,11 @@
+[
+  { "name": "Depression", "slug": "depression", "description": "Major depressive disorder and persistent depression.", "color": "#6AE3DC" },
+  { "name": "Anxiety", "slug": "anxiety", "description": "Generalized anxiety, social anxiety, and panic disorder.", "color": "#73DF91" },
+  { "name": "PTSD & Trauma", "slug": "ptsd", "description": "Post-traumatic stress and trauma-related conditions.", "color": "#D3B0FE" },
+  { "name": "ADHD", "slug": "adhd", "description": "Attention-deficit/hyperactivity disorder in teens and adults.", "color": "#FFE279" },
+  { "name": "OCD", "slug": "ocd", "description": "Obsessive-compulsive disorder and related conditions.", "color": "#D6D2DC" },
+  { "name": "Alcohol Use Disorder", "slug": "alcohol-use-disorder", "description": "Evidence-based treatment for problem drinking at any severity.", "color": "#6AE3DC" },
+  { "name": "Opioid Use Disorder", "slug": "opioid-use-disorder", "description": "Buprenorphine treatment and counseling for OUD.", "color": "#D3B0FE" },
+  { "name": "Stimulant Use Disorder", "slug": "stimulant-use-disorder", "description": "Treatment for cocaine, meth, and prescription stimulant misuse.", "color": "#FFE279" },
+  { "name": "Gambling Disorder", "slug": "gambling-disorder", "description": "The only non-substance behavioral addiction in the DSM-5.", "color": "#73DF91" }
+]

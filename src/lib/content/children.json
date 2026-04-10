@@ -1,0 +1,79 @@
+{
+  "seo": {
+    "title": "Child Therapy (Ages 8+) | Plan Your Recovery",
+    "description": "Evidence-based therapy for children ages 8 and older in St. Louis. CBT and supportive therapy for anxiety, depression, school avoidance, and behavioral concerns. Family involvement is central to our approach."
+  },
+  "hero": {
+    "headline": "Therapy for Children Ages 8 and Older",
+    "intro": "Children don't always have the words for what's wrong. Anxiety shows up as stomachaches and school refusal. Depression looks like irritability or withdrawal. Behavioral problems often have emotional roots that neither the child nor their parents can fully see. We work with children and their families to understand what's driving the difficulty — and to build the skills to address it."
+  },
+  "concerns": {
+    "headline": "What Brings Families to Us",
+    "items": [
+      {
+        "title": "Anxiety",
+        "description": "Anxiety is the most common mental health concern in childhood. It takes many forms: separation anxiety that makes drop-off a daily battle, generalized worry that never fully quiets, social anxiety that leads to avoidance of peers, and specific fears that have grown too big to manage alone. Children with anxiety often express it through physical complaints — headaches, stomachaches, fatigue — rather than through worry they can name."
+      },
+      {
+        "title": "School Avoidance",
+        "description": "Refusing or struggling to attend school is one of the most disruptive presentations in childhood. It's almost always emotionally driven — most often by anxiety, but sometimes by depression, social difficulty, or conflict at school. The longer a child is out of the school environment, the harder re-entry becomes. Early, consistent intervention matters."
+      },
+      {
+        "title": "Depression and Mood",
+        "description": "Depression in children frequently doesn't look like adult sadness. More often it presents as irritability, low frustration tolerance, withdrawal from activities and friends, or a pervasive flatness. Children may not be able to explain what's wrong — they just know something is. Left unaddressed, childhood depression tends to persist and intensify through adolescence."
+      },
+      {
+        "title": "ADHD and Attention Difficulties",
+        "description": "Attention difficulties affect learning, relationships, and self-esteem well before a formal diagnosis is made. We address the real-world impacts of inattention and impulsivity — at school, at home, and socially — and work with families to build structures and strategies that reduce friction and support success."
+      },
+      {
+        "title": "Behavioral Concerns",
+        "description": "Oppositional behavior, emotional outbursts, and difficulty following rules are common referral concerns. These behaviors are rarely meaningless — they usually signal an underlying emotional struggle the child doesn't yet have the skills to express or manage. We treat behavior in context, not in isolation."
+      }
+    ]
+  },
+  "approach": {
+    "headline": "How We Work",
+    "items": [
+      {
+        "title": "Cognitive Behavioral Therapy (CBT)",
+        "description": "CBT is the most evidence-supported treatment for anxiety and depression in children. It's structured and skill-focused: children learn to identify the thoughts driving their distress, test whether those thoughts are accurate, and practice facing situations they've been avoiding. For anxiety in particular, gradual exposure — learning that feared situations are survivable — is the core mechanism of change."
+      },
+      {
+        "title": "Supportive Therapy",
+        "description": "Not every child needs a highly structured intervention. Supportive therapy builds the therapeutic relationship that makes any work possible, helps children develop emotional vocabulary and self-awareness, and provides a consistent, non-judgmental space to process difficulty. For some children, being heard clearly and consistently is itself therapeutic."
+      },
+      {
+        "title": "Parent Involvement",
+        "description": "Children don't improve in isolation from their families. Parents are partners in treatment — not just observers. We help parents understand what drives their child's behavior, coach more effective responses to anxiety and distress, and build home environments that support the skills their child is developing in therapy. For younger children especially, the work with parents is often as important as the work with the child."
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "question": "My child says nothing is wrong. How do you get them to open up?",
+      "answer": "Children often don't have language for what they're experiencing, or they've learned that adults don't respond well to what they say. A skilled child therapist doesn't interrogate — they build a relationship first, through play, conversation, and genuine curiosity about the child's world. Opening up happens gradually, on the child's terms."
+    },
+    {
+      "question": "How involved will I be in my child's treatment?",
+      "answer": "Very involved. We meet with parents separately to understand the child's history and home context, share our clinical thinking, and coach strategies that support progress at home. For younger children, much of the work happens through parents. As children get older, more of the work happens directly with them, but parents remain central."
+    },
+    {
+      "question": "Does my child need a diagnosis before starting therapy?",
+      "answer": "No. Many families come to us without a formal diagnosis. Assessment is part of what we do — understanding the pattern of symptoms and what's driving them. A diagnosis can be useful clinically, but it isn't a prerequisite for beginning treatment."
+    },
+    {
+      "question": "How long does treatment typically take?",
+      "answer": "It varies by the child and the concern. CBT for anxiety is often time-limited — 12 to 20 sessions — with measurable progress along the way. Other presentations, particularly when there are longstanding emotional patterns or family system factors, may take longer. We discuss expectations openly at the start."
+    },
+    {
+      "question": "My child's school says they need therapy. Where do I start?",
+      "answer": "A call to us is a good starting point. We'll ask about the school's concerns, what you're seeing at home, and how long things have been difficult. That conversation helps us determine whether an assessment, direct therapy, or parent consultation makes the most sense."
+    }
+  ],
+  "cta": {
+    "headline": "Start with a Conversation",
+    "body": "If you're concerned about your child, you don't need to have it figured out before reaching out. A brief consultation helps us understand the situation and determine the right next step.",
+    "bookingLink": "/booking/"
+  }
+}

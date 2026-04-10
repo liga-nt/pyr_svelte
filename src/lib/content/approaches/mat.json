@@ -1,0 +1,78 @@
+{
+  "seo": {
+    "title": "Medication-Assisted Treatment (MAT) | Plan Your Recovery",
+    "description": "FDA-approved medications for opioid and alcohol use disorders. Buprenorphine (Suboxone) and naltrexone combined with counseling in St. Louis."
+  },
+  "hero": {
+    "headline": "Medication-Assisted Treatment",
+    "intro": "Medication-assisted treatment uses FDA-approved medications alongside counseling to treat opioid and alcohol use disorders. It is the most evidence-supported approach available for these conditions — not a shortcut or a lesser form of treatment."
+  },
+  "whatItIs": {
+    "heading": "What Is MAT?",
+    "paragraphs": [
+      "MAT uses medications to address the neurological basis of addiction — the way substances change brain chemistry, hijack the reward system, and create overwhelming physical dependence. Without addressing that neurological reality, willpower alone is rarely sufficient.",
+      "The most common argument against MAT — that it's just replacing one addiction with another — is not supported by evidence. The medications used do not produce addiction in the same way as the substances they treat, and the research consistently shows that people on MAT have dramatically better outcomes: less relapse, fewer overdoses, lower mortality.",
+      "Medication stabilizes the neurological chaos of active addiction. Therapy builds the skills and insight that make lasting change possible. Combining both produces better outcomes than either alone — and this is what our practice provides."
+    ]
+  },
+  "medications": {
+    "heading": "Medications We Use",
+    "items": [
+      {
+        "label": "Buprenorphine (Suboxone) for Opioid Use Disorder",
+        "description": "Buprenorphine partially activates opioid receptors, eliminating withdrawal and reducing cravings without producing the high of full opioids. People on buprenorphine have dramatically lower rates of overdose and death. New patients are typically seen within 1–3 days."
+      },
+      {
+        "label": "Naltrexone for Alcohol Use Disorder",
+        "description": "Naltrexone reduces the rewarding effects of alcohol, making it easier to cut back or stop. When combined with counseling, outcomes are significantly better than counseling alone."
+      },
+      {
+        "label": "Outpatient Alcohol Detoxification",
+        "description": "Medically supervised withdrawal management for alcohol use disorder, for appropriate candidates who don't require inpatient care. We monitor closely during the acute withdrawal period and adjust medication as needed."
+      }
+    ]
+  },
+  "whatToExpect": {
+    "heading": "What to Expect",
+    "items": [
+      {
+        "label": "Rapid access for OUD",
+        "description": "New buprenorphine patients are typically seen within 1–3 days. Opioid use disorder is a medical emergency and we don't make you wait weeks."
+      },
+      {
+        "label": "Medication and therapy together",
+        "description": "MAT works best combined with counseling. Our practice provides both — coordinated between our psychiatric and therapy teams."
+      },
+      {
+        "label": "Ongoing monitoring",
+        "description": "Regular appointments to monitor progress, adjust dosing if needed, and address anything else that comes up."
+      },
+      {
+        "label": "No fixed endpoint",
+        "description": "How long you stay on medication depends on your situation, not a program length. Some people taper over months; others benefit from longer-term treatment. We follow the evidence, not ideology."
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Is buprenorphine really not addictive?",
+      "answer": "Buprenorphine is a partial opioid agonist — it activates opioid receptors but with a ceiling effect, so it doesn't produce the same high or respiratory depression as full opioids. Physical dependence (your body adjusting to the medication) is not the same as addiction. The evidence that buprenorphine saves lives is unambiguous."
+    },
+    {
+      "question": "How quickly can I start buprenorphine?",
+      "answer": "Typically within 1–3 days of calling. We treat opioid use disorder as the medical emergency it is."
+    },
+    {
+      "question": "Does MAT work if I also have a mental health condition?",
+      "answer": "Yes — and co-occurring mental health conditions are common. Our psychiatry team evaluates and treats both, and our therapists specialize in dual-diagnosis treatment. Addressing both simultaneously produces better outcomes than treating them separately."
+    },
+    {
+      "question": "Will insurance cover it?",
+      "answer": "Buprenorphine is covered by most insurance plans. Our buprenorphine-only program is also available for $125/month plus medication cost for those without coverage or who prefer a direct-pay arrangement."
+    },
+    {
+      "question": "How long will I need to be on medication?",
+      "answer": "It depends on your situation. Some people taper off buprenorphine after months of stability; others benefit from longer-term or indefinite treatment. The decision is based on your individual circumstances and preferences — not a program timeline."
+    }
+  ]
+}

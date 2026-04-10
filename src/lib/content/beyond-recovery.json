@@ -1,0 +1,48 @@
+{
+  "seo": {
+    "title": "Thriving Beyond Recovery | Plan Your Recovery",
+    "description": "A six-month empowerment program for people who have completed initial recovery work and are ready to build a fulfilling life. Led by Michelle Charbonnier."
+  },
+  "hero": {
+    "headline": "Thriving Beyond Recovery",
+    "subheadline": "Sacred Steps to Abundance Beyond Recovery's Boundaries",
+    "intro": "You've done the hard work of early recovery. This program is for people who are ready to shift from surviving to genuinely thriving — building a life that feels worth living."
+  },
+  "about": {
+    "heading": "About the Program",
+    "leader": {
+      "name": "Michelle Charbonnier, CRADC",
+      "bio": "Michelle has 9+ years of experience in recovery work. She is a certified gambling disorder counselor, registered yoga teacher, and SMART Recovery facilitator."
+    },
+    "details": [
+      "Six-month group empowerment program",
+      "Virtual group sessions twice monthly, 90 minutes each",
+      "One-on-one digital access to Michelle between sessions",
+      "Final in-person retreat"
+    ]
+  },
+  "whoItsFor": {
+    "heading": "Who This Program Is For",
+    "isFor": [
+      "People who have overcome significant challenges — trauma, substance use, codependency",
+      "Those transitioning from survival mode to building abundance",
+      "People with basic stability who are ready to grow"
+    ],
+    "isNotFor": "This program is not appropriate for people still in early recovery or those who need intensive clinical support. If that's where you are, we have other services that are a better fit — and we're glad to help you find them."
+  },
+  "themes": {
+    "heading": "Core Themes",
+    "items": [
+      "Releasing identification with past struggle",
+      "Living authentically without shame",
+      "Daily practices that nourish without overwhelming",
+      "Connecting with meaningful purpose"
+    ]
+  },
+  "cta": {
+    "heading": "Interested in the Program?",
+    "body": "Contact Michelle to learn about upcoming program dates and whether this is a good fit for where you are in your journey.",
+    "linkText": "Let's Talk",
+    "linkUrl": "/team/michelle-charbonnier/"
+  }
+}

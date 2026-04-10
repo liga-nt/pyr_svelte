@@ -1,0 +1,65 @@
+{
+  "seo": {
+    "title": "Cognitive Behavioral Therapy (CBT) | Plan Your Recovery",
+    "description": "CBT is the most extensively researched therapy for addiction, depression, and anxiety. Learn how Plan Your Recovery uses CBT in St. Louis."
+  },
+  "hero": {
+    "headline": "Cognitive Behavioral Therapy",
+    "intro": "Cognitive Behavioral Therapy — CBT — is the most thoroughly researched form of psychotherapy. It has strong evidence behind it for depression, anxiety, addiction, PTSD, OCD, and many other conditions. At Plan Your Recovery, CBT is central to how most of our clinicians work."
+  },
+  "whatItIs": {
+    "heading": "What Is CBT?",
+    "paragraphs": [
+      "CBT is based on a straightforward but powerful insight: how we think shapes how we feel, and how we feel shapes what we do. Patterns of distorted or unhelpful thinking — catastrophizing, all-or-nothing thinking, shame-based beliefs — maintain emotional distress and drive unwanted behavior.",
+      "CBT is not about thinking positively. It is about thinking accurately. A CBT therapist helps you notice the thoughts and beliefs that are causing problems, test whether they hold up to scrutiny, and develop more useful ways of interpreting your experience.",
+      "CBT is also behavioral. It uses techniques like behavioral activation (for depression), exposure (for anxiety and OCD), and behavioral experiments to help you act differently — which in turn changes how you feel and what you believe about yourself."
+    ]
+  },
+  "forAddiction": {
+    "heading": "CBT for Addiction",
+    "paragraphs": [
+      "Addiction is maintained by a set of powerful beliefs — that you can't have fun without a substance, that you can't manage emotions without using, that you're too far gone to change. CBT targets these beliefs directly.",
+      "It also focuses on triggers. Internal triggers (emotions, thoughts, physical states) and external triggers (people, places, things) set off cravings and drive use. Identifying your specific triggers and developing concrete strategies for managing them is a central part of CBT for addiction.",
+      "CBT also teaches skills for managing high-risk situations — refusing offers, handling social pressure, navigating relationships that have been shaped by addiction. These are practical, learnable skills."
+    ]
+  },
+  "whatToExpect": {
+    "heading": "What to Expect in CBT",
+    "items": [
+      {
+        "label": "Active and structured",
+        "description": "CBT sessions have an agenda. You and your therapist work on specific problems, practice skills, and often complete exercises between sessions."
+      },
+      {
+        "label": "Time-limited",
+        "description": "CBT is typically shorter-term than open-ended therapy — often 12–20 sessions — though many people continue longer depending on their goals."
+      },
+      {
+        "label": "Skills-focused",
+        "description": "You'll leave sessions with tools you can use. The goal is to become your own therapist over time."
+      },
+      {
+        "label": "Collaborative",
+        "description": "CBT is not something done to you. You and your therapist work as a team, and your goals and priorities drive the work."
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Is CBT better than other types of therapy?",
+      "answer": "CBT has the most research behind it, but 'best' depends on the person and the problem. Some people do better with more insight-oriented or relational approaches. What matters most is the quality of the therapeutic relationship and whether the approach fits your goals — good therapists adapt."
+    },
+    {
+      "question": "Does CBT work if I don't believe my thoughts are the problem?",
+      "answer": "The behavioral part of CBT works regardless of your beliefs about cognition. Changing behavior changes feelings, which often changes thinking — you don't have to buy the theory to benefit from the practice."
+    },
+    {
+      "question": "How is CBT different from just talking about your problems?",
+      "answer": "CBT is more structured and skill-focused than general supportive therapy. It's less about exploring the past and more about understanding current patterns and developing tools to change them. That said, most good therapists blend approaches."
+    },
+    {
+      "question": "Do I have to keep a thought journal?",
+      "answer": "Thought records are one CBT tool, and some people find them very useful. Others don't. Your therapist will work with you on what actually helps rather than insisting on a particular format."
+    }
+  ]
+}

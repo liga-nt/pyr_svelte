@@ -1,0 +1,64 @@
+{
+  "seo": {
+    "title": "Contingency Management | Plan Your Recovery",
+    "description": "Contingency management uses systematic rewards for abstinence to change behavior. Among the strongest evidence-based interventions for stimulant use disorder in St. Louis."
+  },
+  "hero": {
+    "headline": "Contingency Management",
+    "intro": "Contingency management uses systematic positive reinforcement — rewards for abstinence and recovery behaviors — to change behavior. It has some of the strongest evidence of any intervention for stimulant use disorder and is highly effective with adolescents."
+  },
+  "whatItIs": {
+    "heading": "What Is Contingency Management?",
+    "paragraphs": [
+      "The logic is simple: behavior that is rewarded is more likely to recur. Contingency management operationalizes that principle by providing tangible rewards — increasingly valuable ones — for verified abstinence, typically confirmed by urine drug screens, and for participation in treatment.",
+      "This approach works because it directly engages the same reward pathways that addiction has hijacked. By providing an immediate, concrete payoff for not using, contingency management competes with the reinforcing properties of the substance itself. The brain responds to reward — and contingency management uses that fact deliberately.",
+      "CM is particularly effective for stimulant use disorders (cocaine, methamphetamine, prescription stimulants), where no medication has comparable efficacy. For these conditions, it may be the most powerful tool available. It also has strong evidence with adolescents, where external incentives are especially important given still-developing capacity for self-regulation."
+    ]
+  },
+  "howItWorks": {
+    "heading": "How It Works",
+    "paragraphs": [
+      "Abstinence is verified through regular urine drug screens. Clean screens earn rewards, and rewards increase in value with consecutive clean screens — creating momentum and incentive to continue. A break in the streak resets the reward level, but not the underlying progress.",
+      "Contingency management works best embedded in a broader treatment plan — individual therapy, family involvement, and case management — rather than as a stand-alone program. The goal is to build intrinsic motivation and practical skills while the contingencies provide the initial fuel for behavioral change."
+    ]
+  },
+  "whatToExpect": {
+    "heading": "What to Expect",
+    "items": [
+      {
+        "label": "Regular drug screens",
+        "description": "Abstinence is verified through urine screens. Results directly determine reward eligibility — there is no ambiguity about what earns a reward and what doesn't."
+      },
+      {
+        "label": "Graduated rewards",
+        "description": "Rewards increase with consecutive clean screens, building momentum. The escalating stakes make continued abstinence more motivating over time."
+      },
+      {
+        "label": "Part of a broader plan",
+        "description": "CM works alongside individual therapy and family involvement. It's one component of a coordinated treatment plan, not a stand-alone program."
+      },
+      {
+        "label": "Clear, consistent rules",
+        "description": "Expectations are transparent from the start. Consistent implementation is what makes the approach work — and what builds trust in the system."
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Isn't this just bribing people to stay sober?",
+      "answer": "It's a fair question. The short answer is: the evidence doesn't care what you call it. Contingency management has some of the strongest outcome data of any behavioral intervention — particularly for stimulant use disorder, where medication alternatives are limited. Rewarding prosocial behavior is what society does at every level; applying it systematically to recovery is just rigor."
+    },
+    {
+      "question": "What kinds of rewards are used?",
+      "answer": "Typically vouchers or prize draws that can be exchanged for everyday items — gift cards, groceries, transportation. The specific structure varies by program. The point is immediate, tangible reinforcement — not large monetary payouts."
+    },
+    {
+      "question": "Does it work for all substances?",
+      "answer": "CM has the strongest evidence for stimulants (cocaine and methamphetamine), where medication options are limited. It also has good evidence for opioids, cannabis, and alcohol, often in combination with other treatments."
+    },
+    {
+      "question": "What happens when someone slips?",
+      "answer": "A slip resets the reward level — the streak starts over. This is by design. The consistency of the system is part of what makes it effective. Slips are addressed clinically and with curiosity, not punitively."
+    }
+  ]
+}

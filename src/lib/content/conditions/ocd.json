@@ -1,0 +1,52 @@
+{
+  "seo": {
+    "title": "OCD Treatment in St. Louis | Plan Your Recovery",
+    "description": "Evidence-based OCD treatment in St. Louis. Exposure and Response Prevention (ERP), CBT, and medication management for obsessive-compulsive disorder."
+  },
+  "condition": {
+    "name": "Obsessive-Compulsive Disorder",
+    "alternateName": ["OCD", "Obsessive Compulsive Disorder"],
+    "schemaDescription": "Obsessive-compulsive disorder is a condition characterized by recurrent, intrusive, and unwanted thoughts, urges, or images (obsessions) and repetitive behaviors or mental acts performed to reduce anxiety (compulsions). The obsession-compulsion cycle is self-reinforcing and highly treatable with specialized therapy."
+  },
+  "hero": {
+    "headline": "OCD",
+    "intro": "OCD is not about being neat, organized, or a perfectionist. It is a serious anxiety-related condition in which the brain gets stuck in loops — intrusive thoughts that cause real distress, followed by compulsive behaviors that provide temporary relief but keep the cycle running. It is also one of the most specifically and effectively treatable conditions in mental health."
+  },
+  "criteria": {
+    "heading": "What Is OCD?",
+    "description": "OCD is characterized by obsessions, compulsions, or both — and the relationship between them is the core of the disorder:",
+    "items": [
+      {"label": "Obsessions", "description": "Recurrent, persistent thoughts, urges, or images that are experienced as intrusive and unwanted — and that cause marked anxiety or distress. The person tries to ignore, suppress, or neutralize them, often with a compulsion."},
+      {"label": "Compulsions", "description": "Repetitive behaviors (washing, checking, ordering, seeking reassurance) or mental acts (counting, praying, repeating phrases silently) that a person feels driven to perform in response to an obsession, or according to rules that must be applied rigidly."},
+      {"label": "The feedback loop", "description": "Compulsions reduce anxiety — briefly. This relief reinforces both the obsession and the compulsion, teaching the brain that the compulsion was necessary. The cycle intensifies over time unless directly addressed."},
+      {"label": "Time and impairment", "description": "Obsessions or compulsions are time-consuming (more than one hour per day) or cause significant distress or interference with functioning."}
+    ],
+    "note": "OCD themes vary widely — contamination and harm fears are common, but so are themes involving religion, sexuality, relationships, symmetry, and existential uncertainty. The specific content of obsessions matters less than the cycle maintaining them. OCD is not caused by being a bad person, and the presence of disturbing intrusive thoughts does not reflect your character or intentions."
+  },
+  "howItFeels": {
+    "heading": "What OCD Actually Feels Like",
+    "paragraphs": [
+      "One of the most isolating features of OCD is the shame around the content of intrusive thoughts. OCD tends to attach itself to what matters most to you — if you are a loving parent, it sends thoughts about harming your child. If you are deeply religious, it targets your faith. If you value your relationship, it raises doubts about your partner. This is not a window into your true desires. It is the disorder working exactly as it does.",
+      "Mental compulsions are often invisible from the outside and sometimes invisible to the person experiencing them. Reviewing past events to 'make sure' nothing bad happened. Running through reassuring arguments in your head. Silently praying or counting. These feel like problem-solving — they're not. They function exactly like behavioral compulsions and maintain the disorder in the same way.",
+      "OCD can consume enormous amounts of time and mental energy. Some people spend four, six, eight hours a day managing obsessions and performing compulsions. They may look functional to the outside world while privately organizing their entire life around the disorder — what they touch, where they go, who they're near, what they allow themselves to think.",
+      "It's worth saying clearly: telling someone with OCD to 'just stop' or 'just ignore the thoughts' is like telling someone with a broken leg to walk it off. The pull of compulsions is real, neurobiological, and powerful. Treatment isn't about willpower. It's about retraining the brain's threat-detection system through a specific, structured process."
+    ]
+  },
+  "treatmentSection": {
+    "heading": "How We Treat OCD",
+    "intro": "OCD has a highly specific, highly effective treatment: Exposure and Response Prevention (ERP). It is the most evidence-based intervention for OCD and works differently — and more specifically — than general CBT or anxiety treatment."
+  },
+  "treatments": [
+    {"name": "Exposure and Response Prevention (ERP)", "description": "ERP is the gold-standard treatment for OCD. It involves gradually approaching situations that trigger obsessions while refraining from performing compulsions — allowing the anxiety to peak and subside without reinforcement. This directly targets the obsession-compulsion loop and, over time, reduces the power obsessions have. Treatment begins with low-distress situations and proceeds at a pace that is challenging but tolerable. You will not be asked to do the hardest things on day one."},
+    {"name": "Cognitive Behavioral Therapy (CBT)", "description": "Alongside ERP, CBT helps address the beliefs that maintain OCD — the sense that intrusive thoughts are meaningful, that anxiety is dangerous, or that certainty must be achieved before moving forward. CBT for OCD focuses specifically on these OCD-relevant beliefs rather than general anxiety management."},
+    {"name": "Medication Management", "description": "SSRIs at higher doses than those used for depression are effective for OCD and are often used in combination with ERP. Medication can reduce symptom severity enough to make ERP more accessible, particularly when OCD is severe. Our psychiatric team can evaluate whether medication is appropriate for your situation."},
+    {"name": "Addressing Accommodation", "description": "Family members and close relationships often become organized around someone's OCD — providing reassurance, avoiding triggers, adjusting routines. This is understandable and well-intentioned, but it maintains the disorder. We work with clients — and when helpful, their support people — to reduce accommodation as part of treatment."}
+  ],
+  "faqs": [
+    {"question": "What if my intrusive thoughts are violent, sexual, or disturbing?", "answer": "This is one of the most important things to understand about OCD: the content of intrusive thoughts is not a reflection of who you are or what you want. OCD generates exactly the thoughts that are most disturbing to the person having them — because those thoughts are the ones that cause the most anxiety and therefore most effectively trigger the compulsive cycle. People with OCD who have violent intrusive thoughts are not more dangerous than the general population — if anything, they are often people with a strong aversion to harm. A clinician experienced in OCD will not be alarmed by the content of your thoughts."},
+    {"question": "Does ERP mean I have to touch things that disgust me?", "answer": "ERP does involve approaching feared situations without performing compulsions — but it's a graduated process built collaboratively with your therapist. You start with situations that provoke moderate anxiety, not the most feared ones. The goal is to build tolerance and evidence at each step before moving to the next. Effective ERP is not about maximum exposure from day one; it's about finding the right challenge level to produce learning without overwhelming your capacity to stay present."},
+    {"question": "How is OCD different from anxiety?", "answer": "OCD is classified separately from anxiety disorders in the DSM-5, though anxiety is central to the experience. The key distinction is the obsession-compulsion cycle: specific intrusive thoughts generating specific ritual responses. General anxiety disorders involve worry about real-world concerns; OCD involves intrusive thoughts and the compulsions they drive. This distinction matters for treatment — ERP is specifically designed for OCD and is more effective than general anxiety-reduction strategies, which can inadvertently function as compulsions."},
+    {"question": "Can OCD be cured?", "answer": "ERP produces significant, lasting symptom reduction for most people with OCD — often to the point where OCD is no longer a major presence in their life. 'Cured' overstates it; many people find that OCD requires ongoing management, particularly during stress. But 'this is just how I'll always be' understates what treatment can do. Many people who come in with severe, debilitating OCD achieve very high levels of functioning. The skills learned in ERP remain available and can be reactivated when needed."},
+    {"question": "Is being very organized or detail-oriented the same as OCD?", "answer": "No. 'I'm so OCD about my desk' is a common phrase that doesn't reflect the actual condition. Clinical OCD involves intrusive, unwanted thoughts that cause real distress and compulsive behaviors that the person doesn't want to perform but feels compelled to. Enjoying organization, liking things in order, or being a careful, thorough person is not OCD. The distinction that matters is whether the thoughts are unwanted and distressing, and whether compulsions are driven by anxiety rather than preference."}
+  ]
+}
