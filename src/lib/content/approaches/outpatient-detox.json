@@ -1,66 +1,91 @@
 {
+  "color": "#6AE3DC",
   "seo": {
-    "title": "Outpatient Alcohol Detoxification | Plan Your Recovery",
-    "description": "Medically supervised outpatient alcohol detox in St. Louis for appropriate candidates who don't require inpatient care. Safe, close monitoring throughout withdrawal."
+    "title": "Outpatient Alcohol Detox in St. Louis | Plan Your Recovery",
+    "description": "Medically supervised outpatient alcohol detox in St. Louis. CIWA-guided assessment, benzodiazepine taper, and close monitoring for people who don't require inpatient hospitalization."
   },
   "hero": {
     "headline": "Outpatient Alcohol Detoxification",
-    "intro": "Outpatient alcohol detoxification uses medication to safely manage alcohol withdrawal without hospitalization. For appropriate candidates, it provides close medical oversight during the acute withdrawal period so that longer-term treatment can begin on stable footing."
+    "intro": "Alcohol withdrawal is one of the only withdrawal syndromes that can kill you. Unlike opioid withdrawal — which is miserable but rarely dangerous — alcohol withdrawal can cause seizures, cardiac instability, and delirium tremens, a medical emergency with real mortality risk if untreated. For people who are appropriate candidates, outpatient detox provides the same medical oversight used in hospital settings — structured symptom assessment, a medication taper, and close monitoring — without requiring inpatient admission."
   },
-  "whatItIs": {
-    "heading": "What Is Outpatient Alcohol Detox?",
-    "paragraphs": [
-      "Alcohol withdrawal can be medically serious. Unlike opioid withdrawal — which is intensely uncomfortable but rarely life-threatening — alcohol withdrawal can cause seizures and other dangerous complications. Anyone with a history of heavy, prolonged drinking should not stop abruptly without medical guidance.",
-      "Outpatient detox uses medications to manage withdrawal symptoms safely while you remain at home. You'll be seen frequently during the acute withdrawal period — typically the first several days — with close symptom monitoring and medication adjustments as needed. The goal is to get through withdrawal safely so that longer-term treatment can begin.",
-      "Not everyone is a candidate for outpatient detox. During your first appointment we assess your drinking history, prior withdrawal experiences, medical status, and living situation to determine whether outpatient is safe and appropriate. If a higher level of care is needed, we'll say so clearly and help you get it."
-    ]
-  },
-  "whoItsFor": {
-    "heading": "Who It's For",
-    "items": [
-      "People with alcohol dependence who want to stop but need medical support to do so safely",
-      "Those without a history of severe withdrawal complications such as seizures or delirium tremens",
-      "People with a stable home environment and someone available to check in during the acute period",
-      "Those transitioning to outpatient treatment following a higher level of care"
-    ]
-  },
+  "body": [
+    {
+      "heading": "Why Alcohol Withdrawal Is a Medical Event",
+      "paragraphs": [
+        "Alcohol acts primarily on two receptor systems: GABA, the brain's main inhibitory neurotransmitter, and NMDA, the main excitatory one. Alcohol enhances GABA and suppresses NMDA. With chronic heavy use, the brain compensates — downregulating GABA receptors and upregulating NMDA receptors — to maintain a functional equilibrium. This is physical dependence, and it develops in anyone who drinks heavily and consistently over time.",
+        "When alcohol is removed, the compensatory changes are suddenly unmasked. The inhibitory system is blunted; the excitatory system is overactive. Withdrawal begins within 6 to 12 hours of the last drink. Early symptoms — tremor, sweating, elevated heart rate, anxiety, nausea — reflect a nervous system in hyperexcitable state. Between 24 and 48 hours, the risk of withdrawal seizures peaks. These are generalized tonic-clonic seizures and can occur even in people with no prior history of epilepsy. Between 48 and 96 hours, a subset of people will develop delirium tremens: severe disorientation, agitation, fever, vivid hallucinations, and dangerous autonomic instability. Untreated delirium tremens carries significant mortality. With appropriate medical management, the risk drops substantially — but the management has to be in place before it escalates.",
+        "Each episode of withdrawal can prime the nervous system to respond more severely to the next one — a process called kindling. Repeated cycles of heavy use and unsupported withdrawal progressively lower the seizure threshold, meaning someone on their third or fourth detox may seize at a level of dependence that caused no seizures the first time. This is not universal, but it is a well-documented pattern that informs how we assess risk and determine the appropriate level of care."
+      ]
+    },
+    {
+      "heading": "How We Assess and Manage Withdrawal: The CIWA Protocol",
+      "paragraphs": [
+        "The standard clinical tool for evaluating alcohol withdrawal severity is the CIWA-Ar — the Clinical Institute Withdrawal Assessment for Alcohol, Revised. It assesses ten symptom domains: nausea and vomiting, tremor, sweating, anxiety, agitation, perceptual disturbances, headache, and orientation. Each item is scored on a structured scale, and the total score determines treatment intensity. Scores below 8 are typically mild; 8 to 15 moderate; above 15 severe. We use CIWA-Ar at every contact during the acute detox period to track trajectory and adjust medication accordingly.",
+        "The primary medication for outpatient alcohol detox is a benzodiazepine — most commonly diazepam or chlordiazepoxide — in a structured tapering protocol. Benzodiazepines enhance GABA activity, directly counteracting the hyperexcitability driving withdrawal and substantially reducing seizure risk. The taper is calibrated to the patient's withdrawal severity and adjusted based on CIWA scores at each visit. Some patients with milder presentations can be managed with a fixed tapering schedule; others require symptom-triggered dosing based on real-time assessment. We prescribe adjunct medications as needed — propranolol for elevated heart rate, hydroxyzine for anxiety and sleep, antiemetics for nausea — but the benzodiazepine taper is the core of medical management.",
+        "Patients are seen multiple times during the first several days — the period of highest risk — and we remain reachable between appointments. We are monitoring for the symptoms that require escalation: breakthrough seizures, rising CIWA scores despite medication, altered mental status, or inability to keep medications down. If any of those occur, the appropriate response is inpatient care, and we act on that directly rather than continuing to manage outpatient."
+      ]
+    },
+    {
+      "heading": "Outpatient vs. Inpatient: How We Determine the Right Level of Care",
+      "paragraphs": [
+        "Outpatient detox is not the right choice for everyone, and we do not try to make it work for people it isn't suited for. The factors that favor outpatient management include: mild to moderate withdrawal severity at presentation, no prior history of withdrawal seizures or delirium tremens, no significant medical comorbidities that complicate monitoring, a stable home environment, and a reliable person who can be present during the acute period and call for help if needed.",
+        "Inpatient or residential detox is indicated when any of those conditions aren't met. A history of seizures or DTs is the strongest contraindication to outpatient management — the kindling effect means that history predicts risk, and we will not manage that level of risk outside a medical facility. Severe dependence, polysubstance use that complicates the withdrawal picture, significant medical illness, or a home environment that cannot support monitoring also require a higher level of care. We assess these factors directly at the first appointment and are straightforward about what we find. If inpatient is what you need, we will tell you that and help you get to the right place."
+      ]
+    }
+  ],
   "whatToExpect": {
     "heading": "What to Expect",
     "items": [
       {
-        "label": "Thorough initial assessment",
-        "description": "A detailed evaluation of your drinking history, prior withdrawal experiences, and medical status to determine whether outpatient detox is safe and appropriate."
+        "label": "Thorough first appointment",
+        "description": "A detailed assessment of your drinking history, prior withdrawal experiences, medical history, medications, and living situation. This determines whether outpatient is appropriate and establishes your baseline CIWA score before any medications are stopped or reduced."
       },
       {
-        "label": "Frequent early appointments",
-        "description": "You'll be seen multiple times during the acute withdrawal period — typically the first 3–7 days — with close symptom monitoring throughout."
+        "label": "Frequent visits during the acute period",
+        "description": "You'll be seen multiple times during the first 3 to 7 days — the window of highest medical risk. Each visit involves a structured CIWA assessment, vital signs, and medication adjustment based on how you're responding. The schedule is front-loaded because that's when the risk is highest."
       },
       {
-        "label": "Medication management",
-        "description": "Medications to reduce withdrawal severity and prevent complications, adjusted based on how you're responding."
+        "label": "A structured medication taper",
+        "description": "A benzodiazepine taper — typically diazepam or chlordiazepoxide — calibrated to your withdrawal severity and adjusted at each visit. Adjunct medications are added for specific symptoms as needed. The taper is usually complete within 5 to 7 days; some patients with milder presentations need less."
       },
       {
-        "label": "Transition to ongoing treatment",
-        "description": "Detox is the beginning, not the goal. We connect you to ongoing outpatient treatment — medication and therapy — once acute withdrawal is resolved."
+        "label": "Clear escalation criteria",
+        "description": "You'll know exactly what symptoms should prompt an immediate call or a trip to the emergency room. We are explicit about the warning signs that mean outpatient management is no longer sufficient. Detox is not something to manage alone, and we stay reachable between appointments."
+      },
+      {
+        "label": "A direct path to ongoing treatment",
+        "description": "Detox addresses the immediate medical danger — it does not treat the underlying disorder. Once the acute withdrawal period is resolved, we transition directly to ongoing treatment: naltrexone or acamprosate to reduce relapse risk, and therapy to address the behavioral and psychological dimensions of alcohol use disorder. Your care stays coordinated in one place."
       }
     ]
   },
   "faqs": [
     {
       "question": "Is outpatient detox safe?",
-      "answer": "For appropriate candidates, yes. The assessment process exists precisely to determine whether outpatient is safe for your specific situation. If there's reason to believe inpatient is needed — a history of severe withdrawal, medical complications, unstable living situation — we'll tell you and help you find the right level of care."
+      "answer": "For appropriate candidates, yes — and the assessment process exists precisely to make that determination. The clinical factors that predict safe outpatient management are well established: withdrawal severity, prior history, medical status, and home environment. We assess all of them at the first appointment. If there is meaningful reason to believe inpatient is needed, we will say so clearly and help you get there. We do not err on the side of treating outpatient when the clinical picture calls for more."
     },
     {
-      "question": "What medications are used?",
-      "answer": "Typically benzodiazepines (such as diazepam or chlordiazepoxide) in a tapering schedule, which reduce seizure risk and manage withdrawal symptoms. We may also use other medications to address specific symptoms. The exact protocol depends on your withdrawal severity and medical history."
+      "question": "I've stopped drinking before and been fine. Do I really need medical supervision?",
+      "answer": "Prior successful discontinuation is reassuring, but it doesn't fully predict future withdrawals. The kindling phenomenon means that withdrawal risk can increase with each cycle, even when prior detoxes were uneventful. The question is not just what happened last time — it's how heavily you've been drinking since then, how long the current episode has been, and whether your CIWA score at presentation reflects a level of dependence that warrants medication. That's a clinical assessment, not something to estimate on your own."
     },
     {
-      "question": "How long does detox take?",
-      "answer": "Acute alcohol withdrawal typically resolves over 5–7 days, though some symptoms — sleep disruption, anxiety, mood changes — may linger longer. The medically intensive period is usually the first several days."
+      "question": "What medications are used, and why benzodiazepines specifically?",
+      "answer": "Benzodiazepines enhance GABA activity — directly counteracting the neurological imbalance that drives alcohol withdrawal. They are the most evidence-supported medications for preventing withdrawal seizures and managing withdrawal symptoms, and they have been the standard of care for decades. Diazepam and chlordiazepoxide are the most commonly used because of their long half-lives, which provide smoother symptom coverage. We may also prescribe adjunct medications — for heart rate, nausea, sleep, or anxiety — but the benzodiazepine taper is the foundation."
+    },
+    {
+      "question": "What is a CIWA score and what does it measure?",
+      "answer": "CIWA-Ar stands for Clinical Institute Withdrawal Assessment for Alcohol, Revised. It's a structured 10-item assessment that measures the severity of alcohol withdrawal symptoms — tremor, sweating, nausea, anxiety, agitation, perceptual disturbances, and others. Each item is scored on a scale, and the total determines how intensive the medication response should be. We use it at every visit during the acute period to track whether withdrawal is improving, stable, or escalating, and to adjust medications accordingly."
+    },
+    {
+      "question": "How long does outpatient detox take?",
+      "answer": "The medically intensive period — during which you're being seen frequently and taking a medication taper — is typically 5 to 7 days. Acute alcohol withdrawal resolves within that window for most people. Some residual symptoms — disrupted sleep, mild anxiety, mood instability — can persist for weeks as the nervous system continues to normalize, a phase sometimes called post-acute withdrawal syndrome. Those symptoms are less medically urgent but real, and we address them as part of ongoing treatment."
+    },
+    {
+      "question": "What if my withdrawal gets worse while I'm in outpatient detox?",
+      "answer": "You'll know what to watch for. We review specific escalation criteria at every visit — the symptoms that mean outpatient management is no longer adequate and you need emergency care or inpatient admission. Rising CIWA scores despite medication, a seizure, altered mental status, inability to keep medications down, or fever are all signals to escalate. We stay reachable between appointments and we do not ask you to manage uncertainty alone. If the situation warrants inpatient, we will help get you there directly."
     },
     {
       "question": "What comes after detox?",
-      "answer": "Detox removes the immediate medical danger but doesn't treat the underlying disorder. We strongly recommend ongoing treatment: naltrexone to reduce relapse risk, and therapy — CBT, motivational interviewing — to build longer-term recovery. We provide both."
+      "answer": "Detox addresses the acute medical danger — it does not treat alcohol use disorder. The risk of relapse is highest in the weeks immediately following withdrawal. Ongoing treatment — naltrexone or acamprosate to reduce craving and relapse risk, combined with CBT or motivational interviewing — significantly improves long-term outcomes. We provide both, which means your transition from detox to ongoing care happens within the same practice rather than requiring a fresh start with an unfamiliar provider."
     }
   ]
 }

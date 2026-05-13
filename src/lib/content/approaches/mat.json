@@ -55,6 +55,10 @@
   },
   "faqs": [
     {
+      "question": "What is the evidence for medication-assisted treatment for opioid addiction?",
+      "answer": "Buprenorphine-based MAT is among the most evidence-supported interventions in all of medicine. Studies consistently show 50–70% reductions in illicit opioid use, dramatic reductions in overdose mortality, improved employment, reduced criminal justice involvement, and lower rates of HIV and hepatitis C transmission. The evidence is so strong that SAMHSA, ASAM, the WHO, and the Surgeon General all identify MAT as the standard of care for opioid use disorder."
+    },
+    {
       "question": "Is buprenorphine really not addictive?",
       "answer": "Buprenorphine is a partial opioid agonist — it activates opioid receptors but with a ceiling effect, so it doesn't produce the same high or respiratory depression as full opioids. Physical dependence (your body adjusting to the medication) is not the same as addiction. The evidence that buprenorphine saves lives is unambiguous."
     },
@@ -67,12 +71,12 @@
       "answer": "Yes — and co-occurring mental health conditions are common. Our psychiatry team evaluates and treats both, and our therapists specialize in dual-diagnosis treatment. Addressing both simultaneously produces better outcomes than treating them separately."
     },
     {
-      "question": "Will insurance cover it?",
-      "answer": "Buprenorphine is covered by most insurance plans. Our buprenorphine-only program is also available for $125/month plus medication cost for those without coverage or who prefer a direct-pay arrangement."
+      "question": "What does MAT cost at Plan Your Recovery?",
+      "answer": "We accept UnitedHealthcare, Blue Cross Blue Shield, and Cigna for psychiatric appointments. For those without insurance coverage or who prefer a direct-pay arrangement, buprenorphine treatment is available for $125 per month plus the cost of the medication itself. Generic buprenorphine at pharmacies is substantially less expensive than brand-name Suboxone."
     },
     {
       "question": "How long will I need to be on medication?",
-      "answer": "It depends on your situation. Some people taper off buprenorphine after months of stability; others benefit from longer-term or indefinite treatment. The decision is based on your individual circumstances and preferences — not a program timeline."
+      "answer": "It depends on your situation. Some people taper off buprenorphine after months of stability; others benefit from longer-term or indefinite treatment. The decision is based on your individual circumstances and goals — not a program timeline. Research does not support mandatory tapering after a fixed period, and premature discontinuation increases overdose risk."
     }
   ]
 }

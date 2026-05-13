@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	/**
 	 * Reusable FAQ accordion with FAQPage JSON-LD schema.
 	 * Props:
@@ -8,15 +8,16 @@
 	 */
 	let { items = [], heading = 'Frequently Asked Questions', schema = true } = $props();
 
-	let openIndex = $state(null);
+	let openIndex = $state<number | null>(null);
 
-	function toggle(i) {
+	function toggle(i: number) {
 		openIndex = openIndex === i ? null : i;
 	}
 
 	const faqSchema = {
 		'@context': 'https://schema.org',
 		'@type': 'FAQPage',
+		name: heading,
 		mainEntity: items.map((item) => ({
 			'@type': 'Question',
 			name: item.question,
@@ -42,12 +43,12 @@
 		<ul>
 			{#each items as item, i}
 				<li class:open={openIndex === i}>
-					<div class="question" onclick={() => toggle(i)}>
+					<button class="question" onclick={() => toggle(i)} aria-expanded={openIndex === i}>
 						<h4>{item.question}</h4>
-						<button class="expander" aria-expanded={openIndex === i} aria-label={openIndex === i ? 'Collapse' : 'Expand'}>
+						<span class="expander" aria-hidden="true">
 							{#if openIndex === i}&minus;{:else}&plus;{/if}
-						</button>
-					</div>
+						</span>
+					</button>
 					{#if openIndex === i}
 						<div class="answer">
 							<p>{item.answer}</p>
@@ -81,12 +82,12 @@
 	}
 
 	li {
-		border-top: 1px solid var(--c-green);
+		border-top: 1px solid var(--accent, var(--c-green));
 		padding-top: 1rem;
 		cursor: pointer;
 
 		&:last-child {
-			border-bottom: 1px solid var(--c-green);
+			border-bottom: 1px solid var(--accent, var(--c-green));
 			padding-bottom: 1rem;
 		}
 	}
@@ -96,6 +97,16 @@
 		grid-template-columns: 1fr 50px;
 		align-items: baseline;
 		gap: 0.5rem;
+		width: 100%;
+		background: none;
+		border: none;
+		padding: 0;
+		cursor: pointer;
+		text-align: left;
+
+		&:hover .expander {
+			color: var(--accent, var(--c-green));
+		}
 
 		h4 {
 			font-size: 1rem;
@@ -113,23 +124,9 @@
 	.expander {
 		font-family: Georgia, 'Times New Roman', Times, serif;
 		font-size: 1.5rem;
-		color: var(--c-green);
-		background: none;
-		border: none;
-		cursor: pointer;
-		padding: 0;
+		color: var(--accent, var(--c-green));
 		line-height: 1;
 		text-align: center;
-		font-weight: normal;
-		font-style: normal;
-		text-transform: none;
-		letter-spacing: 0;
-
-		&:hover {
-			color: var(--c-green);
-			border-bottom: none;
-			box-shadow: none;
-		}
 	}
 
 	.answer {

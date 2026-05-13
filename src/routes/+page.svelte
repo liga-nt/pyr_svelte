@@ -1,8 +1,37 @@
-<script>
-	import ColorBar from '$lib/components/ColorBar.svelte';
+<script lang="ts">
 	import homeData from '$lib/content/home.json';
+	import site from '$lib/content/site.json';
+	import videosData from '$lib/content/videos.json';
+	import teamData from '$lib/content/team.json';
 
-	let conditionsScroll;
+	const BASE = 'https://planyourrecovery.com';
+
+	const webPageSchema = {
+		'@context': 'https://schema.org',
+		'@type': 'WebPage',
+		'@id': `${BASE}/#webpage`,
+		url: `${BASE}/`,
+		name: homeData.seo.metaTitle,
+		description: homeData.seo.metaDesc,
+		isPartOf: { '@id': `${BASE}/#website` },
+		about: { '@id': `${BASE}/#organization` }
+	};
+
+	const cliniciansListSchema = {
+		'@context': 'https://schema.org',
+		'@type': 'ItemList',
+		name: 'Our Therapists and Prescribers',
+		itemListElement: teamData.map((p, i) => ({
+			'@type': 'ListItem',
+			position: i + 1,
+			name: p.fullName,
+			url: `${BASE}/team/${p.slug}`
+		}))
+	};
+
+	let conditionsScroll: HTMLElement;
+	let cliniciansScroll: HTMLElement;
+	let videosScroll: HTMLElement;
 
 	function scrollLeft() {
 		if (conditionsScroll) {
@@ -15,21 +44,55 @@
 			conditionsScroll.scrollBy({ left: 300, behavior: 'smooth' });
 		}
 	}
+
+	function cliniciansLeft() {
+		if (cliniciansScroll) {
+			cliniciansScroll.scrollBy({ left: -300, behavior: 'smooth' });
+		}
+	}
+
+	function cliniciansRight() {
+		if (cliniciansScroll) {
+			cliniciansScroll.scrollBy({ left: 300, behavior: 'smooth' });
+		}
+	}
+
+	function videosLeft() {
+		if (videosScroll) {
+			videosScroll.scrollBy({ left: -300, behavior: 'smooth' });
+		}
+	}
+
+	function videosRight() {
+		if (videosScroll) {
+			videosScroll.scrollBy({ left: 300, behavior: 'smooth' });
+		}
+	}
 </script>
 
 <svelte:head>
 	<title>{homeData.seo.metaTitle}</title>
 	<meta name="description" content={homeData.seo.metaDesc} />
 	<meta name="keywords" content={homeData.seo.metaKeywords} />
+	{@html `<script type="application/ld+json">${JSON.stringify(webPageSchema)}<\/script>`}
+	{@html `<script type="application/ld+json">${JSON.stringify(cliniciansListSchema)}<\/script>`}
 </svelte:head>
 
 <div class="page">
 	<!-- Hero Section -->
 	<section class="hero">
 		<div class="container">
-			<p class="hero-eyebrow">{homeData.hero.eyebrow}</p>
-			<h1>{homeData.hero.headline}</h1>
-			<p class="hero-subheadline">{homeData.hero.subheadline}</p>
+			<div class="hero-top">
+				<div class="hero-intro">
+					<p class="hero-eyebrow">{homeData.hero.eyebrow}</p>
+					<h1>{homeData.hero.headline}</h1>
+					<p class="hero-subheadline">{homeData.hero.subheadline}</p>
+				</div>
+				<div class="hero-illustration" aria-hidden="true">
+					<img src="/img/illustration/shape-home.svg" class="illus-shape" alt="" />
+					<img src="/img/illustration/pyr-home.png" class="illus-people" alt="" />
+				</div>
+			</div>
 			<div class="hero-differentiators">
 				{#each homeData.hero.differentiators as d}
 					<div class="hero-diff-card">
@@ -38,11 +101,32 @@
 					</div>
 				{/each}
 			</div>
-			<div class="hero-ctas">
-				<a href="/booking/" class="button--link">
-					<button class="primary">{homeData.hero.ctaPrimary}</button>
-				</a>
-				<a href="/team/" class="hero-secondary-cta">{homeData.hero.ctaSecondary} →</a>
+			<div class="clinicians-carousel-wrapper">
+				<button class="carousel-arrow carousel-arrow-left" onclick={cliniciansLeft} aria-label="Scroll left">
+					<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+						<path d="M15 18l-6-6 6-6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+					</svg>
+				</button>
+				<div class="clinicians-scroll" bind:this={cliniciansScroll}>
+					{#each teamData as clinician}
+						<a href="/team/{clinician.slug}" class="clinician-card">
+							<div class="clinician-portrait">
+								<img src={clinician.portrait} alt={clinician.fullName} width="120" height="120" />
+							</div>
+							<span class="clinician-name">{clinician.firstName} {clinician.lastName}</span>
+							<span class="clinician-credentials">{clinician.credentials}</span>
+							<span class="clinician-role">{clinician.role}</span>
+						</a>
+					{/each}
+				</div>
+				<button class="carousel-arrow carousel-arrow-right" onclick={cliniciansRight} aria-label="Scroll right">
+					<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+						<path d="M9 18l6-6-6-6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+					</svg>
+				</button>
+			</div>
+			<div class="view-all-link">
+				<a href="/team">Meet all our clinicians →</a>
 			</div>
 		</div>
 	</section>
@@ -55,7 +139,7 @@
 				{#each homeData.whoWetreat.groups as group}
 					<a href={group.link} class="who-card">
 						<div class="who-icon">
-							<img src={group.icon} alt={group.label} width="100" height="100" />
+							<img src={group.icon} alt="" width="100" height="100" />
 						</div>
 						<h3>{group.label}</h3>
 					</a>
@@ -69,11 +153,6 @@
 		<div class="container">
 			<h2>{homeData.conditions.headline}</h2>
 			<div class="conditions-carousel-wrapper">
-				<button class="carousel-arrow carousel-arrow-left" onclick={scrollLeft} aria-label="Scroll left">
-					<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
-						<path d="M15 18l-6-6 6-6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-					</svg>
-				</button>
 				<div class="conditions-scroll" bind:this={conditionsScroll}>
 					{#each homeData.conditions.items as condition}
 						<a href={condition.linkUrl} class="condition-card">
@@ -84,14 +163,9 @@
 						</a>
 					{/each}
 				</div>
-				<button class="carousel-arrow carousel-arrow-right" onclick={scrollRight} aria-label="Scroll right">
-					<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
-						<path d="M9 18l6-6-6-6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-					</svg>
-				</button>
 			</div>
 			<div class="view-all">
-				<a href="/conditions/">View all conditions →</a>
+				<a href="/conditions">View all conditions →</a>
 			</div>
 		</div>
 	</section>
@@ -112,27 +186,43 @@
 		</div>
 	</section>
 
-	<!-- Final CTA -->
-	<section class="final-cta" id="contact">
+	<!-- Videos -->
+	<section class="videos-section">
 		<div class="container">
-			<h2>Ready to Take the First Step?</h2>
-			<div class="contact-info">
-				<div class="contact-item">
-					<h3>Counseling</h3>
-					<a href="tel:{homeData.contact.counselingPhone}">{homeData.contact.counselingPhone}</a>
+			<h2>Educational Videos</h2>
+			<div class="videos-carousel-wrapper">
+				<button class="carousel-arrow carousel-arrow-left" onclick={videosLeft} aria-label="Scroll left">
+					<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+						<path d="M15 18l-6-6 6-6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+					</svg>
+				</button>
+				<div class="videos-scroll" bind:this={videosScroll}>
+					{#each videosData.videos as video}
+						<a href="/videos" class="video-thumb-card">
+							<img
+								src="https://img.youtube.com/vi/{video.videoID}/mqdefault.jpg"
+								alt={video.title}
+								width="320"
+								height="180"
+								class="video-thumb"
+							/>
+							<span class="video-thumb-category">{video.category}</span>
+							<span class="video-thumb-title">{video.title}</span>
+						</a>
+					{/each}
 				</div>
-				<div class="contact-item">
-					<h3>Psychiatry</h3>
-					<a href="tel:{homeData.contact.psychiatryPhone}">{homeData.contact.psychiatryPhone}</a>
-				</div>
-				<div class="contact-item">
-					<h3>Email</h3>
-					<a href="mailto:{homeData.contact.email}">{homeData.contact.email}</a>
-				</div>
+				<button class="carousel-arrow carousel-arrow-right" onclick={videosRight} aria-label="Scroll right">
+					<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+						<path d="M9 18l6-6-6-6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+					</svg>
+				</button>
 			</div>
-			<p class="contact-note">Or browse our resources to learn more about our treatment approaches.</p>
+			<div class="view-all">
+				<a href="/videos">View all videos →</a>
+			</div>
 		</div>
 	</section>
+
 </div>
 
 <style lang="scss">
@@ -152,11 +242,48 @@
 
 	/* Hero Section */
 	.hero {
-		padding: var(--space-xlarge) 0 var(--space-xlarge);
+		padding: var(--space-large) 0 var(--space-xlarge);
 		border-bottom: 1px solid var(--c-gray);
 
 		.container {
-			max-width: 900px;
+			max-width: 1000px;
+		}
+
+		.hero-top {
+			display: grid;
+			grid-template-columns: 1fr 380px;
+			gap: var(--space-large);
+			align-items: center;
+			margin-bottom: var(--space-large);
+
+			@media (max-width: 820px) {
+				grid-template-columns: 1fr;
+			}
+		}
+
+		.hero-illustration {
+			position: relative;
+
+			.illus-shape {
+				position: absolute;
+				width: 130%;
+				left: -15%;
+				top: 50%;
+				transform: translateY(-50%);
+			}
+
+			.illus-people {
+				position: relative;
+				z-index: 1;
+				width: 115%;
+				height: auto;
+				display: block;
+				margin-top: -2rem;
+			}
+
+			@media (max-width: 820px) {
+				display: none;
+			}
 		}
 
 		.hero-eyebrow {
@@ -217,17 +344,97 @@
 			}
 		}
 
-		.hero-ctas {
+		.clinicians-carousel-wrapper {
+			position: relative;
 			display: flex;
 			align-items: center;
-			gap: var(--space-medium);
-			flex-wrap: wrap;
+			gap: 1rem;
+			margin-bottom: var(--space-small);
 		}
 
-		.hero-secondary-cta {
-			font-size: 1rem;
-			font-weight: 500;
+		.clinicians-scroll {
+			display: flex;
+			gap: 1.5rem;
+			overflow-x: auto;
+			scroll-behavior: smooth;
+			padding: 1rem 0;
+			flex: 1;
+			scrollbar-width: none;
+			-ms-overflow-style: none;
+
+			&::-webkit-scrollbar {
+				display: none;
+			}
+		}
+
+		.clinician-card {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			text-decoration: none;
+			flex-shrink: 0;
+			width: 130px;
+			transition: transform 0.3s ease;
+
+			&:hover {
+				transform: translateY(-4px);
+				box-shadow: none;
+			}
+		}
+
+		.clinician-portrait {
+			width: 100px;
+			height: 100px;
+			border-radius: 50%;
+			overflow: hidden;
+			margin-bottom: 0.6rem;
+			border: 2px solid var(--c-gray);
+			flex-shrink: 0;
+
+			img {
+				width: 100%;
+				height: 100%;
+				object-fit: cover;
+				object-position: top;
+			}
+		}
+
+		.clinician-name {
+			font-size: 0.9rem;
+			font-weight: 600;
 			color: var(--c-dark);
+			text-align: center;
+			line-height: 1.3;
+		}
+
+		.clinician-credentials {
+			font-size: 0.75rem;
+			color: var(--c-green);
+			text-align: center;
+			margin-top: 0.15rem;
+		}
+
+		.clinician-role {
+			font-size: 0.75rem;
+			color: #777;
+			text-align: center;
+			margin-top: 0.1rem;
+			line-height: 1.3;
+		}
+
+		.view-all-link {
+			margin-top: var(--space-small);
+
+			a {
+				font-size: 0.9375rem;
+				color: var(--c-green);
+				font-weight: 600;
+				text-decoration: none;
+
+				&:hover {
+					text-decoration: underline;
+				}
+			}
 		}
 	}
 
@@ -239,6 +446,16 @@
 		h2 {
 			text-align: center;
 			margin-bottom: var(--space-large);
+
+			&::after {
+				content: '';
+				display: block;
+				width: 60px;
+				height: 3px;
+				background: var(--c-green);
+				margin: 0.5rem auto 0;
+				border-radius: 2px;
+			}
 		}
 
 		.who-icons {
@@ -254,12 +471,14 @@
 			flex-direction: column;
 			align-items: center;
 			text-decoration: none;
+			box-shadow: none;
 			flex-shrink: 0;
-			width: 120px;
+			width: 140px;
 			transition: transform 0.3s ease;
 
 			&:hover {
 				transform: translateY(-4px);
+				box-shadow: none;
 			}
 
 			.who-icon {
@@ -270,12 +489,17 @@
 				justify-content: center;
 				margin-bottom: var(--space-small);
 				transition: transform 0.3s ease;
+				border-radius: 50%;
+				border: 5px solid transparent;
+				padding: 8px;
+				box-sizing: content-box;
+				background: #f8f8f8;
+				overflow: hidden;
 
 				img {
 					width: 100%;
 					height: 100%;
 					object-fit: contain;
-					mix-blend-mode: multiply;
 				}
 			}
 
@@ -283,9 +507,14 @@
 				transform: scale(1.1);
 			}
 
+			&:nth-child(1) .who-icon { border-color: var(--c-green); }
+			&:nth-child(2) .who-icon { border-color: var(--c-purple); }
+			&:nth-child(3) .who-icon { border-color: var(--c-yellow); }
+			&:nth-child(4) .who-icon { border-color: var(--c-blue); }
+
 			h3 {
 				font-size: 0.95rem;
-				color: var(--c-dark);
+				color: var(--c-green);
 				text-align: center;
 				margin: 0;
 				line-height: 1.3;
@@ -300,6 +529,16 @@
 		h2 {
 			text-align: center;
 			margin-bottom: var(--space-large);
+
+			&::after {
+				content: '';
+				display: block;
+				width: 60px;
+				height: 3px;
+				background: var(--c-green);
+				margin: 0.5rem auto 0;
+				border-radius: 2px;
+			}
 		}
 
 		.conditions-carousel-wrapper {
@@ -351,6 +590,13 @@
 			&::-webkit-scrollbar {
 				display: none;
 			}
+
+			@media (max-width: 480px) {
+				display: grid;
+				grid-template-columns: repeat(2, 1fr);
+				overflow-x: visible;
+				gap: 1rem;
+			}
 		}
 
 		.condition-card {
@@ -361,6 +607,10 @@
 			flex-shrink: 0;
 			width: 120px;
 			transition: transform 0.3s ease;
+
+			@media (max-width: 480px) {
+				width: auto;
+			}
 
 			&:hover {
 				transform: translateY(-4px);
@@ -374,12 +624,17 @@
 				justify-content: center;
 				margin-bottom: var(--space-small);
 				transition: transform 0.3s ease;
+				border-radius: 50%;
+				border: 5px solid transparent;
+				padding: 8px;
+				box-sizing: content-box;
+				background: #f8f8f8;
+				overflow: hidden;
 
 				img {
 					width: 100%;
 					height: 100%;
 					object-fit: contain;
-					mix-blend-mode: multiply;
 				}
 			}
 
@@ -387,9 +642,14 @@
 				transform: scale(1.1);
 			}
 
+			&:nth-child(1) .condition-icon { border-color: var(--c-blue); }
+			&:nth-child(2) .condition-icon { border-color: var(--c-purple); }
+			&:nth-child(3) .condition-icon { border-color: var(--c-green); }
+			&:nth-child(4) .condition-icon { border-color: var(--c-yellow); }
+
 			h3 {
 				font-size: 0.95rem;
-				color: var(--c-dark);
+				color: var(--c-green);
 				text-align: center;
 				margin: 0;
 				line-height: 1.3;
@@ -449,6 +709,97 @@
 			a {
 				color: var(--c-green);
 				font-weight: 500;
+			}
+		}
+	}
+
+	/* Videos */
+	.videos-section {
+		padding: var(--space-xlarge) 0;
+
+		h2 {
+			text-align: center;
+			margin-bottom: var(--space-large);
+		}
+
+		.videos-carousel-wrapper {
+			position: relative;
+			display: flex;
+			align-items: center;
+		}
+
+		.videos-scroll {
+			display: flex;
+			gap: 1.25rem;
+			overflow-x: auto;
+			scroll-behavior: smooth;
+			padding: 0.5rem 0 1rem;
+			scrollbar-width: none;
+			-ms-overflow-style: none;
+
+			&::-webkit-scrollbar {
+				display: none;
+			}
+		}
+
+		.video-thumb-card {
+			display: flex;
+			flex-direction: column;
+			flex-shrink: 0;
+			width: 260px;
+			text-decoration: none;
+			transition: transform 0.2s ease;
+
+			&:hover {
+				transform: translateY(-3px);
+
+				.video-thumb {
+					box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+				}
+			}
+		}
+
+		.video-thumb {
+			width: 100%;
+			height: auto;
+			border-radius: 4px;
+			display: block;
+			box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+			transition: box-shadow 0.2s ease;
+			margin-bottom: 0.5rem;
+		}
+
+		.video-thumb-category {
+			font-family: ibm-plex-sans-condensed, sans-serif;
+			font-size: 0.72rem;
+			text-transform: uppercase;
+			letter-spacing: 0.07em;
+			color: #999;
+			display: block;
+			margin-bottom: 0.2rem;
+		}
+
+		.video-thumb-title {
+			font-family: ibm-plex-sans, sans-serif;
+			font-size: 0.9375rem;
+			font-weight: 500;
+			color: var(--c-dark);
+			line-height: 1.4;
+		}
+
+		.view-all {
+			text-align: center;
+			margin-top: var(--space-medium);
+
+			a {
+				color: var(--c-green);
+				font-weight: 500;
+				font-size: 1rem;
+				text-decoration: none;
+
+				&:hover {
+					text-decoration: underline;
+				}
 			}
 		}
 	}

@@ -1,27 +1,30 @@
 {
+  "color": "#6AE3DC",
   "seo": {
     "title": "Motivational Interviewing | Plan Your Recovery",
-    "description": "Motivational Interviewing helps people resolve ambivalence about change. Used throughout Plan Your Recovery for addiction and mental health treatment in St. Louis."
+    "description": "Motivational Interviewing helps people resolve ambivalence about change. Used at Plan Your Recovery for addiction and mental health treatment in St. Louis."
   },
   "hero": {
-    "headline": "Motivational Interviewing",
+    "headline": "Motivational Interviewing in St. Louis",
     "intro": "Motivational Interviewing is a client-centered approach for helping people resolve ambivalence about change. It is not persuasion — it is a way of having a conversation that helps people find their own reasons to do something different."
   },
-  "whatItIs": {
-    "heading": "What Is Motivational Interviewing?",
-    "paragraphs": [
-      "Most people who are struggling don't arrive at treatment fully ready to change. They're ambivalent — part of them wants things to be different, part of them isn't sure, and part of them is resistant to being told what to do. Traditional approaches that push hard for change often produce reactance: the harder you push, the more the person digs in.",
-      "Motivational Interviewing works with that ambivalence rather than against it. The approach involves four core processes: engaging (building a working relationship), focusing (identifying what matters to work on), evoking (drawing out the person's own motivation and reasons for change), and planning (when the person is ready, helping them figure out concrete next steps).",
-      "The therapist's job is to listen carefully, reflect back what the person is already saying about why change might matter to them, and resist the urge to lecture or convince. Change talk — statements the person makes about wanting, being able to, or being committed to change — predicts actual behavior change. MI creates the conditions for that talk to emerge naturally."
-    ]
-  },
-  "howWeUseIt": {
-    "heading": "How We Use MI",
-    "paragraphs": [
-      "MI is used throughout our practice — as a primary approach for people who aren't yet sure they want to change, and as a foundation alongside CBT and other structured therapies. It is particularly useful early in treatment, with adolescents, and with anyone who has had the experience of being pushed into treatment that didn't feel like their own choice.",
-      "Many people who come to us are ambivalent about treatment itself. They may be there because of a family ultimatum, a legal situation, or a medical crisis — not because they woke up and decided they wanted help. MI meets people where they actually are, rather than insisting they be somewhere different before work can begin."
-    ]
-  },
+  "body": [
+    {
+      "heading": "What Is Motivational Interviewing?",
+      "paragraphs": [
+        "Most people who are struggling don't arrive at treatment fully ready to change. They're ambivalent — part of them wants things to be different, part of them isn't sure, and part of them is resistant to being told what to do. Traditional approaches that push hard for change often produce reactance: the harder you push, the more the person digs in.",
+        "Motivational Interviewing works with that ambivalence rather than against it. The approach involves four core processes: engaging (building a working relationship), focusing (identifying what matters to work on), evoking (drawing out the person's own motivation and reasons for change), and planning (when the person is ready, helping them figure out concrete next steps).",
+        "The therapist's job is to listen carefully, reflect back what the person is already saying about why change might matter to them, and resist the urge to lecture or convince. Change talk — statements the person makes about wanting, being able to, or being committed to change — predicts actual behavior change. MI creates the conditions for that talk to emerge naturally."
+      ]
+    },
+    {
+      "heading": "How We Use MI",
+      "paragraphs": [
+        "MI is used throughout our practice — as a primary approach for people who aren't yet sure they want to change, and as a foundation alongside CBT and other structured therapies. It is particularly useful early in treatment, with adolescents, and with anyone who has had the experience of being pushed into treatment that didn't feel like their own choice.",
+        "Many people who come to us are ambivalent about treatment itself. They may be there because of a family ultimatum, a legal situation, or a medical crisis — not because they woke up and decided they wanted help. MI meets people where they actually are, rather than insisting they be somewhere different before work can begin."
+      ]
+    }
+  ],
   "whatToExpect": {
     "heading": "What to Expect",
     "items": [
@@ -54,7 +57,11 @@
     },
     {
       "question": "Does MI work for mental health conditions, not just addiction?",
-      "answer": "Yes. MI has evidence for medication adherence, treatment engagement, health behavior change, and a range of mental health conditions. Its value isn't specific to addiction — it addresses human ambivalence, which shows up everywhere."
+      "answer": "Yes. MI has evidence for medication adherence, treatment engagement, health behavior change, and a range of mental health conditions. Its value isn't specific to addiction — it addresses human ambivalence, which shows up everywhere from taking medication consistently to following through on exercise or sleep changes."
+    },
+    {
+      "question": "Is motivational interviewing effective for teens?",
+      "answer": "Yes — and it's particularly well-suited to adolescents, who are developmentally primed to resist authority and external pressure. MI is designed to avoid the confrontational dynamic that often makes teens disengage. By meeting them where they are and genuinely exploring their own perspective on their behavior, it tends to produce more authentic engagement than directive approaches."
     },
     {
       "question": "What if someone just isn't ready to change?",

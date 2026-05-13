@@ -1,0 +1,105 @@
+{
+  "seo": {
+    "title": "Suboxone Treatment in St. Louis | Plan Your Recovery",
+    "description": "Board-certified providers prescribing Suboxone in St. Louis. New patients seen within 1–3 days. Telehealth available throughout Missouri."
+  },
+  "hero": {
+    "headline": "Suboxone & Buprenorphine Treatment in St. Louis",
+    "intro": "We prescribe buprenorphine (Suboxone) for opioid use disorder at our St. Louis outpatient practice. New patients are typically seen within 1–3 days — because waiting weeks for treatment when lives are at risk is not something we accept."
+  },
+  "why": {
+    "heading": "Evidence-Based, Not Ideology-Based",
+    "paragraphs": [
+      "Buprenorphine is the most effective treatment available for opioid use disorder. People on buprenorphine have dramatically lower rates of overdose, fewer hospitalizations, and better long-term outcomes. We prescribe it as soon as clinically appropriate — typically at your first appointment.",
+      "We combine medication with counseling. Buprenorphine stabilizes the neurology of addiction; therapy builds the skills and insight that make lasting recovery possible. Our psychiatric and counseling teams work together, coordinated from the start.",
+      "There is no fixed program length. How long you continue buprenorphine is a medical decision based on your stability and goals — not a timeline imposed by ideology or a program clock."
+    ]
+  },
+  "access": {
+    "heading": "How to Access Care in St. Louis",
+    "items": [
+      {
+        "label": "Seen within 1–3 days",
+        "description": "Opioid use disorder is a medical emergency. We keep availability for new buprenorphine patients and do not put people on multi-week waitlists."
+      },
+      {
+        "label": "Telehealth throughout Missouri",
+        "description": "Appointments are available by telehealth statewide — you do not need to be in the St. Louis area to receive buprenorphine treatment from our practice."
+      },
+      {
+        "label": "$125/month direct-pay program",
+        "description": "For those without insurance or who prefer a direct-pay arrangement, buprenorphine treatment is $125 per month plus the cost of the medication itself."
+      },
+      {
+        "label": "Insurance accepted",
+        "description": "We accept UnitedHealthcare, BCBS, and Cigna for buprenorphine treatment. Buprenorphine is also covered by most Medicaid plans."
+      }
+    ]
+  },
+  "providers": {
+    "heading": "Our Buprenorphine Providers",
+    "intro": "Buprenorphine treatment at Plan Your Recovery is provided by our psychiatric nurse practitioners, both of whom specialize in addiction psychiatry.",
+    "items": [
+      {
+        "name": "Angela Jones",
+        "credentials": "MSN, APRN, PMHNP-BC, FNP-BC",
+        "slug": "angela-jones",
+        "note": "In-person and telehealth"
+      },
+      {
+        "name": "John Gransbach",
+        "credentials": "DNP, APRN, PMHNP-BC",
+        "slug": "john-gransbach",
+        "note": "In-person"
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Is buprenorphine just replacing one addiction with another?",
+      "answer": "No. This is a stigma-driven myth that has contributed to preventable deaths. Buprenorphine is a medication that treats a medical condition — the same way antidepressants treat depression. People stabilized on buprenorphine have dramatically lower rates of overdose death, are more likely to be employed, and more likely to be present for their families. We will never treat medication as a lesser form of recovery."
+    },
+    {
+      "question": "How quickly can I be seen?",
+      "answer": "Typically within 1–3 days. Opioid use disorder is a medical emergency — we do not put people on waiting lists for life-saving treatment."
+    },
+    {
+      "question": "Can I start buprenorphine if I haven't stopped using yet?",
+      "answer": "Yes — that's typically when treatment should start. You need to be in mild to moderate withdrawal before taking your first dose of buprenorphine, but that doesn't mean you need a period of abstinence beforehand. Your first dose is usually taken at home when you're beginning to feel withdrawal symptoms. We'll give you detailed instructions for induction. The goal is to get you stable as quickly as possible."
+    },
+    {
+      "question": "Do you offer telehealth buprenorphine treatment?",
+      "answer": "Yes. Buprenorphine treatment is available by telehealth throughout Missouri. You do not need to be in Saint Louis to receive care from us — telehealth appointments are available statewide."
+    },
+    {
+      "question": "What does suboxone treatment cost?",
+      "answer": "We accept UnitedHealthcare, BCBS, and Cigna. For those without insurance or who prefer a direct-pay arrangement, buprenorphine treatment is $125 per month plus the cost of the medication itself. Generic buprenorphine is available at most pharmacies and is significantly less expensive than brand-name Suboxone."
+    },
+    {
+      "question": "How long will I need to take buprenorphine?",
+      "answer": "As long as it is helping you. Research does not support mandatory tapering after a fixed period — and premature discontinuation significantly increases overdose risk. The decision is made collaboratively based on your stability and goals, not a program timeline."
+    },
+    {
+      "question": "What if I'm also using alcohol or other drugs?",
+      "answer": "You still qualify for buprenorphine treatment. Polysubstance use is common and does not disqualify you from care. We will work with the full picture and build a plan accordingly."
+    }
+  ],
+  "related": [
+    {
+      "label": "Opioid Use Disorder",
+      "href": "/opioid-use-disorder"
+    },
+    {
+      "label": "Psychiatry & Medication",
+      "href": "/psychiatry"
+    },
+    {
+      "label": "Angela Jones, PMHNP",
+      "href": "/team/angela-jones"
+    },
+    {
+      "label": "John Gransbach, DNP",
+      "href": "/team/john-gransbach"
+    }
+  ]
+}

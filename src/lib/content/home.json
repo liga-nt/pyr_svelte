@@ -6,15 +6,15 @@
   },
   "hero": {
     "eyebrow": "Mental Health & Addiction Counseling — St. Louis",
-    "headline": "Therapy is all talk. Done well, it leads to real change.",
-    "subheadline": "A lot of people have tried therapy and felt like it didn't work — or tried several medications without feeling any benefit. We combine CBT, psychiatry, and family-focused care in one practice, treating mental health and addiction together. Not everyone needs every piece, but all options should be on the table.",
+    "headline": "Therapy isn’t just talk. Done well, it leads to real change.",
+    "subheadline": "A lot of people have tried therapy and felt like it was all talk — or tried several medications without feeling any benefit. We combine CBT, psychiatry, and family-focused care in one practice, treating mental health and addiction together. Not everyone needs every piece, but all options are on the table.",
     "differentiators": [
       {
         "heading": "Therapy and psychiatry together",
         "body": "In-house psychiatric care means your therapy and medication are coordinated — not siloed across two providers who never speak."
       },
       {
-        "heading": "Mental health and addiction, treated as one",
+        "heading": "Mental health and addiction, treated together",
         "body": "Co-occurring problems are the norm. We're built to treat both rather than referring you out when things get complicated."
       },
       {
@@ -25,93 +25,28 @@
     "ctaPrimary": "Make an Appointment",
     "ctaSecondary": "Meet our clinicians"
   },
-  "contact": {
-    "counselingPhone": "314-222-5896",
-    "psychiatryPhone": "314-222-5830",
-    "email": "info@planyourrecovery.com"
-  },
-  "trustBar": [
-    "Licensed Clinicians",
-    "Integrated Psychiatry",
-    "Family-Focused",
-    "Evidence-Based"
-  ],
-  "negativeStakes": {
-    "headline": "You Don't Have to Face This Alone",
-    "text": "Untreated mental health and addiction challenges don't stay the same—they worsen over time. The emotional toll deepens, relationships become strained, and the costs—both personal and financial—continue to mount. But there's hope: effective, evidence-based treatments exist, and recovery is possible."
-  },
-  "valueProp": {
-    "headline": "Why Choose Plan Your Recovery",
-    "items": [
-      {
-        "title": "Office-Based Care",
-        "description": "Flexible, individualized treatment that fits your schedule—not a rigid, requirement-heavy program.",
-        "icon": "📅"
-      },
-      {
-        "title": "Integrated Psychiatry",
-        "description": "In-house psychiatric care ensures well-coordinated, comprehensive treatment for both therapy and medication.",
-        "icon": "⚕️"
-      },
-      {
-        "title": "Family-Focused",
-        "description": "We work with the whole family system, especially with teens and young adults, to support lasting change.",
-        "icon": "👨‍👩‍👧‍👦"
-      },
-      {
-        "title": "Evidence-Based",
-        "description": "We use proven approaches like CBT, MAT, and family therapy—what the research shows actually works.",
-        "icon": "📊"
-      }
-    ]
-  },
   "conditions": {
     "headline": "What We Treat",
     "items": [
       {
         "name": "Depression",
         "icon": "/icons/Depression.png",
-        "linkUrl": "/depression/"
+        "linkUrl": "/depression"
       },
       {
         "name": "Anxiety",
         "icon": "/icons/Anxiety.png",
-        "linkUrl": "/anxiety/"
+        "linkUrl": "/anxiety"
       },
       {
         "name": "Addiction",
         "icon": "/icons/Addiction.png",
-        "linkUrl": "/conditions/"
+        "linkUrl": "/conditions"
       },
       {
         "name": "Relationships",
         "icon": "/icons/couples_conflict.png",
-        "linkUrl": "/family-therapy/"
-      }
-    ]
-  },
-  "process": {
-    "headline": "Your Path Forward",
-    "steps": [
-      {
-        "number": "1",
-        "title": "Connect",
-        "description": "Call, email, or reach out to any of our clinicians directly to get started."
-      },
-      {
-        "number": "2",
-        "title": "Collaborative Assessment",
-        "description": "Your first visit is a conversation to understand your needs and goals."
-      },
-      {
-        "number": "3",
-        "title": "Personalized Treatment Plan",
-        "description": "Together, we develop a plan that fits your life—therapy, medication, or both."
-      },
-      {
-        "number": "4",
-        "title": "Ongoing Support",
-        "description": "Regular sessions and adjustments as needed to support your progress."
+        "linkUrl": "/family-therapy"
       }
     ]
   },
@@ -120,13 +55,13 @@
     "items": [
       {
         "name": "Cognitive Behavioral Therapy (CBT)",
-        "description": "Proven therapy for anxiety, depression, and addiction that focuses on changing thought patterns and behaviors.",
+        "description": "Proven therapy for anxiety, depression, and addiction that focuses on changing thought patterns, unhelpful emotions, and behaviors.",
         "linkUrl": "/cbt"
       },
       {
         "name": "Medication-Assisted Treatment (MAT)",
         "description": "FDA-approved medications combined with counseling for opioid and alcohol use disorders.",
-        "linkUrl": "/addiction"
+        "linkUrl": "/opioid-use-disorder"
       },
       {
         "name": "Family Therapy",
@@ -136,7 +71,7 @@
       {
         "name": "Contingency Management",
         "description": "Reward-based approach particularly effective for teens and young adults in early recovery.",
-        "linkUrl": "/our-approach"
+        "linkUrl": "/contingency-management"
       },
       {
         "name": "Medication Management",
@@ -145,38 +80,36 @@
       }
     ]
   },
-  "seoContent": {
-    "headline": "Mental Health & Addiction Counseling, St. Louis",
-    "paragraphs": [
-      "Plan Your Recovery offers Cognitive Behavioral Therapy (CBT), supportive therapy, and psychiatry in St. Louis for mental health and addiction. We treat depression, anxiety, substance use disorders, and other behavioral health conditions with personalized, coordinated care.",
-      "Our licensed therapists and psychiatrists work together to provide comprehensive treatment—therapy, medication management, or both. Whether you're seeking individual therapy, couples counseling, or family-focused care for a teen or young adult, we tailor our approach to your needs and goals.",
-      "We understand that getting help shouldn't disrupt your life. Our office-based practice offers flexible scheduling and a collaborative approach, so you remain in control of your treatment while getting the expert support you need."
-    ]
+  "finalCta": {
+    "headline": "Ready to Take the First Step?",
+    "counselingLabel": "Counseling",
+    "psychiatryLabel": "Psychiatry",
+    "emailLabel": "Email"
   },
-  "videoID": "543301358",
   "whoWetreat": {
     "headline": "Who We Treat",
     "groups": [
       {
         "label": "Children",
-        "link": "/children/",
+        "link": "/children",
         "icon": "/icons/Children.png"
       },
       {
         "label": "Teens",
-        "link": "/teens/",
+        "link": "/teens",
         "icon": "/icons/Teens.png"
       },
       {
         "label": "College Students",
-        "link": "/students/",
+        "link": "/students",
         "icon": "/icons/college_students.png"
       },
       {
         "label": "Adults",
-        "link": "/adults/",
+        "link": "/adults",
         "icon": "/icons/Adults.png"
       }
     ]
-  }
+  },
+  "_reviewed": true
 }

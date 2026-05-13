@@ -1,10 +1,53 @@
 {
   "hosting": {
     "public": "build",
+    "cleanUrls": true,
     "ignore": [
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
+    ],
+    "redirects": [
+      {
+        "source": "/interventions/",
+        "destination": "/interventions",
+        "type": 301
+      },
+      {
+        "source": "/michelle/",
+        "destination": "/team/michelle-charbonnier",
+        "type": 301
+      },
+      {
+        "source": "/michelle",
+        "destination": "/team/michelle-charbonnier",
+        "type": 301
+      },
+      {
+        "source": "/booking",
+        "destination": "/",
+        "type": 301
+      },
+      {
+        "source": "/suboxone-treatment",
+        "destination": "/psychiatry",
+        "type": 301
+      },
+      {
+        "source": "/alcohol-treatment",
+        "destination": "/psychiatry",
+        "type": 301
+      },
+      {
+        "source": "/mat",
+        "destination": "/psychiatry",
+        "type": 301
+      },
+      {
+        "source": "/addiction",
+        "destination": "/conditions",
+        "type": 301
+      }
     ],
     "rewrites": [
       {

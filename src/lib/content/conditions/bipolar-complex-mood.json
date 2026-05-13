@@ -1,0 +1,131 @@
+{
+  "color": "#D3B0FE",
+  "seo": {
+    "title": "Bipolar & Complex Mood Disorders Treatment in St. Louis | Plan Your Recovery",
+    "description": "Treatment for bipolar disorder and complex mood disorders in St. Louis — medication management, therapy, and integrated care for mood cycling and mixed states."
+  },
+  "condition": {
+    "name": "Bipolar & Complex Mood Disorders",
+    "alternateName": [
+      "Bipolar I",
+      "Bipolar II",
+      "Cyclothymia",
+      "Mixed Features Depression"
+    ],
+    "schemaDescription": "Bipolar and complex mood disorders are conditions characterized by significant cycling of mood states — depression, mania, hypomania, or mixed states — that cause functional impairment and are distinct from ordinary mood variability or primary depressive disorders."
+  },
+  "hero": {
+    "headline": "Bipolar & Complex Mood Disorders",
+    "intro": "Bipolar disorder is one of the most commonly misdiagnosed and undertreated conditions in psychiatry. Many people spend years being treated for depression that isn't responding — because the underlying diagnosis is bipolar, and antidepressants alone don't work. Accurate diagnosis, appropriate medication, and therapy that addresses the specific challenges of mood cycling can make an enormous difference. If your mood has always felt bigger and more disruptive than the people around you seem to understand, it's worth looking more carefully."
+  },
+  "criteria": {
+    "heading": "What Are Bipolar and Complex Mood Disorders?",
+    "description": "Bipolar spectrum disorders involve recurring episodes of depression alongside periods of elevated, expansive, or irritable mood. The major presentations differ in the severity of those elevated states:",
+    "items": [
+      {
+        "label": "Bipolar I",
+        "description": "Characterized by at least one manic episode — a distinct period of elevated or irritable mood lasting at least seven days, severe enough to cause significant impairment or require hospitalization. Depressive episodes are common but not required for diagnosis."
+      },
+      {
+        "label": "Bipolar II",
+        "description": "Characterized by recurring depressive episodes and at least one hypomanic episode — similar to mania but less severe and shorter-lasting, not causing major impairment. People with Bipolar II are often more impaired by depression than by hypomania, which can feel productive or even preferable."
+      },
+      {
+        "label": "Cyclothymia",
+        "description": "A chronic pattern of mood instability involving hypomanic and depressive symptoms that don't meet full criteria for either pole. Often experienced as a persistent temperamental quality rather than discrete episodes."
+      },
+      {
+        "label": "Mixed features",
+        "description": "Episodes of depression accompanied by symptoms of elevated mood — or mania accompanied by depressive symptoms. Mixed states are particularly distressing and carry elevated risk of impulsive behavior."
+      }
+    ],
+    "note": "Complex mood disorders also include presentations that don't fit neatly into categorical diagnoses — people with significant mood reactivity, irritability, and functional impairment who have been labeled with personality disorders or treatment-resistant depression. These presentations warrant careful evaluation."
+  },
+  "howItFeels": {
+    "heading": "What Bipolar Disorder Actually Feels Like",
+    "paragraphs": [
+      "Depression in bipolar disorder can be indistinguishable from major depression on the surface — but it often has distinct features: profound fatigue and hypersomnia rather than insomnia, emotional numbness rather than sadness, and a subjective quality of being stuck in a fog that lifts as suddenly as it arrived.",
+      "Hypomania is the state that's most often missed — or welcomed. Energy is high, sleep feels unnecessary, ideas come quickly, social confidence is up, and productivity may genuinely increase. From the inside, it can feel like a corrective to depression, or simply like being at your best. From the outside, it may look like a mood change or a 'good period.' The problem is where it leads — spending, conflicts, decisions that need to be undone.",
+      "Mania is harder to miss, though people in its grip often lack insight into what's happening. The sense of specialness, reduced need for sleep without feeling tired, racing thoughts, grandiose plans, and decreased inhibition can escalate into psychosis, significant financial damage, or medical emergencies. The aftermath — both practical and emotional — can take months to address.",
+      "Between episodes, many people with bipolar disorder function well. But the unpredictability itself is destabilizing — not knowing when the next shift is coming, what decisions you can trust, or how others will respond. Treatment aims not only to reduce episode frequency and severity but to restore a sense of predictability and agency."
+    ]
+  },
+  "treatmentSection": {
+    "heading": "How We Treat Bipolar and Complex Mood Disorders",
+    "intro": "Effective treatment for bipolar disorder requires both medication and therapy — and the sequencing matters. Mood stabilization through medication typically comes first; therapy is most useful once someone is stable enough to use it."
+  },
+  "treatments": [
+    {
+      "name": "Mood Stabilizers and Psychiatric Medication",
+      "description": "Lithium remains the most evidence-supported mood stabilizer and has demonstrated reduction in suicide risk — a particular concern in bipolar disorder. Valproate, lamotrigine, and several atypical antipsychotics are also effective depending on the primary pole of illness. Antidepressants require careful consideration and are often contraindicated without a mood stabilizer due to the risk of precipitating mania or rapid cycling."
+    },
+    {
+      "name": "Interpersonal and Social Rhythm Therapy (IPSRT)",
+      "description": "IPSRT targets the regularity of daily routines — sleep, meals, activity, social interaction — that strongly influence mood stability in bipolar disorder. Disruption to these rhythms is a well-established trigger for episodes. Therapy focuses on identifying and protecting the rhythms that keep mood stable."
+    },
+    {
+      "name": "CBT for Bipolar Disorder",
+      "description": "CBT adapted for bipolar disorder focuses on recognizing early warning signs of episodes, developing plans for managing emerging symptoms, addressing the cognitive distortions that accompany depression and mania, and reducing the grief and adjustment challenges that often accompany diagnosis."
+    },
+    {
+      "name": "Psychoeducation and Family Involvement",
+      "description": "Understanding the disorder — how episodes develop, what triggers them, and how medication works — significantly improves outcomes. Family members who understand the illness can provide critical early warning when someone is losing insight, and can support stability in ways that make a measurable difference."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "How is bipolar disorder different from mood swings or emotional sensitivity?",
+      "answer": "Mood swings that respond to circumstances — feeling better when things improve, worse when they don't — are not the same as bipolar disorder. Bipolar episodes have a distinct quality: they arise somewhat independently of circumstances, last days to weeks or longer, and involve changes in sleep, energy, cognition, and behavior beyond just emotional tone. If your low periods involve significant functional impairment and your high periods involve behavior you later regret, that's worth evaluating carefully."
+    },
+    {
+      "question": "Why was I treated for depression for years before anyone mentioned bipolar?",
+      "answer": "This is extremely common. Most people with bipolar disorder first present with depression — hypomania or mania often comes later, or is not initially identified as pathological. Antidepressants are routinely prescribed for depression without a thorough mood history, and for some people they work fine; for those with underlying bipolar disorder, they can destabilize mood or trigger mania. A careful history of mood episodes, energy cycles, sleep changes, and behavior across years is essential to accurate diagnosis."
+    },
+    {
+      "question": "Do I have to take medication for bipolar disorder?",
+      "answer": "For most people with Bipolar I or II, medication is the foundation of treatment — not a preference but a medical necessity. The risk of recurrence without medication is high, and the cumulative damage of untreated episodes — neurological, relational, occupational — is well-documented. Therapy alone is not adequate for moderate to severe bipolar disorder. That said, medication decisions are collaborative, and there is flexibility in which medications are used and how they are managed over time."
+    },
+    {
+      "question": "I feel best when I'm slightly hypomanic. Why would I want treatment?",
+      "answer": "This is one of the most honest and common questions in bipolar treatment. Hypomania often feels like the best version of yourself — energetic, confident, creative. The problem is that it is typically not stable. It tends to escalate or give way to depression, and the decisions made during hypomanic periods often have consequences that outlast the state. Treatment aims to preserve the positive aspects of your temperament while reducing the cycling that eventually costs you."
+    },
+    {
+      "question": "Is bipolar disorder associated with substance use?",
+      "answer": "Yes — at very high rates. Alcohol and stimulant use disorders co-occur with bipolar disorder far more commonly than with the general population. Substances are often used to modulate mood — to extend a hypomanic state, to numb depression, or to manage anxiety. They also destabilize mood, making the underlying disorder worse. We treat both together and have specific expertise in this combination."
+    },
+    {
+      "question": "Can bipolar disorder be treated via telehealth?",
+      "answer": "Yes. Psychiatric medication management and therapy for bipolar disorder are both available via telehealth in Missouri. Telehealth is appropriate for most people with stable bipolar disorder; we can discuss whether in-person evaluation is warranted for your specific situation."
+    },
+    {
+      "question": "Are there free support groups or peer resources for bipolar disorder?",
+      "answer": "The Depression and Bipolar Support Alliance (dbsalliance.org) is the leading organization — peer-led, with around 700 in-person support groups and free online meetings designed specifically for people with bipolar I, II, cyclothymia, and related mood disorders. It is the most condition-specific peer resource available. NAMI (nami.org) runs NAMI Connection peer support groups in most communities and offers Family-to-Family education for loved ones; its HelpLine is 1-800-950-NAMI. The International Bipolar Foundation (ibpf.org) provides free educational resources and support for people living with bipolar and their caregivers, reaching over 150 countries. The r/bipolar community on Reddit has around 300,000 members with active moderation, and r/BipolarSOs serves partners and family members."
+    }
+  ],
+  "resources": [
+    {
+      "name": "Depression and Bipolar Support Alliance",
+      "url": "https://www.dbsalliance.org",
+      "description": "The leading U.S. peer-directed mood-disorder organization — ~700 support groups, online options, and identity-focused groups for those with bipolar I, II, and cyclothymia.",
+      "type": "mutual-support"
+    },
+    {
+      "name": "International Bipolar Foundation",
+      "url": "https://ibpf.org",
+      "description": "Education and support for those living with bipolar and their caregivers — free resources reaching 150+ countries. Condition-specific focus across the full bipolar spectrum.",
+      "type": "knowledge"
+    },
+    {
+      "name": "NAMI",
+      "url": "https://www.nami.org",
+      "description": "National Alliance on Mental Illness — NAMI Connection peer groups, Family-to-Family education program, and 650+ local affiliates. HelpLine: 1-800-950-NAMI.",
+      "type": "mutual-support"
+    },
+    {
+      "name": "988 Suicide & Crisis Lifeline",
+      "url": "https://988lifeline.org",
+      "description": "Call or text 988 — 24/7 crisis support. Bipolar disorder carries significantly elevated suicide risk.",
+      "type": "crisis"
+    }
+  ]
+}

@@ -1,18 +1,40 @@
 <script>
 	import Video from '$lib/components/Video.svelte';
 	import data from '$lib/content/videos.json';
+
+	const BASE = 'https://planyourrecovery.com';
+
+	const videoSchemas = data.videos.map(v => ({
+		'@context': 'https://schema.org',
+		'@type': 'VideoObject',
+		name: v.title,
+		description: v.description,
+		uploadDate: v.uploadDate,
+		thumbnailUrl: `https://img.youtube.com/vi/${v.videoID}/hqdefault.jpg`,
+		embedUrl: `https://www.youtube.com/embed/${v.videoID}`,
+		url: `https://www.youtube.com/watch?v=${v.videoID}`,
+		publisher: {
+			'@type': 'Organization',
+			name: 'Plan Your Recovery',
+			url: BASE
+		}
+	}));
 </script>
 
 <svelte:head>
 	<title>{data.seo.title}</title>
 	<meta name="description" content={data.seo.description} />
+	{#each videoSchemas as schema}
+		{@html `<script type="application/ld+json">${JSON.stringify(schema)}<\/script>`}
+	{/each}
 </svelte:head>
 
 <div class="page">
 
 	<section class="hero">
 		<div class="container">
-			<h1>Videos</h1>
+			<h1>Educational Videos on Addiction &amp; Mental Health</h1>
+			<p class="intro">{data.intro}</p>
 		</div>
 	</section>
 
@@ -25,6 +47,7 @@
 						<div class="video-meta">
 							<span class="video-category">{video.category}</span>
 							<h2 class="video-title">{video.title}</h2>
+							<p class="video-description">{video.description}</p>
 						</div>
 					</div>
 				{/each}
@@ -50,7 +73,15 @@
 		padding: var(--space-large) 0 var(--space-medium);
 
 		h1 {
+			margin-bottom: var(--space-small);
+		}
+
+		.intro {
+			font-size: 1.0625rem;
+			line-height: 1.7;
+			color: #555;
 			margin: 0;
+			max-width: 680px;
 		}
 	}
 
@@ -93,8 +124,15 @@
 			font-family: ibm-plex-sans, sans-serif;
 			font-weight: 500;
 			color: var(--c-dark);
-			margin: 0;
+			margin: 0 0 0.5rem;
 			line-height: 1.4;
+		}
+
+		.video-description {
+			font-size: 0.9375rem;
+			line-height: 1.65;
+			color: #555;
+			margin: 0;
 		}
 	}
 </style>

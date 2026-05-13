@@ -1,0 +1,101 @@
+{
+  "seo": {
+    "title": "Alcohol Treatment in St. Louis | Plan Your Recovery",
+    "description": "Outpatient alcohol treatment in St. Louis. Naltrexone, outpatient detox, and evidence-based counseling. Abstinence or moderation — we work with your goals."
+  },
+  "hero": {
+    "headline": "Alcohol Treatment in St. Louis",
+    "intro": "Effective treatment for alcohol use disorder exists — and most people who need it never receive it. We provide naltrexone, outpatient detoxification, and evidence-based counseling at our St. Louis practice, coordinated between our psychiatric and therapy teams."
+  },
+  "why": {
+    "heading": "Treatment That Meets You Where You Are",
+    "paragraphs": [
+      "You do not have to want complete abstinence to benefit from treatment. Research supports both abstinence-oriented and moderation-focused approaches, and we will work with whatever goal you're willing to try — with honest input about what the evidence says for your situation.",
+      "Naltrexone is one of the most effective and underused treatments for alcohol use disorder. It reduces the pleasurable effects of alcohol and decreases craving. Used alongside counseling, it significantly improves outcomes. We prescribe it routinely because the evidence is clear.",
+      "For people with significant physical dependence, we offer medically supervised outpatient detoxification. Alcohol withdrawal can be dangerous — seizures are a real risk after heavy, prolonged use. We assess whether outpatient is safe for you and monitor closely if it is."
+    ]
+  },
+  "whatWeOffer": {
+    "heading": "What We Provide",
+    "items": [
+      {
+        "label": "Naltrexone",
+        "description": "FDA-approved medication that reduces alcohol cravings and blunts the rewarding effects of drinking. Available as a daily pill or monthly injection (Vivitrol). Naltrexone is dramatically underused nationally — we believe that should change."
+      },
+      {
+        "label": "Outpatient Alcohol Detox",
+        "description": "Medically supervised withdrawal management for people with physical alcohol dependence who don't require hospitalization. We monitor closely during the acute withdrawal period and adjust medication as needed."
+      },
+      {
+        "label": "Cognitive Behavioral Therapy",
+        "description": "CBT identifies the thoughts, feelings, and situations that trigger drinking and builds practical skills for managing them. It has strong evidence for alcohol use disorder and is central to our counseling approach."
+      },
+      {
+        "label": "Motivational Interviewing",
+        "description": "For people who are ambivalent about change, MI helps resolve that ambivalence — not through confrontation, but by helping you clarify your own values and what matters to you."
+      }
+    ]
+  },
+  "providers": {
+    "heading": "Our Team",
+    "intro": "Medication for alcohol use disorder is provided by our psychiatric nurse practitioners. Counseling is provided by our licensed therapists, who specialize in substance use and co-occurring mental health conditions.",
+    "items": [
+      {
+        "name": "Angela Jones",
+        "credentials": "MSN, APRN, PMHNP-BC, FNP-BC",
+        "slug": "angela-jones",
+        "note": "In-person and telehealth"
+      },
+      {
+        "name": "John Gransbach",
+        "credentials": "DNP, APRN, PMHNP-BC",
+        "slug": "john-gransbach",
+        "note": "In-person"
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "question": "What is outpatient alcohol treatment?",
+      "answer": "Outpatient alcohol treatment means receiving therapy and medication management while continuing to live at home and maintain your daily responsibilities. It is the appropriate level of care for most people with alcohol use disorder — research shows it is as effective as residential treatment for the majority of patients. Treatment may include individual CBT, medication management (naltrexone, acamprosate, or medically supervised detoxification), and family involvement when appropriate."
+    },
+    {
+      "question": "Do I have to want to quit completely?",
+      "answer": "No. We work with moderation as a goal for people who aren't ready or willing to pursue abstinence. That said, we'll be honest with you about what the research says for your level of severity — some people have much better outcomes with abstinence, and you deserve accurate information."
+    },
+    {
+      "question": "Is it dangerous to stop drinking on my own?",
+      "answer": "It can be. People who drink heavily every day, or who have a history of withdrawal seizures, should not stop abruptly without medical supervision. Alcohol withdrawal is one of the few withdrawal syndromes that can be life-threatening. If you're uncertain, call us — we'd rather help you be safe."
+    },
+    {
+      "question": "Does naltrexone really work?",
+      "answer": "Yes. Naltrexone is one of the best-supported pharmacological treatments for alcohol use disorder. It reduces the pleasurable effects of alcohol and decreases craving. It works best combined with therapy, and it doesn't require full abstinence to be effective."
+    },
+    {
+      "question": "How much does alcohol treatment cost in St. Louis?",
+      "answer": "Our counseling services are out-of-network with insurance — we submit claims on your behalf as a courtesy, and many clients receive partial reimbursement through their out-of-network benefits. FSA and HSA funds can be used for mental health services. Psychiatric appointments, including medication management for alcohol use disorder, are in-network with UnitedHealthcare, Blue Cross Blue Shield, and Cigna. We don't want cost to be a barrier — call us to discuss your situation."
+    },
+    {
+      "question": "Do you offer telehealth for alcohol treatment?",
+      "answer": "Yes. Medication management and therapy appointments are both available by telehealth throughout Missouri."
+    },
+    {
+      "question": "What if I'm also dealing with depression or anxiety?",
+      "answer": "That's the norm, not the exception. Depression and anxiety co-occur with alcohol use disorder at very high rates. We treat them together — addressing only one usually means the other undermines your progress."
+    }
+  ],
+  "related": [
+    {
+      "label": "Alcohol Use Disorder",
+      "href": "/alcohol-use-disorder"
+    },
+    {
+      "label": "Outpatient Alcohol Detox",
+      "href": "/outpatient-detox"
+    },
+    {
+      "label": "Psychiatry & Medication",
+      "href": "/psychiatry"
+    }
+  ]
+}

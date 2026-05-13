@@ -1,16 +1,57 @@
 <script>
 	import conditions from '$lib/content/conditions.json';
+	import FAQ from '$lib/components/FAQ.svelte';
+
+	const faqs = [
+		{
+			question: 'Do you treat addiction and mental health together?',
+			answer: 'Yes — co-occurring conditions are the norm rather than the exception in our practice. Depression, anxiety, PTSD, and ADHD frequently accompany substance use disorders, and treating only one while ignoring the other rarely works. We provide integrated care that addresses both simultaneously.'
+		},
+		{
+			question: 'Do I need a diagnosis before I can make an appointment?',
+			answer: 'No. You do not need a prior diagnosis or a referral. Our clinicians conduct their own assessments. If you have records from previous providers they can be useful, but they are not required to get started.'
+		},
+		{
+			question: 'Do you treat OCD and PTSD, or just anxiety and depression?',
+			answer: 'We treat the full range of conditions listed here — including OCD, PTSD, and trauma — not just the more common presentations. OCD in particular is often undertreated because many therapists are not trained in Exposure and Response Prevention (ERP), the gold-standard treatment. We can discuss the right approach for your specific situation.'
+		},
+		{
+			question: 'What is the difference between therapy and medication for these conditions?',
+			answer: 'Therapy and medication work through different mechanisms and are often most effective in combination. Therapy — particularly CBT — helps you change the patterns of thought and behavior that sustain the condition. Medication addresses the neurobiological component. Our practice provides both, and your care can be coordinated between your therapist and prescriber.'
+		},
+		{
+			question: 'Do you treat gambling disorder?',
+			answer: 'Yes. Gambling disorder is a behavioral addiction that responds to the same evidence-based approaches used for substance use disorders — particularly Cognitive Behavioral Therapy and Motivational Interviewing. It is often overlooked or undertreated because people do not recognize it as a clinical condition.'
+		}
+	];
+
+	const BASE = 'https://planyourrecovery.com';
+	const itemListSchema = {
+		'@context': 'https://schema.org',
+		'@type': 'ItemList',
+		name: 'Conditions We Treat',
+		description: 'Depression, anxiety, PTSD, ADHD, OCD, and substance use disorders — evidence-based treatment in St. Louis.',
+		itemListElement: conditions.map((c, i) => ({
+			'@type': 'ListItem',
+			position: i + 1,
+			name: c.name,
+			url: `${BASE}/${c.slug}`
+		}))
+	};
+
 </script>
 
 <svelte:head>
 	<title>Conditions We Treat | Plan Your Recovery</title>
-	<meta name="description" content="Mental health and addiction conditions treated at Plan Your Recovery in St. Louis. Evidence-based care for depression, anxiety, PTSD, ADHD, OCD, and substance use disorders." />
+	<meta name="description" content="Depression, anxiety, PTSD, ADHD, OCD, and substance use disorders — evidence-based treatment in St. Louis." />
+	{@html `<script type="application/ld+json">${JSON.stringify(itemListSchema)}<\/script>`}
 </svelte:head>
 
 <div class="page">
 	<section class="hero">
 		<div class="container">
 			<h1>Conditions We Treat</h1>
+			<p class="intro">We provide evidence-based treatment for depression, anxiety, PTSD, ADHD, OCD, and substance use disorders. Each condition page describes how we approach that diagnosis, what treatments are available, and what to expect from care at Plan Your Recovery.</p>
 		</div>
 	</section>
 
@@ -18,7 +59,7 @@
 		<div class="container">
 			<div class="conditions-grid">
 				{#each conditions as condition}
-					<a href="/{condition.slug}/" class="condition-card">
+					<a href="/{condition.slug}" class="condition-card">
 						<div class="card-accent" style="background-color: {condition.color}"></div>
 						<div class="card-body">
 							<h2>{condition.name}</h2>
@@ -31,15 +72,7 @@
 		</div>
 	</section>
 
-	<section class="cta">
-		<div class="container">
-			<h2>Not sure where to start?</h2>
-			<p>Many of our patients come to us with more than one diagnosis — or without one at all. We'll figure it out together.</p>
-			<a href="/booking/" class="button--link">
-				<button class="primary">Make an Appointment</button>
-			</a>
-		</div>
-	</section>
+	<FAQ items={faqs} />
 </div>
 
 <style lang="scss">
@@ -54,7 +87,12 @@
 	.hero {
 		padding: var(--space-large) 0 var(--space-small);
 		h1 { margin-bottom: var(--space-tiny); }
-		.intro { font-size: 1.1rem; line-height: 1.7; max-width: 680px; }
+		.intro {
+			font-size: 1.1rem;
+			line-height: 1.7;
+			max-width: 680px;
+			margin-top: var(--space-tiny);
+		}
 	}
 
 	.conditions {

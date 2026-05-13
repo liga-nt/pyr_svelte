@@ -1,4 +1,5 @@
 {
+  "color": "#73DF91",
   "seo": {
     "title": "Cognitive Behavioral Therapy (CBT) | Plan Your Recovery",
     "description": "CBT is the most extensively researched therapy for addiction, depression, and anxiety. Learn how Plan Your Recovery uses CBT in St. Louis."
@@ -7,22 +8,24 @@
     "headline": "Cognitive Behavioral Therapy",
     "intro": "Cognitive Behavioral Therapy — CBT — is the most thoroughly researched form of psychotherapy. It has strong evidence behind it for depression, anxiety, addiction, PTSD, OCD, and many other conditions. At Plan Your Recovery, CBT is central to how most of our clinicians work."
   },
-  "whatItIs": {
-    "heading": "What Is CBT?",
-    "paragraphs": [
-      "CBT is based on a straightforward but powerful insight: how we think shapes how we feel, and how we feel shapes what we do. Patterns of distorted or unhelpful thinking — catastrophizing, all-or-nothing thinking, shame-based beliefs — maintain emotional distress and drive unwanted behavior.",
-      "CBT is not about thinking positively. It is about thinking accurately. A CBT therapist helps you notice the thoughts and beliefs that are causing problems, test whether they hold up to scrutiny, and develop more useful ways of interpreting your experience.",
-      "CBT is also behavioral. It uses techniques like behavioral activation (for depression), exposure (for anxiety and OCD), and behavioral experiments to help you act differently — which in turn changes how you feel and what you believe about yourself."
-    ]
-  },
-  "forAddiction": {
-    "heading": "CBT for Addiction",
-    "paragraphs": [
-      "Addiction is maintained by a set of powerful beliefs — that you can't have fun without a substance, that you can't manage emotions without using, that you're too far gone to change. CBT targets these beliefs directly.",
-      "It also focuses on triggers. Internal triggers (emotions, thoughts, physical states) and external triggers (people, places, things) set off cravings and drive use. Identifying your specific triggers and developing concrete strategies for managing them is a central part of CBT for addiction.",
-      "CBT also teaches skills for managing high-risk situations — refusing offers, handling social pressure, navigating relationships that have been shaped by addiction. These are practical, learnable skills."
-    ]
-  },
+  "body": [
+    {
+      "heading": "What Is CBT?",
+      "paragraphs": [
+        "CBT is based on a straightforward but powerful insight: how we think shapes how we feel, and how we feel shapes what we do. Patterns of distorted or unhelpful thinking — catastrophizing, all-or-nothing thinking, shame-based beliefs — maintain emotional distress and drive unwanted behavior.",
+        "CBT is not about thinking positively. It is about thinking accurately. A CBT therapist helps you notice the thoughts and beliefs that are causing problems, test whether they hold up to scrutiny, and develop more useful ways of interpreting your experience.",
+        "CBT is also behavioral. It uses techniques like behavioral activation (for depression), exposure (for anxiety and OCD), and behavioral experiments to help you act differently — which in turn changes how you feel and what you believe about yourself."
+      ]
+    },
+    {
+      "heading": "CBT for Addiction",
+      "paragraphs": [
+        "Addiction is maintained by a set of powerful beliefs — that you can't have fun without a substance, that you can't manage emotions without using, that you're too far gone to change. CBT targets these beliefs directly.",
+        "It also focuses on triggers. Internal triggers (emotions, thoughts, physical states) and external triggers (people, places, things) set off cravings and drive use. Identifying your specific triggers and developing concrete strategies for managing them is a central part of CBT for addiction.",
+        "CBT also teaches skills for managing high-risk situations — refusing offers, handling social pressure, navigating relationships that have been shaped by addiction. These are practical, learnable skills."
+      ]
+    }
+  ],
   "whatToExpect": {
     "heading": "What to Expect in CBT",
     "items": [
@@ -46,6 +49,10 @@
   },
   "faqs": [
     {
+      "question": "How many sessions of CBT does it typically take?",
+      "answer": "Most structured CBT for specific conditions — anxiety, depression, OCD, substance use — runs 12–20 sessions. Some presentations require fewer; complex or co-occurring conditions may require more. CBT is designed to be time-limited and goal-oriented, not open-ended. You should be able to tell fairly early whether it's helping, which allows for course correction if it isn't."
+    },
+    {
       "question": "Is CBT better than other types of therapy?",
       "answer": "CBT has the most research behind it, but 'best' depends on the person and the problem. Some people do better with more insight-oriented or relational approaches. What matters most is the quality of the therapeutic relationship and whether the approach fits your goals — good therapists adapt."
     },
@@ -55,7 +62,11 @@
     },
     {
       "question": "How is CBT different from just talking about your problems?",
-      "answer": "CBT is more structured and skill-focused than general supportive therapy. It's less about exploring the past and more about understanding current patterns and developing tools to change them. That said, most good therapists blend approaches."
+      "answer": "CBT is more structured and skill-focused than general supportive therapy. It's less about exploring the past and more about understanding current patterns and developing tools to change them. Sessions typically involve reviewing what happened between sessions, identifying where patterns showed up, and practicing specific skills. That said, most good therapists blend approaches."
+    },
+    {
+      "question": "Is CBT available via telehealth in Missouri?",
+      "answer": "Yes. CBT is well-suited to telehealth delivery, and research supports its effectiveness via video. We offer telehealth throughout Missouri — you can work with the same therapist regardless of where you are in the state, including during breaks from school or when traveling for work."
     },
     {
       "question": "Do I have to keep a thought journal?",

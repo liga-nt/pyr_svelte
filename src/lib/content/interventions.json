@@ -1,0 +1,91 @@
+{
+  "seo": {
+    "title": "Addiction Intervention in St. Louis | Plan Your Recovery",
+    "description": "Helping families get a loved one into treatment — from family coaching to structured interventions. We find the approach that fits your situation."
+  },
+  "hero": {
+    "headline": "Addiction Intervention in St. Louis",
+    "intro": "When someone you love is struggling with addiction and won't seek help on their own, a structured approach can make the difference. But intervention doesn't always mean confrontation — and we help families figure out what approach is most likely to work."
+  },
+  "philosophy": {
+    "heading": "Not Every Intervention Looks Like the TV Show",
+    "paragraphs": [
+      "The word 'intervention' conjures a specific image — family members assembled in a room, a professional facilitating an emotional confrontation, an ultimatum. That model has its place, and sometimes it's what's needed. But it's not the only path, and for many families it's not the right one.",
+      "In our experience, a lot of families are closer to a productive conversation than they realize. Sometimes the most effective thing we can do is help a family member understand how to have a different kind of conversation — one that opens a door rather than backs someone into a corner.",
+      "We work across the full spectrum: from coaching a single family member on how to approach a difficult conversation, to facilitating a structured family meeting, to supporting a more formal intervention process when the situation calls for it. The goal is always the same — getting your loved one into treatment — and we'll help you find the approach most likely to work for your specific family and situation."
+    ]
+  },
+  "whatWeOffer": {
+    "heading": "How We Help",
+    "items": [
+      {
+        "label": "Family Consultation",
+        "description": "A starting point for most families. We help you understand what you're dealing with, what's likely to be effective, and what tends to backfire. Many families leave with a clearer sense of what to do next — sometimes that's enough."
+      },
+      {
+        "label": "Family Coaching",
+        "description": "Guidance on how to have productive conversations with a loved one who isn't ready for help. What to say, what to avoid, how to set limits without issuing ultimatums that won't hold — practical guidance tailored to your situation."
+      },
+      {
+        "label": "Facilitated Family Meeting",
+        "description": "A structured conversation with family members present, facilitated by a clinician. Less formal than a traditional intervention, but more supported than going it alone."
+      },
+      {
+        "label": "Formal Intervention Support",
+        "description": "When a more structured, traditional intervention is the right approach, we can help plan and facilitate it. We work with families to prepare, anticipate what might happen, and have a treatment plan ready to act on."
+      }
+    ]
+  },
+  "whatToExpect": {
+    "heading": "What to Expect",
+    "paragraphs": [
+      "We typically start with a consultation — a conversation with concerned family members to understand the situation, the relationship dynamics, and what's already been tried. From there we'll help you think through what approach makes sense.",
+      "If your loved one does agree to treatment, we’ll have options ready for you — residential treatment programs that we recommend or our own outpatient treatment staff to get your loved one engaged right away. We will help you and your loved one decide the right level of care."
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Does my family member need to hit rock bottom before an intervention will work?",
+      "answer": "No — and waiting for rock bottom is often dangerous. The idea that people need to reach a crisis point before they can accept help is not supported by evidence. Many people enter treatment and do well long before any kind of dramatic low point. Motivation can be built; it doesn't have to be waited for."
+    },
+    {
+      "question": "What if they refuse to engage?",
+      "answer": "Refusal is possible, and we'll help you think through what to do if that happens. It's also not the end — sometimes the first conversation plants a seed, and a follow-up approach works where the first didn't. We help families stay engaged for the longer term, not just plan a single event."
+    },
+    {
+      "question": "Should I issue an ultimatum?",
+      "answer": "Only if you're prepared to follow through. Ultimatums that aren't enforced tend to make future attempts harder and damage your credibility. We help families think carefully about what they're willing to do and what they're not — before the conversation happens, not during it."
+    },
+    {
+      "question": "Who should be part of the intervention?",
+      "answer": "It depends on the situation. More people isn't always better — it can feel like an ambush and trigger defensiveness. We'll help you think through who in your loved one's life has the most positive influence, and who might inadvertently make the conversation harder."
+    },
+    {
+      "question": "What approach do you use for interventions?",
+      "answer": "We favor approaches grounded in research, particularly CRAFT (Community Reinforcement and Family Training), which has stronger evidence for getting resistant individuals into treatment than confrontational, surprise-based models. CRAFT teaches family members how to reinforce treatment-seeking behavior, disengage from enabling patterns, and take care of themselves in the process. It's less dramatic than a scripted intervention, and substantially more effective."
+    },
+    {
+      "question": "Do you work with families even if the person isn't a patient here?",
+      "answer": "Yes. We work with families regardless of where their loved one ultimately receives treatment. If they do come to us, we can facilitate a fast intake — but helping the family is the first step, not a condition of service."
+    }
+  ],
+  "related": [
+    {
+      "label": "Opioid Use Disorder",
+      "href": "/opioid-use-disorder"
+    },
+    {
+      "label": "Alcohol Use Disorder",
+      "href": "/alcohol-use-disorder"
+    },
+    {
+      "label": "Suboxone Treatment",
+      "href": "/suboxone-treatment"
+    },
+    {
+      "label": "Alcohol Treatment",
+      "href": "/alcohol-treatment"
+    }
+  ],
+  "_reviewed": true
+}

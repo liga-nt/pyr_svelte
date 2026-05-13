@@ -1,5 +1,12 @@
-<script>
+<script lang="ts">
 	import data from '$lib/content/booking.json';
+	import site from '$lib/content/site.json';
+
+	function phoneFor(type: string) {
+		if (type === 'counseling') return site.contact.counselingPhone;
+		if (type === 'psychiatry') return site.contact.psychiatryPhone;
+		return null;
+	}
 </script>
 
 <svelte:head>
@@ -22,15 +29,11 @@
 		<div class="container">
 			<div class="contacts-grid">
 				{#each data.contacts as contact}
+					{@const phone = phoneFor(contact.type)}
 					<div class="contact-card">
 						<h2>{contact.label}</h2>
-						{#if contact.phone}
-							<a href="tel:{contact.phone}" class="phone">{contact.phone}</a>
-						{/if}
-						{#if contact.phoneAlt}
-							<a href="tel:{contact.phoneAlt}" class="phone phone--alt">
-								<span class="phone-alt-label">{contact.phoneAltLabel}:</span> {contact.phoneAlt}
-							</a>
+						{#if phone}
+							<a href="tel:{phone}" class="phone">{phone}</a>
 						{/if}
 						{#if contact.email}
 							<a href="mailto:{contact.email}" class="email">{contact.email}</a>
@@ -41,8 +44,9 @@
 					</div>
 				{/each}
 			</div>
+			<p class="response-note">{data.responseNote}</p>
 			<p class="direct-note">
-				{data.directNote} <a href="/team/">View our team →</a>
+				{data.directNote} <a href="/team">View our team →</a>
 			</p>
 		</div>
 	</section>
@@ -67,7 +71,7 @@
 	<section class="team-link">
 		<div class="container">
 			<p>Want to find a specific clinician?</p>
-			<a href="/team/" class="button--link">
+			<a href="/team" class="button--link">
 				<button class="primary">Meet Our Team</button>
 			</a>
 		</div>
@@ -177,6 +181,12 @@
 				margin: 0.25rem 0 0;
 				opacity: 0.8;
 			}
+		}
+
+		.response-note {
+			font-size: 0.9rem;
+			color: #666;
+			margin-bottom: 0.5rem;
 		}
 
 		.direct-note {

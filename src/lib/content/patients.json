@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Children",
+    "link": "/children",
+    "color": "#73DF91",
+    "description": "Children don't always have the words for what's wrong. We offer therapy for children ages 8 and older, working with families to understand what's driving the difficulty and build the skills to address it."
+  },
+  {
+    "name": "Teens",
+    "link": "/teens",
+    "color": "#D3B0FE",
+    "description": "Adolescence concentrates risk — it's the peak period for the onset of anxiety, depression, and addiction. We work with teens and their families, because what happens at home matters as much as what happens in the therapist's office."
+  },
+  {
+    "name": "College Students",
+    "link": "/students",
+    "color": "#FFE279",
+    "description": "The transition to college removes most of the structure that kept things manageable in high school. We work with students whose mental health or substance use is getting in the way of functioning or staying enrolled."
+  },
+  {
+    "name": "Adults",
+    "link": "/adults",
+    "color": "#6AE3DC",
+    "description": "Most adults who come to us have already tried something that didn't work. We offer therapy and psychiatry for the full range of adult mental health and addiction presentations, including complex and co-occurring conditions."
+  }
+]

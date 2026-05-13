@@ -3,36 +3,42 @@
     "title": "Videos | Plan Your Recovery",
     "description": "Educational videos on addiction, medication-assisted treatment, and mental health from Plan Your Recovery."
   },
+  "intro": "Educational videos on addiction, mental health, and psychiatric treatment — produced by Plan Your Recovery and featured in local media.",
   "videos": [
     {
       "title": "Awareness Month",
       "videoID": "IM0ujojwzmI",
+      "uploadDate": "2015-04-23",
       "category": "In the Media",
-      "description": "Plan Your Recovery on alcohol awareness."
+      "description": "Plan Your Recovery's Ned Presnall speaks about alcohol use disorder in recognition of Alcohol Awareness Month. The segment covers how alcohol use disorder develops, why it's often undertreated, and what evidence-based options are available for people ready to address it."
     },
     {
       "title": "Beyond Rock Bottom: Medication Assisted Treatment",
       "videoID": "MxO164ADK7Y",
+      "uploadDate": "2016-04-10",
       "category": "Animations",
-      "description": "An animated explainer on medication-assisted treatment for addiction."
+      "description": "This animated explainer challenges the common belief that people with addiction must hit rock bottom before they can recover. It outlines how medication-assisted treatment — combining FDA-approved medications with counseling — improves outcomes for opioid and alcohol use disorders far more effectively than willpower alone."
     },
     {
       "title": "Gaming",
       "videoID": "T0hMdl_nv9k",
+      "uploadDate": "2015-04-21",
       "category": "In the Media",
-      "description": "Gaming addiction — Plan Your Recovery in the media."
+      "description": "A media segment featuring Plan Your Recovery on the clinical dimensions of problematic gaming. The conversation covers when gaming crosses into compulsive behavior, how it affects adolescent development and family functioning, and what treatment approaches are most effective."
     },
     {
       "title": "MAT: New Trends and Treatments",
       "videoID": "4MH2IEzHtmU",
+      "uploadDate": "2015-04-21",
       "category": "In the Media",
-      "description": "Medication-assisted treatment: new trends and treatments."
+      "description": "An overview of emerging trends in medication-assisted treatment for opioid and alcohol use disorders. The segment discusses how buprenorphine, naltrexone, and other medications are being integrated into outpatient care, and what the latest research shows about outcomes when MAT is combined with behavioral therapy."
     },
     {
       "title": "Understanding Addiction: The Gas and Brakes of Human Motivation",
       "videoID": "hg09_-89caY",
+      "uploadDate": "2016-04-10",
       "category": "Animations",
-      "description": "A conceptual framework for understanding addiction and motivation."
+      "description": "This animation introduces a framework for understanding addiction as a problem of motivation and self-regulation rather than moral failure. By explaining how the brain's reward and control systems interact, it offers a way to think about why addiction develops, why it's hard to stop, and why treatment approaches that address both the biological and behavioral dimensions tend to work best."
     }
   ]
 }

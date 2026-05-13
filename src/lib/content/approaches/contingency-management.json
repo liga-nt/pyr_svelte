@@ -1,64 +1,76 @@
 {
+  "color": "#FFE279",
   "seo": {
-    "title": "Contingency Management | Plan Your Recovery",
-    "description": "Contingency management uses systematic rewards for abstinence to change behavior. Among the strongest evidence-based interventions for stimulant use disorder in St. Louis."
+    "title": "Contingency Management for Adolescents | Plan Your Recovery",
+    "description": "Contingency management uses systematic positive reinforcement to change behavior in teens and young adults — for substance use, school avoidance, and failure to launch."
   },
   "hero": {
     "headline": "Contingency Management",
-    "intro": "Contingency management uses systematic positive reinforcement — rewards for abstinence and recovery behaviors — to change behavior. It has some of the strongest evidence of any intervention for stimulant use disorder and is highly effective with adolescents."
+    "intro": "Contingency management uses systematic positive reinforcement to change behavior. It has among the strongest evidence of any behavioral intervention — and it works especially well with adolescents and young adults, whose developing brains are particularly responsive to external incentives. We use it for substance use, but also for the broader pattern of stalled development that sometimes accompanies it."
   },
-  "whatItIs": {
-    "heading": "What Is Contingency Management?",
-    "paragraphs": [
-      "The logic is simple: behavior that is rewarded is more likely to recur. Contingency management operationalizes that principle by providing tangible rewards — increasingly valuable ones — for verified abstinence, typically confirmed by urine drug screens, and for participation in treatment.",
-      "This approach works because it directly engages the same reward pathways that addiction has hijacked. By providing an immediate, concrete payoff for not using, contingency management competes with the reinforcing properties of the substance itself. The brain responds to reward — and contingency management uses that fact deliberately.",
-      "CM is particularly effective for stimulant use disorders (cocaine, methamphetamine, prescription stimulants), where no medication has comparable efficacy. For these conditions, it may be the most powerful tool available. It also has strong evidence with adolescents, where external incentives are especially important given still-developing capacity for self-regulation."
-    ]
-  },
-  "howItWorks": {
-    "heading": "How It Works",
-    "paragraphs": [
-      "Abstinence is verified through regular urine drug screens. Clean screens earn rewards, and rewards increase in value with consecutive clean screens — creating momentum and incentive to continue. A break in the streak resets the reward level, but not the underlying progress.",
-      "Contingency management works best embedded in a broader treatment plan — individual therapy, family involvement, and case management — rather than as a stand-alone program. The goal is to build intrinsic motivation and practical skills while the contingencies provide the initial fuel for behavioral change."
-    ]
-  },
+  "body": [
+    {
+      "heading": "Why Contingency Management Works for This Age Group",
+      "paragraphs": [
+        "The adolescent and young adult brain is still developing the prefrontal circuitry responsible for self-regulation, long-term planning, and resisting immediate impulses. This isn't a character flaw — it's developmental neuroscience. It also means that internal motivation, willpower, and abstract future consequences are less effective levers at this stage than they are in adults. External structure and immediate, concrete rewards are not a workaround — they're developmentally appropriate.",
+        "Contingency management operationalizes this directly. Behavior that is rewarded is more likely to recur. By providing an immediate, tangible payoff for the target behavior — staying clean, attending school, completing a job application — CM engages the reward pathways that are most active and influential during adolescence. It competes with the immediate reward of substances or avoidance, and wins often enough to change patterns.",
+        "The evidence base for CM with adolescents and young adults is robust. It produces some of the best outcomes of any behavioral intervention with this population — outcomes that hold up in follow-up, not just during the active program."
+      ]
+    },
+    {
+      "heading": "Beyond Substances: Failure to Launch",
+      "paragraphs": [
+        "We use contingency management not only for substance use but for the broader pattern of arrested development that clinicians sometimes call failure to launch — young adults who have stopped moving forward. Not attending school. Not working. Sleeping through the day. Avoiding the steps that lead toward independence. Often, substances are part of the picture, but sometimes they aren't.",
+        "The CM framework applies directly to behavioral goals. Consistently rewarding concrete steps — getting out of bed by a set time, submitting a job application, attending a class — builds momentum the same way it does for abstinence. The logic is identical: make the desired behavior immediately rewarding, and remove the ambiguity about what is expected.",
+        "Family involvement is essential in this context. Parents and caregivers become part of the system — learning to reinforce the right behaviors and stop inadvertently reinforcing avoidance. This is not natural parenting instinct; it requires coaching and structure, and we provide both."
+      ]
+    }
+  ],
   "whatToExpect": {
     "heading": "What to Expect",
     "items": [
       {
-        "label": "Regular drug screens",
-        "description": "Abstinence is verified through urine screens. Results directly determine reward eligibility — there is no ambiguity about what earns a reward and what doesn't."
+        "label": "Clear target behaviors",
+        "description": "Whether the goal is abstinence, school attendance, or daily functioning, the target behaviors are defined specifically and tracked consistently. There is no ambiguity about what earns a reward."
       },
       {
         "label": "Graduated rewards",
-        "description": "Rewards increase with consecutive clean screens, building momentum. The escalating stakes make continued abstinence more motivating over time."
+        "description": "Rewards increase with consecutive successes, building momentum. The escalating structure makes continued progress more motivating over time."
       },
       {
-        "label": "Part of a broader plan",
-        "description": "CM works alongside individual therapy and family involvement. It's one component of a coordinated treatment plan, not a stand-alone program."
+        "label": "Family as part of the system",
+        "description": "Parents and caregivers are coached on how to reinforce target behaviors at home and avoid inadvertently rewarding avoidance. The system only works when it's consistent."
       },
       {
-        "label": "Clear, consistent rules",
-        "description": "Expectations are transparent from the start. Consistent implementation is what makes the approach work — and what builds trust in the system."
+        "label": "Embedded in broader treatment",
+        "description": "CM works alongside individual therapy and, where relevant, medication. It provides the behavioral fuel while other work addresses motivation, skills, and underlying mental health."
       }
     ]
   },
   "faqs": [
     {
-      "question": "Isn't this just bribing people to stay sober?",
-      "answer": "It's a fair question. The short answer is: the evidence doesn't care what you call it. Contingency management has some of the strongest outcome data of any behavioral intervention — particularly for stimulant use disorder, where medication alternatives are limited. Rewarding prosocial behavior is what society does at every level; applying it systematically to recovery is just rigor."
+      "question": "Isn't this just bribing my kid?",
+      "answer": "It's a common reaction, and it deserves a direct answer. What we're doing is applying a principle that governs all behavior — reward shapes what we do — in a deliberate, structured way. The evidence is clear: it works. Rewarding the behaviors you want to see is what every functional system does, from grades to paychecks. CM just makes it explicit and consistent."
+    },
+    {
+      "question": "Can contingency management be used with adults?",
+      "answer": "Yes — and the evidence for CM is at least as strong in adults as in adolescents. Most of the landmark trials in stimulant use disorder have been conducted with adults. The mechanics differ somewhat: adult programs typically use vouchers for activities or goods rather than parent-administered rewards. The underlying principle is the same: consistent, immediate reinforcement of the behaviors you want to increase."
     },
     {
       "question": "What kinds of rewards are used?",
-      "answer": "Typically vouchers or prize draws that can be exchanged for everyday items — gift cards, groceries, transportation. The specific structure varies by program. The point is immediate, tangible reinforcement — not large monetary payouts."
+      "answer": "Typically vouchers or prize draws that can be exchanged for everyday items — gift cards, activities, things the person actually wants. The specific structure is tailored to the individual. The point is immediacy and tangibility, not large payouts."
     },
     {
-      "question": "Does it work for all substances?",
-      "answer": "CM has the strongest evidence for stimulants (cocaine and methamphetamine), where medication options are limited. It also has good evidence for opioids, cannabis, and alcohol, often in combination with other treatments."
+      "question": "My young adult is home, not doing anything, and says they're fine. How does CM fit?",
+      "answer": "This is exactly the pattern CM is built for. The first step is usually working with parents — establishing what is expected, what will be rewarded, and what will no longer be available as a consequence of continued avoidance. Getting the environment right often precedes the young person engaging directly with treatment."
     },
     {
-      "question": "What happens when someone slips?",
-      "answer": "A slip resets the reward level — the streak starts over. This is by design. The consistency of the system is part of what makes it effective. Slips are addressed clinically and with curiosity, not punitively."
+      "question": "What happens when they slip or miss a target?",
+      "answer": "The reward level resets — the streak starts over. This is by design, and it's not punitive. Consistency is what makes the system credible. Slips are addressed clinically: what happened, what got in the way, and what needs to change."
+    },
+    {
+      "question": "Does this work if my teen has mental health issues alongside the substance use?",
+      "answer": "Yes — and co-occurring mental health problems are the norm, not the exception. CM addresses behavior directly while other components of treatment address the underlying anxiety, depression, or ADHD that often drives substance use and avoidance. The approaches complement each other."
     }
   ]
 }

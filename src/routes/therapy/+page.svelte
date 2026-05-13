@@ -1,5 +1,6 @@
 <script>
-	import ColorBar from '$lib/components/ColorBar.svelte';
+	import ClinicianCard from '$lib/components/ClinicianCard.svelte';
+	import FAQ from '$lib/components/FAQ.svelte';
 	import team from '$lib/content/team.json';
 	import approachesData from '$lib/content/approaches/approaches.json';
 	import conditions from '$lib/content/conditions.json';
@@ -8,58 +9,79 @@
 
 	// Therapy-relevant approaches: everything except MAT
 	const therapyApproaches = approachesData.approaches.filter(a => a.slug !== 'mat');
+
+	const BASE = 'https://planyourrecovery.com';
+	const webPageSchema = {
+		'@context': 'https://schema.org',
+		'@type': 'WebPage',
+		url: `${BASE}/therapy`,
+		name: 'Therapy for Mental Health & Addiction | Plan Your Recovery',
+		description: 'Meet our therapists and learn about the evidence-based approaches we use for mental health and addiction in St. Louis.',
+		isPartOf: { '@id': `${BASE}/#website` },
+		about: { '@id': `${BASE}/#organization` }
+	};
+
+	const therapistListSchema = {
+		'@context': 'https://schema.org',
+		'@type': 'ItemList',
+		name: 'Our Therapists',
+		itemListElement: therapists.map((p, i) => ({
+			'@type': 'ListItem',
+			position: i + 1,
+			name: p.fullName,
+			url: `${BASE}/team/${p.slug}`
+		}))
+	};
+
+	const faqs = [
+		{
+			question: 'What types of therapy do you offer?',
+			answer: 'Our therapists use evidence-based approaches including Cognitive Behavioral Therapy (CBT), Motivational Interviewing, Family Therapy, and Contingency Management. The approach is tailored to each client\'s needs — most therapy involves some combination of these methods rather than a single technique applied uniformly.'
+		},
+		{
+			question: 'Do you accept insurance for therapy?',
+			answer: 'Our therapists are out-of-network providers. Many insurance plans provide out-of-network mental health benefits that cover a significant portion of the fee. We recommend calling your insurance company to ask about your out-of-network benefits before your first appointment. We can provide a superbill to support reimbursement.'
+		},
+		{
+			question: 'What is the difference between therapy and psychiatry at Plan Your Recovery?',
+			answer: 'Therapists provide talk-based treatment — CBT, motivational interviewing, family therapy, and other evidence-based approaches. Psychiatric providers specialize in diagnosis and medication management. Many clients benefit from both, and our practice provides them under one roof so your care can be coordinated from the start.'
+		},
+		{
+			question: 'Do you treat addiction as well as mental health conditions?',
+			answer: 'Yes — addiction is a core part of our practice, not an afterthought. Our therapists treat alcohol and drug use disorders using the same evidence-based approaches recommended for other mental health conditions. We also integrate treatment for co-occurring conditions like depression, anxiety, PTSD, and ADHD, which frequently accompany addiction.'
+		},
+		{
+			question: 'How do I get started?',
+			answer: 'Call or text our counseling line to schedule an initial appointment. There is no referral required. The first session is typically a 50-minute intake focused on understanding your situation, your goals, and which therapist and approach is the best fit.'
+		}
+	];
 </script>
 
 <svelte:head>
-	<title>Therapy | Plan Your Recovery</title>
+	<title>Therapy for Mental Health & Addiction | Plan Your Recovery</title>
 	<meta name="description" content="Meet our therapists and learn about the evidence-based approaches we use for mental health and addiction in St. Louis." />
+	{@html `<script type="application/ld+json">${JSON.stringify(webPageSchema)}<\/script>`}
+	{@html `<script type="application/ld+json">${JSON.stringify(therapistListSchema)}<\/script>`}
 </svelte:head>
 
 <div class="page">
+	<section class="page-hero">
+		<div class="container">
+			<h1>Therapy & Counseling in St. Louis</h1>
+		</div>
+	</section>
+
 	<!-- Therapists -->
 	<section class="therapists">
 		<div class="container">
 			<div class="team-grid">
 				{#each therapists as person}
-					<div class="card">
-						<a href="/team/{person.slug}/" class="card-portrait-link">
-							<img
-								src={person.portrait}
-								alt="Portrait of {person.fullName}"
-								class="portrait"
-								width="200"
-								height="200"
-							/>
-						</a>
-						<div class="card-body">
-							<h3><a href="/team/{person.slug}/">{person.fullName}</a></h3>
-							<p class="role">{person.role}</p>
-							<div class="contact-links">
-								<a href="tel:{person.telephone}" class="contact-link">
-									<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-										<path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.8a19.79 19.79 0 01-3.07-8.67A2 2 0 012 .18h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92z"/>
-									</svg>
-									{person.telephone}
-								</a>
-								{#if person.email}
-									<a href="mailto:{person.email}" class="contact-link">
-										<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-											<path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
-											<polyline points="22,6 12,13 2,6"/>
-										</svg>
-										{person.email}
-									</a>
-								{/if}
-							</div>
-							<a href="/team/{person.slug}/" class="profile-link">Full profile →</a>
-						</div>
-					</div>
+					<ClinicianCard {person} />
 				{/each}
 			</div>
 		</div>
 	</section>
 
-	<ColorBar />
 
 	<!-- Approaches -->
 	<section class="approaches">
@@ -69,15 +91,17 @@
 				{#each therapyApproaches as approach}
 					<div class="approach-card">
 						<h3>{approach.title}</h3>
-						<p class="approach-intro">{approach.intro}</p>
-						<a href={approach.link ?? `/approaches/#${approach.slug}`} class="read-more">Continue reading →</a>
+						<p class="approach-intro">{approach.intro.split(/(?<=[.?!])\s/)[0]}</p>
+						<a href={approach.link} class="read-more">Continue reading →</a>
 					</div>
 				{/each}
 			</div>
 		</div>
 	</section>
 
-	<ColorBar />
+
+	<!-- FAQs -->
+	<FAQ items={faqs} />
 
 	<!-- Conditions -->
 	<section class="conditions">
@@ -85,7 +109,7 @@
 			<h2>Conditions We Treat</h2>
 			<div class="conditions-grid">
 				{#each conditions as condition}
-					<a href="/{condition.slug}/" class="condition-card">
+					<a href="/{condition.slug}" class="condition-card">
 						<div class="card-accent" style="background-color: {condition.color}"></div>
 						<div class="card-body-condition">
 							<h3>{condition.name}</h3>
@@ -98,18 +122,7 @@
 		</div>
 	</section>
 
-	<ColorBar />
 
-	<!-- CTA -->
-	<section class="cta" id="contact">
-		<div class="container">
-			<h2>Make an Appointment</h2>
-			<p>Reach out directly to any of our therapists, or use the link below to get started.</p>
-			<a href="/booking/" class="button--link">
-				<button class="primary">Make an Appointment</button>
-			</a>
-		</div>
-	</section>
 </div>
 
 <style lang="scss">
@@ -119,6 +132,11 @@
 		max-width: 1200px;
 		margin: 0 auto;
 		padding: 0 var(--container-padding);
+	}
+
+	.page-hero {
+		padding: var(--space-large) 0 var(--space-small);
+		h1 { margin: 0; }
 	}
 
 	/* Therapist cards */
@@ -136,112 +154,6 @@
 		}
 	}
 
-	.card {
-		background: #fafafa;
-		border: 1px solid #e8e4ee;
-		border-radius: 8px;
-		box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
-		display: flex;
-		flex-direction: column;
-		overflow: hidden;
-		transition: box-shadow 0.2s ease, transform 0.2s ease;
-
-		@media screen and (min-width: 560px) {
-			flex-direction: row;
-			align-items: stretch;
-		}
-
-		&:hover {
-			box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
-			transform: translateY(-2px);
-		}
-	}
-
-	.card-portrait-link {
-		display: block;
-		width: 100%;
-		flex-shrink: 0;
-
-		@media screen and (min-width: 560px) {
-			width: 200px;
-		}
-	}
-
-	.portrait {
-		width: 100%;
-		height: 260px;
-		object-fit: cover;
-		object-position: center top;
-		display: block;
-
-		@media screen and (min-width: 560px) {
-			height: 100%;
-			min-height: 300px;
-		}
-	}
-
-	.card-body {
-		padding: var(--space-small);
-		display: flex;
-		flex-direction: column;
-		gap: 0.5rem;
-		flex: 1;
-		min-width: 0;
-
-		h3 {
-			margin: 0;
-			font-size: 1.2rem;
-			font-family: orpheuspro, serif;
-
-			a {
-				color: var(--c-dark);
-				text-decoration: none;
-				&:hover { color: var(--c-green); box-shadow: none; }
-			}
-		}
-
-		.role {
-			margin: 0;
-			font-size: 0.875rem;
-			color: #777;
-			font-family: ibm-plex-sans, sans-serif;
-			text-transform: uppercase;
-			letter-spacing: 0.04em;
-		}
-
-		.contact-links {
-			display: flex;
-			flex-direction: column;
-			gap: 0.35rem;
-			margin-top: 0.25rem;
-		}
-
-		.contact-link {
-			display: flex;
-			align-items: center;
-			gap: 0.4rem;
-			font-size: 0.875rem;
-			color: var(--c-dark);
-			text-decoration: none;
-			font-family: ibm-plex-sans, sans-serif;
-
-			&:hover { color: var(--c-green); box-shadow: none; }
-
-			svg { flex-shrink: 0; color: var(--c-green); }
-		}
-
-		.profile-link {
-			display: inline-block;
-			margin-top: auto;
-			padding-top: var(--space-tiny);
-			color: var(--c-green);
-			font-weight: 600;
-			text-decoration: none;
-			font-size: 0.9375rem;
-
-			&:hover { text-decoration: underline; box-shadow: none; }
-		}
-	}
 
 	/* Approaches */
 	.approaches {
@@ -344,20 +256,5 @@
 		}
 	}
 
-	/* CTA */
-	.cta {
-		background-color: var(--c-green);
-		color: white;
-		padding: var(--space-xlarge) 0;
-		text-align: center;
 
-		h2 { margin-bottom: var(--space-tiny); }
-
-		p {
-			font-size: 1.05rem;
-			max-width: 560px;
-			margin: 0 auto var(--space-medium);
-			opacity: 0.95;
-		}
-	}
 </style>

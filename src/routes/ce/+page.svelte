@@ -1,28 +1,16 @@
 <script>
-	import ColorBar from '$lib/components/ColorBar.svelte';
 </script>
 
 <svelte:head>
 	<title>Continuing Education | Plan Your Recovery</title>
 	<meta
 		name="description"
-		content="Continuing education courses for mental health professionals from Plan Your Recovery. CME, CEU, and training in addiction, mental health, and evidence-based treatment."
+		content="Free monthly continuing education for mental health professionals. CEU credits for addiction, mental health, and evidence-based practice."
 	/>
 </svelte:head>
 
 <div class="page">
-	<section class="hero">
-		<div class="container">
-			<h1>Continuing Education</h1>
-			<p class="intro">
-				We offer continuing education for mental health professionals, social workers, licensed
-				professional counselors, and physicians on addiction, evidence-based treatment, and related
-				topics.
-			</p>
-		</div>
-	</section>
 
-	<ColorBar />
 
 	<section class="coming-soon">
 		<div class="container">
@@ -32,16 +20,6 @@
 					We are currently rebuilding our continuing education program with updated courses and
 					formats. Check back soon, or contact us to be notified when new courses are available.
 				</p>
-				<p>
-					In the meantime, we offer free monthly CE hours for substance use professionals, social
-					workers, and LPCs. Contact us for details.
-				</p>
-				<div class="actions">
-					<a href="mailto:info@planyourrecovery.com" class="button--link">
-						<button class="primary">Contact Us About CE</button>
-					</a>
-					<a href="/referrals/">Learn about professional collaboration →</a>
-				</div>
 			</div>
 		</div>
 	</section>

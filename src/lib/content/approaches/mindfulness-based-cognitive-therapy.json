@@ -1,0 +1,76 @@
+{
+  "color": "#73DF91",
+  "seo": {
+    "title": "Mindfulness-Based Cognitive Therapy (MBCT) | Plan Your Recovery",
+    "description": "MBCT combines cognitive therapy with mindfulness practices to prevent depression relapse and treat anxiety. Plan Your Recovery, St. Louis."
+  },
+  "hero": {
+    "headline": "Mindfulness-Based Cognitive Therapy",
+    "intro": "Mindfulness-Based Cognitive Therapy — MBCT — combines the structured skills of CBT with mindfulness practices drawn from meditation traditions. It is one of the most evidence-supported approaches for preventing depression relapse, and it has growing evidence for anxiety, chronic pain, and emotional regulation difficulties."
+  },
+  "body": [
+    {
+      "heading": "What Is MBCT?",
+      "paragraphs": [
+        "MBCT was developed to address one of the most stubborn problems in mental health treatment: the fact that people who have had one depressive episode are highly likely to have another. Researchers noticed that relapse was often triggered not by new life events but by old thinking patterns — specifically, the way that low mood automatically reactivated familiar depressive thoughts and pulled people back into a downward spiral.",
+        "The core skill MBCT teaches is decentering: learning to observe your thoughts and feelings as mental events rather than facts about reality. Instead of 'I am worthless,' you learn to notice 'I am having the thought that I am worthless.' That shift — small as it sounds — changes everything. You can recognize the familiar pull of a depressive spiral and step back from it rather than being swept into it.",
+        "MBCT draws on formal mindfulness practices — body scans, sitting meditation, mindful movement — as well as the cognitive techniques of CBT. The combination is more powerful than either alone: mindfulness builds the capacity to observe your mental states with some distance, and CBT skills give you something useful to do with that awareness."
+      ]
+    },
+    {
+      "heading": "What MBCT Is Used For",
+      "paragraphs": [
+        "MBCT was originally developed and validated for depression relapse prevention — specifically for people who have had three or more episodes of major depression. For this population, it is as effective as maintenance antidepressants at preventing recurrence, making it one of the few non-pharmacological interventions with that kind of evidence.",
+        "Its applications have expanded considerably. MBCT has evidence for current anxiety disorders, chronic pain, eating disorders, and as an adjunct for addiction and emotional dysregulation. The common thread is conditions in which unhelpful patterns of thinking — rumination, self-criticism, catastrophizing — are driving distress more than the original circumstances are.",
+        "We use MBCT as part of integrated treatment plans, sometimes alongside medication, individual CBT, and other approaches. The goal is not to replace other effective treatments but to add a skill set specifically designed to address pattern-driven suffering that other approaches sometimes don't reach."
+      ]
+    }
+  ],
+  "whatToExpect": {
+    "heading": "What to Expect",
+    "items": [
+      {
+        "label": "Formal mindfulness practice",
+        "description": "MBCT involves learning and practicing specific exercises — body scans, breath awareness, sitting meditation — as well as bringing mindful attention into ordinary daily activities."
+      },
+      {
+        "label": "Cognitive skill-building",
+        "description": "You develop the ability to recognize automatic thought patterns, understand their connection to mood, and respond with intention rather than automatic reaction."
+      },
+      {
+        "label": "Between-session practice",
+        "description": "MBCT involves regular practice outside of sessions. The skill builds through repetition over time, not through insight alone."
+      },
+      {
+        "label": "Integrated with broader care",
+        "description": "MBCT is often most useful as part of a broader treatment plan, combined with medication management, individual therapy, or other approaches depending on your situation."
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Do I need prior experience with meditation to benefit from MBCT?",
+      "answer": "No prior experience is needed. MBCT teaches mindfulness skills from the ground up. The practices are secular and skills-based — you don't need to hold any particular beliefs about meditation or spirituality."
+    },
+    {
+      "question": "Is MBCT the same as mindfulness meditation?",
+      "answer": "MBCT uses mindfulness practices as a core component, but it is a structured clinical approach that also includes cognitive therapy elements. It differs from general mindfulness-based stress reduction (MBSR) in its explicit focus on depression and emotional reactivity, and from standard CBT in its emphasis on awareness and decentering rather than challenging specific thoughts."
+    },
+    {
+      "question": "Who is MBCT most helpful for?",
+      "answer": "The strongest evidence is for people with recurrent depression who are currently in remission — MBCT is most powerfully preventive for this group. It is also useful for chronic anxiety, people who notice their distress is driven by ruminative thinking patterns, and people who want a self-directed skill set they can use independently over time."
+    },
+    {
+      "question": "Can MBCT be combined with antidepressants?",
+      "answer": "Yes — and for many people with recurrent depression, combined treatment is the most effective option. MBCT adds skills that medication alone doesn't provide, and it can reduce reliance on medication over time for people who want that. Your treatment plan is specific to your situation."
+    },
+    {
+      "question": "Is MBCT available via telehealth?",
+      "answer": "Yes. Mindfulness practices translate well to telehealth delivery — and in some ways, practicing in your own environment is an advantage, since the goal is integrating these skills into daily life rather than into a clinical setting."
+    },
+    {
+      "question": "How does MBCT differ from standard CBT?",
+      "answer": "Standard CBT focuses on identifying and challenging the content of specific unhelpful thoughts. MBCT focuses more on changing your relationship to thoughts in general — learning to observe them without being automatically controlled by them. The two approaches are complementary and are often used together."
+    }
+  ]
+}

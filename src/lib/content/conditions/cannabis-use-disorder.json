@@ -1,0 +1,179 @@
+{
+  "color": "#73DF91",
+  "seo": {
+    "title": "Cannabis Use Disorder Treatment in St. Louis | Plan Your Recovery",
+    "description": "Cannabis use disorder treatment in St. Louis. The cannabis of today is not the cannabis of a decade ago — higher potency, real withdrawal, and growing rates of dependence that deserve serious treatment."
+  },
+  "condition": {
+    "name": "Cannabis Use Disorder",
+    "alternateName": [
+      "Marijuana Use Disorder",
+      "Marijuana Addiction",
+      "Weed Addiction",
+      "Cannabis Dependence"
+    ],
+    "schemaDescription": "Cannabis use disorder is a clinically significant pattern of cannabis use characterized by impaired control, continued use despite consequences, tolerance, and — increasingly recognized — a withdrawal syndrome, driven in large part by the dramatically increased potency of cannabis products available today."
+  },
+  "hero": {
+    "headline": "Cannabis Use Disorder",
+    "intro": "Cannabis is legal in more places, more socially accepted than it has ever been, and stronger than at any point in history. Legalization has done something useful — it has removed criminal penalties — and something harmful — it has made it easier to dismiss problematic use as normal. The cannabis available today is not the cannabis of fifteen years ago. Dependence is real, withdrawal is real, and the consequences for mental health, motivation, and function are real. If your relationship with cannabis has become one you can't change despite wanting to, that matters — regardless of how legal it is."
+  },
+  "criteria": {
+    "heading": "What Is Cannabis Use Disorder?",
+    "description": "The DSM-5 defines cannabis use disorder as a problematic pattern of cannabis use leading to significant impairment or distress, with at least 2 of the following occurring within a 12-month period:",
+    "items": [
+      {
+        "label": "Using more than intended",
+        "description": "Using cannabis in larger amounts or for longer than planned."
+      },
+      {
+        "label": "Persistent desire or failed attempts to cut back",
+        "description": "Wanting to stop or reduce use but finding yourself unable to — often repeatedly."
+      },
+      {
+        "label": "Significant time spent",
+        "description": "Spending a great deal of time obtaining, using, or recovering from cannabis."
+      },
+      {
+        "label": "Cravings",
+        "description": "A strong urge or desire to use cannabis."
+      },
+      {
+        "label": "Failure to meet obligations",
+        "description": "Cannabis use interferes with responsibilities at work, school, or home."
+      },
+      {
+        "label": "Continued use despite problems",
+        "description": "Continuing to use despite knowing it is causing or worsening psychological, health, or relationship problems."
+      },
+      {
+        "label": "Withdrawal from other activities",
+        "description": "Reducing or giving up social, occupational, or recreational activities because of cannabis use."
+      },
+      {
+        "label": "Use in hazardous situations",
+        "description": "Using cannabis in situations where it is physically risky, such as driving."
+      },
+      {
+        "label": "Tolerance",
+        "description": "Needing significantly more cannabis to achieve the same effect, or experiencing a noticeably diminished effect with the same amount."
+      },
+      {
+        "label": "Withdrawal",
+        "description": "Experiencing anxiety, irritability, sleep disturbance, decreased appetite, restlessness, or physical discomfort when stopping or cutting back."
+      }
+    ],
+    "note": "2–3 criteria indicate mild cannabis use disorder; 4–5 moderate; 6+ severe. Approximately 9% of people who use cannabis develop a use disorder — a rate that rises to around 17% for those who begin in adolescence and 25–50% among daily users. With current potency levels and concentrate use, those numbers are likely increasing."
+  },
+  "howItFeels": {
+    "heading": "What's Changed — and Why It Matters",
+    "paragraphs": [
+      "The cannabis available today is categorically different from what was commonly used even a decade ago. Average THC concentrations in commercial cannabis flower have increased from roughly 4% in the 1990s to 12–25% or higher today. Concentrates — wax, shatter, dabs, and vape cartridges — routinely contain 60–90% THC. This is not a minor difference in degree. It is a difference in kind, and it changes the entire clinical picture: onset of intoxication, depth of impairment, development of tolerance, and severity of withdrawal.",
+      "Withdrawal was long dismissed as not real. It is real, and it is now formally recognized in the DSM-5. Cannabis withdrawal syndrome — which develops within days of stopping or significantly reducing heavy use — typically involves irritability, anxiety, sleep disruption, decreased appetite, restlessness, depressed mood, and sometimes physical symptoms like sweating and nausea. It is not life-threatening, but it is uncomfortable enough that it drives relapse in the early days of attempts to stop. People who have tried to quit and felt terrible for a week without understanding why have often experienced withdrawal.",
+      "Legalization has changed the social context of cannabis use in ways that cut both ways. Access is easier, quality is more consistent, and the criminal consequences of use have largely disappeared. But legalization has also made it harder for people to recognize when their use has become a problem — and harder for clinicians to address it without seeming like they are moralizing about something society has decided is fine. Legal does not mean low-risk for everyone. Alcohol is legal, and alcohol use disorder is one of the most common and damaging conditions we treat.",
+      "The relationship between cannabis and mental health is complex and depends heavily on the individual and the product. High-potency THC — especially with low or absent CBD — is associated with increased risk of psychosis, particularly in people with a genetic vulnerability. Anxiety is both a common reason people use cannabis and a common consequence of heavy use, particularly in withdrawal. Amotivational syndrome — flattened affect, reduced drive, difficulty engaging with long-term goals — is observed clinically in heavy users and resolves with abstinence in most people, though sometimes slowly. For adolescents, heavy cannabis use during development has more pronounced effects on cognition, mental health outcomes, and long-term function than adult-onset use."
+    ]
+  },
+  "treatmentSection": {
+    "heading": "How We Treat Cannabis Use Disorder",
+    "intro": "There are currently no FDA-approved medications specifically for cannabis use disorder, though research is active. Behavioral treatments are effective and form the foundation of care. The most important first step is often an honest assessment of the role cannabis has played — what it has provided, and what it has cost."
+  },
+  "treatments": [
+    {
+      "name": "Motivational Enhancement Therapy",
+      "description": "Cannabis use disorder is particularly affected by ambivalence — legality, social normalization, and the genuine function cannabis may have served all complicate motivation to change. Motivational interviewing and enhancement therapy help clarify your own values and reasons for change without judgment or pressure. It meets you where you actually are rather than where a clinician thinks you should be."
+    },
+    {
+      "name": "Cognitive Behavioral Therapy",
+      "description": "CBT for cannabis use disorder addresses the triggers and thought patterns maintaining use — including the beliefs that you can't sleep, relax, or manage stress without cannabis. It builds concrete skills for managing urges, navigating high-risk situations, and finding alternative ways to meet the needs that cannabis has been meeting."
+    },
+    {
+      "name": "Contingency Management",
+      "description": "Contingency management — systematic reinforcement for verified abstinence — is effective for cannabis use disorder, particularly in adolescents and young adults. It provides external motivation during the period when internal motivation is still developing or when the early discomfort of stopping is highest."
+    },
+    {
+      "name": "Managing Withdrawal",
+      "description": "Understanding what cannabis withdrawal actually looks and feels like — and having a plan for managing anxiety, sleep disruption, and irritability in the first one to two weeks — significantly improves success. Sleep hygiene, structured activity, and sometimes short-term supportive medication for anxiety or insomnia can help bridge the withdrawal period."
+    },
+    {
+      "name": "Co-Occurring Condition Treatment",
+      "description": "Cannabis use disorder rarely exists in isolation. Anxiety, depression, ADHD, trauma, and chronic pain are common underlying conditions for which cannabis has often been used as self-medication. Treating the underlying condition — with evidence-based approaches rather than a substance — is a central part of sustainable recovery."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can you actually be addicted to cannabis?",
+      "answer": "Yes. Cannabis use disorder is a well-established clinical condition with a specific set of criteria, a recognized withdrawal syndrome, and documented rates of dependence. The cultural narrative that cannabis is non-addictive was largely formed when cannabis was far less potent than it is today, and the research literature has moved considerably. About 9% of people who use cannabis develop a use disorder — a rate that rises sharply with daily use and adolescent onset."
+    },
+    {
+      "question": "What does cannabis withdrawal feel like?",
+      "answer": "Cannabis withdrawal typically begins within 1–3 days of stopping heavy regular use and peaks around days 2–6. Common symptoms include irritability, anxiety, restlessness, sleep disruption, decreased appetite, depressed mood, and sometimes sweating or stomach discomfort. It is not medically dangerous, but it is uncomfortable enough that it drives many relapse attempts in the first week. Knowing it is coming and having a plan for it makes a real difference."
+    },
+    {
+      "question": "I use cannabis for anxiety. Won't stopping make my anxiety worse?",
+      "answer": "In the short term, yes — anxiety typically increases during withdrawal. But the research on long-term cannabis use and anxiety shows a consistent pattern: cannabis provides short-term relief and worsens anxiety over time. Heavy use increases baseline anxiety, disrupts sleep (which worsens anxiety), and can create a cycle in which you need cannabis to manage the anxiety that cannabis use is intensifying. Most people who stop using cannabis and get through the initial withdrawal period find their underlying anxiety is more manageable, not less — particularly when it is also being treated directly."
+    },
+    {
+      "question": "Is high-potency cannabis more dangerous than regular cannabis?",
+      "answer": "Yes, in meaningful ways. Higher THC concentration means more rapid and complete intoxication, faster development of tolerance, a more significant withdrawal syndrome, and increased risk of psychiatric effects — particularly anxiety, paranoia, and psychosis in vulnerable individuals. The shift toward concentrates (dabs, wax, high-potency vapes) represents a change in the risk profile of cannabis use that has outpaced public understanding. Someone using a 90% THC concentrate daily is in a different clinical situation than someone using low-potency flower occasionally."
+    },
+    {
+      "question": "It's legal now. Why would I need treatment for something legal?",
+      "answer": "Legality and safety are different things. Alcohol is legal, and alcohol use disorder is one of the most common and damaging conditions in medicine. Legal status changes the criminal consequences of use — it does not change the neurobiological effects or the clinical criteria for dependence. If your cannabis use is impairing your function, affecting your mental health, or is something you've been unable to change despite wanting to, the fact that it's legal doesn't make that less worth addressing."
+    },
+    {
+      "question": "What about medical cannabis?",
+      "answer": "Medical cannabis is legally available in Missouri for a range of qualifying conditions, and for some people it provides real relief. But medical authorization does not preclude developing a use disorder — just as opioid prescriptions can lead to opioid use disorder. The relevant clinical question is not whether use is authorized but whether it is controlled, whether it is producing the intended benefits, and whether stopping or reducing it is something the person can do when needed. If the honest answer to those questions is complicated, it is worth discussing."
+    },
+    {
+      "question": "My teen uses cannabis regularly. Should I be more worried than I would be for an adult?",
+      "answer": "Yes. The adolescent brain is particularly vulnerable to the effects of heavy cannabis use — the endocannabinoid system plays a significant role in neurodevelopment, and disrupting it during a critical period has measurable effects on cognition, emotional regulation, and mental health outcomes. Adolescent onset of cannabis use is associated with higher rates of dependence, more pronounced psychiatric effects, and worse long-term trajectories than adult onset. This is not about moral judgment — it is about developmental biology, and it makes early intervention genuinely important."
+    },
+    {
+      "question": "Is cannabis use disorder treatable via telehealth?",
+      "answer": "Yes. CBT, motivational enhancement therapy, and psychiatric care for co-occurring conditions are all available via telehealth in Missouri. For adolescents, we often prefer some in-person family sessions, but much of the work can be done remotely."
+    },
+    {
+      "question": "Are there free support groups or peer communities for cannabis use disorder?",
+      "answer": "Marijuana Anonymous (marijuana-anonymous.org) is the primary 12-step fellowship for cannabis addiction, with over 300 weekly meetings worldwide via online, phone, and in-person formats — free and peer-led. The r/leaves community (reddit.com/r/leaves) is the largest peer cannabis-cessation community in existence, with over 285,000 active members and structured Discord meetings; it takes a non-12-step approach and is operated by Carousel Charitable, a registered 501(c)(3). SMART Recovery (smartrecovery.org) covers cannabis in its secular, science-based format with over 1,500 weekly meetings. For family members, Mar-Anon (mar-anon.com) is a 12-step program for relatives and friends of those with cannabis use disorder — an underutilized resource that addresses the specific stigma around cannabis dependence. For people whose goal is moderation rather than abstinence, r/petioles is an established harm-reduction-oriented community focused on tolerance breaks and responsible use."
+    }
+  ],
+  "resources": [
+    {
+      "name": "Marijuana Anonymous",
+      "url": "https://marijuana-anonymous.org",
+      "description": "12-step peer support for cannabis addiction — 300+ weekly meetings worldwide via online, phone, and in-person formats. No fees.",
+      "type": "mutual-support"
+    },
+    {
+      "name": "Leaves (r/leaves)",
+      "url": "https://www.reddit.com/r/leaves",
+      "description": "The largest peer cannabis-cessation community — 285,000+ active members, structured Discord meetings, and a supportive non-12-step approach. Operated by Carousel Charitable, a registered 501(c)(3).",
+      "type": "mutual-support"
+    },
+    {
+      "name": "Mar-Anon Family Groups",
+      "url": "https://mar-anon.com",
+      "description": "12-step program for relatives and friends of those with cannabis use disorder — addresses the unique stigma that surrounds cannabis dependence.",
+      "type": "family-support"
+    },
+    {
+      "name": "SMART Recovery",
+      "url": "https://www.smartrecovery.org",
+      "description": "Science-based, secular mutual support using CBT and motivational tools — all substances including cannabis, 1,500+ meetings weekly.",
+      "type": "mutual-support"
+    },
+    {
+      "name": "NIDA: Cannabis Research",
+      "url": "https://nida.nih.gov/research-topics/marijuana",
+      "description": "NIH's authoritative evidence base on cannabis use disorder — covers prevalence, withdrawal, treatment options, and the science behind modern high-potency cannabis.",
+      "type": "knowledge"
+    },
+    {
+      "name": "988 Suicide & Crisis Lifeline",
+      "url": "https://988lifeline.org",
+      "description": "Call or text 988 — free, confidential, 24/7 crisis support for mental health emergencies and suicidal thoughts.",
+      "type": "crisis"
+    }
+  ]
+}

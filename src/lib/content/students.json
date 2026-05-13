@@ -1,11 +1,12 @@
 {
+  "color": "#FFE279",
   "seo": {
-    "title": "College Student Mental Health & Addiction Support | Plan Your Recovery",
-    "description": "Mental health and addiction counseling for college students in St. Louis and via telehealth. CBT, psychiatry, and family-involved care that follows you through the transition."
+    "title": "College Student Mental Health & Addiction | Plan Your Recovery",
+    "description": "Mental health and addiction counseling for college students in St. Louis and via telehealth. CBT, psychiatry, and family-involved care."
   },
   "hero": {
     "headline": "Counseling for College Students",
-    "intro": "The transition to college removes most of the structure that kept things manageable in high school — consistent schedules, parental oversight, familiar routines. For students already managing anxiety, depression, ADHD, or substance use, that loss of structure is often when things fall apart. Campus counseling centers help a lot of students, but they're not built for complex or ongoing care. We are."
+    "intro": "The transition to college removes most of the structure that kept things manageable in high school — consistent schedules, parental oversight, familiar routines. For students already managing anxiety, depression, ADHD, addiction, or substance use, that loss of structure is often when things fall apart. Campus counseling centers help a lot of students, but they're not built for complex or ongoing care. We are."
   },
   "concerns": {
     "headline": "What Brings Students to Us",
@@ -55,6 +56,18 @@
       "answer": "Campus counseling centers do good work, but they're typically built for short-term, limited engagement — and they don't follow you home over breaks or into your next year. If you're dealing with something ongoing, or something complex enough to involve medication or family, we're better equipped for that. We also offer telehealth throughout Missouri, so you can see the same therapist wherever you are."
     },
     {
+      "question": "Do you treat anxiety and depression in college students?",
+      "answer": "Yes — these are among the most common reasons college students come to us. Anxiety and depression in college often look different from the textbook presentation: they're frequently tangled with academic pressure, identity questions, and major life transitions. We treat both with CBT and, when appropriate, coordinate with our psychiatric team for medication evaluation. You don't need a formal diagnosis to make an appointment."
+    },
+    {
+      "question": "My grades are slipping and I think it's ADHD. What should I do?",
+      "answer": "A psychiatric evaluation is a good starting point. ADHD is common in college students and often goes undiagnosed until the demands of college exceed what compensatory strategies can handle. An evaluation clarifies whether ADHD is driving the difficulty — and whether medication, therapy, or both would help. Academic consequences are worth taking seriously early rather than waiting for a crisis."
+    },
+    {
+      "question": "I'm drinking more than I used to. How do I know if it's a problem?",
+      "answer": "The clearest indicators are consequences: grades, relationships, health, or things you regret. If drinking is affecting any of those, it's worth a conversation. You don't need to be dependent on alcohol for it to be worth addressing — patterns are much easier to change early than later. A single assessment appointment can help clarify what's going on."
+    },
+    {
       "question": "My goals and my parents' goals don't always align. Whose side are you on?",
       "answer": "Yours. The therapist's job is to help you figure out what you want and how to get it — not to enforce your parents' agenda. Family therapy at this stage is about facilitating honest conversations, not reporting back to your parents. If what you want and what your parents want are genuinely in conflict, that's something we can work through — but we start from your perspective."
     },
@@ -67,21 +80,21 @@
       "answer": "Fair question. Therapy is only as good as the fit and the approach. We'll be direct with you — not just reflect your feelings back at you or offer generic support. If the approach isn't working, we'll say so and try something else. CBT in particular is structured and measurable: you should be able to tell whether it's helping within a few sessions."
     },
     {
-      "question": "My grades are slipping and I think it's ADHD. What should I do?",
-      "answer": "A psychiatric evaluation is a good starting point. ADHD is common in college students and often goes undiagnosed until the demands of college exceed what compensatory strategies can handle. An evaluation can clarify whether ADHD is driving the difficulty — and whether medication, therapy, or both would help. Academic consequences are worth taking seriously early."
-    },
-    {
-      "question": "I'm drinking more than I used to. How do I know if it's a problem?",
-      "answer": "The clearest indicators are consequences: grades, relationships, health, or things you regret. If drinking is affecting any of those, it's worth a conversation. You don't need to be dependent on alcohol for it to be worth addressing — patterns are much easier to change early than later. A single assessment appointment can help clarify what's going on."
+      "question": "Can I keep seeing the same therapist when I go home for breaks?",
+      "answer": "Yes, if you're using telehealth. We offer telehealth throughout Missouri, so you can continue with the same therapist during winter break, summer, or any time you're away from campus — without starting over with someone new. Continuity of relationship matters in therapy, and we're set up to maintain it across the academic calendar."
     },
     {
       "question": "Are sessions available via telehealth?",
       "answer": "Yes. We offer telehealth throughout Missouri, so you can continue therapy during the semester and over breaks without starting over with someone new. Some students prefer telehealth for the privacy and convenience; others do better in person. We'll figure out what works for you."
+    },
+    {
+      "question": "Do you accept insurance for college student therapy?",
+      "answer": "Our counseling services are out-of-network with insurance — we submit claims on your behalf as a courtesy, and many students receive partial reimbursement through their out-of-network mental health benefits. FSA and HSA funds can also be used. Psychiatric services, including medication management and ADHD evaluation, are in-network with UnitedHealthcare, BCBS, and Cigna."
     }
   ],
   "cta": {
     "headline": "Let's Figure Out What You Need",
     "body": "Whether you're heading to school for the first time or navigating a difficult semester, a conversation is a good place to start. You don't need to have it figured out before you call.",
-    "bookingLink": "/booking/"
+    "bookingLink": "/booking"
   }
 }

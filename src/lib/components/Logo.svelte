@@ -1,7 +1,7 @@
 <svg
 	id="logotype"
 	xmlns="http://www.w3.org/2000/svg"
-	viewBox="0 0 995.62 145.07"
+	viewBox="0 0 995.62 140"
 	stroke="var(--stroke)"
 	fill="none"
 	stroke-width="var(--stroke-width)"

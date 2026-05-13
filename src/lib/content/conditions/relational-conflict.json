@@ -1,0 +1,157 @@
+{
+  "color": "#FFE279",
+  "seo": {
+    "title": "Relational Conflict Treatment in St. Louis | Plan Your Recovery",
+    "description": "Couples and relationship therapy in St. Louis focused on the cycles that keep partners stuck — pursuit, withdrawal, and the feedback loops that erode connection over time."
+  },
+  "condition": {
+    "name": "Relational Conflict",
+    "alternateName": [
+      "Couples Conflict",
+      "Relationship Distress",
+      "Marital Problems",
+      "Pursue-Withdraw Cycle"
+    ],
+    "schemaDescription": "Relational conflict refers to patterns of chronic interpersonal distress between intimate partners, often driven by self-reinforcing cycles of pursuit and withdrawal rooted in underlying attachment needs and emotional reactivity."
+  },
+  "hero": {
+    "headline": "Relational Conflict",
+    "intro": "Most couples don't fight about money, sex, or parenting — not really. They fight about connection and safety: whether the other person is there, whether they matter, whether the relationship can hold them. The specific arguments change but the pattern underneath them doesn't. Understanding that pattern, and changing it, is what couples therapy is actually for."
+  },
+  "criteria": {
+    "heading": "When Conflict Becomes a Cycle",
+    "description": "Relationship distress tends to follow recognizable patterns — not just occasional disagreements, but recurring dynamics that both partners feel trapped in. Common signs that conflict has become self-reinforcing:",
+    "items": [
+      {
+        "label": "The same argument, over and over",
+        "description": "The topic may change but the structure is identical — same escalation, same positions, same outcome. The fight is never really resolved, just paused."
+      },
+      {
+        "label": "One pursues, one withdraws",
+        "description": "One partner pushes harder for resolution or connection; the other distances, shuts down, or leaves. The more one pursues, the more the other retreats — and vice versa."
+      },
+      {
+        "label": "Disconnection between conflict episodes",
+        "description": "Even when things are calm, there's a quality of distance, walking on eggshells, or guarded interaction — a baseline tension that doesn't fully go away."
+      },
+      {
+        "label": "Increasing contempt or disengagement",
+        "description": "Criticism and contempt — dismissiveness, eye-rolling, sarcasm — are among the most reliable predictors of relationship deterioration. So is emotional disengagement: going through the motions without real presence."
+      },
+      {
+        "label": "Repair attempts that don't land",
+        "description": "One or both partners tries to de-escalate — a joke, a concession, a bid for connection — and the other can't receive it. The capacity to repair after conflict has eroded."
+      },
+      {
+        "label": "History of attachment injuries",
+        "description": "A moment — a betrayal, an abandonment during crisis, a failure to show up — that never fully healed and reactivates during current conflict."
+      }
+    ],
+    "note": "Not all conflict indicates a troubled relationship. Conflict handled well — with repair, without contempt, with genuine curiosity about the other person's experience — is normal and can even strengthen a relationship. The concern is pattern: predictable, repetitive, escalating, and unrepaired."
+  },
+  "howItFeels": {
+    "heading": "The Pursue-Withdraw Cycle",
+    "paragraphs": [
+      "The most common negative cycle in distressed couples is pursue-withdraw. One partner — the pursuer — experiences disconnection or threat and responds by moving toward: expressing distress, demanding conversation, criticizing, or escalating. The other — the withdrawer — experiences the same disconnection or threat and responds by moving away: going quiet, disengaging, leaving the room, or shutting down emotionally.",
+      "From the outside, it looks like one partner cares too much and the other doesn't care enough. That's not what's happening. Both partners are in distress — the pursuer because they fear abandonment or loss of connection, the withdrawer because they feel flooded, incompetent, or afraid of making things worse. Their strategies for managing that fear are opposite and mutually reinforcing.",
+      "The more the pursuer escalates, the more unsafe the withdrawer feels — and the more they withdraw. The more the withdrawer withdraws, the more abandoned the pursuer feels — and the more they pursue. This is a feedback loop, not a character flaw on either side. Neither person set out to create it. But without intervention, it tends to tighten over time.",
+      "Beneath the cycle, both partners want the same thing: to feel safe, to feel important, to know the relationship can hold them. The tragedy of the pursue-withdraw cycle is that each partner's attempt to meet their own need makes it harder for the other person to meet theirs. Therapy interrupts that logic and replaces it with something different."
+    ]
+  },
+  "treatmentSection": {
+    "heading": "How We Work With Relational Conflict",
+    "intro": "Couples therapy at Plan Your Recovery focuses on the underlying cycle driving conflict — not just communication technique or conflict resolution skills. We draw primarily on Emotionally Focused Couples Therapy (EFT), which has the most rigorous research support of any couples approach."
+  },
+  "treatments": [
+    {
+      "name": "Emotionally Focused Couples Therapy (EFT)",
+      "description": "EFT identifies the specific cycle driving conflict, helps both partners understand their role in it without blame, and creates new emotional interactions that rebuild safety and connection. Research shows 70–75% of couples move from distress to recovery through EFT, with low rates of relapse."
+    },
+    {
+      "name": "Attachment-Focused Work",
+      "description": "Much of what looks like stubbornness or indifference in a partner is actually attachment fear — fear of abandonment, rejection, or failure. Understanding how each partner's attachment history shapes their behavior in the current relationship changes how partners see and respond to each other."
+    },
+    {
+      "name": "Integrated Individual and Couples Work",
+      "description": "When one or both partners are dealing with individual issues — addiction, depression, trauma — those problems are woven into the relationship dynamic. We coordinate individual and couples treatment so that progress in one supports progress in the other."
+    },
+    {
+      "name": "Discernment Counseling",
+      "description": "When one partner is considering leaving and the other wants to stay, standard couples therapy is not the right fit. Discernment counseling is a brief, structured process for mixed-agenda couples to achieve clarity about whether and how to pursue therapy or separation."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Is the pursuer always the 'needy' one and the withdrawer the 'distant' one?",
+      "answer": "No — these are roles in a dynamic, not character traits. The same person can pursue in one context and withdraw in another. And the roles often flip under different circumstances: the chronic withdrawer may become a pursuer when they feel the relationship is genuinely threatened. What matters is the pattern, not the individuals' fixed personalities."
+    },
+    {
+      "question": "What if we've been fighting for years — is it too late?",
+      "answer": "The research on EFT suggests that even significantly distressed couples can experience meaningful recovery when both partners engage with the work. The factors that predict worse outcomes are primarily contempt and disengagement — not conflict intensity per se. If both partners are still willing to try, therapy is worth attempting."
+    },
+    {
+      "question": "Does couples therapy mean we'll both be in the room every session?",
+      "answer": "Primarily yes — the work happens between partners. Some sessions may involve one partner individually when that's clinically useful, but the unit of treatment is the relationship. If you're looking for individual therapy alongside couples work, we typically recommend that be done with a separate therapist."
+    },
+    {
+      "question": "Can couples therapy make things worse?",
+      "answer": "Poorly conducted couples therapy — particularly approaches that focus on airing grievances, assigning fault, or forcing premature communication — can harm couples. EFT is specifically designed to avoid this: it works with emotional vulnerability rather than escalating conflict, and the therapist is trained to manage what happens in the room carefully. The approach has a strong safety record in the research."
+    },
+    {
+      "question": "One of us has a substance use problem. Can we still do couples therapy?",
+      "answer": "Yes — and often it's important to do so. Addiction is a profoundly relational problem, and treating it without addressing the relationship often produces incomplete results. We have specific expertise in working with couples where substance use or mental health problems are part of the picture, and we coordinate that work with individual treatment."
+    },
+    {
+      "question": "What about domestic conflict that involves safety concerns?",
+      "answer": "Couples therapy is contraindicated in relationships with ongoing domestic violence or coercive control — it requires that both partners can speak honestly without fear of retaliation. If safety is a concern, individual safety planning and support come first. We take this seriously and assess for it."
+    },
+    {
+      "question": "Are there free support groups or resources for relationship and couples difficulties?",
+      "answer": "Retrouvaille (helpourmarriage.org) is a peer-led weekend program with ongoing follow-up support for couples in serious distress — founded in a Catholic tradition but open to couples of all backgrounds, and focused on lived experience rather than therapy. Co-Dependents Anonymous (coda.org) is a 12-step program for dysfunctional relationship patterns with over 1,200 U.S. groups, particularly relevant when pursue-withdraw cycles are rooted in codependency or family-of-origin dynamics. NAMI's Family Support Group (nami.org) offers free peer support for partners and family members affected by a loved one's mental health condition. The Gottman Institute (gottman.com) provides research-based couples-skills resources, books, and online courses grounded in decades of relationship research. When safety is a concern, the National Domestic Violence Hotline (thehotline.org) at 1-800-799-SAFE is available 24/7 in over 200 languages, and Loveisrespect (loveisrespect.org) at 1-866-331-9474 offers dedicated support for people ages 13 to 26."
+    }
+  ],
+  "resources": [
+    {
+      "name": "National Domestic Violence Hotline",
+      "url": "https://www.thehotline.org",
+      "description": "Call 1-800-799-SAFE (7233) or text START to 88788 — 24/7, 200+ languages. Essential resource when relational conflict involves safety concerns or abuse.",
+      "type": "crisis"
+    },
+    {
+      "name": "Retrouvaille",
+      "url": "https://www.helpourmarriage.org",
+      "description": "Peer-led weekend program and follow-up support for couples in serious distress — founded in a faith tradition but open to all backgrounds. Structured around lived experience rather than therapy.",
+      "type": "mutual-support"
+    },
+    {
+      "name": "The Gottman Institute",
+      "url": "https://www.gottman.com",
+      "description": "The leading evidence-based couples-therapy framework — research-backed skills resources, Gottman Referral Network of trained therapists, books, and online courses.",
+      "type": "knowledge"
+    },
+    {
+      "name": "Co-Dependents Anonymous",
+      "url": "https://coda.org",
+      "description": "12-step program for dysfunctional relationship patterns — 1,200+ U.S. groups in 40+ countries. Useful when pursue-withdraw cycles are rooted in codependency.",
+      "type": "mutual-support"
+    },
+    {
+      "name": "Loveisrespect",
+      "url": "https://www.loveisrespect.org",
+      "description": "For ages 13–26 — call 1-866-331-9474 or text LOVEIS to 22522. Healthy-relationship education and dating-abuse support.",
+      "type": "crisis"
+    },
+    {
+      "name": "NAMI Family Support Group",
+      "url": "https://www.nami.org/Support-Education/Support-Groups/NAMI-Family-Support-Group",
+      "description": "Free peer-led support for families and partners affected by a loved one's mental health condition — available in-person and online.",
+      "type": "family-support"
+    },
+    {
+      "name": "988 Suicide & Crisis Lifeline",
+      "url": "https://988lifeline.org",
+      "description": "Call or text 988 — free, confidential, 24/7 crisis support for mental health emergencies and suicidal thoughts.",
+      "type": "crisis"
+    }
+  ]
+}

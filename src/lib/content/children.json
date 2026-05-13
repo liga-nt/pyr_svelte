@@ -1,11 +1,12 @@
 {
+  "color": "#73DF91",
   "seo": {
     "title": "Child Therapy (Ages 8+) | Plan Your Recovery",
-    "description": "Evidence-based therapy for children ages 8 and older in St. Louis. CBT and supportive therapy for anxiety, depression, school avoidance, and behavioral concerns. Family involvement is central to our approach."
+    "description": "Evidence-based therapy for children ages 8 and older in St. Louis. CBT for anxiety, depression, school avoidance, and behavioral concerns."
   },
   "hero": {
     "headline": "Therapy for Children Ages 8 and Older",
-    "intro": "Children don't always have the words for what's wrong. Anxiety shows up as stomachaches and school refusal. Depression looks like irritability or withdrawal. Behavioral problems often have emotional roots that neither the child nor their parents can fully see. We work with children and their families to understand what's driving the difficulty — and to build the skills to address it."
+    "intro": "Children don't always have the words for what's wrong. Anxiety shows up as stomachaches and school refusal. Depression looks like irritability or withdrawal. Behavioral problems often have emotional roots that neither the child nor their parents can fully see. We offer therapy for children ages 8 and older, working with families to understand what's driving the difficulty — and to build the skills to address it."
   },
   "concerns": {
     "headline": "What Brings Families to Us",
@@ -51,29 +52,46 @@
   },
   "faqs": [
     {
+      "question": "What ages do you work with?",
+      "answer": "We work with children from approximately age 5 through adolescence. Younger children (elementary school age) receive more play-based, parent-mediated treatment. Older children and pre-teens receive more direct cognitive-behavioral work. Teen-specific services extend through high school. If you're unsure whether your child's age is a fit, call us — we're glad to clarify."
+    },
+    {
+      "question": "What conditions do you treat in children?",
+      "answer": "We work with anxiety disorders (separation anxiety, generalized anxiety, social anxiety, school refusal), depression, ADHD, OCD, behavioral problems, and the emotional effects of family disruption, trauma, and medical issues. We don't treat autism spectrum disorder as a primary condition, but we work with children who have ASD alongside co-occurring anxiety or mood symptoms."
+    },
+    {
       "question": "My child says nothing is wrong. How do you get them to open up?",
       "answer": "Children often don't have language for what they're experiencing, or they've learned that adults don't respond well to what they say. A skilled child therapist doesn't interrogate — they build a relationship first, through play, conversation, and genuine curiosity about the child's world. Opening up happens gradually, on the child's terms."
     },
     {
       "question": "How involved will I be in my child's treatment?",
-      "answer": "Very involved. We meet with parents separately to understand the child's history and home context, share our clinical thinking, and coach strategies that support progress at home. For younger children, much of the work happens through parents. As children get older, more of the work happens directly with them, but parents remain central."
+      "answer": "Very involved. We meet with parents separately to understand the child's history and home context, share our clinical thinking, and coach strategies that support progress at home. For younger children, much of the work happens through parents. As children get older, more of the work happens directly with them, but parents remain central throughout."
     },
     {
       "question": "Does my child need a diagnosis before starting therapy?",
       "answer": "No. Many families come to us without a formal diagnosis. Assessment is part of what we do — understanding the pattern of symptoms and what's driving them. A diagnosis can be useful clinically, but it isn't a prerequisite for beginning treatment."
     },
     {
-      "question": "How long does treatment typically take?",
-      "answer": "It varies by the child and the concern. CBT for anxiety is often time-limited — 12 to 20 sessions — with measurable progress along the way. Other presentations, particularly when there are longstanding emotional patterns or family system factors, may take longer. We discuss expectations openly at the start."
+      "question": "How long does child therapy typically take?",
+      "answer": "It varies by the child and the concern. CBT for anxiety is often time-limited — 12 to 20 sessions — with measurable progress along the way. Other presentations, particularly when there are longstanding emotional patterns or family system factors, may take longer. We discuss expectations openly at the start and give honest estimates."
     },
     {
       "question": "My child's school says they need therapy. Where do I start?",
-      "answer": "A call to us is a good starting point. We'll ask about the school's concerns, what you're seeing at home, and how long things have been difficult. That conversation helps us determine whether an assessment, direct therapy, or parent consultation makes the most sense."
+      "answer": "A call to us is a good starting point. We'll ask about the school's concerns, what you're seeing at home, and how long things have been difficult. That conversation helps us determine whether an assessment, direct therapy, or parent consultation makes the most sense as a first step."
+    },
+    {
+      "question": "Do you offer telehealth for children?",
+      "answer": "Yes, for children old enough to engage meaningfully by video and whose situations don't require in-person work. Parent sessions by telehealth are available throughout Missouri. For younger children, telehealth parent consultations are often a practical and effective option. We'll help you figure out what format makes the most sense."
+    },
+    {
+      "question": "How do I know if my child needs medication?",
+      "answer": "Medication is rarely a first-line recommendation for children and is never our default. For some conditions — particularly ADHD and severe anxiety or OCD — medication combined with therapy produces meaningfully better outcomes than therapy alone. The decision is always made collaboratively with parents, informed by your child's specific situation, age, and what's been tried already."
     }
   ],
   "cta": {
     "headline": "Start with a Conversation",
     "body": "If you're concerned about your child, you don't need to have it figured out before reaching out. A brief consultation helps us understand the situation and determine the right next step.",
-    "bookingLink": "/booking/"
-  }
+    "bookingLink": "/booking"
+  },
+  "_reviewed": true
 }

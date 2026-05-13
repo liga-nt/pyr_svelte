@@ -1,0 +1,76 @@
+{
+  "color": "#FFE279",
+  "seo": {
+    "title": "Emotionally Focused Couples Therapy (EFT) | Plan Your Recovery",
+    "description": "Emotionally Focused Couples Therapy addresses the attachment patterns and emotional cycles that keep couples stuck. Plan Your Recovery, St. Louis."
+  },
+  "hero": {
+    "headline": "Emotionally Focused Couples Therapy",
+    "intro": "Emotionally Focused Couples Therapy — EFT — is the most thoroughly researched approach for couples. It works by targeting the underlying attachment needs and emotional patterns that drive conflict, rather than just the surface-level arguments. Most couples who complete EFT not only reduce conflict — they rebuild the felt sense of safety and connection that brought them together."
+  },
+  "body": [
+    {
+      "heading": "What Is EFT?",
+      "paragraphs": [
+        "EFT was developed by Dr. Sue Johnson drawing on attachment theory — the same body of research that explains how infants bond with caregivers. The core insight is that adults have a fundamental need for felt safety and connection with their intimate partners, and that most relationship conflict is driven by threats to that bond.",
+        "When partners feel secure with each other, they can handle disagreements, repair after conflict, and tolerate differences. When the bond feels threatened — through chronic distance, criticism, or unresolved conflict — the nervous system responds as though to a survival threat. People fight harder, shut down, or both. The content of the argument (money, parenting, sex) usually matters less than what it signals: 'Are you there for me? Do I matter to you?'",
+        "EFT helps couples slow down, identify what's happening emotionally beneath the surface of their conflicts, and express those underlying needs in ways that invite connection rather than defensiveness. Over time, partners begin to respond differently to each other — and that changes the dynamic at the level of the relationship, not just the latest disagreement."
+      ]
+    },
+    {
+      "heading": "The Cycle, Not the Content",
+      "paragraphs": [
+        "One of the most useful ideas in EFT is that couples get stuck in negative interaction cycles — predictable patterns that repeat regardless of the specific issue. The most common is the pursue-withdraw cycle: one partner pursues (criticizes, escalates, pushes) and the other withdraws (goes quiet, shuts down, disengages). Both partners are responding to the same underlying fear — the pursuer fears disconnection, the withdrawer fears failure or overwhelm — but their responses pull in opposite directions and reinforce each other. The more one pursues, the more the other withdraws. The more one withdraws, the more the other pursues.",
+        "Identifying and naming the cycle is central to EFT. Once both partners can see the pattern and understand their own role in it — not as victims of a difficult partner but as co-participants in a dynamic neither wants — the possibility of change opens up. The enemy becomes the cycle, not each other.",
+        "EFT moves through three stages: de-escalation (understanding and stepping back from the negative cycle), restructuring attachment interactions (creating new, vulnerable conversations that shift the emotional bond), and consolidation (integrating new patterns into daily life). Most couples who engage seriously with the process experience durable change."
+      ]
+    }
+  ],
+  "whatToExpect": {
+    "heading": "What to Expect in EFT",
+    "items": [
+      {
+        "label": "Slowing things down",
+        "description": "EFT moves deliberately through difficult moments — pausing to track what's happening emotionally in real time rather than debating who was right or wrong."
+      },
+      {
+        "label": "Emotional focus",
+        "description": "Sessions go beneath the content of arguments to the feelings and attachment needs driving them. This can feel unfamiliar for couples used to problem-solving mode."
+      },
+      {
+        "label": "Both partners are seen",
+        "description": "EFT is not about taking sides or identifying a 'problem partner.' Both people's experiences are taken seriously — and both play a role in the cycle."
+      },
+      {
+        "label": "Not only for crisis",
+        "description": "EFT works best when both partners are still invested in the relationship. It's most effective as a serious investment in a relationship under stress — not only as a last resort before separation."
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "question": "How is EFT different from other forms of couples therapy?",
+      "answer": "EFT focuses specifically on emotional processes and attachment bonds, rather than communication skills or conflict resolution techniques alone. Many couples can learn communication tools and still feel profoundly disconnected — because the underlying emotional safety isn't there. EFT addresses that directly. It has more rigorous research support than most other couples therapy approaches."
+    },
+    {
+      "question": "Does EFT work if one partner is reluctant about therapy?",
+      "answer": "EFT works best when both partners are willing to engage. If one partner is hesitant but willing to attend, EFT's non-blaming, cycle-focused approach often helps them feel safer than they expected — because the therapist is not positioning either person as the problem."
+    },
+    {
+      "question": "Can EFT help relationships affected by addiction or mental health problems?",
+      "answer": "Yes — and this is an area where we have specific expertise. Addiction and mental health problems profoundly affect intimate relationships, often creating exactly the patterns EFT targets: distance, disconnection, cycles of hurt and withdrawal. EFT can be integrated with individual treatment to address relational damage and rebuild connection as recovery progresses."
+    },
+    {
+      "question": "Can we be in individual therapy and couples therapy at the same time?",
+      "answer": "Yes — and often that's the most effective approach. Individual therapy and couples therapy serve different functions and can run in parallel. We typically recommend they be conducted with different therapists: your individual therapist's role is to be your advocate, while the couples therapist needs to hold both partners' perspectives equally."
+    },
+    {
+      "question": "How long does EFT typically take?",
+      "answer": "EFT typically runs 8–20 sessions, though complex situations — significant trauma history, infidelity, long-standing disconnection — often take longer. Unlike open-ended couples therapy, EFT has identifiable stages, so progress is trackable. Most couples who engage seriously with the process experience meaningful change within a moderate number of sessions."
+    },
+    {
+      "question": "Is EFT effective for same-sex couples?",
+      "answer": "Yes. The attachment dynamics EFT addresses are not specific to gender or sexual orientation. EFT has been studied and validated across diverse couple configurations. Our practice works with all couples regardless of relationship structure."
+    }
+  ]
+}

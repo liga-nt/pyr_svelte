@@ -1,0 +1,161 @@
+{
+  "color": "#6AE3DC",
+  "seo": {
+    "title": "Technology & Screen Addiction Treatment in St. Louis | Plan Your Recovery",
+    "description": "Treatment for technology addiction, gaming disorder, and compulsive screen use in St. Louis. Evidence-based care for teens and adults struggling with compulsive internet and device use."
+  },
+  "condition": {
+    "name": "Technology & Screen Addiction",
+    "alternateName": [
+      "Internet Addiction",
+      "Gaming Disorder",
+      "Compulsive Screen Use",
+      "Social Media Addiction"
+    ],
+    "schemaDescription": "Technology and screen addiction refers to compulsive, functionally impairing use of digital devices, internet platforms, gaming, or social media — characterized by loss of control, preoccupation, withdrawal, and continued use despite significant consequences."
+  },
+  "hero": {
+    "headline": "Technology & Screen Addiction",
+    "intro": "The devices in our pockets were engineered to capture and hold attention — using the same variable reward mechanisms that drive gambling addiction. For most people, heavy screen use is a habit problem. For a growing number, it has become something more: compulsive, resistant to self-regulation, and causing real damage to sleep, mental health, relationships, and function. This is not a willpower failure. It is what happens when neurobiologically powerful systems are deployed against people without limit or adequate warning."
+  },
+  "criteria": {
+    "heading": "When Screen Use Becomes a Problem",
+    "description": "Technology addiction — sometimes called internet use disorder or gaming disorder (formally recognized by the WHO) — shares the core features of other behavioral addictions: loss of control, preoccupation, withdrawal symptoms when not using, and continued use despite consequences. Signs that screen use has crossed into problematic territory:",
+    "items": [
+      {
+        "label": "Loss of control",
+        "description": "Consistent difficulty stopping or limiting use despite repeated intentions to do so. 'Just five more minutes' becomes hours, every time."
+      },
+      {
+        "label": "Preoccupation",
+        "description": "Thinking about devices, games, or platforms when not using them. Difficulty being fully present in offline activities because of mental pull back to screens."
+      },
+      {
+        "label": "Functional impairment",
+        "description": "Academic failure, occupational problems, neglected relationships, or inability to meet basic responsibilities as a direct result of screen use."
+      },
+      {
+        "label": "Withdrawal and irritability",
+        "description": "Significant distress, irritability, anxiety, or emptiness when access is limited or removed — disproportionate to the actual situation."
+      },
+      {
+        "label": "Tolerance and escalation",
+        "description": "Needing more time online to feel satisfied; shifting to more stimulating content, games, or interactions over time."
+      },
+      {
+        "label": "Use to regulate mood",
+        "description": "Turning to screens specifically to escape negative emotions — boredom, anxiety, loneliness, depression — rather than addressing them directly."
+      }
+    ],
+    "note": "Not all heavy screen use is addiction. The diagnostic distinction lies in loss of control and functional impairment — not hours per day. Someone who uses screens extensively but can stop when needed, maintains relationships and responsibilities, and sleeps adequately is in a different category than someone who cannot."
+  },
+  "howItFeels": {
+    "heading": "What's Actually Happening",
+    "paragraphs": [
+      "Platform and game designers draw on decades of behavioral psychology — specifically the science of variable reward schedules, the most powerfully reinforcing pattern known. You don't know when the next notification, match, like, or win will come. That uncertainty keeps the dopamine system engaged in a way that predictable rewards never could. The architecture is not accidental.",
+      "Sleep is one of the first casualties, and its effects cascade through everything else. Screens emit blue-spectrum light that suppresses melatonin and delays the circadian clock. Notifications, social stimulation, and engaging content activate arousal systems that are incompatible with sleep onset. For adolescents — whose sleep need is high and whose circadian rhythm already shifts toward later sleep — this is especially damaging. Chronic sleep deprivation in teenagers impairs memory consolidation, emotional regulation, and executive function in ways that are directly observable in academic performance and mental health.",
+      "Social comparison is another mechanism, and social media platforms are optimized for it. People curate and present idealized versions of their lives; observers receive a continuous stream of evidence that others' lives are more exciting, attractive, successful, or connected. For adults, this drives status anxiety and dissatisfaction. For adolescents, whose identity is still forming and whose social world is paramount, the effects on self-concept can be severe.",
+      "Technology addiction is not a teen-only problem. Adults increasingly struggle with compulsive news consumption, pornography use, social media scrolling, and online gaming. The mechanisms are identical; the specific content differs. Many adults are functionally impaired — unable to read at length, be present in relationships, or tolerate unstimulated time — without recognizing the cause. The problem looks like anxiety, depression, or ADHD. Often it is also those things, with compulsive screen use both caused by and intensifying them."
+    ]
+  },
+  "treatmentSection": {
+    "heading": "How We Treat Technology Addiction",
+    "intro": "Treatment combines behavioral strategies for reducing compulsive use, therapy for the underlying emotional drivers, and — for adolescents — meaningful family involvement. Technology cannot simply be removed; the goal is developing genuine self-regulation and rebuilding the offline life that heavy screen use has crowded out."
+  },
+  "treatments": [
+    {
+      "name": "Cognitive Behavioral Therapy (CBT)",
+      "description": "CBT for technology addiction targets the thought patterns that maintain compulsive use — the beliefs that online life is more rewarding than offline life, that you can't tolerate boredom or uncomfortable feelings without a screen — and builds skills for managing urges, restructuring time, and tolerating discomfort."
+    },
+    {
+      "name": "Contingency Management and Behavioral Structure",
+      "description": "Particularly effective for adolescents, behavioral approaches use external structure and reinforcement to begin establishing new patterns. This often involves working with families to set limits and rewards in a consistent, collaborative way — not as punishment, but as scaffolding for change."
+    },
+    {
+      "name": "Underlying Condition Treatment",
+      "description": "Technology addiction rarely exists in isolation. ADHD, depression, social anxiety, and trauma are common co-occurring conditions — and screen use often functions as self-medication. Treating the underlying condition is essential; managing screen use without addressing it typically produces short-lived results."
+    },
+    {
+      "name": "Family Therapy for Adolescents",
+      "description": "For teens, technology use happens within a family context, and recovery requires the family's active participation. Parents often feel powerless or caught between imposing limits and maintaining connection with a struggling teen. Family therapy helps parents find an effective, non-adversarial stance and makes limits more likely to hold."
+    },
+    {
+      "name": "Sleep Intervention",
+      "description": "Restoring healthy sleep is often the most immediate and impactful intervention. This involves sleep hygiene education, behavioral changes (device curfews, charging outside the bedroom), and, where indicated, brief CBT for insomnia. Improved sleep changes emotional regulation, impulse control, and mood — making every other part of treatment more effective."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Isn't this just normal screen use that everyone has now?",
+      "answer": "Heavy screen use is ubiquitous, which is part of what makes this problem hard to identify — it's normalized. But normalized is not the same as harmless. The relevant question is whether use is impairing function, disrupting sleep, crowding out other activities, and resistant to self-regulation. Many people who meet criteria for problematic use have never considered that the problem has a name."
+    },
+    {
+      "question": "My teenager is on their phone constantly. Is that addiction?",
+      "answer": "Not necessarily — but it's worth a careful look. Adolescent screen use becomes clinically significant when it is impairing school performance, damaging relationships (including with you), disrupting sleep, and resistant to reasonable limits. Anger and conflict over screen use are not in themselves diagnostic — that's normal. The concerning pattern is functional impairment and loss of control, particularly when the teen themselves recognizes they can't stop."
+    },
+    {
+      "question": "What about gaming disorder specifically?",
+      "answer": "Gaming disorder is formally recognized by the World Health Organization as a distinct condition — characterized by impaired control over gaming, increasing priority given to gaming over other activities and interests, and continued escalation despite negative consequences. It affects both adolescents and adults, with some evidence of higher rates in males. It is treatable with the same general approaches used for other behavioral addictions."
+    },
+    {
+      "question": "Can adults really be addicted to social media or their phones?",
+      "answer": "Yes. The neurobiological mechanisms underlying technology addiction — dopamine-driven variable reward, tolerance, craving, impaired control — are not age-specific. Adults who compulsively check social media, who cannot be present in conversations without looking at their phone, who doomscroll for hours despite feeling worse afterward, and who experience significant anxiety when their phone is out of reach are exhibiting the features of behavioral addiction."
+    },
+    {
+      "question": "Isn't the solution just to take the phone away?",
+      "answer": "Removal of access is sometimes necessary as an acute intervention, but it is not treatment. Without addressing the underlying emotional drivers and building alternative ways of regulating mood and tolerating discomfort, access restriction typically produces temporary change at best. It also tends to be ineffective when imposed unilaterally on adolescents without collaborative buy-in. The goal is genuine self-regulation, not externally enforced abstinence."
+    },
+    {
+      "question": "My child's anxiety and depression got much worse after they got a smartphone. Is there a connection?",
+      "answer": "The timing you're describing is consistent with a substantial body of research. Adolescent mental health outcomes — particularly for anxiety, depression, and self-harm — began deteriorating around 2012–2013, coinciding with widespread smartphone adoption and social media use. The relationship is not purely correlational: the mechanisms (social comparison, sleep disruption, displacement of in-person social connection, cyberbullying) have plausible and documented effects. We treat both the mental health condition and the technology use, together."
+    },
+    {
+      "question": "Are there free support groups or peer communities for technology and screen addiction?",
+      "answer": "Internet & Technology Addicts Anonymous (internetaddictsanonymous.org) is a 12-step fellowship founded in 2017 with over 100 weekly online meetings in 80+ countries — covering social media, gaming, smartphones, dating apps, AI compulsivity, and more. It is one of the most active and underutilized peer resources in this space. For gaming specifically, Gaming Addicts Anonymous (gamingaddictsanonymous.org) runs daily online and phone meetings with a family program alongside. On-Line Gamers Anonymous (olganon.org) was founded in 2002 by Liz Woolley and includes both a program for gamers (OLGA) and one for families (OLG-Anon), with a helpline at (612) 245-1115. SMART Recovery (smartrecovery.org) includes behavioral addictions such as gaming and screen compulsivity in its science-based, secular format. For community-based support, r/StopGaming has around 150,000 members focused on gaming cessation, and r/nosurf is a long-running community for reducing compulsive internet use."
+    }
+  ],
+  "resources": [
+    {
+      "name": "Internet & Technology Addicts Anonymous",
+      "url": "https://internetaddictsanonymous.org",
+      "description": "12-step fellowship founded 2017 — 100+ weekly meetings in 80+ countries covering social media, gaming, smartphones, AI, and dating apps. Daily online and phone meetings.",
+      "type": "mutual-support"
+    },
+    {
+      "name": "Gaming Addicts Anonymous",
+      "url": "https://www.gamingaddictsanonymous.org",
+      "description": "12-step fellowship specific to compulsive video gaming — daily online and phone meetings. Companion program for family members also available.",
+      "type": "mutual-support"
+    },
+    {
+      "name": "On-Line Gamers Anonymous",
+      "url": "https://www.olganon.org",
+      "description": "Founded 2002 by Liz Woolley — peer support for gamers (OLGA) and families (OLG-Anon). Hotline: (612) 245-1115.",
+      "type": "mutual-support"
+    },
+    {
+      "name": "SMART Recovery",
+      "url": "https://www.smartrecovery.org",
+      "description": "Science-based, secular mutual support that includes behavioral addictions such as technology and gaming — 1,500+ meetings weekly including online.",
+      "type": "mutual-support"
+    },
+    {
+      "name": "Center for Humane Technology",
+      "url": "https://www.humanetech.com",
+      "description": "501(c)(3) founded by Tristan Harris — explains how platforms are designed for compulsive use. Hosts the 'Your Undivided Attention' podcast.",
+      "type": "knowledge"
+    },
+    {
+      "name": "Common Sense Media",
+      "url": "https://www.commonsensemedia.org",
+      "description": "Leading nonprofit for digital literacy and screen-time guidance — research-based recommendations for parents, families, and educators.",
+      "type": "knowledge"
+    },
+    {
+      "name": "988 Suicide & Crisis Lifeline",
+      "url": "https://988lifeline.org",
+      "description": "Call or text 988 — free, confidential, 24/7 crisis support for mental health emergencies and suicidal thoughts.",
+      "type": "crisis"
+    }
+  ]
+}

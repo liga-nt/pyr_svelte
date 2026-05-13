@@ -1,11 +1,12 @@
 {
+  "color": "#6AE3DC",
   "seo": {
-    "title": "Adult Mental Health & Addiction Treatment | Plan Your Recovery",
-    "description": "Evidence-based therapy and psychiatry for adults in St. Louis. CBT, medication management, and integrated care for mental health and addiction."
+    "title": "Adult Therapy & Integrated Psychiatry | Plan Your Recovery",
+    "description": "Outpatient therapy and psychiatry for adults with co-occurring conditions — anxiety, depression, ADHD, and addiction treated together. CBT, MAT, and couples therapy in one practice."
   },
   "hero": {
     "headline": "Therapy and Psychiatry for Adults",
-    "intro": "Most adults who come to us have already tried something — a therapist who wasn't a good fit, a medication that didn't work, or a period of white-knuckling it on their own. We offer a different model: CBT, integrated psychiatry, and addiction treatment under one roof, coordinated rather than siloed. Not everyone needs every piece of that, but all of it should be available and considered."
+    "intro": "Most adults who come to us have already tried something — a therapist who wasn't a good fit, a medication that didn't work, or a period of white-knuckling it on their own. We offer a different model: CBT, integrated psychiatry, and addiction treatment under one roof, coordinated rather than siloed. Not everyone needs every piece, but all options should be available and considered."
   },
   "concerns": {
     "headline": "What Brings Adults to Us",
@@ -16,7 +17,7 @@
       },
       {
         "title": "Substance Use and Addiction",
-        "description": "Alcohol, cannabis, opioids, stimulants, gambling — the specific substance matters less than whether use has become a problem. The clearest indicator is consequences: relationship damage, work difficulty, health problems, or simply not being able to stop when you decide to. Most people with substance use disorders don't need inpatient rehab — office-based outpatient treatment works well for the majority of people, and early intervention is far more effective than waiting until things reach a crisis."
+        "description": "Alcohol, cannabis, opioids, stimulants, gambling — the specific substance matters less than whether use has become a problem. The clearest indicator is consequences: relationship damage, work difficulty, health problems, or simply not being able to stop when you decide to. Most people with substance use disorders don't need inpatient rehab — office-based outpatient treatment works well for the majority of people, and early intervention is far more effective than waiting until more damage is done."
       },
       {
         "title": "Co-Occurring Mental Health and Addiction",
@@ -63,12 +64,16 @@
       "answer": "The clearest sign is when use continues despite meaningful consequences — relationship damage, health problems, work difficulty, or failing to cut back when you've decided to. If you're wondering whether you have a problem, that uncertainty itself is worth exploring with a clinician. Most people who come in for an assessment already know something is wrong."
     },
     {
-      "question": "I've tried therapy before and it didn't help. Why would this be different?",
-      "answer": "Therapy is only as good as the fit and the approach. Open-ended supportive therapy doesn't work for everyone, and it's not what we primarily do. CBT is structured, directive, and measurable — you should be able to tell within a few sessions whether it's helping. If the approach isn't working, we'll say so and try something else."
+      "question": "What is dual diagnosis, and do you treat it?",
+      "answer": "Dual diagnosis means having both a substance use disorder and a co-occurring mental health condition — depression, anxiety, PTSD, ADHD, or others. These conditions are more common together than separately, and treating one without addressing the other rarely works. Our model is built to treat both simultaneously, with therapy and psychiatry integrated in one practice."
     },
     {
       "question": "Don't most people with addiction need inpatient rehab?",
       "answer": "Most don't. Research consistently shows that office-based outpatient treatment works well for the majority of people with substance use disorders. Residential treatment is appropriate when someone has severe physical dependence, co-occurring medical issues, or a home environment that makes recovery impossible — but it's not the default, and it's not necessary for most people."
+    },
+    {
+      "question": "I've tried therapy before and it didn't help. Why would this be different?",
+      "answer": "Therapy is only as good as the fit and the approach. Open-ended supportive therapy doesn't work for everyone, and it's not what we primarily do. CBT is structured, directive, and measurable — you should be able to tell within a few sessions whether it's helping. If the approach isn't working, we'll say so and try something else."
     },
     {
       "question": "Can I be addicted to things that aren't substances?",
@@ -79,17 +84,30 @@
       "answer": "You generally can't force motivation, but you can influence it. Setting clear, compassionate limits on what you will and won't support — and following through — often does more than pleading or arguing. We're glad to consult with family members on how to approach a difficult conversation, even before the person with the problem is ready to come in."
     },
     {
-      "question": "What is dual diagnosis, and do you treat it?",
-      "answer": "Dual diagnosis means having both a substance use disorder and a co-occurring mental health condition — depression, anxiety, PTSD, ADHD, or others. These conditions are more common together than separately, and treating one without addressing the other rarely works. Our model is built to treat both simultaneously, with therapy and psychiatry integrated in one practice."
+      "question": "What does a first therapy appointment look like?",
+      "answer": "The first session is primarily an assessment — your therapist will ask about what brought you in, your history, and what you're hoping to get from treatment. It's a conversation, not a checklist. By the end you'll have a sense of whether this is a good fit and what working together would involve. Most people find it less intimidating than they expected."
+    },
+    {
+      "question": "How often do sessions happen, and how long does treatment take?",
+      "answer": "Most people start with weekly sessions. Frequency often decreases as symptoms improve. The length of treatment depends on what you're dealing with — CBT for a specific condition might take 12–20 sessions; longer-standing patterns or co-occurring conditions often take more. We give you an honest estimate early on, not an open-ended commitment."
+    },
+    {
+      "question": "Do you offer telehealth therapy in Missouri?",
+      "answer": "Yes. Telehealth appointments are available throughout Missouri. Many clients see us from home without ever coming to the office — research supports that it is just as effective as in-person therapy for most conditions. If you're unsure whether telehealth or in-person is right for your situation, we can work that out together on the first call."
+    },
+    {
+      "question": "Where are you located, and what areas of Missouri do you serve?",
+      "answer": "Our office is at 9904 Clayton Road, Suite 135, in Saint Louis, Missouri (Ladue/Frontenac area). We serve in-person clients throughout the greater St. Louis area and see telehealth clients anywhere in Missouri, including Kansas City, Springfield, Columbia, and rural communities."
     },
     {
       "question": "Do you accept insurance?",
-      "answer": "Our therapy services are private pay. Our psychiatry practice accepts UnitedHealthcare, Blue Cross Blue Shield, and Cigna for psychiatric appointments."
+      "answer": "Our counseling services are out-of-network with insurance — we submit claims on your behalf as a courtesy, and many clients receive partial reimbursement through their out-of-network mental health benefits. FSA and HSA funds can also be used. Psychiatric services — medication management, buprenorphine treatment, ADHD evaluation — are in-network with UnitedHealthcare, Blue Cross Blue Shield, and Cigna."
     }
   ],
   "cta": {
     "headline": "Let's Talk About What's Going On",
     "body": "You don't need to have it figured out before you call. A brief conversation helps us understand the situation and determine whether we're the right fit.",
-    "bookingLink": "/booking/"
-  }
+    "bookingLink": "/booking"
+  },
+  "_reviewed": true
 }

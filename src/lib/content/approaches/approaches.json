@@ -1,7 +1,7 @@
 {
   "seo": {
     "title": "Treatment Approaches | Plan Your Recovery",
-    "description": "Evidence-based treatment approaches used at Plan Your Recovery: CBT, family therapy, medication-assisted treatment, contingency management, and motivational interviewing."
+    "description": "Evidence-based approaches at Plan Your Recovery: CBT, family therapy, medication-assisted treatment, contingency management, and motivational interviewing."
   },
   "hero": {
     "headline": "How We Treat",
@@ -11,7 +11,7 @@
     {
       "slug": "cbt",
       "title": "Cognitive Behavioral Therapy (CBT)",
-      "link": "/cbt/",
+      "link": "/cbt",
       "intro": "CBT is the most thoroughly researched form of psychotherapy, with strong evidence for depression, anxiety, addiction, PTSD, OCD, and many other conditions. It is central to how most of our clinicians work.",
       "body": [
         "CBT is based on a straightforward but powerful insight: how we think shapes how we feel, and how we feel shapes what we do. Patterns of distorted or unhelpful thinking — catastrophizing, all-or-nothing thinking, shame-based beliefs — maintain emotional distress and drive unwanted behavior. CBT is not about thinking positively. It is about thinking accurately.",
@@ -28,11 +28,11 @@
     {
       "slug": "family-therapy",
       "title": "Family Therapy",
-      "link": "/family-therapy/",
+      "link": "/family-therapy",
       "intro": "Addiction and mental health problems don't happen in isolation — they develop within families and affect entire family systems. Family therapy addresses those dynamics directly rather than treating one person while everyone else waits on the outside.",
       "body": [
         "Research consistently shows that family involvement improves outcomes for addiction treatment — particularly for teens and young adults. When family members understand what's happening, communicate more effectively, and set consistent expectations, recovery is more likely to take hold and stick.",
-        "Family therapy is not about assigning blame. It is about understanding how family members have adapted to the problem — sometimes in ways that inadvertently maintain it — and changing those patterns together. For teenagers especially, the family is the treatment context. What happens at home matters as much as what happens in the therapist's office.",
+        "Family therapy is not about assigning blame. It is about understanding how family members have adapted to the problem — sometimes in ways that inadvertently maintain it — and changing those patterns together. For teens especially, the family is the treatment context. What happens at home matters as much as what happens in the therapist's office.",
         "We use family therapy for parents of teens dealing with addiction or mental health problems, couples where one or both partners are struggling, and adults whose family relationships have been damaged by substance use. We also offer consultations for family members who want to understand how to help without enabling — even when the person with the problem isn't ready to come in."
       ],
       "whatToExpect": [
@@ -45,7 +45,7 @@
     {
       "slug": "mat",
       "title": "Medication-Assisted Treatment (MAT)",
-      "link": "/mat/",
+      "link": "/suboxone-treatment",
       "intro": "Medication-assisted treatment uses FDA-approved medications alongside counseling to treat opioid and alcohol use disorders. It is not replacing one addiction with another — it is using medicine the way medicine is supposed to be used.",
       "body": [
         "Buprenorphine (Suboxone) is the most evidence-supported treatment available for opioid use disorder. It works by partially activating opioid receptors, which eliminates withdrawal and reduces cravings without producing the high of full opioids. People on buprenorphine have dramatically lower rates of overdose, relapse, and death. The evidence is unambiguous, and the moral resistance to it — still common in some treatment settings — has cost lives.",
@@ -62,7 +62,7 @@
     {
       "slug": "contingency-management",
       "title": "Contingency Management",
-      "link": "/contingency-management/",
+      "link": "/contingency-management",
       "intro": "Contingency management uses systematic positive reinforcement — rewards for abstinence and recovery behaviors — to change behavior. It has some of the strongest evidence of any intervention for stimulant use disorder and is highly effective with adolescents.",
       "body": [
         "The logic is simple: behavior that is reinforced is more likely to recur. Contingency management operationalizes that principle by providing tangible rewards — increasingly valuable ones — for verified abstinence (typically confirmed by urine drug screens) and participation in treatment. It works because it directly engages the reward pathways that addiction has hijacked, competing with the rewarding properties of the substance itself.",
@@ -79,7 +79,7 @@
     {
       "slug": "motivational-interviewing",
       "title": "Motivational Interviewing",
-      "link": "/motivational-interviewing/",
+      "link": "/motivational-interviewing",
       "intro": "Motivational Interviewing is a client-centered approach to helping people resolve ambivalence about change. It is not persuasion. It is a way of having a conversation that helps people find their own reasons to do something different.",
       "body": [
         "Most people who are struggling don't arrive ready to change. They're ambivalent — part of them wants things to be different, part of them isn't sure, and part of them is resistant to the idea of being told what to do. Traditional approaches that push hard for change often produce reactance: the harder you push, the more the person digs in. Motivational Interviewing works with that ambivalence rather than against it.",
@@ -92,6 +92,46 @@
         { "label": "Ambivalence is expected", "description": "Not being sure whether you want to change is a normal part of the process, not a problem to overcome before treatment can begin." },
         { "label": "Often combined with other approaches", "description": "MI frequently transitions into CBT or other structured work once motivation is established — it's a foundation, not a ceiling." }
       ]
+    },
+    {
+      "slug": "mindfulness-based-cognitive-therapy",
+      "title": "Mindfulness-Based Cognitive Therapy (MBCT)",
+      "link": "/mindfulness-based-cognitive-therapy",
+      "intro": "MBCT combines the structured skills of CBT with mindfulness practices to help people observe their thoughts and feelings rather than be controlled by them. It has strong evidence for preventing depression relapse and is effective for anxiety and emotional dysregulation.",
+      "body": [
+        "MBCT was developed to address the high rate of depression recurrence — the way low mood automatically reactivates familiar depressive thoughts and pulls people into a downward spiral. The core skill it teaches is decentering: learning to observe thoughts as mental events rather than facts. Instead of 'I am worthless,' you learn to notice 'I am having the thought that I am worthless.' That shift creates a choice where before there was only automatic reaction.",
+        "MBCT draws on formal mindfulness practices — body scans, sitting meditation, mindful movement — alongside the cognitive techniques of CBT. Mindfulness builds the capacity to observe your mental states with some distance; CBT skills give you something useful to do with that awareness.",
+        "For people with recurrent depression, MBCT is as effective as maintenance antidepressants at preventing relapse — one of the few non-pharmacological interventions with that level of evidence. It is also useful for anxiety, chronic pain, and addiction, where the common thread is suffering driven by unhelpful patterns of thinking rather than external circumstances alone."
+      ],
+      "whatToExpect": [
+        { "label": "Formal mindfulness practice", "description": "Learning and practicing body scans, breath awareness, and sitting meditation — and bringing that attention into daily activities." },
+        { "label": "Cognitive skill-building", "description": "Recognizing automatic thought patterns, understanding their connection to mood, and responding with intention rather than habit." },
+        { "label": "Daily practice between sessions", "description": "The skill builds through consistent practice, not insight alone." },
+        { "label": "Integrated with broader care", "description": "MBCT is often most effective as part of a broader plan alongside medication, CBT, or other approaches." }
+      ]
+    },
+    {
+      "slug": "emotionally-focused-couples-therapy",
+      "title": "Emotionally Focused Couples Therapy (EFT)",
+      "link": "/emotionally-focused-couples-therapy",
+      "intro": "EFT is the most thoroughly researched approach for couples in distress. It targets the underlying emotional cycles and attachment needs that drive conflict rather than the surface content of arguments.",
+      "body": [
+        "EFT was developed by Dr. Sue Johnson drawing on attachment theory. The core insight is that adults have a fundamental need for emotional safety and connection with their intimate partners, and that most relationship conflict is driven by threats to that bond. Arguments about money, parenting, or sex are usually about the same underlying questions: Are you there for me? Do I matter to you?",
+        "The most common pattern EFT addresses is the pursue-withdraw cycle: one partner escalates and pushes for resolution while the other shuts down and disengages. Both are responding to the same underlying fear, but their strategies pull in opposite directions and reinforce each other. The more one pursues, the more the other withdraws — and vice versa. Naming the cycle, and changing it, is the core work of EFT.",
+        "EFT moves through three stages: de-escalation, restructuring attachment interactions, and consolidation. Most couples who complete the work experience meaningful, durable change — and the research shows 70–75% of distressed couples recover through EFT."
+      ],
+      "whatToExpect": [
+        { "label": "Slowing things down", "description": "Pausing to track what's happening emotionally in real time rather than debating who was right." },
+        { "label": "Emotional focus", "description": "Going beneath the content of arguments to the attachment feelings and needs driving them." },
+        { "label": "Both partners are seen", "description": "EFT does not take sides. Both people's experiences are taken seriously." },
+        { "label": "Not only for crisis", "description": "EFT works best as a serious investment in a relationship under stress — not only as a last resort." }
+      ]
+    },
+    {
+      "slug": "interventions",
+      "title": "Addiction Intervention",
+      "link": "/interventions",
+      "intro": "When someone you love is struggling with addiction and won't seek help on their own, a structured approach can make the difference. But intervention doesn't always mean confrontation — and we help families figure out what approach is most likely to work."
     }
   ]
 }

@@ -1,25 +1,43 @@
 {
+  "color": "#D3B0FE",
   "seo": {
     "title": "PTSD & Trauma Treatment in St. Louis | Plan Your Recovery",
     "description": "Trauma-focused therapy for PTSD and complex trauma in St. Louis. CBT, evidence-based care, and integrated treatment for trauma and substance use."
   },
   "condition": {
     "name": "Post-Traumatic Stress Disorder",
-    "alternateName": ["PTSD", "Trauma", "Complex PTSD", "C-PTSD"],
+    "alternateName": [
+      "PTSD",
+      "Trauma",
+      "Complex PTSD",
+      "C-PTSD"
+    ],
     "schemaDescription": "Post-traumatic stress disorder is a mental health condition that develops in some people after experiencing or witnessing a traumatic event. It is characterized by intrusive memories, avoidance, negative changes in thinking and mood, and heightened reactivity."
   },
   "hero": {
-    "headline": "PTSD & Trauma",
+    "headline": "PTSD & Trauma Treatment in St. Louis",
     "intro": "PTSD is not weakness. It is not a failure to move on. It is what happens when your nervous system gets stuck in a protective mode it couldn't turn off after a threat has passed. Trauma responses are normal responses to abnormal experiences — and they are treatable."
   },
   "criteria": {
     "heading": "What Is PTSD?",
     "description": "PTSD develops after direct or indirect exposure to actual or threatened death, serious injury, or sexual violence. A diagnosis requires symptoms from each of four clusters:",
     "items": [
-      {"label": "Intrusion symptoms", "description": "Unwanted, distressing memories of the trauma; nightmares; flashbacks where you feel or act as if the trauma is happening again; intense psychological or physical distress when something reminds you of it."},
-      {"label": "Avoidance", "description": "Avoiding internal reminders — memories, thoughts, feelings — or external reminders like people, places, activities, or situations connected to the trauma."},
-      {"label": "Negative changes in thinking and mood", "description": "Persistent inability to remember key parts of the trauma; distorted beliefs about yourself or the world ('I am bad'; 'no one can be trusted'); persistent negative emotions; feeling detached from others; inability to feel positive emotions."},
-      {"label": "Changes in arousal and reactivity", "description": "Irritability or angry outbursts; reckless or self-destructive behavior; hypervigilance; exaggerated startle response; concentration problems; sleep disturbance."}
+      {
+        "label": "Intrusion symptoms",
+        "description": "Unwanted, distressing memories of the trauma; nightmares; flashbacks where you feel or act as if the trauma is happening again; intense psychological or physical distress when something reminds you of it."
+      },
+      {
+        "label": "Avoidance",
+        "description": "Avoiding internal reminders — memories, thoughts, feelings — or external reminders like people, places, activities, or situations connected to the trauma."
+      },
+      {
+        "label": "Negative changes in thinking and mood",
+        "description": "Persistent inability to remember key parts of the trauma; distorted beliefs about yourself or the world ('I am bad'; 'no one can be trusted'); persistent negative emotions; feeling detached from others; inability to feel positive emotions."
+      },
+      {
+        "label": "Changes in arousal and reactivity",
+        "description": "Irritability or angry outbursts; reckless or self-destructive behavior; hypervigilance; exaggerated startle response; concentration problems; sleep disturbance."
+      }
     ],
     "note": "Symptoms must persist for more than one month and cause significant impairment. Complex PTSD (C-PTSD) is a related condition that develops from prolonged, repeated trauma — such as childhood abuse, domestic violence, or captivity — and often involves additional difficulties with emotional regulation, identity, and relationships."
   },
@@ -38,16 +56,93 @@
     "intro": "Effective trauma treatment doesn't require you to relive everything in detail. It works by helping your nervous system process what happened so that memories lose their grip — and your life in the present stops being organized around the past."
   },
   "treatments": [
-    {"name": "Trauma-Focused CBT (TF-CBT)", "description": "Cognitive processing therapy and other trauma-focused CBT approaches are among the most well-researched treatments for PTSD. They help you examine and restructure the beliefs that trauma created — about yourself, other people, and the world — and reduce the power of traumatic memories."},
-    {"name": "EMDR (Eye Movement Desensitization and Reprocessing)", "description": "EMDR is a validated, evidence-based treatment for PTSD with a strong research base. It uses bilateral stimulation to help the brain process traumatic memories. Our clinicians can discuss whether EMDR may be appropriate for you and provide referrals to EMDR-trained providers when indicated."},
-    {"name": "Somatic Awareness", "description": "Trauma is stored in the body as much as the mind. Somatic approaches help you recognize and work with physical trauma responses — tension, numbness, activation — as part of the healing process, alongside cognitive and behavioral work."},
-    {"name": "Integrated Care for Trauma and Substance Use", "description": "Trauma and substance use disorders are among the most common co-occurring conditions. Treating one without the other rarely works. We assess and treat both, understanding that substance use is often an attempt to manage symptoms that feel unmanageable — and that effective trauma treatment changes the need for it."}
+    {
+      "name": "Trauma-Focused CBT (TF-CBT)",
+      "description": "Cognitive processing therapy and other trauma-focused CBT approaches are among the most well-researched treatments for PTSD. They help you examine and restructure the beliefs that trauma created — about yourself, other people, and the world — and reduce the power of traumatic memories."
+    },
+    {
+      "name": "EMDR (Eye Movement Desensitization and Reprocessing)",
+      "description": "EMDR is a validated, evidence-based treatment for PTSD with a strong research base. It uses bilateral stimulation to help the brain process traumatic memories. Our clinicians can discuss whether EMDR may be appropriate for you and provide referrals to EMDR-trained providers when indicated."
+    },
+    {
+      "name": "Somatic Awareness",
+      "description": "Trauma is stored in the body as much as the mind. Somatic approaches help you recognize and work with physical trauma responses — tension, numbness, activation — as part of the healing process, alongside cognitive and behavioral work."
+    },
+    {
+      "name": "Integrated Care for Trauma and Substance Use",
+      "description": "Trauma and substance use disorders are among the most common co-occurring conditions. Treating one without the other rarely works. We assess and treat both, understanding that substance use is often an attempt to manage symptoms that feel unmanageable — and that effective trauma treatment changes the need for it."
+    }
   ],
   "faqs": [
-    {"question": "Does trauma have to be a big event to cause PTSD?", "answer": "No. While PTSD is often associated with combat, assault, or disasters, it can develop from any experience that overwhelms the nervous system's ability to cope. Clinicians sometimes distinguish between 'big-T' traumas (acute, life-threatening events) and 'small-t' traumas (chronic emotional neglect, ongoing humiliation, relational betrayal). Small-t traumas — especially when repeated over time — can be just as disruptive to functioning. What matters is the impact on your nervous system, not whether the event 'counts' by some external standard."},
-    {"question": "How are PTSD and substance use connected?", "answer": "PTSD and substance use disorders co-occur at very high rates — studies suggest that more than half of people with PTSD have a co-occurring substance use disorder. The connection is logical: alcohol and drugs reduce hypervigilance, blunt emotional pain, and improve sleep in the short term. Over time, they interfere with trauma processing, worsen mood and anxiety, and create their own problems. Treating both together — rather than demanding abstinence before addressing trauma — produces substantially better outcomes."},
-    {"question": "Does trauma therapy mean I have to talk through every detail of what happened?", "answer": "No. Evidence-based trauma treatments don't require you to narrate the full story of your trauma in detail, and a skilled clinician won't push you to do more than you're ready for. Trauma-focused CBT, for example, focuses more on the meaning you've made of what happened and the beliefs it created than on detailed recounting. Treatment moves at a pace that is challenging but tolerable — not retraumatizing."},
-    {"question": "How long does trauma treatment take?", "answer": "It depends on the type and duration of trauma, the presence of other conditions, and how long symptoms have been present. Many people with single-incident trauma see significant improvement in 12–20 sessions. Complex PTSD stemming from prolonged childhood trauma often takes longer — not because healing isn't happening, but because there is more to address. You don't have to have a complete picture on day one."},
-    {"question": "Can trauma from childhood be treated in adulthood?", "answer": "Yes — often very effectively. The brain retains the capacity for change throughout life. Many adults who experienced early trauma have built significant coping resources and resilience alongside their symptoms. Therapy in adulthood can address both the original experiences and the patterns they created, and people frequently report meaningful improvements in relationships, self-worth, and daily functioning, even when trauma occurred decades earlier."}
+    {
+      "question": "What evidence-based treatments do you use for PTSD?",
+      "answer": "We primarily use Trauma-Focused CBT and Cognitive Processing Therapy (CPT) — both of which have strong evidence bases and are recommended by the VA, APA, and SAMHSA. These approaches focus on processing traumatic memories and challenging the maladaptive beliefs that trauma creates, rather than requiring detailed narration of events. EMDR is another evidence-supported option that may be appropriate for some presentations. Medication, if indicated, is available through our psychiatric team."
+    },
+    {
+      "question": "Does trauma have to be a big event to cause PTSD?",
+      "answer": "No. While PTSD is often associated with combat, assault, or disasters, it can develop from any experience that overwhelms the nervous system's ability to cope. Clinicians sometimes distinguish between 'big-T' traumas (acute, life-threatening events) and 'small-t' traumas (chronic emotional neglect, ongoing humiliation, relational betrayal). Small-t traumas — especially when repeated over time — can be just as disruptive to functioning. What matters is the impact on your nervous system, not whether the event 'counts' by some external standard."
+    },
+    {
+      "question": "Do you treat complex PTSD?",
+      "answer": "Yes. Complex PTSD — which develops from prolonged, repeated trauma, particularly in childhood — involves more pervasive effects on identity, emotional regulation, and relationships than single-incident PTSD. Treatment is typically longer and involves more groundwork on stability and coping capacity before trauma-focused work begins. We don't apply a one-size-fits-all protocol; the approach is tailored to whether your trauma was acute, chronic, relational, or developmental."
+    },
+    {
+      "question": "How are PTSD and substance use connected?",
+      "answer": "PTSD and substance use disorders co-occur at very high rates — studies suggest that more than half of people with PTSD have a co-occurring substance use disorder. The connection is logical: alcohol and drugs reduce hypervigilance, blunt emotional pain, and improve sleep in the short term. Over time, they interfere with trauma processing, worsen mood and anxiety, and create their own problems. Treating both together — rather than demanding abstinence before addressing trauma — produces substantially better outcomes."
+    },
+    {
+      "question": "Does trauma therapy mean I have to talk through every detail of what happened?",
+      "answer": "No. Evidence-based trauma treatments don't require you to narrate the full story of your trauma in detail, and a skilled clinician won't push you to do more than you're ready for. Trauma-focused CBT, for example, focuses more on the meaning you've made of what happened and the beliefs it created than on detailed recounting. Treatment moves at a pace that is challenging but tolerable — not retraumatizing."
+    },
+    {
+      "question": "How long does trauma treatment take?",
+      "answer": "It depends on the type and duration of trauma, the presence of other conditions, and how long symptoms have been present. Many people with single-incident trauma see significant improvement in 12–20 sessions. Complex PTSD stemming from prolonged childhood trauma often takes longer — not because healing isn't happening, but because there is more to address. You don't have to have a complete picture on day one."
+    },
+    {
+      "question": "Can trauma from childhood be treated in adulthood?",
+      "answer": "Yes — often very effectively. The brain retains the capacity for change throughout life. Many adults who experienced early trauma have built significant coping resources and resilience alongside their symptoms. Therapy in adulthood can address both the original experiences and the patterns they created, and people frequently report meaningful improvements in relationships, self-worth, and daily functioning, even when trauma occurred decades earlier."
+    },
+    {
+      "question": "Are there free support groups or peer resources for PTSD and trauma?",
+      "answer": "NAMI (nami.org) runs NAMI Connection peer support groups in most communities and is one of the most accessible free options. The National Center for PTSD (ptsd.va.gov) provides authoritative self-guided resources and the free PTSD Coach mobile app for anyone, not just veterans. The Sidran Institute (sidran.org) offers a Trauma HelpDesk — call 410-825-8888 ext. 102 — connecting trauma survivors and their families to resources and referrals; it is an underutilized resource with over 25 years of experience in traumatic stress. When trauma involves sexual violence, RAINN (rainn.org) operates the National Sexual Assault Hotline at 1-800-656-HOPE and connects survivors with more than 1,000 local crisis centers. When trauma is connected to intimate partner violence, the National Domestic Violence Hotline (thehotline.org) at 1-800-799-SAFE is available 24/7 in over 200 languages."
+    }
+  ],
+  "resources": [
+    {
+      "name": "National Center for PTSD",
+      "url": "https://www.ptsd.va.gov",
+      "description": "VA research and education hub — authoritative guides on PTSD treatments, the PTSD Coach mobile app, and self-help tools for trauma survivors.",
+      "type": "knowledge"
+    },
+    {
+      "name": "NAMI",
+      "url": "https://www.nami.org",
+      "description": "National Alliance on Mental Illness — trauma and PTSD education, peer support groups, and local affiliates. HelpLine: 1-800-950-NAMI.",
+      "type": "mutual-support"
+    },
+    {
+      "name": "RAINN",
+      "url": "https://www.rainn.org",
+      "description": "National Sexual Assault Hotline: 1-800-656-HOPE (4673), or chat at rainn.org. Connects survivors with 1,000+ local rape crisis centers. Relevant when trauma involves sexual violence.",
+      "type": "crisis"
+    },
+    {
+      "name": "National Domestic Violence Hotline",
+      "url": "https://www.thehotline.org",
+      "description": "Call 1-800-799-SAFE (7233) or text START to 88788 — 24/7 support in 200+ languages. Relevant when trauma is ongoing or rooted in intimate-partner violence.",
+      "type": "crisis"
+    },
+    {
+      "name": "Sidran Institute",
+      "url": "https://www.sidran.org",
+      "description": "Traumatic stress education and a Trauma HelpDesk (410-825-8888 ext. 102) for survivors and family members seeking resources and referrals.",
+      "type": "knowledge"
+    },
+    {
+      "name": "988 Suicide & Crisis Lifeline",
+      "url": "https://988lifeline.org",
+      "description": "Call or text 988 — free, confidential, 24/7 crisis support for mental health emergencies and suicidal thoughts.",
+      "type": "crisis"
+    }
   ]
 }

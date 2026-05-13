@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	import { page } from '$app/stores';
 	import team from '$lib/content/team.json';
 
@@ -6,11 +6,30 @@
 	const person = team.find(p => p.slug === slug);
 
 	// Build Person JSON-LD schema
-	const worksForId = person?.isPsychiatry
-		? 'https://www.planyourrecovery.com/#psychiatry'
-		: 'https://www.planyourrecovery.com/#counseling';
+	const worksForId = 'https://planyourrecovery.com/#organization';
 
 	const firstSentence = person?.bio?.split(/(?<=[.!?])\s/)[0] ?? '';
+
+	const displayName = person?.fullName.split(',')[0] ?? '';
+
+	function truncateDesc(str: string, max = 155) {
+		if (str.length <= max) return str;
+		return str.slice(0, str.lastIndexOf(' ', max)) + '…';
+	}
+
+	const metaDesc = person ? truncateDesc(`${person.role} at Plan Your Recovery. ${firstSentence}`) : '';
+
+	const breadcrumbLd = person
+		? {
+				'@context': 'https://schema.org',
+				'@type': 'BreadcrumbList',
+				itemListElement: [
+					{ '@type': 'ListItem', position: 1, name: 'Home', item: 'https://planyourrecovery.com/' },
+					{ '@type': 'ListItem', position: 2, name: 'Our Team', item: 'https://planyourrecovery.com/team' },
+					{ '@type': 'ListItem', position: 3, name: displayName, item: `https://planyourrecovery.com/team/${person.slug}` }
+				]
+		  }
+		: null;
 
 	const jsonLd = person
 		? {
@@ -21,17 +40,21 @@
 				worksFor: { '@id': worksForId },
 				telephone: person.telephone,
 				...(person.email ? { email: person.email } : {}),
-				url: `https://www.planyourrecovery.com/team/${person.slug}/`,
-				image: `https://www.planyourrecovery.com${person.portrait}`,
-				description: firstSentence
+				url: `https://planyourrecovery.com/team/${person.slug}/`,
+				image: `https://planyourrecovery.com${person.portrait}`,
+				description: firstSentence,
+				...(person.linkedinUrl ? { sameAs: [person.linkedinUrl] } : {})
 		  }
 		: null;
 </script>
 
 <svelte:head>
 	{#if person}
-		<title>{person.fullName} | Plan Your Recovery</title>
-		<meta name="description" content="{person.role} at Plan Your Recovery. {firstSentence}" />
+		<title>{displayName} | Plan Your Recovery</title>
+		<meta name="description" content={metaDesc} />
+		{#if breadcrumbLd}
+			{@html `<script type="application/ld+json">${JSON.stringify(breadcrumbLd)}<\/script>`}
+		{/if}
 		{#if jsonLd}
 			{@html `<script type="application/ld+json">${JSON.stringify(jsonLd)}<\/script>`}
 		{/if}
@@ -44,7 +67,7 @@
 	{#if person}
 		<div class="container">
 			<nav class="breadcrumb">
-				<a href="/team/">← Our Team</a>
+				<a href="/team">← Our Team</a>
 			</nav>
 
 			<article class="provider">
@@ -57,8 +80,8 @@
 				</div>
 
 				<div class="provider-content">
-					<h1>{person.fullName}</h1>
-					<p class="role">{person.role}</p>
+					<h1>{displayName}</h1>
+					<p class="role">{person.role}{person.credentials ? ` — ${person.credentials}` : ''}</p>
 
 					<div class="bio">
 						{#each person.bio.split('\n') as paragraph}
@@ -103,14 +126,13 @@
 						</div>
 					{/if}
 
-					<a href="/booking/" class="button-appt">Make an Appointment</a>
 				</div>
 			</article>
 		</div>
 	{:else}
 		<div class="container not-found">
 			<p>Provider not found.</p>
-			<a href="/team/">← Back to Our Team</a>
+			<a href="/team">← Back to Our Team</a>
 		</div>
 	{/if}
 </div>

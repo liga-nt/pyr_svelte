@@ -7,48 +7,56 @@
 	<div class="footer-inner">
 		<div class="logostuff">
 			<div class="logo">
-				<a href="/" class="button--link">
+				<a href="/" class="button--link" aria-label="Plan Your Recovery — Home">
 					<Logo />
+					<span class="sr-only">Plan Your Recovery</span>
 				</a>
 			</div>
 			<address>
-				<p>9904 Clayton Road, Suite 135<br />Saint Louis, MO 63124</p>
+				<p>{site.address.streetAddress}<br />{site.address.addressLocality}, {site.address.addressRegion} {site.address.postalCode}</p>
 				<p>
-					<a href="tel:{site.contact.counselingPhone}">{site.contact.counselingPhone}</a> (Counseling)<br />
-					<a href="tel:{site.contact.psychiatryPhone}">{site.contact.psychiatryPhone}</a> (Psychiatry)
+					<a href="tel:{site.contact.counselingPhone}">{site.contact.counselingPhone}</a> ({site.footer.counselingLabel})<br />
+					<a href="tel:{site.contact.psychiatryPhone}">{site.contact.psychiatryPhone}</a> ({site.footer.psychiatryLabel})
 				</p>
 				<p><a href="mailto:{site.contact.email}">{site.contact.email}</a></p>
 			</address>
-			<div class="booking-link">
-				<a href="/booking/" class="button--link">
-					<button class="primary">Make An Appointment</button>
-				</a>
-			</div>
 		</div>
 		<nav class="footer-nav">
 			<ul>
 				{#each site.nav as item}
 					<li><a href={item.link} class="button--link"><button>{item.title}</button></a></li>
 				{/each}
-				<li><a href="/privacy/" class="button--link"><button>Privacy Policy</button></a></li>
 			</ul>
 		</nav>
 	</div>
 	<div class="subfooter">
-		<span>© {new Date().getFullYear()} Plan Your Recovery</span>
+		<span>© {new Date().getFullYear()} {site.footer.copyrightName}</span>
 	</div>
 </footer>
 
 <style lang="scss">
+	.sr-only {
+		position: absolute;
+		width: 1px;
+		height: 1px;
+		padding: 0;
+		margin: -1px;
+		overflow: hidden;
+		clip: rect(0, 0, 0, 0);
+		white-space: nowrap;
+		border: 0;
+	}
+
 	footer {
 		background-color: #eee;
-		padding: var(--space-medium) var(--container-padding) 0;
+		padding: var(--space-medium) 0 0;
 	}
 
 	.footer-inner {
 		max-width: 1200px;
 		margin: 0 auto;
 		margin-bottom: var(--space-small);
+		padding: 0 var(--container-padding);
 		display: grid;
 		grid-template-columns: 1fr;
 		gap: var(--space-medium);
@@ -67,7 +75,6 @@
 
 			:global(svg) {
 				width: 100%;
-				margin-bottom: -1rem;
 			}
 		}
 	}
@@ -81,10 +88,6 @@
 			margin-bottom: 0.5rem;
 			font-size: 0.9rem;
 		}
-	}
-
-	.booking-link {
-		margin-top: var(--space-tiny);
 	}
 
 	.footer-nav {
@@ -110,7 +113,7 @@
 	.subfooter {
 		max-width: 1200px;
 		margin: 0 auto;
-		padding: 0.75rem 0;
+		padding: 0.75rem var(--container-padding);
 		border-top: 1px solid var(--c-gray);
 		font-size: 0.875rem;
 		color: #888;
@@ -130,7 +133,7 @@
 		}
 
 		.footer-nav ul {
-			text-align: left;
+			text-align: right;
 		}
 	}
 </style>
