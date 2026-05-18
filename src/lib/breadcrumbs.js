@@ -25,11 +25,13 @@ const routes = {
 	'/students': [HOME, { name: 'College Students',  url: `${BASE}/students` }],
 
 	// Utility pages
-	'/booking':      [HOME, { name: 'Make an Appointment', url: `${BASE}/booking` }],
-	'/videos':       [HOME, { name: 'Videos',               url: `${BASE}/videos` }],
-	'/ce':           [HOME, { name: 'Continuing Education', url: `${BASE}/ce` }],
-	'/interventions':[HOME, { name: 'Interventions',        url: `${BASE}/interventions` }],
-	'/privacy':      [HOME, { name: 'Privacy Policy',       url: `${BASE}/privacy` }],
+	'/booking':         [HOME, { name: 'Make an Appointment', url: `${BASE}/booking` }],
+	'/videos':          [HOME, { name: 'Videos',               url: `${BASE}/videos` }],
+	'/ce':              [HOME, { name: 'Continuing Education', url: `${BASE}/ce` }],
+	'/interventions':   [HOME, { name: 'Interventions',        url: `${BASE}/interventions` }],
+	'/clinical-tools':     [HOME, { name: 'Clinical Screening Tools', url: `${BASE}/clinical-tools` }],
+	'/clinical-tools/asi': [HOME, { name: 'Clinical Screening Tools', url: `${BASE}/clinical-tools` }, { name: 'ASI-5', url: `${BASE}/clinical-tools/asi` }],
+	'/privacy':         [HOME, { name: 'Privacy Policy',       url: `${BASE}/privacy` }],
 
 	// Conditions
 	'/depression':             [HOME, CONDITIONS, { name: 'Depression',             url: `${BASE}/depression` }],

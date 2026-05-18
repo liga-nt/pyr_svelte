@@ -1,4 +1,10 @@
 {
+  "firestore": {
+    "rules": "firestore.rules"
+  },
+  "functions": {
+    "source": "functions"
+  },
   "hosting": {
     "public": "build",
     "cleanUrls": true,
@@ -47,12 +53,6 @@
         "source": "/addiction",
         "destination": "/conditions",
         "type": 301
-      }
-    ],
-    "rewrites": [
-      {
-        "source": "**",
-        "destination": "/index.html"
       }
     ],
     "headers": [

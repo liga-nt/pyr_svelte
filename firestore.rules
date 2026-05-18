@@ -1,0 +1,55 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    function isSignedIn() {
+      return request.auth != null;
+    }
+
+    function isOwner(uid) {
+      return request.auth.uid == uid;
+    }
+
+    function isAdmin() {
+      return isSignedIn()
+        && exists(/databases/$(database)/documents/users/$(request.auth.uid))
+        && get(/databases/$(database)/documents/users/$(request.auth.uid)).data.isAdmin == true;
+    }
+
+    // Users — each user can read/write their own doc; admins can read all
+    match /users/{uid} {
+      allow read, write: if isOwner(uid) || isAdmin();
+    }
+
+    // Courses — published courses are publicly readable; only admins can write
+    match /courses/{courseId} {
+      allow read: if resource.data.published == true || isAdmin();
+      allow write: if isAdmin();
+    }
+
+    // Enrollments — keyed by "{uid}_{courseId}"
+    match /enrollments/{enrollmentId} {
+      allow read, write: if isSignedIn() && isOwner(resource.data.userId);
+      allow create: if isSignedIn() && isOwner(request.resource.data.userId);
+    }
+
+    // Progress — keyed by "{uid}_{courseId}_{moduleId}"
+    match /progress/{progressId} {
+      allow read, write: if isSignedIn() && isOwner(resource.data.userId);
+      allow create: if isSignedIn() && isOwner(request.resource.data.userId);
+    }
+
+    // Exam attempts — users can create and read their own; no client-side updates
+    match /examAttempts/{attemptId} {
+      allow read: if isSignedIn() && isOwner(resource.data.userId);
+      allow create: if isSignedIn() && isOwner(request.resource.data.userId);
+      allow update, delete: if isAdmin();
+    }
+
+    // Certificates — read-only for owner; only Cloud Functions (admin SDK) can write
+    match /certificates/{certId} {
+      allow read: if isSignedIn() && isOwner(resource.data.userId);
+      allow write: if false;
+    }
+  }
+}

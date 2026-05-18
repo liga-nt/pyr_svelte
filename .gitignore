@@ -27,3 +27,6 @@ vite.config.ts.timestamp-*
 firebase-debug.log
 firestore-debug.log
 ui-debug.log
+
+# Raw NSDUH data files (large, not for version control)
+data/

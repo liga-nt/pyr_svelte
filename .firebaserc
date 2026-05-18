@@ -1,5 +1,6 @@
 {
   "projects": {
+    "default": "pyr-apps",
     "pyr": "pyr-svelte"
   },
   "targets": {},

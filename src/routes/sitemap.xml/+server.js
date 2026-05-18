@@ -21,7 +21,8 @@ const routes = [
 	{ path: '/psychiatry', priority: '0.9', changefreq: 'monthly' },
 	{ path: '/conditions', priority: '0.8', changefreq: 'monthly' },
 	{ path: '/interventions', priority: '0.7', changefreq: 'monthly' },
-	{ path: '/booking', priority: '0.9', changefreq: 'monthly' },
+	{ path: '/clinical-tools',     priority: '0.7', changefreq: 'monthly' },
+	{ path: '/clinical-tools/asi', priority: '0.7', changefreq: 'monthly' },
 	{ path: '/team', priority: '0.7', changefreq: 'monthly' },
 	// Conditions
 	{ path: '/anxiety', priority: '0.8', changefreq: 'monthly' },
@@ -42,8 +43,6 @@ const routes = [
 	{ path: '/family-therapy', priority: '0.7', changefreq: 'monthly' },
 	{ path: '/motivational-interviewing', priority: '0.7', changefreq: 'monthly' },
 	{ path: '/contingency-management', priority: '0.7', changefreq: 'monthly' },
-	{ path: '/suboxone-treatment', priority: '0.7', changefreq: 'monthly' },
-	{ path: '/alcohol-treatment', priority: '0.7', changefreq: 'monthly' },
 	{ path: '/psychiatric-evaluation', priority: '0.7', changefreq: 'monthly' },
 	{ path: '/outpatient-detox', priority: '0.7', changefreq: 'monthly' },
 	{ path: '/mindfulness-based-cognitive-therapy', priority: '0.7', changefreq: 'monthly' },

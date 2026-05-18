@@ -45,7 +45,17 @@
       "Bash(curl -sI --max-redirs 0 \"https://www.planyourrecovery.com/booking\")",
       "Bash(curl -sI --max-redirs 0 \"http://planyourrecovery.com\")",
       "Bash(curl -s \"https://planyourrecovery.com/conditions\")",
-      "Bash(firebase deploy *)"
+      "Bash(firebase deploy *)",
+      "Bash(pip3 show *)",
+      "Bash(pip3 install *)",
+      "Bash(/Users/npresnall/Library/Python/3.9/bin/git-filter-repo *)",
+      "Bash(git remote *)",
+      "Bash(git push *)",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Bash(unzip *)",
+      "Bash(Rscript *)",
+      "Bash(npx svelte-check *)"
     ],
     "deny": [],
     "ask": []

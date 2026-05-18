@@ -1,4 +1,5 @@
 <script>
+	import FieldEditor from './FieldEditor.svelte';
 	let { value = $bindable(), fieldKey = '', unusedKeys = [] } = $props();
 
 	const type = $derived(
@@ -76,7 +77,7 @@
 					<button type="button" class="ctrl-btn danger" onclick={() => removeItem(i)}>✕</button>
 				</div>
 				<div class="arr-content">
-					<svelte:self bind:value={value[i]} {fieldKey} />
+					<FieldEditor bind:value={value[i]} {fieldKey} />
 				</div>
 			</div>
 		{/each}
@@ -93,7 +94,7 @@
 					{/if}
 				</div>
 				<div class="obj-value">
-					<svelte:self bind:value={value[k]} fieldKey={k} />
+					<FieldEditor bind:value={value[k]} fieldKey={k} />
 				</div>
 			</div>
 		{/each}
