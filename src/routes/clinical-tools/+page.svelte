@@ -1,5 +1,10 @@
 <script>
 	import PHQ9Tool from '$lib/components/PHQ9Tool.svelte';
+	import GAD7Tool from '$lib/components/GAD7Tool.svelte';
+	import AUDITTool from '$lib/components/AUDITTool.svelte';
+	import DAST10Tool from '$lib/components/DAST10Tool.svelte';
+	import PCPTSD5Tool from '$lib/components/PCPTSD5Tool.svelte';
+	import ASRS6Tool from '$lib/components/ASRS6Tool.svelte';
 	import NormsTool from '$lib/components/NormsTool.svelte';
 </script>
 
@@ -52,7 +57,7 @@
 					</div>
 				</div>
 
-				<div class="tool-card coming-soon">
+				<div class="tool-card">
 					<div class="card-accent accent-green"></div>
 					<div class="card-body">
 						<div class="tool-meta">
@@ -65,11 +70,17 @@
 							Screens for generalized anxiety disorder and assesses symptom severity. Also performs
 							well as a screener for panic disorder, social anxiety, and PTSD.
 						</p>
-						<div class="soon-badge">Coming soon</div>
+						<div class="score-guide">
+							<span>0–4 Minimal</span>
+							<span>5–9 Mild</span>
+							<span>10–14 Moderate</span>
+							<span>15–21 Severe</span>
+						</div>
+						<GAD7Tool />
 					</div>
 				</div>
 
-				<div class="tool-card coming-soon">
+				<div class="tool-card">
 					<div class="card-accent accent-yellow"></div>
 					<div class="card-body">
 						<div class="tool-meta">
@@ -82,11 +93,17 @@
 							WHO-developed tool to identify hazardous, harmful, and dependent alcohol use. Includes
 							the 3-item AUDIT-C for rapid screening in time-limited settings.
 						</p>
-						<div class="soon-badge">Coming soon</div>
+						<div class="score-guide">
+							<span>0–7 Lower risk</span>
+							<span>8–15 Increasing risk</span>
+							<span>16–19 Higher risk</span>
+							<span>20–40 Dependence</span>
+						</div>
+						<AUDITTool />
 					</div>
 				</div>
 
-				<div class="tool-card coming-soon">
+				<div class="tool-card">
 					<div class="card-accent accent-purple"></div>
 					<div class="card-body">
 						<div class="tool-meta">
@@ -99,11 +116,18 @@
 							Screens for drug use problems over the past 12 months, excluding alcohol and tobacco.
 							Validated across a range of substances and clinical populations.
 						</p>
-						<div class="soon-badge">Coming soon</div>
+						<div class="score-guide">
+							<span>0 None</span>
+							<span>1–2 Low</span>
+							<span>3–5 Moderate</span>
+							<span>6–8 Substantial</span>
+							<span>9–10 Severe</span>
+						</div>
+						<DAST10Tool />
 					</div>
 				</div>
 
-				<div class="tool-card coming-soon">
+				<div class="tool-card">
 					<div class="card-accent accent-teal"></div>
 					<div class="card-body">
 						<div class="tool-meta">
@@ -116,11 +140,15 @@
 							Brief PTSD screen designed for primary care and other medical settings. High sensitivity
 							makes it suitable for initial triage; positive screens should prompt full assessment.
 						</p>
-						<div class="soon-badge">Coming soon</div>
+						<div class="score-guide">
+							<span>&lt; 4 Negative screen</span>
+							<span>≥ 4 Positive screen</span>
+						</div>
+						<PCPTSD5Tool />
 					</div>
 				</div>
 
-				<div class="tool-card coming-soon">
+				<div class="tool-card">
 					<div class="card-accent accent-orange"></div>
 					<div class="card-body">
 						<div class="tool-meta">
@@ -133,7 +161,11 @@
 							WHO-developed screener for adult ADHD. The 6-item version has high sensitivity and
 							specificity and is well-suited to busy clinical settings.
 						</p>
-						<div class="soon-badge">Coming soon</div>
+						<div class="score-guide">
+							<span>&lt; 4 Negative screen</span>
+							<span>≥ 4 Positive screen</span>
+						</div>
+						<ASRS6Tool />
 					</div>
 				</div>
 

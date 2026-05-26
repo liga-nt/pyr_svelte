@@ -336,6 +336,8 @@
 	@media print {
 		.no-print { display: none !important; }
 
+		:global(header), :global(footer) { display: none !important; }
+
 		.asi-layout {
 			padding: 0;
 			grid-template-columns: 1fr;
