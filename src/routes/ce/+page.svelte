@@ -18,7 +18,7 @@
 				<h2>New CE Offerings Coming Soon</h2>
 				<p>
 					We are currently rebuilding our continuing education program with updated courses and
-					formats. Check back soon, or contact us to be notified when new courses are available.
+					formats. Check back soon, or contact us to be notified when new courses are available. 
 				</p>
 			</div>
 		</div>
