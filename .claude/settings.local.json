@@ -55,7 +55,8 @@
       "Bash(git commit -m ' *)",
       "Bash(unzip *)",
       "Bash(Rscript *)",
-      "Bash(npx svelte-check *)"
+      "Bash(npx svelte-check *)",
+      "Bash(sips -g pixelWidth -g pixelHeight /Users/npresnall/PYR/pyr-svelte/static/img/img_6018-1-.png /Users/npresnall/PYR/pyr-svelte/static/img/sean_1.jpeg)"
     ],
     "deny": [],
     "ask": []
