@@ -146,7 +146,7 @@
 
 			.learn-more {
 				font-size: 0.875rem;
-				color: var(--c-green);
+				color: var(--c-green-text);
 				font-weight: 500;
 			}
 		}

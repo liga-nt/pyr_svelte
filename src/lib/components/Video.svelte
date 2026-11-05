@@ -23,7 +23,7 @@
 		{/if}
 	</div>
 	{#if title}
-		<h5>{title}</h5>
+		<p class="caption">{title}</p>
 	{/if}
 </div>
 
@@ -37,6 +37,26 @@
 		border-radius: 20px;
 		box-shadow: var(--big-shadow);
 		margin-bottom: 1rem;
+	}
+
+	.caption {
+		margin: 0;
+		font-family: orpheuspro, serif;
+		font-weight: 700;
+		line-height: 1.2;
+		font-size: var(--h5-size);
+	}
+
+	@media only screen and (min-width: 30em) {
+		.caption {
+			font-size: var(--h5-responsive);
+		}
+	}
+
+	@media only screen and (min-width: 105em) {
+		.caption {
+			font-size: var(--h5-size);
+		}
 	}
 
 	.video-container iframe {

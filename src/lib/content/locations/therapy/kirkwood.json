@@ -1,0 +1,60 @@
+{
+  "seo": {
+    "title": "Therapy Near Kirkwood, MO | Plan Your Recovery",
+    "description": "Evidence-based therapy for adults and teens near Kirkwood, MO. CBT, family therapy, and more — in-person and telehealth, about 18–20 minutes from downtown Kirkwood."
+  },
+  "hero": {
+    "headline": "Therapy Near Kirkwood, Missouri",
+    "intro": "Kirkwood is a town built around its schools and its train station — Friday night football, a downtown you can actually walk, and a lot of families whose whole week revolves around kids' practices and games. We're about 18–20 minutes away, and for Kirkwood clients who'd rather not add a round trip to an already full week, telehealth covers most follow-up visits."
+  },
+  "whyLocals": {
+    "heading": "Why Kirkwood Families Choose Us",
+    "paragraph": "A lot of our Kirkwood clients are parents stretched thin between work and a kid's schedule, and teens for whom the pressure to perform — on a team, in a classroom, in a friend group — has started to show up as something more than stress. We treat both, and we coordinate therapy and psychiatric care under one roof when a family needs both."
+  },
+  "localStat": {
+    "value": "22.8%",
+    "measure": "of adults in the 63122 ZIP code report having been diagnosed with a depressive disorder at some point",
+    "source": "CDC PLACES",
+    "year": "2023",
+    "note": "a modeled estimate, not a clinical count — included to normalize how common this is"
+  },
+  "treatmentSection": {
+    "intro": "Here's what treatment looks like, whether your first visit is in our office or over telehealth from your kitchen table in Kirkwood:"
+  },
+  "services": [
+    {
+      "name": "Cognitive Behavioral Therapy",
+      "description": "The most evidence-supported approach for anxiety, depression, and the perfectionism that often shows up in competitive youth sports and academics.",
+      "link": "/cbt"
+    },
+    {
+      "name": "Family Therapy",
+      "description": "For families navigating a teen's struggles, a major transition, or a parent's substance use.",
+      "link": "/family-therapy"
+    },
+    {
+      "name": "Motivational Interviewing",
+      "description": "A collaborative approach for anyone who feels two ways about change — common with drinking or a teen's substance use.",
+      "link": "/motivational-interviewing"
+    },
+    {
+      "name": "Contingency Management",
+      "description": "A structured, incentive-based approach with strong research support, especially for teens.",
+      "link": "/contingency-management"
+    }
+  ],
+  "localFaqs": [
+    {
+      "question": "Can my Kirkwood teen be seen without missing school or practice?",
+      "answer": "Usually, yes. We schedule around school and sports commitments where we can, and many families use telehealth for weeks when getting to the office isn't realistic between practice and homework."
+    },
+    {
+      "question": "Is telehealth as effective as an in-person visit for someone in Kirkwood?",
+      "answer": "For most ongoing therapy and medication management, yes — research shows comparable outcomes. We recommend starting in person when possible so we can build rapport, then moving to a mix of in-person and telehealth as it makes sense for your schedule."
+    },
+    {
+      "question": "Do you treat substance use in Kirkwood teens specifically, not just adults?",
+      "answer": "Yes. Contingency management and family therapy both have strong evidence for adolescent substance use, and we coordinate closely with parents throughout — while still protecting a teen's sense that therapy is a space that's theirs."
+    }
+  ]
+}

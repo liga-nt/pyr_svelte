@@ -54,7 +54,7 @@
 		border: 1px solid #ccc;
 		border-radius: 4px;
 		background: white;
-		color: #888;
+		color: var(--c-text-muted);
 		cursor: pointer;
 		box-shadow: none;
 
@@ -63,4 +63,9 @@
 	}
 
 	.composite .num-input { border-color: color-mix(in srgb, var(--c-blue) 50%, #d0d0d0); }
+
+	@media print {
+		.na-btn:not(.active) { display: none; }
+		.num-input { border-color: #ccc; }
+	}
 </style>

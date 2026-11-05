@@ -18,7 +18,7 @@
 				</div>
 				<div class="q-row">
 					<span class="q-id">M2</span>
-					<label class="q-text">How long ago was your last hospitalization for a physical problem?</label>
+					<label for="m2y" class="q-text">How long ago was your last hospitalization for a physical problem?</label>
 					<div class="inline-pair">
 						<Num bind:value={form.m.m2y} placeholder="Yrs" id="m2y" na />
 						<span class="unit">yrs</span>
@@ -107,5 +107,5 @@
 
 <style lang="scss">
 	@use './section-shared' as *;
-	.q-hint { font-size: 0.75rem; color: #888; font-style: italic; margin-top: 0.2rem; line-height: 1.4; }
+	.q-hint { font-size: 0.75rem; color: var(--c-text-muted); font-style: italic; margin-top: 0.2rem; line-height: 1.4; }
 </style>

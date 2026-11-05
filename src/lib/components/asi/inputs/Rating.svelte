@@ -24,12 +24,15 @@
 	{#if scale === 'patient' && value !== null && value >= 0}
 		<div class="rating-label">{patientLabels[value]}</div>
 	{/if}
+	{#if value === null || value === undefined}
+		<span class="unanswered-print">Not answered</span>
+	{/if}
 </div>
 
 <style lang="scss">
 	.rating-field { display: flex; flex-direction: column; gap: 0.3rem; }
 	.field-label { font-size: 0.82rem; font-weight: 500; color: #555; }
-	.rating-label { font-size: 0.75rem; color: #888; font-style: italic; }
+	.rating-label { font-size: 0.75rem; color: var(--c-text-muted); font-style: italic; }
 
 	.btn-row {
 		display: flex;
@@ -61,4 +64,25 @@
 	}
 
 	.composite .rating-btn.active { background: var(--c-blue); }
+
+	.unanswered-print {
+		display: none;
+	}
+
+	@media print {
+		.rating-btn:not(.active) { display: none; }
+
+		.rating-btn.active {
+			background: white !important;
+			border: 1.5px solid var(--c-dark) !important;
+			color: var(--c-dark) !important;
+		}
+
+		.unanswered-print {
+			display: inline;
+			font-size: 0.8rem;
+			font-style: italic;
+			color: #888;
+		}
+	}
 </style>

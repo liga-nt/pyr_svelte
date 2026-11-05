@@ -122,7 +122,7 @@
 
 	.avatar-credentials {
 		font-size: 0.7rem;
-		color: var(--c-green);
+		color: var(--c-green-text);
 		text-align: center;
 		margin-top: 0.1rem;
 		line-height: 1.3;

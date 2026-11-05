@@ -153,7 +153,7 @@
 
 			.learn-more {
 				font-size: 0.875rem;
-				color: var(--c-green);
+				color: var(--c-green-text);
 				font-weight: 500;
 			}
 		}
@@ -161,7 +161,7 @@
 
 	.cta {
 		background: var(--c-green);
-		color: white;
+		color: var(--c-dark);
 		text-align: center;
 		padding: var(--space-large) 0;
 		h2 { margin-bottom: var(--space-tiny); }

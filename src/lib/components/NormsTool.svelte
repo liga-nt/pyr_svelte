@@ -624,7 +624,7 @@
 		border: none;
 		font-size: 1.5rem;
 		line-height: 1;
-		color: #888;
+		color: var(--c-text-muted);
 		cursor: pointer;
 		padding: 0 0 0 1rem;
 		&:hover {
@@ -643,7 +643,7 @@
 	.loading {
 		text-align: center;
 		padding: 2rem;
-		color: #888;
+		color: var(--c-text-muted);
 		font-size: 0.9rem;
 	}
 
@@ -700,7 +700,7 @@
 	.demo-label {
 		font-size: 0.75rem;
 		font-weight: 600;
-		color: #888;
+		color: var(--c-text-muted);
 		text-transform: uppercase;
 		letter-spacing: 0.06em;
 		min-width: 46px;
@@ -905,7 +905,7 @@
 		transform: translateX(-50%);
 		font-size: 0.7rem;
 		font-family: ibm-plex-mono, monospace;
-		color: #999;
+		color: var(--c-text-muted);
 		top: 2px;
 	}
 
@@ -914,7 +914,7 @@
 		right: 0;
 		bottom: 0;
 		font-size: 0.7rem;
-		color: #bbb;
+		color: var(--c-text-muted);
 		font-family: ibm-plex-mono, monospace;
 		font-style: italic;
 	}
@@ -962,7 +962,7 @@
 
 	.value-unit {
 		font-size: 0.75rem;
-		color: #888;
+		color: var(--c-text-muted);
 		font-family: ibm-plex-mono, monospace;
 	}
 
@@ -1009,13 +1009,13 @@
 	.no-data {
 		text-align: center;
 		padding: 1.5rem;
-		color: #aaa;
+		color: var(--c-text-muted);
 		font-size: 0.9rem;
 	}
 
 	.footnote {
 		font-size: 0.78rem;
-		color: #aaa;
+		color: var(--c-text-muted);
 		line-height: 1.6;
 		font-style: italic;
 		margin: 0;

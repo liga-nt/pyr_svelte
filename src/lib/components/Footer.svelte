@@ -1,6 +1,7 @@
 <script>
 	import Logo from './Logo.svelte';
 	import site from '$lib/content/site.json';
+	import suburbs from '$lib/content/locations/suburbs.json';
 </script>
 
 <footer>
@@ -21,10 +22,26 @@
 				<p><a href="mailto:{site.contact.email}">{site.contact.email}</a></p>
 			</address>
 		</div>
-		<nav class="footer-nav">
+		<nav class="footer-nav" aria-label="Footer">
 			<ul>
 				{#each site.nav as item}
-					<li><a href={item.link} class="button--link"><button>{item.title}</button></a></li>
+					<li><a href={item.link} class="button--link"><span class="nav-btn">{item.title}</span></a></li>
+				{/each}
+			</ul>
+		</nav>
+		<nav class="footer-locations" aria-label="Therapy near you">
+			<h2>Therapy Near You</h2>
+			<ul>
+				{#each suburbs as suburb}
+					<li><a href="/therapy/{suburb.slug}">Therapy in {suburb.name}, MO</a></li>
+				{/each}
+			</ul>
+		</nav>
+		<nav class="footer-locations" aria-label="Psychiatry near you">
+			<h2>Psychiatry Near You</h2>
+			<ul>
+				{#each suburbs as suburb}
+					<li><a href="/psychiatry/{suburb.slug}">Psychiatry in {suburb.name}, MO</a></li>
 				{/each}
 			</ul>
 		</nav>
@@ -60,6 +77,10 @@
 		display: grid;
 		grid-template-columns: 1fr;
 		gap: var(--space-medium);
+
+		@media screen and (min-width: 640px) {
+			grid-template-columns: 1fr 1fr;
+		}
 	}
 
 	.logostuff {
@@ -110,18 +131,48 @@
 		}
 	}
 
+	.footer-locations {
+		text-align: center;
+
+		h2 {
+			font-size: 0.875rem;
+			text-transform: uppercase;
+			letter-spacing: 0.04em;
+			color: var(--c-text-muted);
+			margin-bottom: var(--space-tiny);
+		}
+
+		ul {
+			padding: 0;
+			list-style: none;
+		}
+
+		li {
+			margin-bottom: 0.5rem;
+		}
+
+		a {
+			box-shadow: none;
+			font-size: 0.9rem;
+
+			&:hover {
+				box-shadow: none;
+			}
+		}
+	}
+
 	.subfooter {
 		max-width: 1200px;
 		margin: 0 auto;
 		padding: 0.75rem var(--container-padding);
 		border-top: 1px solid var(--c-gray);
 		font-size: 0.875rem;
-		color: #888;
+		color: var(--c-text-muted);
 	}
 
 	@media screen and (min-width: 1000px) {
 		.footer-inner {
-			grid-template-columns: 1fr 1fr;
+			grid-template-columns: 1.2fr 0.8fr 1fr 1fr;
 		}
 
 		.logostuff {
@@ -133,7 +184,11 @@
 		}
 
 		.footer-nav ul {
-			text-align: right;
+			text-align: left;
+		}
+
+		.footer-locations {
+			text-align: left;
 		}
 	}
 </style>

@@ -299,7 +299,7 @@
 
 			&.peer {
 				background: color-mix(in srgb, var(--accent) 20%, white);
-				color: color-mix(in srgb, var(--accent) 70%, #333);
+				color: color-mix(in srgb, var(--accent) 50%, black);
 			}
 
 			&.family {

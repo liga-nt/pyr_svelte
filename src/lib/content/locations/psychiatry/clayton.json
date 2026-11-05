@@ -1,0 +1,55 @@
+{
+  "seo": {
+    "title": "Psychiatry Near Clayton, MO | Plan Your Recovery",
+    "description": "Psychiatric evaluation and medication management near Clayton, MO. In-network with UnitedHealthcare, BCBS, and Cigna. About 5–8 minutes from downtown Clayton."
+  },
+  "hero": {
+    "headline": "Psychiatry Near Clayton, Missouri",
+    "intro": "A lot of our Clayton-area patients work for employers — law firms, the county, companies headquartered downtown — whose health plans run through UnitedHealthcare, Blue Cross Blue Shield, or Cigna. Angela Jones, PMHNP is in-network with all three, which means medication management without the out-of-network math."
+  },
+  "whyLocals": {
+    "heading": "Why Clayton Patients Choose Us",
+    "paragraph": "Most of Angela's appointments are telehealth by default, which works well for Clayton professionals who can take a 30-minute medication check from their desk instead of losing half a day to a drive and a waiting room. John Gransbach sees patients in person at our office, about 5–8 minutes from downtown Clayton, for anyone who prefers a face-to-face evaluation."
+  },
+  "localStat": {
+    "value": "22.9%",
+    "measure": "of adults in the 63105 ZIP code report having been diagnosed with a depressive disorder at some point",
+    "source": "CDC PLACES",
+    "year": "2023",
+    "note": "a modeled estimate, not a clinical count — included to normalize how common this is"
+  },
+  "treatmentSection": {
+    "intro": "Here's what psychiatric care looks like, whether you're walking over from a Clayton office or logging in from home:"
+  },
+  "services": [
+    {
+      "name": "Psychiatric Evaluation & Medication Management",
+      "description": "A thorough initial evaluation and ongoing management for depression, anxiety, ADHD, bipolar disorder, and other conditions.",
+      "link": "/psychiatric-evaluation"
+    },
+    {
+      "name": "Buprenorphine (Suboxone) for Opioid Use Disorder",
+      "description": "New patients are typically seen within 1–3 days — we don't believe anyone should wait weeks for treatment that can be lifesaving.",
+      "link": "/opioid-use-disorder"
+    },
+    {
+      "name": "Outpatient Alcohol Detoxification",
+      "description": "Medically supervised outpatient detox for appropriate candidates who don't require inpatient-level care.",
+      "link": "/outpatient-detox"
+    }
+  ],
+  "localFaqs": [
+    {
+      "question": "Does my Clayton employer's insurance plan work for psychiatry here?",
+      "answer": "If your plan is through UnitedHealthcare, Blue Cross Blue Shield, or Cigna, Angela Jones, PMHNP is in-network — common among Clayton-area employers. John Gransbach, DNP is out-of-network; we can provide documentation for out-of-network reimbursement if your plan offers it."
+    },
+    {
+      "question": "Can I do a medication check over telehealth during a Clayton workday?",
+      "answer": "Yes — most appointments with Angela Jones are virtual by default, which works well for a 30-minute check-in between meetings. In-person visits at our Clayton Road office are available anytime you'd prefer."
+    },
+    {
+      "question": "How quickly can a Clayton patient start buprenorphine treatment?",
+      "answer": "Typically within 1–3 days. Opioid use disorder is a medical emergency, not something we believe should wait for a routine next-available appointment."
+    }
+  ]
+}

@@ -223,7 +223,7 @@
 		margin-top: 1.25rem;
 
 		&:hover {
-			color: var(--accent);
+			color: color-mix(in srgb, var(--accent) 50%, black);
 			box-shadow: 0 2px 0 0 var(--accent);
 		}
 	}
@@ -280,7 +280,7 @@
 		border: none;
 		font-size: 1.5rem;
 		line-height: 1;
-		color: #888;
+		color: var(--c-text-muted);
 		cursor: pointer;
 		padding: 0 0 0 1rem;
 
@@ -444,7 +444,7 @@
 
 	.helper {
 		font-size: 0.85rem !important;
-		color: #888 !important;
+		color: var(--c-text-muted) !important;
 	}
 
 	.safety-alert {
@@ -484,7 +484,7 @@
 
 			.score-denom {
 				font-size: 1.25rem;
-				color: #999;
+				color: var(--c-text-muted);
 				font-weight: 400;
 			}
 		}
@@ -492,7 +492,7 @@
 		.score-label {
 			font-size: 1rem;
 			font-weight: 600;
-			color: var(--accent, var(--c-blue));
+			color: color-mix(in srgb, var(--accent, var(--c-blue)) 50%, black);
 			margin-top: 0.35rem;
 			filter: brightness(0.7);
 		}

@@ -2,7 +2,7 @@
 
 export let form = $state({
 	mode: 'full', // 'full' | 'scoring'
-	currentSection: 0,
+	currentSection: -1,
 
 	g: {
 		g1: '', g4: '', g5: '', g6: '', g7h: '', g7m: '',

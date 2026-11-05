@@ -27,7 +27,18 @@ body {
   margin: 0;
 }
 
-*:focus {
+// Hide the default ring for mouse clicks only; keyboard focus stays visible
+*:focus:not(:focus-visible) {
+  outline: none;
+}
+
+*:focus-visible {
+  outline: 3px solid var(--c-dark);
+  outline-offset: 3px;
+}
+
+// Skip-link target receives focus programmatically; no ring around the whole page
+main:focus-visible {
   outline: none;
 }
 
@@ -40,6 +51,6 @@ a {
 }
 
 a:hover {
-  color: var(--c-green);
+  color: var(--c-green-text);
   box-shadow: 0 2px 0 0 var(--c-green);
 }

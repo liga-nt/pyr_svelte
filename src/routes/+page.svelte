@@ -96,7 +96,7 @@
 			<div class="hero-differentiators">
 				{#each homeData.hero.differentiators as d}
 					<div class="hero-diff-card">
-						<h3>{d.heading}</h3>
+						<h2>{d.heading}</h2>
 						<p>{d.body}</p>
 					</div>
 				{/each}
@@ -157,7 +157,7 @@
 					{#each homeData.conditions.items as condition}
 						<a href={condition.linkUrl} class="condition-card">
 							<div class="condition-icon">
-								<img src={condition.icon} alt={condition.name} width="100" height="100" />
+								<img src={condition.icon} alt="" width="100" height="100" />
 							</div>
 							<h3>{condition.name}</h3>
 						</a>
@@ -293,7 +293,7 @@
 			font-style: italic;
 			text-transform: uppercase;
 			letter-spacing: 0.1em;
-			color: var(--c-green);
+			color: var(--c-green-text);
 			margin-bottom: var(--space-small);
 		}
 
@@ -326,7 +326,7 @@
 			border-left: 3px solid var(--c-green);
 			padding-left: var(--space-small);
 
-			h3 {
+			h2 {
 				font-size: 0.95rem;
 				font-weight: 700;
 				margin-bottom: 0.4rem;
@@ -409,14 +409,14 @@
 
 		.clinician-credentials {
 			font-size: 0.75rem;
-			color: var(--c-green);
+			color: var(--c-green-text);
 			text-align: center;
 			margin-top: 0.15rem;
 		}
 
 		.clinician-role {
 			font-size: 0.75rem;
-			color: #777;
+			color: var(--c-text-muted);
 			text-align: center;
 			margin-top: 0.1rem;
 			line-height: 1.3;
@@ -427,7 +427,7 @@
 
 			a {
 				font-size: 0.9375rem;
-				color: var(--c-green);
+				color: var(--c-green-text);
 				font-weight: 600;
 				text-decoration: none;
 
@@ -514,7 +514,7 @@
 
 			h3 {
 				font-size: 0.95rem;
-				color: var(--c-green);
+				color: var(--c-green-text);
 				text-align: center;
 				margin: 0;
 				line-height: 1.3;
@@ -556,7 +556,7 @@
 			border-radius: 50%;
 			border: 2px solid var(--c-green);
 			background: white;
-			color: var(--c-green);
+			color: var(--c-green-text);
 			cursor: pointer;
 			display: flex;
 			align-items: center;
@@ -566,7 +566,7 @@
 
 			&:hover {
 				background: var(--c-green);
-				color: white;
+				color: var(--c-dark);
 				transform: scale(1.1);
 			}
 
@@ -649,7 +649,7 @@
 
 			h3 {
 				font-size: 0.95rem;
-				color: var(--c-green);
+				color: var(--c-green-text);
 				text-align: center;
 				margin: 0;
 				line-height: 1.3;
@@ -661,7 +661,7 @@
 			margin-top: var(--space-medium);
 
 			a {
-				color: var(--c-green);
+				color: var(--c-green-text);
 				font-weight: 500;
 				font-size: 1.1rem;
 				text-decoration: none;
@@ -707,7 +707,7 @@
 			}
 
 			a {
-				color: var(--c-green);
+				color: var(--c-green-text);
 				font-weight: 500;
 			}
 		}
@@ -774,7 +774,7 @@
 			font-size: 0.72rem;
 			text-transform: uppercase;
 			letter-spacing: 0.07em;
-			color: #999;
+			color: var(--c-text-muted);
 			display: block;
 			margin-bottom: 0.2rem;
 		}
@@ -792,7 +792,7 @@
 			margin-top: var(--space-medium);
 
 			a {
-				color: var(--c-green);
+				color: var(--c-green-text);
 				font-weight: 500;
 				font-size: 1rem;
 				text-decoration: none;
@@ -807,7 +807,7 @@
 	/* Final CTA */
 	.final-cta {
 		background-color: var(--c-green);
-		color: white;
+		color: var(--c-dark);
 		padding: var(--space-xlarge) 0;
 		text-align: center;
 
@@ -832,14 +832,14 @@
 			}
 
 			a {
-				color: white;
+				color: var(--c-dark);
 				font-size: 1.25rem;
 				font-weight: 500;
 				text-decoration: none;
-				box-shadow: 0 1px 0 0 white;
+				box-shadow: 0 1px 0 0 var(--c-dark);
 
 				&:hover {
-					box-shadow: 0 2px 0 0 white;
+					box-shadow: 0 2px 0 0 var(--c-dark);
 				}
 			}
 		}

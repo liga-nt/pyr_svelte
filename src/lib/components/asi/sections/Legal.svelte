@@ -131,7 +131,7 @@
 			</div>
 
 			<div class="q-block">
-				<div class="q-group-header">Patient Rating Scale (0–4)</div>
+				<div class="q-group-header">Patient Rating Scale (0=Not at all · 1=Slightly · 2=Moderately · 3=Considerably · 4=Extremely)</div>
 				<div class="q-row composite-row">
 					<span class="q-id">L28</span>
 					<div class="q-text">How serious do you feel your present legal problems are?
@@ -184,5 +184,5 @@
 
 <style lang="scss">
 	@use './section-shared' as *;
-	.q-hint { font-size: 0.75rem; color: #888; font-style: italic; margin-top: 0.2rem; line-height: 1.4; }
+	.q-hint { font-size: 0.75rem; color: var(--c-text-muted); font-style: italic; margin-top: 0.2rem; line-height: 1.4; }
 </style>

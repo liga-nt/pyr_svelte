@@ -59,7 +59,7 @@
 					<span class="composite-badge">Composite</span>
 					<Num bind:value={form.p.p12} max={30} id="p12" composite />
 				</div>
-				<div class="q-group-header">Patient Rating Scale (0–4)</div>
+				<div class="q-group-header">Patient Rating Scale (0=Not at all · 1=Slightly · 2=Moderately · 3=Considerably · 4=Extremely)</div>
 				<div class="q-row composite-row">
 					<span class="q-id">P13</span>
 					<div class="q-text">How troubled or bothered have you been in the past 30 days by psychological or emotional problems?</div>

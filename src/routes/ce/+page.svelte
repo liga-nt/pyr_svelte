@@ -15,7 +15,7 @@
 	<section class="coming-soon">
 		<div class="container">
 			<div class="notice">
-				<h2>New CE Offerings Coming Soon</h2>
+				<h1>New CE Offerings Coming Soon</h1>
 				<p>
 					We are currently rebuilding our continuing education program with updated courses and
 					formats. Check back soon, or contact us to be notified when new courses are available. 
@@ -50,7 +50,13 @@
 		background: #f8f8f8;
 		border-radius: 0 6px 6px 0;
 
-		h2 { margin-bottom: var(--space-tiny); }
+		h1 {
+			font-size: var(--h2-size);
+			margin-bottom: var(--space-tiny);
+
+			@media only screen and (min-width: 30em) { font-size: var(--h2-responsive); }
+			@media only screen and (min-width: 105em) { font-size: var(--h2-size); }
+		}
 		p { line-height: 1.7; margin-bottom: var(--space-tiny); }
 
 		.actions {

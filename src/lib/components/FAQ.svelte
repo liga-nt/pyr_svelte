@@ -43,12 +43,14 @@
 		<ul>
 			{#each items as item, i}
 				<li class:open={openIndex === i}>
-					<button class="question" onclick={() => toggle(i)} aria-expanded={openIndex === i}>
-						<h4>{item.question}</h4>
-						<span class="expander" aria-hidden="true">
-							{#if openIndex === i}&minus;{:else}&plus;{/if}
-						</span>
-					</button>
+					<h3>
+						<button class="question" onclick={() => toggle(i)} aria-expanded={openIndex === i}>
+							<span class="question-text">{item.question}</span>
+							<span class="expander" aria-hidden="true">
+								{#if openIndex === i}&minus;{:else}&plus;{/if}
+							</span>
+						</button>
+					</h3>
 					{#if openIndex === i}
 						<div class="answer">
 							<p>{item.answer}</p>
@@ -92,6 +94,11 @@
 		}
 	}
 
+	h3 {
+		margin: 0;
+		font-size: inherit;
+	}
+
 	.question {
 		display: grid;
 		grid-template-columns: 1fr 50px;
@@ -105,10 +112,10 @@
 		text-align: left;
 
 		&:hover .expander {
-			color: var(--accent, var(--c-green));
+			color: color-mix(in srgb, var(--accent, var(--c-green)) 50%, black);
 		}
 
-		h4 {
+		.question-text {
 			font-size: 1rem;
 			font-weight: 500;
 			line-height: 1.5;
@@ -124,7 +131,7 @@
 	.expander {
 		font-family: Georgia, 'Times New Roman', Times, serif;
 		font-size: 1.5rem;
-		color: var(--accent, var(--c-green));
+		color: color-mix(in srgb, var(--accent, var(--c-green)) 50%, black);
 		line-height: 1;
 		text-align: center;
 	}

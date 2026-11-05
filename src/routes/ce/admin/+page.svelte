@@ -3,8 +3,10 @@
 	import { collection, getDocs, orderBy, query } from 'firebase/firestore';
 	import { db } from '$lib/firebase.js';
 	import { authState } from '$lib/auth.svelte.js';
+	import DeleteCourseDialog from '$lib/components/course-editor/DeleteCourseDialog.svelte';
 
 	let courses = $state([]);
+	let deleting = $state(null); // the course whose delete dialog is open
 	let loading = $state(true);
 
 	async function loadCourses() {
@@ -31,6 +33,7 @@
 		<div class="admin-header-inner">
 			<a href="/ce/dashboard" class="back-link">← Dashboard</a>
 			<h1>Course Admin</h1>
+			<button class="btn-edit" onclick={() => goto('/ce/admin/import')}>Import</button>
 			<button class="btn-new" onclick={() => goto('/ce/admin/courses/new')}>+ New course</button>
 		</div>
 	</header>
@@ -55,13 +58,23 @@
 						</div>
 						<div class="course-actions">
 							<span class="badge" class:published={course.published}>{course.published ? 'Published' : 'Draft'}</span>
+							<button class="btn-edit" onclick={() => goto(`/ce/courses/${course.id}`)}>Preview</button>
 							<button class="btn-edit" onclick={() => goto(`/ce/admin/courses/${course.id}`)}>Edit</button>
+							<button class="btn-delete" onclick={() => (deleting = course)}>Delete</button>
 						</div>
 					</li>
 				{/each}
 			</ul>
 		{/if}
 	</div>
+
+	{#if deleting}
+		<DeleteCourseDialog
+			course={deleting}
+			onclose={() => (deleting = null)}
+			ondeleted={() => { courses = courses.filter((c) => c.id !== deleting.id); deleting = null; }}
+		/>
+	{/if}
 </div>
 
 <style lang="scss">
@@ -86,7 +99,7 @@
 
 		.back-link {
 			font-size: 0.85rem;
-			color: #888;
+			color: var(--c-text-muted);
 			box-shadow: none;
 			white-space: nowrap;
 			&:hover { color: var(--c-dark); box-shadow: none; }
@@ -116,12 +129,12 @@
 		padding: var(--space-medium) var(--container-padding);
 	}
 
-	.loading-msg { color: #888; }
+	.loading-msg { color: var(--c-text-muted); }
 
 	.empty {
 		text-align: center;
 		padding: var(--space-large) 0;
-		color: #888;
+		color: var(--c-text-muted);
 		p { margin-bottom: var(--space-tiny); }
 	}
 
@@ -163,7 +176,7 @@
 		gap: 0.2rem;
 
 		.course-title { font-weight: 600; font-size: 0.95rem; }
-		.course-meta { font-size: 0.82rem; color: #888; }
+		.course-meta { font-size: 0.82rem; color: var(--c-text-muted); }
 	}
 
 	.course-actions {
@@ -173,12 +186,27 @@
 		flex-shrink: 0;
 	}
 
+	.btn-delete {
+		padding: 0.35rem 0.8rem;
+		background: none;
+		border: 1.5px solid #f0c9c5;
+		border-radius: 20px;
+		color: #a93226;
+		font: inherit;
+		font-size: 0.85rem;
+		font-style: normal;
+		text-transform: none;
+		letter-spacing: normal;
+		cursor: pointer;
+		&:hover { background: #fdf2f2; border-color: #c0392b; }
+	}
+
 	.badge {
 		font-size: 0.75rem;
 		padding: 0.25rem 0.6rem;
 		border-radius: 20px;
 		background: #f0f0f0;
-		color: #888;
+		color: var(--c-text-muted);
 
 		&.published {
 			background: color-mix(in srgb, var(--c-green) 25%, white);

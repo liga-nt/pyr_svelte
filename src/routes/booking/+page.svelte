@@ -228,7 +228,7 @@
 				height: 2rem;
 				border-radius: 50%;
 				background-color: var(--c-green);
-				color: white;
+				color: var(--c-dark);
 				font-family: ibm-plex-sans-condensed, sans-serif;
 				font-weight: 700;
 				font-size: 1rem;

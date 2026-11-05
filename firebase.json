@@ -2,6 +2,9 @@
   "firestore": {
     "rules": "firestore.rules"
   },
+  "storage": {
+    "rules": "storage.rules"
+  },
   "functions": {
     "source": "functions"
   },
@@ -47,6 +50,11 @@
       {
         "source": "/mat",
         "destination": "/psychiatry",
+        "type": 301
+      },
+      {
+        "source": "/medication/opioid",
+        "destination": "/opioid-use-disorder",
         "type": 301
       },
       {

@@ -19,7 +19,7 @@
 		/>
 	</a>
 	<div class="card-body">
-		<h3><a href="/team/{person.slug}">{person.fullName}</a></h3>
+		<h2><a href="/team/{person.slug}">{person.fullName}</a></h2>
 		<p class="role">{person.role}</p>
 
 		{#if person.acceptedInsurance}
@@ -111,7 +111,7 @@
 		flex: 1;
 		min-width: 0;
 
-		h3 {
+		h2 {
 			margin: 0;
 			font-size: 1.2rem;
 			font-family: orpheuspro, serif;
@@ -122,7 +122,7 @@
 				box-shadow: none;
 
 				&:hover {
-					color: var(--c-green);
+					color: var(--c-green-text);
 					box-shadow: none;
 				}
 			}
@@ -131,7 +131,7 @@
 		.role {
 			margin: 0;
 			font-size: 0.875rem;
-			color: #777;
+			color: var(--c-text-muted);
 			font-family: ibm-plex-sans, sans-serif;
 			text-transform: uppercase;
 			letter-spacing: 0.04em;
@@ -151,7 +151,7 @@
 			color: var(--c-dark);
 
 			.read-more {
-				color: var(--c-green);
+				color: var(--c-green-text);
 				font-weight: 500;
 				text-decoration: none;
 				box-shadow: none;
@@ -182,13 +182,13 @@
 			font-family: ibm-plex-sans, sans-serif;
 
 			&:hover {
-				color: var(--c-green);
+				color: var(--c-green-text);
 				box-shadow: none;
 			}
 
 			svg {
 				flex-shrink: 0;
-				color: var(--c-green);
+				color: var(--c-green-text);
 			}
 		}
 
@@ -196,7 +196,7 @@
 			display: inline-block;
 			margin-top: auto;
 			padding-top: var(--space-tiny);
-			color: var(--c-green);
+			color: var(--c-green-text);
 			font-weight: 600;
 			text-decoration: none;
 			box-shadow: none;

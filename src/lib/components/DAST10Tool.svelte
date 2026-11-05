@@ -164,6 +164,23 @@
 					</table>
 				</div>
 
+				<div class="responses-table">
+					<table>
+						<thead>
+							<tr><th>#</th><th>Item</th><th>Response</th></tr>
+						</thead>
+						<tbody>
+							{#each QUESTIONS as q, i}
+								<tr>
+									<td>{i + 1}</td>
+									<td>{q.text}</td>
+									<td>{OPTIONS.find((o) => o.value === rawAnswers[i])?.label ?? '—'}</td>
+								</tr>
+							{/each}
+						</tbody>
+					</table>
+				</div>
+
 				<div class="result-note">
 					<p>
 						DAST-10 scores support clinical judgment and are not diagnostic. Developed and copyrighted
@@ -175,6 +192,10 @@
 					<strong>SAMHSA Helpline:</strong> <a href="tel:18006624357">1-800-662-4357</a> — free, confidential treatment referrals, 24/7.
 					Mental health crisis: call or text <a href="tel:988">988</a>.
 				</div>
+
+				<div class="print-actions">
+					<button class="print-btn" onclick={() => window.print()}>Print / Save as PDF</button>
+				</div>
 			</div>
 		{/if}
 	</div>
@@ -184,7 +205,7 @@
 	.launch-btn {
 		display: inline-block;
 		background: var(--c-purple, #9b59b6);
-		color: white;
+		color: var(--c-dark);
 		font-family: ibm-plex-sans, sans-serif;
 		font-weight: 600;
 		font-size: 0.9rem;
@@ -254,7 +275,7 @@
 		border: none;
 		font-size: 1.5rem;
 		line-height: 1;
-		color: #888;
+		color: var(--c-text-muted);
 		cursor: pointer;
 		padding: 0 0 0 1rem;
 
@@ -303,7 +324,7 @@
 	.btn-primary {
 		display: inline-block;
 		background: var(--c-purple, #9b59b6);
-		color: white;
+		color: var(--c-dark);
 		font-family: ibm-plex-sans, sans-serif;
 		font-weight: 600;
 		font-size: 0.9rem;
@@ -381,7 +402,7 @@
 		border-top: 1px solid #eee;
 	}
 
-	.helper { font-size: 0.85rem !important; color: #888 !important; }
+	.helper { font-size: 0.85rem !important; color: var(--c-text-muted) !important; }
 
 	.score-display {
 		text-align: center;
@@ -395,14 +416,14 @@
 
 			.score-denom {
 				font-size: 1.25rem;
-				color: #999;
+				color: var(--c-text-muted);
 				font-weight: 400;
 			}
 		}
 
 		.score-range {
 			font-size: 0.8rem;
-			color: #888;
+			color: var(--c-text-muted);
 			margin-top: 0.25rem;
 			font-family: ibm-plex-mono, monospace;
 		}
@@ -410,7 +431,7 @@
 		.score-label {
 			font-size: 1rem;
 			font-weight: 600;
-			color: var(--c-purple, #9b59b6);
+			color: color-mix(in srgb, var(--c-purple) 50%, black);
 			margin-top: 0.35rem;
 			filter: brightness(0.8);
 		}
@@ -456,11 +477,75 @@
 		}
 	}
 
+	.responses-table {
+		overflow-x: auto;
+
+		table {
+			width: 100%;
+			border-collapse: collapse;
+			font-size: 0.85rem;
+
+			th {
+				text-align: left;
+				padding: 0.4rem 0.75rem;
+				background: #f5f5f5;
+				border-bottom: 2px solid #e0e0e0;
+				font-weight: 600;
+				color: #555;
+			}
+
+			td {
+				padding: 0.4rem 0.75rem;
+				border-bottom: 1px solid #eee;
+				color: #444;
+			}
+		}
+	}
+
 	.result-note {
 		background: #f8f8f8;
 		border-radius: 4px;
 		padding: 0.75rem 1rem;
 
 		p { font-size: 0.85rem !important; color: #666 !important; font-style: italic; }
+	}
+
+	.print-actions {
+		display: flex;
+		padding-top: 0.25rem;
+	}
+
+	.print-btn {
+		background: var(--c-dark);
+		color: white;
+		border: none;
+		border-radius: 4px;
+		padding: 0.65rem 1.5rem;
+		font-size: 0.9rem;
+		font-family: ibm-plex-sans, sans-serif;
+		font-weight: 600;
+		cursor: pointer;
+		box-shadow: none;
+		transition: opacity 0.15s;
+
+		&:hover { opacity: 0.82; box-shadow: none; }
+	}
+
+	@media print {
+		.scrim, .close-btn, .print-btn, .launch-btn { display: none !important; }
+
+		.modal {
+			position: absolute;
+			top: 0;
+			left: 0;
+			margin: 0;
+			transform: none;
+			box-shadow: none;
+			max-height: none;
+			overflow: visible;
+			width: 100%;
+
+			&::before { display: none; }
+		}
 	}
 </style>

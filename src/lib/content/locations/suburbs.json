@@ -1,0 +1,32 @@
+[
+  {
+    "slug": "clayton",
+    "name": "Clayton",
+    "zip": "63105",
+    "driveTime": "about 5–8 minutes"
+  },
+  {
+    "slug": "ladue",
+    "name": "Ladue",
+    "zip": "63124",
+    "driveTime": "about 5 minutes — our office sits right in Ladue"
+  },
+  {
+    "slug": "webster-groves",
+    "name": "Webster Groves",
+    "zip": "63119",
+    "driveTime": "about 12–15 minutes"
+  },
+  {
+    "slug": "kirkwood",
+    "name": "Kirkwood",
+    "zip": "63122",
+    "driveTime": "about 18–20 minutes"
+  },
+  {
+    "slug": "creve-coeur",
+    "name": "Creve Coeur",
+    "zip": "63141",
+    "driveTime": "about 15–18 minutes"
+  }
+]

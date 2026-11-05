@@ -189,7 +189,7 @@
 					<Num bind:value={form.d.d27} max={30} id="d27" composite />
 				</div>
 
-				<div class="q-group-header">Patient Rating Scale — How troubled or bothered in the past 30 days by:</div>
+				<div class="q-group-header">Patient Rating Scale (0=Not at all · 1=Slightly · 2=Moderately · 3=Considerably · 4=Extremely) — How troubled or bothered in the past 30 days by:</div>
 				<div class="q-row composite-row">
 					<span class="q-id">D28</span>
 					<div class="q-text">Alcohol problems</div>
@@ -257,8 +257,8 @@
 <style lang="scss">
 	@use './section-shared' as *;
 
-	.q-hint { font-size: 0.75rem; color: #888; font-style: italic; margin-top: 0.2rem; line-height: 1.4; }
-	.q-hint-block { padding: 0.5rem 0.85rem; font-size: 0.75rem; color: #888; border-top: 1px solid #f0f0f0; }
+	.q-hint { font-size: 0.75rem; color: var(--c-text-muted); font-style: italic; margin-top: 0.2rem; line-height: 1.4; }
+	.q-hint-block { padding: 0.5rem 0.85rem; font-size: 0.75rem; color: var(--c-text-muted); border-top: 1px solid #f0f0f0; }
 	.currency-wrap { display: flex; align-items: center; gap: 0.2rem; }
 	.currency-sym { font-size: 0.85rem; color: #666; }
 
@@ -328,5 +328,5 @@
 		&:focus { outline: none; border-color: var(--c-blue); }
 	}
 
-	.na-cell { font-size: 0.75rem; color: #bbb; font-style: italic; }
+	.na-cell { font-size: 0.75rem; color: var(--c-text-muted); font-style: italic; }
 </style>

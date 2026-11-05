@@ -1,10 +1,45 @@
 const { onDocumentCreated } = require('firebase-functions/v2/firestore');
+const { onCall, HttpsError } = require('firebase-functions/v2/https');
+const { defineSecret } = require('firebase-functions/params');
 const admin = require('firebase-admin');
 const { PDFDocument, rgb, StandardFonts } = require('pdf-lib');
 
 admin.initializeApp();
 
 const db = admin.firestore();
+
+const openaiApiKey = defineSecret('OPENAI_API_KEY');
+
+/**
+ * Speech-to-text for a slide's recorded voiceover: the course editor calls this after a
+ * take is saved to Storage, instead of the author typing the narration up front. Runs
+ * server-side because the OpenAI key can't live in the browser.
+ */
+exports.transcribeVoiceover = onCall({ secrets: [openaiApiKey] }, async (request) => {
+  if (!request.auth) throw new HttpsError('unauthenticated', 'Sign in first.');
+  const adminSnap = await db.doc(`users/${request.auth.uid}`).get();
+  if (!adminSnap.exists || !adminSnap.data().isAdmin) {
+    throw new HttpsError('permission-denied', 'Admins only.');
+  }
+
+  const { audioPath } = request.data ?? {};
+  if (typeof audioPath !== 'string' || !audioPath.startsWith('ce-audio/')) {
+    throw new HttpsError('invalid-argument', 'audioPath must be a ce-audio/ Storage path.');
+  }
+
+  const [bytes] = await admin.storage().bucket().file(audioPath).download();
+  const form = new FormData();
+  form.append('file', new Blob([bytes], { type: 'audio/mpeg' }), 'voiceover.mp3');
+  form.append('model', 'whisper-1');
+  const res = await fetch('https://api.openai.com/v1/audio/transcriptions', {
+    method: 'POST',
+    headers: { Authorization: `Bearer ${openaiApiKey.value()}` },
+    body: form
+  });
+  if (!res.ok) throw new HttpsError('internal', `OpenAI ${res.status}: ${await res.text()}`);
+  const { text } = await res.json();
+  return { text: text.trim() };
+});
 
 exports.generateCertificate = onDocumentCreated(
   'examAttempts/{attemptId}',

@@ -66,7 +66,7 @@
 				</div>
 				<div class="q-row">
 					<span class="q-id">F2</span>
-					<label class="q-text">How long? (years / months)</label>
+					<label for="f2y" class="q-text">How long? (years / months)</label>
 					<div class="inline-pair">
 						<Num bind:value={form.f.f2y} placeholder="Yrs" id="f2y" />
 						<span class="unit">yrs</span>
@@ -84,7 +84,7 @@
 				</div>
 				<div class="q-row">
 					<span class="q-id">F4</span>
-					<label class="q-text">How many people lived with you in the past 30 days?</label>
+					<label for="f4" class="q-text">How many people lived with you in the past 30 days?</label>
 					<Num bind:value={form.f.f4} id="f4" />
 				</div>
 				<div class="q-row">
@@ -99,6 +99,7 @@
 					Composite — In the past 30 days, have you had significant periods of serious problems getting along with:
 				</div>
 				<div class="rel-hint">Click to cycle: — (unanswered) → No → Yes → No contact → —</div>
+				<div class="rel-hint">Counseling scale: 0=Not at all · 1=Slightly · 2=Moderately · 3=Considerably · 4=Extremely</div>
 				<table class="rel-table">
 					<thead>
 						<tr>
@@ -142,7 +143,7 @@
 					<span class="composite-badge">Composite</span>
 					<Num bind:value={form.f.f30} max={30} id="f30" composite />
 				</div>
-				<div class="q-group-header">Patient Rating Scale (0–4)</div>
+				<div class="q-group-header">Patient Rating Scale (0=Not at all · 1=Slightly · 2=Moderately · 3=Considerably · 4=Extremely)</div>
 				<div class="q-row composite-row">
 					<span class="q-id">F32</span>
 					<div class="q-text">How troubled or bothered have you been in the past 30 days by these family or social problems?</div>
@@ -183,9 +184,9 @@
 <style lang="scss">
 	@use './section-shared' as *;
 
-	.q-hint { font-size: 0.75rem; color: #888; font-style: italic; margin-top: 0.2rem; line-height: 1.4; }
+	.q-hint { font-size: 0.75rem; color: var(--c-text-muted); font-style: italic; margin-top: 0.2rem; line-height: 1.4; }
 	.composite-header { background: color-mix(in srgb, var(--c-blue) 12%, white); }
-	.rel-hint { font-size: 0.75rem; color: #888; font-style: italic; padding: 0.3rem 0.85rem; border-bottom: 1px solid #f0f0f0; }
+	.rel-hint { font-size: 0.75rem; color: var(--c-text-muted); font-style: italic; padding: 0.3rem 0.85rem; border-bottom: 1px solid #f0f0f0; }
 
 	.rel-table {
 		width: 100%;
@@ -229,8 +230,8 @@
 		&:hover { opacity: 0.85; box-shadow: none; }
 	}
 
-	.val-empty { background: white; color: #bbb; border-color: #e0e0e0; }
+	.val-empty { background: white; color: var(--c-text-muted); border-color: #e0e0e0; }
 	.val-no    { background: #f0f0f0; color: #555; border-color: #ccc; }
 	.val-yes   { background: var(--c-blue); color: var(--c-dark); border-color: var(--c-blue); }
-	.val-nr    { background: #e8e8e8; color: #888; border-color: #ccc; font-style: italic; }
+	.val-nr    { background: #e8e8e8; color: var(--c-text-muted); border-color: #ccc; font-style: italic; }
 </style>

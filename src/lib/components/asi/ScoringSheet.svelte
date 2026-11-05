@@ -356,12 +356,12 @@
 		font-weight: 700;
 		text-transform: uppercase;
 		letter-spacing: 0.07em;
-		color: #888;
+		color: var(--c-text-muted);
 	}
 
 	.domain-hint {
 		font-size: 0.72rem;
-		color: #bbb;
+		color: var(--c-text-muted);
 		font-style: italic;
 	}
 
@@ -386,7 +386,7 @@
 		font-size: 0.68rem;
 		font-family: ibm-plex-mono, monospace;
 		font-weight: 700;
-		color: #bbb;
+		color: var(--c-text-muted);
 		text-align: right;
 	}
 
@@ -398,7 +398,7 @@
 
 	.rev-note, .also-legal {
 		font-size: 0.72rem;
-		color: #aaa;
+		color: var(--c-text-muted);
 		font-style: italic;
 	}
 
@@ -410,7 +410,7 @@
 
 	.currency-sym {
 		font-size: 0.85rem;
-		color: #888;
+		color: var(--c-text-muted);
 	}
 
 	.num-input {
@@ -437,7 +437,7 @@
 	.rel-header {
 		font-size: 0.72rem;
 		font-weight: 600;
-		color: #888;
+		color: var(--c-text-muted);
 		background: #f8f8f8;
 		padding: 0.4rem 0.75rem;
 		border-bottom: 1px solid #eee;
@@ -445,7 +445,7 @@
 
 	.cycle-hint {
 		font-weight: 400;
-		color: #bbb;
+		color: var(--c-text-muted);
 		font-style: italic;
 		margin-left: 0.4rem;
 	}
@@ -489,10 +489,10 @@
 		&:hover { opacity: 0.85; box-shadow: none; }
 	}
 
-	.val-empty { background: white; color: #bbb; border-color: #e0e0e0; }
+	.val-empty { background: white; color: var(--c-text-muted); border-color: #e0e0e0; }
 	.val-no    { background: #f0f0f0; color: #555; border-color: #ccc; }
 	.val-yes   { background: var(--c-blue); color: var(--c-dark); border-color: var(--c-blue); }
-	.val-nr    { background: #e8e8e8; color: #888; border-color: #ccc; font-style: italic; }
+	.val-nr    { background: #e8e8e8; color: var(--c-text-muted); border-color: #ccc; font-style: italic; }
 
 	.sheet-footer {
 		padding-top: 1.5rem;

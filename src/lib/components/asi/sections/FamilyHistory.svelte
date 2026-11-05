@@ -140,7 +140,7 @@
 		gap: 0.5rem;
 
 		p { font-size: 0.88rem; color: var(--c-dark); line-height: 1.6; margin: 0; }
-		.click-hint { font-size: 0.78rem; color: #888; font-style: italic; }
+		.click-hint { font-size: 0.78rem; color: var(--c-text-muted); font-style: italic; }
 	}
 
 	.legend {
@@ -212,9 +212,9 @@
 		&:hover { opacity: 0.85; box-shadow: none; }
 	}
 
-	.val-empty { background: white; color: #bbb; border-color: #e0e0e0; }
+	.val-empty { background: white; color: var(--c-text-muted); border-color: #e0e0e0; }
 	.val-no    { background: #f0f0f0; color: #555; border-color: #ccc; }
 	.val-yes   { background: var(--c-green); color: var(--c-dark); border-color: var(--c-green); }
 	.val-unk   { background: var(--c-yellow); color: var(--c-dark); border-color: var(--c-yellow); }
-	.val-nr    { background: #e8e8e8; color: #888; border-color: #ccc; font-style: italic; }
+	.val-nr    { background: #e8e8e8; color: var(--c-text-muted); border-color: #ccc; font-style: italic; }
 </style>

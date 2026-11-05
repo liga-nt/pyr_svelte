@@ -1,0 +1,55 @@
+{
+  "seo": {
+    "title": "Psychiatry Near Webster Groves, MO | Plan Your Recovery",
+    "description": "Psychiatric evaluation and medication management near Webster Groves, MO. In-person and telehealth, about 12–15 minutes from downtown Webster Groves."
+  },
+  "hero": {
+    "headline": "Psychiatry Near Webster Groves, Missouri",
+    "intro": "Between Webster University and a school district with a demanding academic culture, we see a mix of graduate students, faculty, and families from Webster Groves — each with a different reason medication management might fit into their care. We're about 12–15 minutes up Big Bend, with telehealth covering most follow-up visits."
+  },
+  "whyLocals": {
+    "heading": "Why Webster Groves Patients Choose Us",
+    "paragraph": "Graduate students often come to us uninsured or underinsured through a student plan, trying to figure out whether an out-of-network evaluation is worth it — we're upfront about costs and what documentation we can provide for reimbursement. Parents more often come in asking about a teen's attention or mood concerns alongside their own."
+  },
+  "localStat": {
+    "value": "23.0%",
+    "measure": "of adults in the 63119 ZIP code report having been diagnosed with a depressive disorder at some point",
+    "source": "CDC PLACES",
+    "year": "2023",
+    "note": "a modeled estimate, not a clinical count — a reminder that this is common, not unusual"
+  },
+  "treatmentSection": {
+    "intro": "Here's what psychiatric care looks like, whether you're coming from campus or a house near downtown Webster Groves:"
+  },
+  "services": [
+    {
+      "name": "Psychiatric Evaluation & Medication Management",
+      "description": "A thorough initial evaluation and ongoing management for depression, anxiety, ADHD, bipolar disorder, and other conditions.",
+      "link": "/psychiatric-evaluation"
+    },
+    {
+      "name": "Buprenorphine (Suboxone) for Opioid Use Disorder",
+      "description": "New patients are typically seen within 1–3 days.",
+      "link": "/opioid-use-disorder"
+    },
+    {
+      "name": "Outpatient Alcohol Detoxification",
+      "description": "Medically supervised outpatient detox for appropriate candidates who don't require inpatient-level care.",
+      "link": "/outpatient-detox"
+    }
+  ],
+  "localFaqs": [
+    {
+      "question": "I'm a grad student at Webster University without great insurance — what are my options?",
+      "answer": "John Gransbach, DNP is out-of-network, and we're transparent about cost up front. Many student health plans offer partial out-of-network reimbursement, and we provide the documentation needed to pursue it."
+    },
+    {
+      "question": "Can my Webster Groves teen get an ADHD evaluation?",
+      "answer": "Yes. We evaluate and treat ADHD in adolescents as well as adults, including both stimulant and non-stimulant options, and we coordinate with our therapists on the behavioral side when that's useful."
+    },
+    {
+      "question": "Do I need to come to the office, or can Webster Groves appointments be virtual?",
+      "answer": "Most appointments with Angela Jones, PMHNP are virtual by default. John Gransbach, DNP typically sees patients in person at our office, about 12–15 minutes away."
+    }
+  ]
+}

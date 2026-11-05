@@ -11,6 +11,16 @@
 		{ value: 5, label: '5 — Military service' }, { value: 6, label: '6 — Retired/disability' },
 		{ value: 7, label: '7 — Unemployed' }, { value: 8, label: '8 — In controlled environment' },
 	];
+
+	const hollingsheadOpts = [
+		{ value: 1, label: '1 — Higher executives / major professionals (physician, attorney, engineer)' },
+		{ value: 2, label: '2 — Business managers / lesser professionals (nurse, teacher, accountant)' },
+		{ value: 3, label: '3 — Administrative personnel / small business owners / minor professionals' },
+		{ value: 4, label: '4 — Clerical & sales workers, technicians, small farm owners' },
+		{ value: 5, label: '5 — Skilled manual workers (electrician, plumber, machinist)' },
+		{ value: 6, label: '6 — Machine operators, semi-skilled workers' },
+		{ value: 7, label: '7 — Unskilled workers, laborers' },
+	];
 </script>
 
 <div class="section-body" class:scoring-mode={form.mode === 'scoring'}>
@@ -19,7 +29,7 @@
 			<div class="q-block">
 				<div class="q-row">
 					<span class="q-id">E1</span>
-					<label class="q-text">Education completed (formal education only)</label>
+					<label for="e1y" class="q-text">Education completed (formal education only)</label>
 					<div class="inline-pair">
 						<Num bind:value={form.e.e1y} id="e1y" placeholder="Yrs" />
 						<span class="unit">yrs</span>
@@ -29,7 +39,7 @@
 				</div>
 				<div class="q-row">
 					<span class="q-id">E2</span>
-					<label class="q-text">Training or technical education completed (months)</label>
+					<label for="e2" class="q-text">Training or technical education completed (months)</label>
 					<Num bind:value={form.e.e2} id="e2" />
 				</div>
 				<div class="q-row">
@@ -40,8 +50,8 @@
 				{#if form.e.e3 === 1}
 					<div class="q-row">
 						<span class="q-id"></span>
-						<label class="q-text">Specify:</label>
-						<input type="text" bind:value={form.e.e3spec} class="text-input medium" />
+						<label for="e3spec" class="q-text">Specify:</label>
+						<input id="e3spec" type="text" bind:value={form.e.e3spec} class="text-input medium" />
 					</div>
 				{/if}
 				<div class="q-row composite-row">
@@ -60,9 +70,9 @@
 				</div>
 				<div class="q-row">
 					<span class="q-id">E6</span>
-					<label class="q-text">How long was your longest full-time job? (35+ hrs/wk)</label>
+					<label for="e6y" class="q-text">How long was your longest full-time job? (35+ hrs/wk)</label>
 					<div class="inline-pair">
-						<Num bind:value={form.e.e6y} placeholder="Yrs" />
+						<Num id="e6y" bind:value={form.e.e6y} placeholder="Yrs" />
 						<span class="unit">yrs</span>
 						<Num bind:value={form.e.e6m} placeholder="Mos" max={11} />
 						<span class="unit">mos</span>
@@ -70,15 +80,14 @@
 				</div>
 				<div class="q-row">
 					<span class="q-id">E7</span>
-					<div class="q-text">Usual (or last) occupation — Hollingshead code (1–7)
-						<div class="q-hint">Use Hollingshead Categories Reference Sheet</div>
+					<div class="q-text">
+						<Select label="Usual (or last) occupation — Hollingshead category" options={hollingsheadOpts} bind:value={form.e.e7} id="e7" />
 					</div>
-					<Num bind:value={form.e.e7} max={7} id="e7" />
 				</div>
 				<div class="q-row">
 					<span class="q-id"></span>
-					<label class="q-text">Specify occupation:</label>
-					<input type="text" bind:value={form.e.e7spec} class="text-input medium" />
+					<label for="e7spec" class="q-text">Specify occupation:</label>
+					<input id="e7spec" type="text" bind:value={form.e.e7spec} class="text-input medium" />
 				</div>
 				<div class="q-row">
 					<span class="q-id">E8</span>
@@ -159,7 +168,7 @@
 			</div>
 
 			<div class="q-block">
-				<div class="q-group-header">Patient Rating Scale (0=Not at all · 4=Extremely)</div>
+				<div class="q-group-header">Patient Rating Scale (0=Not at all · 1=Slightly · 2=Moderately · 3=Considerably · 4=Extremely)</div>
 				<div class="q-row">
 					<span class="q-id">E20</span>
 					<div class="q-text">How troubled or bothered have you been by these employment problems in the past 30 days?</div>
@@ -206,7 +215,7 @@
 
 <style lang="scss">
 	@use './section-shared' as *;
-	.q-hint { font-size: 0.75rem; color: #888; font-style: italic; margin-top: 0.2rem; line-height: 1.4; }
+	.q-hint { font-size: 0.75rem; color: var(--c-text-muted); font-style: italic; margin-top: 0.2rem; line-height: 1.4; }
 	.currency-wrap { display: flex; align-items: center; gap: 0.2rem; }
 	.currency-sym { font-size: 0.85rem; color: #666; }
 	.num-input {

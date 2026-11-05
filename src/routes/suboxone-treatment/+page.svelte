@@ -206,7 +206,7 @@
 
 			.note {
 				font-size: 0.875rem;
-				color: var(--c-green);
+				color: var(--c-green-text);
 			}
 		}
 	}
@@ -230,7 +230,7 @@
 
 				&:hover {
 					border-color: var(--c-green);
-					color: var(--c-green);
+					color: var(--c-green-text);
 					box-shadow: none;
 				}
 			}
@@ -239,7 +239,7 @@
 
 	.cta {
 		background-color: var(--c-green);
-		color: white;
+		color: var(--c-dark);
 		text-align: center;
 
 		h2 {
@@ -262,8 +262,8 @@
 			font-size: 1.1rem;
 
 			a {
-				color: white;
-				box-shadow: 0 1px 0 0 white;
+				color: var(--c-dark);
+				box-shadow: 0 1px 0 0 var(--c-dark);
 			}
 		}
 	}

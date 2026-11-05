@@ -386,7 +386,7 @@
 	.empty-state {
 		padding: var(--space-medium) var(--space-small);
 		text-align: center;
-		color: #888;
+		color: var(--c-text-muted);
 
 		.empty-icon { font-size: 2rem; margin-bottom: 0.75rem; }
 		p { font-size: 0.95rem; margin-bottom: var(--space-tiny); }

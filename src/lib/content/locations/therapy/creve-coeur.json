@@ -1,0 +1,60 @@
+{
+  "seo": {
+    "title": "Therapy Near Creve Coeur, MO | Plan Your Recovery",
+    "description": "Evidence-based therapy for adults and teens near Creve Coeur, MO. CBT, family therapy, and more — about 15–18 minutes from Creve Coeur, with telehealth available."
+  },
+  "hero": {
+    "headline": "Therapy Near Creve Coeur, Missouri",
+    "intro": "Creve Coeur is a corporate commuter town as much as a residential one — a lot of our clients from the area work at the companies headquartered right there, and their schedules run on meetings, not minutes. We're about 15–18 minutes down I-270, and we keep early, late, and telehealth slots open for exactly that kind of week."
+  },
+  "whyLocals": {
+    "heading": "Why Creve Coeur Clients Choose Us",
+    "paragraph": "Dual-career households are the norm here, and the stress that comes with them — overcommitted calendars, kids shuttled between activities, a drink that's become more routine than it used to be — often gets managed rather than addressed. We work with Creve Coeur professionals and their families on exactly that, before it becomes a bigger problem than it needs to be."
+  },
+  "localStat": {
+    "value": "21.7%",
+    "measure": "of adults in the 63141 ZIP code report having been diagnosed with a depressive disorder at some point",
+    "source": "CDC PLACES",
+    "year": "2023",
+    "note": "a modeled estimate, not a clinical count — included to normalize how common this is"
+  },
+  "treatmentSection": {
+    "intro": "Here's what treatment looks like, whether you're commuting from a Creve Coeur office or working from home near the lake:"
+  },
+  "services": [
+    {
+      "name": "Cognitive Behavioral Therapy",
+      "description": "The most evidence-supported approach for anxiety, depression, and the chronic overload that comes with a demanding job and a full household.",
+      "link": "/cbt"
+    },
+    {
+      "name": "Family Therapy",
+      "description": "For couples and families navigating conflict, a major transition, or a loved one's substance use.",
+      "link": "/family-therapy"
+    },
+    {
+      "name": "Motivational Interviewing",
+      "description": "A collaborative approach for anyone who feels ambivalent about change — common with drinking that's crept up gradually.",
+      "link": "/motivational-interviewing"
+    },
+    {
+      "name": "Contingency Management",
+      "description": "A structured, incentive-based approach with strong evidence for substance use, particularly in teens and young adults.",
+      "link": "/contingency-management"
+    }
+  ],
+  "localFaqs": [
+    {
+      "question": "Can I fit a session in around a Creve Coeur office job?",
+      "answer": "Yes. Early-morning, lunch-hour telehealth, and evening appointments are all options — tell us what your week actually looks like and we'll build around it rather than asking you to work around us."
+    },
+    {
+      "question": "Do you see teens from Parkway or other Creve Coeur-area schools?",
+      "answer": "Yes. We treat teens navigating academic pressure, social stress, and early substance use, often alongside family sessions to get parents and teens working from the same understanding of what's going on."
+    },
+    {
+      "question": "Is your office easy to get to from the Olive Boulevard corridor?",
+      "answer": "Yes — about 15–18 minutes via I-270 or Olive, with free parking on-site. Telehealth is available for weeks when the drive isn't worth it."
+    }
+  ]
+}

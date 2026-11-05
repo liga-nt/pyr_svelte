@@ -1,0 +1,60 @@
+{
+  "seo": {
+    "title": "Therapy in Ladue, MO | Plan Your Recovery",
+    "description": "Private, evidence-based therapy for adults and teens in Ladue, MO. CBT, family therapy, and more — our office is in the heart of Ladue."
+  },
+  "hero": {
+    "headline": "Therapy in Ladue, Missouri",
+    "intro": "We're not just near Ladue — our office is in it. That matters for families who want in-person care without a cross-county drive, and it matters just as much for families who value discretion: no one in the waiting room is a surprise, and no one on staff is guessing at what privacy means to you."
+  },
+  "whyLocals": {
+    "heading": "Why Ladue Families Choose Us",
+    "paragraph": "High-achieving families carry a particular kind of pressure — the expectation that things should be fine, because by most visible measures, they are. We work with Ladue parents managing their own anxiety or drinking, and with Ladue teens under academic and social pressure that doesn't always show up until it's severe. Being local means we're not meeting your family for the first time in a crisis."
+  },
+  "localStat": {
+    "value": "20.7%",
+    "measure": "of adults in the 63124 ZIP code report having been diagnosed with a depressive disorder at some point",
+    "source": "CDC PLACES",
+    "year": "2023",
+    "note": "a modeled estimate, not a clinical count — depression doesn't track with income, and it's common here too"
+  },
+  "treatmentSection": {
+    "intro": "Our approach is the same whether you're a short walk or a short drive from Price Road:"
+  },
+  "services": [
+    {
+      "name": "Cognitive Behavioral Therapy",
+      "description": "The gold-standard approach for anxiety, depression, and perfectionism-driven distress — practical and skills-based.",
+      "link": "/cbt"
+    },
+    {
+      "name": "Family Therapy",
+      "description": "For families working through conflict, a teen's struggles, or a parent's substance use — together, not in separate silos.",
+      "link": "/family-therapy"
+    },
+    {
+      "name": "Motivational Interviewing",
+      "description": "For anyone who feels two ways about change — especially common with drinking that 'isn't really a problem.'",
+      "link": "/motivational-interviewing"
+    },
+    {
+      "name": "Contingency Management",
+      "description": "A structured, incentive-based approach with strong evidence for adolescent and young-adult substance use.",
+      "link": "/contingency-management"
+    }
+  ],
+  "localFaqs": [
+    {
+      "question": "Do you work with Ladue families on confidentiality specifically?",
+      "answer": "Yes — we're used to clients who are recognizable in their own community, and we're direct about what confidentiality does and doesn't cover before treatment starts, including what happens if your teen and a friend from school end up in the same waiting room."
+    },
+    {
+      "question": "Can my Ladue School District teen be seen outside school hours?",
+      "answer": "Yes, we offer after-school and early-evening appointments specifically because most teen clients can't do a 2:00 PM session. Weekend telehealth is also available for check-ins between full sessions."
+    },
+    {
+      "question": "Why would a Ladue family choose therapy that's out-of-network?",
+      "answer": "Privacy is part of it — in-network claims go through your insurer's systems and can show up in ways some families prefer to avoid. We provide a superbill for out-of-network reimbursement if your plan offers it, and we're happy to walk through the tradeoffs on a call."
+    }
+  ]
+}

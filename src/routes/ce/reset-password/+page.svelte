@@ -93,7 +93,7 @@
 		.back-link {
 			display: inline-block;
 			font-size: 0.85rem;
-			color: #888;
+			color: var(--c-text-muted);
 			margin-bottom: var(--space-tiny);
 			box-shadow: none;
 			&:hover { color: var(--c-dark); box-shadow: none; }

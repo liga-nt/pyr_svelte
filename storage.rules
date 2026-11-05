@@ -1,0 +1,32 @@
+rules_version = '2';
+
+// Course audio and images. Only admins can add or remove files. Learners never touch Storage
+// directly: their <audio> and <img> use the download URLs saved in the course document, and
+// that document is hidden from them until the course is published.
+//
+// Wired into firebase.json. Deploy with: firebase deploy --only storage
+service firebase.storage {
+  match /b/{bucket}/o {
+
+    function isAdmin() {
+      return request.auth != null
+        && firestore.get(/databases/(default)/documents/users/$(request.auth.uid)).data.isAdmin == true;
+    }
+
+    match /ce-audio/{courseId}/{file} {
+      allow read: if request.auth != null;
+      allow write: if isAdmin()
+        && request.resource.size < 25 * 1024 * 1024
+        && request.resource.contentType.matches('audio/.*');
+      allow delete: if isAdmin();
+    }
+
+    match /ce-images/{courseId}/{file} {
+      allow read: if request.auth != null;
+      allow write: if isAdmin()
+        && request.resource.size < 5 * 1024 * 1024
+        && request.resource.contentType.matches('image/.*');
+      allow delete: if isAdmin();
+    }
+  }
+}

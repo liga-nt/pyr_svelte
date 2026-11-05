@@ -128,6 +128,7 @@
 						<Results />
 					{/if}
 				</div>
+				<Stepper position="bottom" />
 			{/if}
 		</div>
 
@@ -224,7 +225,7 @@
 	.mode-tag {
 		font-size: 0.75rem;
 		font-family: ibm-plex-mono, monospace;
-		color: #888;
+		color: var(--c-text-muted);
 		background: #f0f0f0;
 		padding: 0.2rem 0.5rem;
 		border-radius: 3px;
@@ -285,7 +286,7 @@
 	.back-link {
 		font-size: 0.82rem;
 		font-weight: 600;
-		color: #888;
+		color: var(--c-text-muted);
 		background: none;
 		border: none;
 		cursor: pointer;

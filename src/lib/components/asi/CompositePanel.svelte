@@ -80,7 +80,7 @@
 		font-size: 0.68rem;
 		font-family: ibm-plex-mono, monospace;
 		font-weight: 700;
-		color: #888;
+		color: var(--c-text-muted);
 	}
 
 	.mini-bar {
@@ -107,7 +107,7 @@
 
 	.panel-note {
 		font-size: 0.68rem;
-		color: #bbb;
+		color: var(--c-text-muted);
 		font-style: italic;
 	}
 

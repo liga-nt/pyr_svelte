@@ -159,7 +159,7 @@
 		.back-link {
 			display: inline-block;
 			font-size: 0.85rem;
-			color: #888;
+			color: var(--c-text-muted);
 			margin-bottom: var(--space-tiny);
 			box-shadow: none;
 			&:hover { color: var(--c-dark); box-shadow: none; }
@@ -205,7 +205,7 @@
 		align-items: center;
 		gap: 0.75rem;
 		margin: 1.25rem 0;
-		color: #bbb;
+		color: var(--c-text-muted);
 		font-size: 0.85rem;
 
 		&::before, &::after {
@@ -238,7 +238,7 @@
 		.forgot {
 			font-size: 0.82rem;
 			font-weight: 400;
-			color: #888;
+			color: var(--c-text-muted);
 			box-shadow: none;
 			&:hover { color: var(--c-dark); }
 		}

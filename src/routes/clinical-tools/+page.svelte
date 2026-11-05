@@ -214,7 +214,7 @@
 			font-weight: 600;
 			letter-spacing: 0.08em;
 			text-transform: uppercase;
-			color: var(--accent, var(--c-blue));
+			color: color-mix(in srgb, var(--accent, var(--c-blue)) 50%, black);
 			filter: brightness(0.75);
 			margin-bottom: 0.5rem;
 		}
@@ -304,7 +304,7 @@
 
 	.tool-detail {
 		font-size: 0.8rem;
-		color: #888;
+		color: var(--c-text-muted);
 		font-family: ibm-plex-mono, monospace;
 	}
 
@@ -317,7 +317,7 @@
 
 	.tool-name-full {
 		font-size: 0.8rem;
-		color: #888;
+		color: var(--c-text-muted);
 		margin: 0;
 	}
 
@@ -353,7 +353,7 @@
 		letter-spacing: 0.04em;
 		text-transform: uppercase;
 		background: #f0f0f0;
-		color: #888;
+		color: var(--c-text-muted);
 		padding: 0.3rem 0.65rem;
 		border-radius: 20px;
 		align-self: flex-start;
@@ -391,6 +391,19 @@
 			max-width: 800px;
 			font-style: italic;
 			margin: 0;
+		}
+	}
+
+	/* Each tool's results panel is a fixed-position modal (see PHQ9Tool etc.),
+	   so printing must hide the rest of the page around it. */
+	@media print {
+		:global(body *) {
+			visibility: hidden !important;
+		}
+
+		:global(.modal),
+		:global(.modal *) {
+			visibility: visible !important;
 		}
 	}
 </style>

@@ -17,7 +17,7 @@ button {
 
 button.primary {
   background-color: var(--c-green);
-  color: white;
+  color: var(--c-dark);
   padding: .5em 1em;
   border-radius: 6px;
   box-shadow: 0 2px 10px rgba(115, 223, 145, .5);
@@ -30,6 +30,38 @@ button.primary {
 
   &:hover {
     box-shadow: none !important;
+  }
+}
+
+// Nav Link - link styled like the base button, for navigation that shouldn't nest a button in an anchor
+.nav-btn {
+  display: inline-block;
+  font-size: 13.333px; // matches the browser default size buttons use
+  font-family: ibm-plex-sans-condensed, sans-serif;
+  font-weight: 800;
+  font-style: italic;
+  text-transform: uppercase;
+  color: var(--c-dark);
+  letter-spacing: .075em;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  text-align: center;
+  transition: all .2s;
+}
+
+// Skip Link - hidden until keyboard focus
+.skip-link {
+  position: absolute;
+  left: 1rem;
+  top: -4rem;
+  z-index: 1000;
+  padding: .75rem 1rem;
+  background: white;
+  border-radius: 6px;
+  box-shadow: none;
+
+  &:focus {
+    top: 1rem;
   }
 }
 

@@ -15,6 +15,9 @@
 				onclick={() => value = value === -8 ? null : -8}>No contact</button>
 		{/if}
 	</div>
+	{#if value === null || value === undefined}
+		<span class="unanswered-print">Not answered</span>
+	{/if}
 </div>
 
 <style lang="scss">
@@ -37,5 +40,26 @@
 		&.active { background: var(--c-blue); border-color: var(--c-blue); color: var(--c-dark); font-weight: 700; }
 		&.no-contact.active { background: #f0f0f0; border-color: #999; color: #555; }
 		&:hover:not(.active) { border-color: #999; box-shadow: none; }
+	}
+
+	.unanswered-print {
+		display: none;
+	}
+
+	@media print {
+		.opt:not(.active) { display: none; }
+
+		.opt.active {
+			background: white !important;
+			border: 1.5px solid var(--c-dark) !important;
+			color: var(--c-dark) !important;
+		}
+
+		.unanswered-print {
+			display: inline;
+			font-size: 0.8rem;
+			font-style: italic;
+			color: #888;
+		}
 	}
 </style>

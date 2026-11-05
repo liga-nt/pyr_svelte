@@ -1,0 +1,60 @@
+{
+  "seo": {
+    "title": "Therapy Near Webster Groves, MO | Plan Your Recovery",
+    "description": "Evidence-based therapy for adults and teens near Webster Groves, MO. CBT, family therapy, and more — about 12–15 minutes from downtown Webster Groves."
+  },
+  "hero": {
+    "headline": "Therapy Near Webster Groves, Missouri",
+    "intro": "Webster Groves has a particular rhythm — walkable downtown, a university in the middle of a neighborhood, and a community that tends to talk about things openly rather than around them. We're about 12–15 minutes up Big Bend, close enough for a weekly session to fit into an actual week."
+  },
+  "whyLocals": {
+    "heading": "Why Webster Groves Clients Choose Us",
+    "paragraph": "Between Webster University and a school district known for its arts and debate programs, a lot of our Webster Groves clients are navigating high involvement, high expectation environments — grad students under deadline pressure, teens juggling a packed extracurricular schedule, parents trying to model balance they don't always feel. We meet people where that pressure actually lives, not where it's supposed to."
+  },
+  "localStat": {
+    "value": "23.0%",
+    "measure": "of adults in the 63119 ZIP code report having been diagnosed with a depressive disorder at some point",
+    "source": "CDC PLACES",
+    "year": "2023",
+    "note": "a modeled estimate, not a clinical count — a reminder that this is common, not unusual"
+  },
+  "treatmentSection": {
+    "intro": "Whether you're coming from campus or from a house a few blocks off Lockwood Avenue, here's what treatment looks like:"
+  },
+  "services": [
+    {
+      "name": "Cognitive Behavioral Therapy",
+      "description": "The most evidence-supported approach for anxiety, depression, and the kind of chronic stress that builds in high-achievement environments.",
+      "link": "/cbt"
+    },
+    {
+      "name": "Family Therapy",
+      "description": "For families navigating a teen's struggles, a major transition, or a loved one's substance use.",
+      "link": "/family-therapy"
+    },
+    {
+      "name": "Motivational Interviewing",
+      "description": "A collaborative approach for anyone who feels ambivalent about change — common with drinking, overcommitment, or burnout.",
+      "link": "/motivational-interviewing"
+    },
+    {
+      "name": "Contingency Management",
+      "description": "A structured, incentive-based approach with strong evidence for adolescent and young-adult substance use.",
+      "link": "/contingency-management"
+    }
+  ],
+  "localFaqs": [
+    {
+      "question": "Do you work with Webster University students?",
+      "answer": "Yes — we see graduate and undergraduate students dealing with academic pressure, isolation from being away from home, and the substance use patterns that sometimes come with both. Evening and telehealth appointments make it workable around a class schedule."
+    },
+    {
+      "question": "My Webster Groves teen is overcommitted and burning out — is that something therapy addresses?",
+      "answer": "Often, yes. Overcommitment in a competitive school environment frequently shows up as anxiety, sleep problems, or a drop in functioning that gets written off as normal teen stress. We assess what's actually going on rather than assuming the schedule is the whole story."
+    },
+    {
+      "question": "Is your office walkable or do I need to drive from Webster Groves?",
+      "answer": "It's a short drive — about 12–15 minutes up Big Bend Boulevard. Telehealth is available for weeks when a round trip isn't realistic."
+    }
+  ]
+}

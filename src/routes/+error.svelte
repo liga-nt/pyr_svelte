@@ -41,7 +41,7 @@
 		font-style: italic;
 		text-transform: uppercase;
 		letter-spacing: 0.1em;
-		color: var(--c-green);
+		color: var(--c-green-text);
 		margin-bottom: var(--space-small);
 	}
 
@@ -66,7 +66,7 @@
 
 	.btn-primary {
 		background: var(--c-green);
-		color: white;
+		color: var(--c-dark);
 		padding: 0.75rem 1.75rem;
 		border-radius: var(--border-radius);
 		font-weight: 600;
@@ -80,7 +80,7 @@
 
 	.btn-secondary {
 		border: 2px solid var(--c-green);
-		color: var(--c-green);
+		color: var(--c-green-text);
 		padding: 0.75rem 1.75rem;
 		border-radius: var(--border-radius);
 		font-weight: 600;
@@ -89,7 +89,7 @@
 
 		&:hover {
 			background: var(--c-green);
-			color: white;
+			color: var(--c-dark);
 		}
 	}
 </style>

@@ -16,7 +16,7 @@
 	let loading = $state(false);
 
 	$effect(() => {
-		if (authState.user) goto('/ce/dashboard');
+		if (authState.user && !loading) goto('/ce/dashboard');
 	});
 
 	const licenseTypes = [
@@ -61,6 +61,7 @@
 			});
 			goto('/ce/dashboard');
 		} catch (err) {
+			console.error('[register] error:', err);
 			error = friendlyError(err.code);
 		} finally {
 			loading = false;
@@ -246,7 +247,7 @@
 		.back-link {
 			display: inline-block;
 			font-size: 0.85rem;
-			color: #888;
+			color: var(--c-text-muted);
 			margin-bottom: var(--space-tiny);
 			box-shadow: none;
 			&:hover { color: var(--c-dark); box-shadow: none; }
@@ -293,7 +294,7 @@
 		align-items: center;
 		gap: 0.75rem;
 		margin: 1.25rem 0;
-		color: #bbb;
+		color: var(--c-text-muted);
 		font-size: 0.85rem;
 
 		&::before, &::after {
@@ -353,7 +354,7 @@
 		font-weight: 600;
 		text-transform: uppercase;
 		letter-spacing: 0.06em;
-		color: #888;
+		color: var(--c-text-muted);
 		padding-bottom: 0.25rem;
 		border-bottom: 1px solid #eee;
 		margin-bottom: -0.25rem;

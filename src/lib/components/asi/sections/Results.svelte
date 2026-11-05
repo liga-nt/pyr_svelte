@@ -1,6 +1,29 @@
 <script>
-	import { form, getComposites } from '../store.svelte.js';
+	import { form, getComposites, SECTIONS } from '../store.svelte.js';
+	import GeneralInfo from './GeneralInfo.svelte';
+	import Medical from './Medical.svelte';
+	import Employment from './Employment.svelte';
+	import AlcoholDrugs from './AlcoholDrugs.svelte';
+	import Legal from './Legal.svelte';
+	import FamilyHistory from './FamilyHistory.svelte';
+	import FamilySocial from './FamilySocial.svelte';
+	import Psychiatric from './Psychiatric.svelte';
+
 	const composites = $derived(getComposites());
+
+	// SECTIONS includes 'results' at the end — pair the 8 interview
+	// sections' labels with their components for the full-questionnaire
+	// appendix below.
+	const RESPONSE_SECTIONS = [
+		{ label: SECTIONS[0].label, Component: GeneralInfo },
+		{ label: SECTIONS[1].label, Component: Medical },
+		{ label: SECTIONS[2].label, Component: Employment },
+		{ label: SECTIONS[3].label, Component: AlcoholDrugs },
+		{ label: SECTIONS[4].label, Component: Legal },
+		{ label: SECTIONS[5].label, Component: FamilyHistory },
+		{ label: SECTIONS[6].label, Component: FamilySocial },
+		{ label: SECTIONS[7].label, Component: Psychiatric }
+	];
 
 	const DOMAINS = [
 		{ key: 'medcomp', label: 'Medical', color: 'var(--c-blue)' },
@@ -123,6 +146,20 @@
 		<div class="ref-row"><span class="sev-pill sev-substantial">Substantial</span><span>0.45–0.64</span></div>
 		<div class="ref-row"><span class="sev-pill sev-high">High</span><span>0.65–1.00</span></div>
 	</div>
+
+	<div class="full-responses">
+		<h2 class="responses-title">Full Completed Questionnaire</h2>
+		<p class="responses-note">
+			Every item entered during this interview, by section. In Scoring Mode, only the
+			composite-scored items were digitized and appear below.
+		</p>
+		{#each RESPONSE_SECTIONS as { label, Component } (label)}
+			<div class="response-section">
+				<h3 class="response-section-title">{label}</h3>
+				<Component />
+			</div>
+		{/each}
+	</div>
 </div>
 
 <style lang="scss">
@@ -244,7 +281,7 @@
 		border-radius: 20px;
 	}
 
-	.sev-incomplete { color: #888; }
+	.sev-incomplete { color: var(--c-text-muted); }
 	.sev-minimal    { background: #f0f0f0; color: #666; }
 	.sev-low        { background: color-mix(in srgb, var(--c-green) 35%, white); color: #2d7a45; }
 	.sev-moderate   { background: color-mix(in srgb, var(--c-yellow) 50%, white); color: #7a5f00; }
@@ -308,6 +345,40 @@
 		color: #555;
 	}
 
+	/* The 8 interview sections are rendered read-for-reference here — they're
+	   the same live-bound form components used during the interview, so
+	   labels and values can never drift out of sync with what was entered.
+	   pointer-events is disabled so reviewing this appendix can't accidentally
+	   edit responses already recorded earlier in the interview. */
+	.full-responses {
+		display: flex;
+		flex-direction: column;
+		gap: 1.5rem;
+		max-width: none;
+		pointer-events: none;
+	}
+
+	.responses-title {
+		font-size: 1.2rem;
+		margin: 0;
+	}
+
+	.responses-note {
+		font-size: 0.85rem;
+		color: #666;
+		font-style: italic;
+		margin: -0.75rem 0 0;
+	}
+
+	.response-section-title {
+		font-size: 0.95rem;
+		font-weight: 700;
+		color: var(--c-dark);
+		padding-bottom: 0.35rem;
+		border-bottom: 2px solid #e0e0e0;
+		margin: 0 0 0.75rem;
+	}
+
 	@media print {
 		.no-print-hide { display: none !important; }
 
@@ -326,6 +397,25 @@
 
 		.score-body {
 			padding: 0.5rem 0.75rem;
+		}
+
+		.full-responses {
+			break-before: page;
+			page-break-before: always;
+		}
+
+		.responses-note {
+			display: none;
+		}
+
+		.response-section {
+			break-before: page;
+			page-break-before: always;
+
+			&:first-child {
+				break-before: auto;
+				page-break-before: auto;
+			}
 		}
 	}
 </style>

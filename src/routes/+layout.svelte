@@ -9,6 +9,9 @@
 
 	let { children } = $props();
 
+	// The course player is full screen: no site navbar, footer or skip link.
+	let bare = $derived(page.route.id?.startsWith('/ce/courses/') ?? false);
+
 	let crumbs = $derived(getBreadcrumbs(page.url.pathname));
 	let breadcrumbSchema = $derived(crumbs ? toBreadcrumbSchema(crumbs) : null);
 
@@ -70,10 +73,16 @@
 	{/if}
 </svelte:head>
 
-<Navbar />
+{#if !bare}
+	<a href="#main" class="skip-link">Skip to main content</a>
 
-<main>
+	<Navbar />
+{/if}
+
+<main id="main" tabindex="-1">
 	{@render children?.()}
 </main>
 
-<Footer />
+{#if !bare}
+	<Footer />
+{/if}

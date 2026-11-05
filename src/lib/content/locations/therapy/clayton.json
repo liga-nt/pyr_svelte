@@ -1,0 +1,60 @@
+{
+  "seo": {
+    "title": "Therapy Near Clayton, MO | Plan Your Recovery",
+    "description": "Evidence-based therapy for adults and teens near Clayton, MO — CBT, family therapy, and more. About 5–8 minutes from downtown Clayton."
+  },
+  "hero": {
+    "headline": "Therapy Near Clayton, Missouri",
+    "intro": "Clayton runs on a tight schedule — courtrooms, boardrooms, and a workday that doesn't leave much room for anything that feels optional. Our office sits about 5–8 minutes from the Clayton business district, and we build appointment times around people who need to be back at a desk by 1:00."
+  },
+  "whyLocals": {
+    "heading": "Why Clayton Professionals Choose Us",
+    "paragraph": "A lot of our Clayton clients are attorneys, executives, and county employees who've put off therapy because their calendar genuinely didn't have room for it. We offer early-morning and evening slots, and telehealth for the weeks travel or trial schedules make an in-person visit impossible. Treatment doesn't stop because your week got complicated."
+  },
+  "localStat": {
+    "value": "22.9%",
+    "measure": "of adults in the 63105 ZIP code report having been diagnosed with a depressive disorder at some point",
+    "source": "CDC PLACES",
+    "year": "2023",
+    "note": "a modeled estimate, not a clinical count — included to normalize how common this is, not to diagnose anyone"
+  },
+  "treatmentSection": {
+    "intro": "Here's what therapy looks like in practice, whether you're coming from an office on Forsyth or working from home a few blocks off Maryland Avenue:"
+  },
+  "services": [
+    {
+      "name": "Cognitive Behavioral Therapy",
+      "description": "The most evidence-supported approach for anxiety, depression, and burnout — practical, skills-based, and usually time-limited.",
+      "link": "/cbt"
+    },
+    {
+      "name": "Family Therapy",
+      "description": "For couples and families navigating conflict, a major transition, or a loved one's substance use.",
+      "link": "/family-therapy"
+    },
+    {
+      "name": "Motivational Interviewing",
+      "description": "A collaborative approach for anyone who feels ambivalent about change — common with drinking, work stress, or burnout.",
+      "link": "/motivational-interviewing"
+    },
+    {
+      "name": "Contingency Management",
+      "description": "A structured, incentive-based approach with strong evidence for substance use, especially for teens and young adults.",
+      "link": "/contingency-management"
+    }
+  ],
+  "localFaqs": [
+    {
+      "question": "Can I schedule a session around a Clayton court or work schedule?",
+      "answer": "Yes. We regularly work around attorneys' trial calendars and executives' meeting-heavy weeks — early morning, evening, and telehealth slots are all available. Tell us what you're working around and we'll build a schedule that holds up."
+    },
+    {
+      "question": "Is there parking near your office for a Clayton appointment?",
+      "answer": "Yes, there's free parking at our building on Clayton Road, a short drive from downtown Clayton — no garage fees or metered street parking to plan around on a lunch break."
+    },
+    {
+      "question": "Do you see teens from Clayton schools as well as adults?",
+      "answer": "Yes. We treat both adults and teens, including students navigating the academic pressure that comes with Clayton's schools. Many families start with an adolescent-focused intake to figure out what's actually going on before committing to a specific approach."
+    }
+  ]
+}

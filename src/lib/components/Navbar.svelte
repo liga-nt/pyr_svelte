@@ -25,12 +25,15 @@
 				<span class="call-text">call/text</span>
 			</a>
 		</div>
-		<nav class="navRow">
+		<nav class="navRow" aria-label="Primary">
 			{#each navItems as item}
 				<a href={item.link} class="button--link">
-					<button>{item.title}</button>
+					<span class="nav-btn">{item.title}</span>
 				</a>
 			{/each}
+			<a href="https://archmediators.com" class="button--link" target="_blank" rel="noopener">
+				<span class="nav-btn">Mediation</span>
+			</a>
 		</nav>
 	</div>
 </header>
@@ -120,21 +123,21 @@
 	}
 
 	.header-phone:nth-child(1):hover {
-		border-color: color-mix(in srgb, var(--c-blue) 80%, black);
+		border-color: color-mix(in srgb, var(--c-blue) 50%, black);
 		box-shadow: none;
 	}
 
 	.header-phone:nth-child(1):hover .phone-number {
-		color: color-mix(in srgb, var(--c-blue) 80%, black);
+		color: color-mix(in srgb, var(--c-blue) 50%, black);
 	}
 
 	.header-phone:nth-child(2):hover {
-		border-color: color-mix(in srgb, var(--c-purple) 80%, black);
+		border-color: color-mix(in srgb, var(--c-purple) 50%, black);
 		box-shadow: none;
 	}
 
 	.header-phone:nth-child(2):hover .phone-number {
-		color: color-mix(in srgb, var(--c-purple) 80%, black);
+		color: color-mix(in srgb, var(--c-purple) 50%, black);
 	}
 
 	.phone-number {
@@ -149,7 +152,7 @@
 		font-size: 0.7rem;
 		text-transform: uppercase;
 		letter-spacing: 0.06em;
-		color: var(--c-gray-dark, #888);
+		color: var(--c-text-muted);
 		margin-top: 0.1rem;
 	}
 
@@ -214,11 +217,11 @@
 			box-shadow: none;
 		}
 
-		.navRow a:hover button {
+		.navRow a:hover .nav-btn {
 			border-bottom: 2px solid var(--c-green);
 		}
 
-		.navRow a button {
+		.navRow a .nav-btn {
 			font-size: 1.125rem;
 		}
 	}

@@ -39,31 +39,31 @@
 			<div class="q-block">
 				<div class="q-row">
 					<span class="q-id">G1</span>
-					<label class="q-text">ID Number</label>
-					<input type="text" bind:value={form.g.g1} class="text-input short" />
+					<label for="g1" class="q-text">ID Number</label>
+					<input id="g1" type="text" bind:value={form.g.g1} class="text-input short" />
 				</div>
 				<div class="q-row">
 					<span class="q-id">G4</span>
-					<label class="q-text">Date of Admission (mm/dd/yyyy)</label>
-					<input type="text" bind:value={form.g.g4} placeholder="mm/dd/yyyy" class="text-input short" />
+					<label for="g4" class="q-text">Date of Admission (mm/dd/yyyy)</label>
+					<input id="g4" type="text" bind:value={form.g.g4} placeholder="mm/dd/yyyy" class="text-input short" />
 				</div>
 				<div class="q-row">
 					<span class="q-id">G5</span>
-					<label class="q-text">Date of Interview (mm/dd/yyyy)</label>
-					<input type="text" bind:value={form.g.g5} placeholder="mm/dd/yyyy" class="text-input short" />
+					<label for="g5" class="q-text">Date of Interview (mm/dd/yyyy)</label>
+					<input id="g5" type="text" bind:value={form.g.g5} placeholder="mm/dd/yyyy" class="text-input short" />
 				</div>
 				<div class="q-row">
 					<span class="q-id">G6</span>
-					<label class="q-text">Time Begun (24-hr, HH:MM)</label>
-					<input type="text" bind:value={form.g.g6} placeholder="HH:MM" class="text-input short" />
+					<label for="g6" class="q-text">Time Begun (24-hr, HH:MM)</label>
+					<input id="g6" type="text" bind:value={form.g.g6} placeholder="HH:MM" class="text-input short" />
 				</div>
 				<div class="q-row">
 					<span class="q-id">G7</span>
-					<label class="q-text">Time Ended (HH:MM)</label>
+					<label for="g7h" class="q-text">Time Ended (HH:MM)</label>
 					<div class="inline-pair">
-						<input type="text" bind:value={form.g.g7h} placeholder="HH" class="text-input tiny" />
+						<input id="g7h" type="text" bind:value={form.g.g7h} placeholder="HH" class="text-input tiny" />
 						<span>:</span>
-						<input type="text" bind:value={form.g.g7m} placeholder="MM" class="text-input tiny" />
+						<input type="text" aria-label="Time ended, minutes" bind:value={form.g.g7m} placeholder="MM" class="text-input tiny" />
 					</div>
 				</div>
 				<div class="q-row">
@@ -86,13 +86,13 @@
 				</div>
 				<div class="q-row">
 					<span class="q-id">G99</span>
-					<label class="q-text">Treatment Episode Number</label>
-					<input type="text" bind:value={form.g.g99} class="text-input short" />
+					<label for="g99" class="q-text">Treatment Episode Number</label>
+					<input id="g99" type="text" bind:value={form.g.g99} class="text-input short" />
 				</div>
 				<div class="q-row">
 					<span class="q-id">G11</span>
-					<label class="q-text">Interviewer Code Number</label>
-					<input type="text" bind:value={form.g.g11} class="text-input short" />
+					<label for="g11" class="q-text">Interviewer Code Number</label>
+					<input id="g11" type="text" bind:value={form.g.g11} class="text-input short" />
 				</div>
 				<div class="q-row">
 					<span class="q-id">G12</span>
@@ -105,7 +105,7 @@
 			<div class="q-block">
 				<div class="q-row">
 					<span class="q-id">G14</span>
-					<label class="q-text">How long at current address?</label>
+					<label for="g14y" class="q-text">How long at current address?</label>
 					<div class="inline-pair">
 						<Num bind:value={form.g.g14y} placeholder="Yrs" id="g14y" />
 						<span class="unit">yrs</span>
@@ -115,13 +115,13 @@
 				</div>
 				<div class="q-row">
 					<span class="q-id">G15</span>
-					<label class="q-text">Residence owned by you or family? (0=No, 1=Yes)</label>
+					<label for="g15" class="q-text">Residence owned by you or family? (0=No, 1=Yes)</label>
 					<Num bind:value={form.g.g15} max={1} id="g15" />
 				</div>
 				<div class="q-row">
 					<span class="q-id">G16</span>
-					<label class="q-text">Date of Birth (mm/dd/yyyy)</label>
-					<input type="text" bind:value={form.g.g16} placeholder="mm/dd/yyyy" class="text-input short" />
+					<label for="g16" class="q-text">Date of Birth (mm/dd/yyyy)</label>
+					<input id="g16" type="text" bind:value={form.g.g16} placeholder="mm/dd/yyyy" class="text-input short" />
 				</div>
 				<div class="q-row">
 					<span class="q-id">G17</span>
@@ -144,7 +144,7 @@
 				{#if form.g.g19 !== null && form.g.g19 !== 1}
 					<div class="q-row">
 						<span class="q-id">G20</span>
-						<label class="q-text">How many days?</label>
+						<label for="g20" class="q-text">How many days?</label>
 						<Num bind:value={form.g.g20} max={30} id="g20" />
 					</div>
 				{/if}

@@ -202,7 +202,7 @@
 			.read-more {
 				font-size: 0.9rem;
 				font-weight: 600;
-				color: var(--c-green);
+				color: var(--c-green-text);
 				text-decoration: none;
 				align-self: flex-start;
 
@@ -251,7 +251,7 @@
 
 				h3 { font-size: 1.2rem; margin-bottom: 0.4rem; color: var(--c-dark); }
 				p { font-size: 0.9rem; line-height: 1.5; color: #666; flex: 1; margin-bottom: 0.75rem; }
-				.learn-more { font-size: 0.875rem; color: var(--c-green); font-weight: 500; }
+				.learn-more { font-size: 0.875rem; color: var(--c-green-text); font-weight: 500; }
 			}
 		}
 	}

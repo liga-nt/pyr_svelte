@@ -61,6 +61,18 @@ const routes = [
 	{ path: '/team/katherine-fezzi', priority: '0.6', changefreq: 'monthly' },
 	{ path: '/team/angela-jones', priority: '0.6', changefreq: 'monthly' },
 	{ path: '/team/john-gransbach', priority: '0.6', changefreq: 'monthly' },
+	// Therapy locations
+	{ path: '/therapy/clayton', priority: '0.6', changefreq: 'monthly' },
+	{ path: '/therapy/ladue', priority: '0.6', changefreq: 'monthly' },
+	{ path: '/therapy/webster-groves', priority: '0.6', changefreq: 'monthly' },
+	{ path: '/therapy/kirkwood', priority: '0.6', changefreq: 'monthly' },
+	{ path: '/therapy/creve-coeur', priority: '0.6', changefreq: 'monthly' },
+	// Psychiatry locations
+	{ path: '/psychiatry/clayton', priority: '0.6', changefreq: 'monthly' },
+	{ path: '/psychiatry/ladue', priority: '0.6', changefreq: 'monthly' },
+	{ path: '/psychiatry/webster-groves', priority: '0.6', changefreq: 'monthly' },
+	{ path: '/psychiatry/kirkwood', priority: '0.6', changefreq: 'monthly' },
+	{ path: '/psychiatry/creve-coeur', priority: '0.6', changefreq: 'monthly' },
 ];
 
 const today = new Date().toISOString().split('T')[0];

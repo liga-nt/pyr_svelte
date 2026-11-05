@@ -1,26 +1,30 @@
 <script>
 	import { form, SECTIONS } from './store.svelte.js';
+
+	let { position = 'top' } = $props();
 </script>
 
-<nav class="stepper no-print">
-	<div class="steps">
-		{#each SECTIONS as sec, i}
-			<button
-				type="button"
-				class="step"
-				class:active={form.currentSection === i}
-				class:done={form.currentSection > i}
-				onclick={() => form.currentSection = i}
-				title={sec.label}
-			>
-				<span class="step-num">{i + 1}</span>
-				<span class="step-label">{sec.label}</span>
-			</button>
-			{#if i < SECTIONS.length - 1}
-				<span class="step-connector" class:filled={form.currentSection > i}></span>
-			{/if}
-		{/each}
-	</div>
+<nav class="stepper no-print" class:stepper-bottom={position === 'bottom'}>
+	{#if position === 'top'}
+		<div class="steps">
+			{#each SECTIONS as sec, i}
+				<button
+					type="button"
+					class="step"
+					class:active={form.currentSection === i}
+					class:done={form.currentSection > i}
+					onclick={() => form.currentSection = i}
+					title={sec.label}
+				>
+					<span class="step-num">{i + 1}</span>
+					<span class="step-label">{sec.label}</span>
+				</button>
+				{#if i < SECTIONS.length - 1}
+					<span class="step-connector" class:filled={form.currentSection > i}></span>
+				{/if}
+			{/each}
+		</div>
+	{/if}
 
 	<div class="step-nav">
 		{#if form.currentSection > 0}
@@ -44,6 +48,15 @@
 		padding-bottom: 1.25rem;
 		border-bottom: 2px solid #e8e8e8;
 		margin-bottom: 1.5rem;
+
+		&.stepper-bottom {
+			padding-bottom: 0;
+			padding-top: 1.25rem;
+			border-bottom: none;
+			border-top: 2px solid #e8e8e8;
+			margin-bottom: 0;
+			margin-top: 1.5rem;
+		}
 	}
 
 	.steps {

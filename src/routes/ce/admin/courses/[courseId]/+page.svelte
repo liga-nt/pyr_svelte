@@ -4,11 +4,13 @@
 	import { doc, getDoc, setDoc, updateDoc, serverTimestamp } from 'firebase/firestore';
 	import { db } from '$lib/firebase.js';
 	import { authState } from '$lib/auth.svelte.js';
+	import DeleteCourseDialog from '$lib/components/course-editor/DeleteCourseDialog.svelte';
 
 	const isNew = $derived(page.params.courseId === 'new');
 
 	let saving = $state(false);
 	let saveMsg = $state('');
+	let confirmingDelete = $state(false);
 	let loading = $state(!isNew);
 
 	// Course fields
@@ -155,6 +157,16 @@
 		});
 	}
 
+	// Row summary for a slideshow module: slide count and recorded audio length. The length is
+	// only shown once some audio exists; before that the scripts are notes, not narration.
+	function slideshowMeta(mod) {
+		const slides = mod.slides ?? [];
+		const audioSec = slides.reduce((n, s) => n + (s.audioDurationSec ?? 0), 0);
+		const hasAudio = audioSec > 0;
+		const min = Math.round(audioSec / 60);
+		return { count: slides.length, hasAudio, minutes: hasAudio ? (min < 1 ? '<1 min' : `${min} min`) : '' };
+	}
+
 	let openModules = $state({});
 	function toggleModule(id) {
 		openModules = { ...openModules, [id]: !openModules[id] };
@@ -172,12 +184,23 @@
 			<h1>{isNew ? 'New course' : (title || 'Edit course')}</h1>
 			<div class="header-actions">
 				{#if saveMsg}<span class="save-msg">{saveMsg} ✓</span>{/if}
+				{#if !isNew}
+					<button class="btn-delete" onclick={() => (confirmingDelete = true)}>Delete</button>
+				{/if}
 				<button class="btn-save" onclick={save} disabled={saving}>
 					{saving ? 'Saving…' : 'Save'}
 				</button>
 			</div>
 		</div>
 	</header>
+
+	{#if confirmingDelete}
+		<DeleteCourseDialog
+			course={{ id: page.params.courseId, title, published, modules }}
+			onclose={() => (confirmingDelete = false)}
+			ondeleted={() => goto('/ce/admin')}
+		/>
+	{/if}
 
 	{#if loading}
 		<div class="loading-state"><div class="spinner"></div></div>
@@ -251,8 +274,12 @@
 						<div class="module-card">
 							<div class="module-top">
 								<div class="module-drag">
-									<button class="reorder-btn" onclick={() => moveModule(i, -1)} disabled={i === 0} title="Move up">↑</button>
-									<button class="reorder-btn" onclick={() => moveModule(i, 1)} disabled={i === modules.length - 1} title="Move down">↓</button>
+									<button class="reorder-btn" onclick={() => moveModule(i, -1)} disabled={i === 0} title="Move up" aria-label="Move module up">
+										<svg viewBox="0 0 12 12" aria-hidden="true"><path d="M2.5 7.5 6 4l3.5 3.5" /></svg>
+									</button>
+									<button class="reorder-btn" onclick={() => moveModule(i, 1)} disabled={i === modules.length - 1} title="Move down" aria-label="Move module down">
+										<svg viewBox="0 0 12 12" aria-hidden="true"><path d="M2.5 4.5 6 8l3.5-3.5" /></svg>
+									</button>
 								</div>
 								<span class="module-type-tag" class:video={mod.type === 'video'} class:article={mod.type === 'article'} class:exam={mod.type === 'exam'}>
 									{mod.type}
@@ -264,10 +291,18 @@
 									value={mod.title}
 									oninput={e => updateModule(mod.id, 'title', e.target.value)}
 								/>
-								<button class="toggle-btn" onclick={() => toggleModule(mod.id)}>
-									{openModules[mod.id] ? '▲' : '▼'}
-								</button>
-								<button class="remove-btn" onclick={() => removeModule(mod.id)} title="Remove">✕</button>
+								{#if mod.type === 'slideshow'}
+									{@const meta = slideshowMeta(mod)}
+									<span class="module-meta">
+										{meta.count} slide{meta.count === 1 ? '' : 's'}{#if meta.hasAudio} · {meta.minutes}{:else}<span class="meta-flag">no audio</span>{/if}
+									</span>
+									<a class="edit-btn" href="/ce/admin/courses/{page.params.courseId}/slides/{mod.id}">Edit slides</a>
+								{:else}
+									<button class="toggle-btn" onclick={() => toggleModule(mod.id)} aria-expanded={!!openModules[mod.id]} aria-label={openModules[mod.id] ? 'Collapse' : 'Expand'}>
+										<svg viewBox="0 0 12 12" aria-hidden="true" class:open={openModules[mod.id]}><path d="M2.5 4.5 6 8l3.5-3.5" /></svg>
+									</button>
+								{/if}
+								<button class="remove-btn" onclick={() => removeModule(mod.id)} title="Remove" aria-label="Remove module">✕</button>
 							</div>
 
 							{#if openModules[mod.id]}
@@ -381,7 +416,7 @@
 
 		.back-link {
 			font-size: 0.85rem;
-			color: #888;
+			color: var(--c-text-muted);
 			box-shadow: none;
 			white-space: nowrap;
 			&:hover { color: var(--c-dark); box-shadow: none; }
@@ -397,6 +432,21 @@
 	}
 
 	.save-msg { font-size: 0.85rem; color: #2a7a3a; }
+
+	.btn-delete {
+		padding: 0.4rem 0.9rem;
+		background: none;
+		border: 1.5px solid #f0c9c5;
+		border-radius: var(--border-radius);
+		color: #a93226;
+		font: inherit;
+		font-size: 0.85rem;
+		font-style: normal;
+		text-transform: none;
+		letter-spacing: normal;
+		cursor: pointer;
+		&:hover { background: #fdf2f2; border-color: #c0392b; }
+	}
 
 	.btn-save {
 		padding: 0.5rem 1.25rem;
@@ -494,7 +544,7 @@
 
 		textarea { resize: vertical; line-height: 1.5; }
 
-		.hint { font-size: 0.78rem; color: #aaa; font-weight: 400; margin-left: 0.25rem; }
+		.hint { font-size: 0.78rem; color: var(--c-text-muted); font-weight: 400; margin-left: 0.25rem; }
 	}
 
 	.checkbox-label {
@@ -516,7 +566,7 @@
 		margin-bottom: 1.25rem;
 
 		h2 { margin-bottom: 0; }
-		.module-count { font-weight: 400; color: #aaa; }
+		.module-count { font-weight: 400; color: var(--c-text-muted); }
 	}
 
 	.add-module-btns {
@@ -538,7 +588,7 @@
 		&:hover { border-color: var(--c-green); background: color-mix(in srgb, var(--c-green) 10%, white); }
 	}
 
-	.no-modules { color: #aaa; font-size: 0.9rem; }
+	.no-modules { color: var(--c-text-muted); font-size: 0.9rem; }
 
 	.module-list {
 		display: flex;
@@ -566,18 +616,71 @@
 		gap: 2px;
 	}
 
-	.reorder-btn {
-		background: none;
-		border: none;
-		font-size: 0.75rem;
+	.reorder-btn,
+	.toggle-btn {
+		display: grid;
+		place-items: center;
+		width: 24px;
+		height: 20px;
+		padding: 0;
+		background: white;
+		border: 1px solid #ddd;
+		border-radius: 4px;
 		cursor: pointer;
-		color: #bbb;
-		padding: 0 2px;
-		line-height: 1;
-		transition: color 0.15s;
+		color: #666;
+		transition: color 0.15s, border-color 0.15s;
 
-		&:hover:not(:disabled) { color: var(--c-dark); }
-		&:disabled { opacity: 0.3; cursor: default; }
+		svg {
+			width: 12px;
+			height: 12px;
+			fill: none;
+			stroke: currentColor;
+			stroke-width: 1.6;
+			stroke-linecap: round;
+			stroke-linejoin: round;
+			transition: transform 0.15s;
+		}
+		svg.open { transform: rotate(180deg); }
+
+		&:hover:not(:disabled) { color: var(--c-dark); border-color: #bbb; }
+		&:focus-visible { outline: 2px solid var(--c-green); outline-offset: 1px; }
+		&:disabled { opacity: 0.35; cursor: default; }
+	}
+
+	.module-meta {
+		flex-shrink: 0;
+		font-size: 0.82rem;
+		color: var(--c-text-muted);
+		white-space: nowrap;
+
+		.meta-flag {
+			margin-left: 0.35rem;
+			padding: 0.1rem 0.45rem;
+			border-radius: 20px;
+			background: color-mix(in srgb, var(--c-yellow) 30%, white);
+			color: #7a5a00;
+			font-size: 0.72rem;
+		}
+	}
+
+	.edit-btn {
+		flex-shrink: 0;
+		padding: 0.3rem 0.9rem;
+		background: var(--c-dark);
+		color: white;
+		border-radius: 20px;
+		font-size: 0.82rem;
+		font-weight: 500;
+		box-shadow: none;
+		white-space: nowrap;
+		transition: opacity 0.15s;
+
+		&:hover { opacity: 0.8; color: white; box-shadow: none; }
+	}
+
+	@media (max-width: 640px) {
+		.module-top { flex-wrap: wrap; }
+		.module-top .module-title-input { flex: 1 1 100%; order: 5; }
 	}
 
 	.module-type-tag {
@@ -607,16 +710,6 @@
 		min-width: 0;
 
 		&:focus { outline: 1px solid var(--c-green); background: white; }
-	}
-
-	.toggle-btn {
-		background: none;
-		border: none;
-		font-size: 0.75rem;
-		color: #bbb;
-		cursor: pointer;
-		padding: 0.2rem 0.4rem;
-		&:hover { color: var(--c-dark); }
 	}
 
 	.remove-btn {
@@ -651,7 +744,7 @@
 
 	.exam-meta {
 		font-size: 0.85rem;
-		color: #888;
+		color: var(--c-text-muted);
 	}
 
 	.question-card {
@@ -669,7 +762,7 @@
 		align-items: center;
 		justify-content: space-between;
 
-		.q-num { font-size: 0.8rem; font-weight: 700; color: #888; }
+		.q-num { font-size: 0.8rem; font-weight: 700; color: var(--c-text-muted); }
 	}
 
 	.choices {
@@ -704,7 +797,7 @@
 		&:focus { outline: none; border-color: var(--c-green); }
 	}
 
-	.choice-hint { font-size: 0.78rem; color: #aaa; margin-top: 0.25rem; }
+	.choice-hint { font-size: 0.78rem; color: var(--c-text-muted); margin-top: 0.25rem; }
 
 	.btn-add-question {
 		align-self: flex-start;
@@ -715,7 +808,7 @@
 		font-size: 0.85rem;
 		font-family: inherit;
 		cursor: pointer;
-		color: #888;
+		color: var(--c-text-muted);
 		transition: border-color 0.15s, color 0.15s;
 
 		&:hover { border-color: var(--c-green); color: var(--c-dark); }

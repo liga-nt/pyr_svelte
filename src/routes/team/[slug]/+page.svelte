@@ -1,25 +1,25 @@
 <script lang="ts">
-	import { page } from '$app/stores';
+	import { page } from '$app/state';
 	import team from '$lib/content/team.json';
 
-	const slug = $page.params.slug;
-	const person = team.find(p => p.slug === slug);
+	let slug = $derived(page.params.slug);
+	let person = $derived(team.find(p => p.slug === slug));
 
 	// Build Person JSON-LD schema
 	const worksForId = 'https://planyourrecovery.com/#organization';
 
-	const firstSentence = person?.bio?.split(/(?<=[.!?])\s/)[0] ?? '';
+	let firstSentence = $derived(person?.bio?.split(/(?<=[.!?])\s/)[0] ?? '');
 
-	const displayName = person?.fullName.split(',')[0] ?? '';
+	let displayName = $derived(person?.fullName.split(',')[0] ?? '');
 
 	function truncateDesc(str: string, max = 155) {
 		if (str.length <= max) return str;
 		return str.slice(0, str.lastIndexOf(' ', max)) + '…';
 	}
 
-	const metaDesc = person ? truncateDesc(`${person.role} at Plan Your Recovery. ${firstSentence}`) : '';
+	let metaDesc = $derived(person ? truncateDesc(`${person.role} at Plan Your Recovery. ${firstSentence}`) : '');
 
-	const breadcrumbLd = person
+	let breadcrumbLd = $derived(person
 		? {
 				'@context': 'https://schema.org',
 				'@type': 'BreadcrumbList',
@@ -29,9 +29,9 @@
 					{ '@type': 'ListItem', position: 3, name: displayName, item: `https://planyourrecovery.com/team/${person.slug}` }
 				]
 		  }
-		: null;
+		: null);
 
-	const jsonLd = person
+	let jsonLd = $derived(person
 		? {
 				'@context': 'https://schema.org',
 				'@type': 'Person',
@@ -45,7 +45,7 @@
 				description: firstSentence,
 				...(person.linkedinUrl ? { sameAs: [person.linkedinUrl] } : {})
 		  }
-		: null;
+		: null);
 </script>
 
 <svelte:head>
@@ -76,6 +76,8 @@
 						src={person.portrait}
 						alt="Portrait of {person.fullName}"
 						class="portrait"
+						width={person.portraitWidth}
+						height={person.portraitHeight}
 					/>
 				</div>
 
@@ -153,7 +155,7 @@
 		margin-bottom: var(--space-medium);
 
 		a {
-			color: var(--c-green);
+			color: var(--c-green-text);
 			text-decoration: none;
 			font-size: 0.9375rem;
 			font-weight: 500;
@@ -196,7 +198,7 @@
 		.role {
 			font-family: ibm-plex-sans, sans-serif;
 			font-size: 1rem;
-			color: #777;
+			color: var(--c-text-muted);
 			text-transform: uppercase;
 			letter-spacing: 0.05em;
 			margin-bottom: var(--space-medium);
@@ -222,7 +224,7 @@
 			font-size: 0.8125rem;
 			text-transform: uppercase;
 			letter-spacing: 0.08em;
-			color: #999;
+			color: var(--c-text-muted);
 			margin-bottom: 0.75rem;
 			font-weight: 600;
 		}
@@ -244,7 +246,7 @@
 
 			.contact-label {
 				font-size: 0.875rem;
-				color: #999;
+				color: var(--c-text-muted);
 				font-family: ibm-plex-sans, sans-serif;
 				min-width: 3.5rem;
 			}
@@ -255,7 +257,7 @@
 				font-size: 1rem;
 
 				&:hover {
-					color: var(--c-green);
+					color: var(--c-green-text);
 				}
 			}
 		}
@@ -295,7 +297,7 @@
 			display: inline-block;
 			margin-top: var(--space-small);
 			background-color: var(--c-green);
-			color: #fff;
+			color: var(--c-dark);
 			font-family: ibm-plex-sans, sans-serif;
 			font-weight: 600;
 			font-size: 1rem;
@@ -320,7 +322,7 @@
 		}
 
 		a {
-			color: var(--c-green);
+			color: var(--c-green-text);
 			text-decoration: none;
 
 			&:hover {

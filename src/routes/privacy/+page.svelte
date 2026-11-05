@@ -120,7 +120,7 @@
 	}
 
 	.effective-date {
-		color: #888;
+		color: var(--c-text-muted);
 		font-size: 0.95rem;
 		margin: 0;
 	}
