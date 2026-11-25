@@ -24,6 +24,7 @@ const routes = [
 	{ path: '/clinical-tools',     priority: '0.7', changefreq: 'monthly' },
 	{ path: '/clinical-tools/asi', priority: '0.7', changefreq: 'monthly' },
 	{ path: '/team', priority: '0.7', changefreq: 'monthly' },
+	{ path: '/directions', priority: '0.5', changefreq: 'yearly' },
 	// Conditions
 	{ path: '/anxiety', priority: '0.8', changefreq: 'monthly' },
 	{ path: '/depression', priority: '0.8', changefreq: 'monthly' },

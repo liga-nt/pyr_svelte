@@ -2,6 +2,11 @@
 	import Logo from './Logo.svelte';
 	import site from '$lib/content/site.json';
 	import suburbs from '$lib/content/locations/suburbs.json';
+
+	const { streetAddress, addressLocality, addressRegion, postalCode } = site.address;
+	const mapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(
+		`Plan Your Recovery, ${streetAddress}, ${addressLocality}, ${addressRegion} ${postalCode}`
+	)}`;
 </script>
 
 <footer>
@@ -14,12 +19,14 @@
 				</a>
 			</div>
 			<address>
-				<p>{site.address.streetAddress}<br />{site.address.addressLocality}, {site.address.addressRegion} {site.address.postalCode}</p>
+				<p>
+					<a href={mapsUrl} target="_blank" rel="noopener noreferrer" aria-label="{streetAddress}, {addressLocality}, {addressRegion} {postalCode} (opens in Google Maps)">{streetAddress}<br />{addressLocality}, {addressRegion} {postalCode}</a>
+				</p>
 				<p>
 					<a href="tel:{site.contact.counselingPhone}">{site.contact.counselingPhone}</a> ({site.footer.counselingLabel})<br />
 					<a href="tel:{site.contact.psychiatryPhone}">{site.contact.psychiatryPhone}</a> ({site.footer.psychiatryLabel})
 				</p>
-				<p><a href="mailto:{site.contact.email}">{site.contact.email}</a></p>
+				<p><a href="mailto:{site.contact.email}">{site.contact.email}</a><br /><a href="/directions">Directions</a></p>
 			</address>
 		</div>
 		<nav class="footer-nav" aria-label="Footer">
